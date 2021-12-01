@@ -1,0 +1,20 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Introduzione}{3}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Scopo del Documento}{3}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Scopo del Prodotto}{3}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Glossario}{3}{subsection.1.3}% 
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{3}{subsection.1.4}% 
+\contentsline {section}{\numberline {2}Descrizione Generale}{4}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Caratteristiche del Prodotto}{4}{subsection.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Crawling dei dati da Instagram e TikTok}{4}{subsubsection.2.1.1}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Traduzione dei dati ottenuti}{4}{subsubsection.2.1.2}% 
+\contentsline {subsubsection}{\numberline {2.1.3}Realizzazione di un ranking}{4}{subsubsection.2.1.3}% 
+\contentsline {subsubsection}{\numberline {2.1.4}Interfaccia}{4}{subsubsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.2}Caratteristiche degli Utenti}{5}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Utente Generico}{5}{subsubsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Utente Registrato}{5}{subsubsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Piattaforme di Esecuzione}{5}{subsection.2.3}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Web}{5}{subsubsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Android}{5}{subsubsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.4}Obblighi di Progettazione}{5}{subsection.2.4}% 
