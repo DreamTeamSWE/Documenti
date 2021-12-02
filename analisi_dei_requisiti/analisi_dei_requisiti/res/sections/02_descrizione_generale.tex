@@ -13,7 +13,7 @@ Nella fase di crawling verranno raccolti dati di diverso tipo quali foto, video,
 \subsubsection{Realizzazione di un ranking} \ 
 Sarà compito del team progettare un sistema di ranking dei locali presenti nella guida, in particolare bisognerà decidere che peso dare a ciascun tipo di contenuto e fare attenzione a considerare anche dati che apparentemente non sembrano significativi ma che correlati con altri possono assumere un significato ben preciso, come ad esempio due foto postate in successione dallo stesso profilo in cui nella prima si vede un ristorante e nella seconda una persona felice. Sarà inoltre necessario decidere in base a che criteri strutturare il ranking, i quali potrebbero essere la regione in cui si trova il locale, il tipo di cucina o altri. Per questa fase non sono state stabilite delle linee guida molto rigide e viene lasciata molta libertà al team per l’implementazione.
 
-\subsubsection{Interfaccia} \ 
+\subsubsection{Interfaccia utente} \ 
 L’utente potrà interfacciarsi con la guida in due modi differenti ovvero tramite webapp o con l’uso di una mobile app, entrambi gli applicativi dovranno fornire le stesse funzionalità principali quali la visualizzazione del ranking, la ricerca di uno specifico locale per la consultazione delle informazioni principali e del suo punteggio, la possibilità registrarsi e poter suggerire nuovi profili social da cui andare a effettuare il crawling dei dati.
 Anche per questa fase viene concessa molta libertà di sviluppo al team senza però tralasciare le funzionalità principali.
 
@@ -53,13 +53,16 @@ L'applicazione verrà installata tramite un file con l’estensione apk e sarà 
 \subsection{Obblighi di Progettazione}
 \begin{itemize}
   \item Creare degli API per il crawling;
+  \item Valutare strategie Voice to Text se le informazioni quali testi, commenti e tag non sono sufficienti:
   \item Realizzare una webapp per offrire il servizio agli utenti che utilizzano un browser;
   \item Realizzare una mobile app rendendo disponibile la guida ai dispositivi android;
-  \item Utilizzo delle seguenti tecnologie: \begin{itemize}
+  \item Utilizzo delle seguenti tecnologie: 
+  \begin{itemize}
     \item NodeJS per lo sviluppo degli API per supportare l’applicativo;
     \item Amazon Web Service per l'analisi dei dati raccolti tramite crawling;
     \item Neptune per il database dove memorizzare i dati raccolti;
     \item Utilizzo di un linguaggio nativo per lo sviluppo della mobile app.
   \end{itemize}
+  \item Utilizzo di un'architettura basata a micro-servizi.
 
 \end{itemize}
