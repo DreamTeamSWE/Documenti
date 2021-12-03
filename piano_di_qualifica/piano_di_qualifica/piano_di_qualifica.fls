@@ -1,8 +1,8 @@
-PWD d:/progetto_swe/piano_di_qualifica/piano_di_qualifica
+PWD e:/github/dreamteam_swe/piano_di_qualifica/piano_di_qualifica
 INPUT c:/texlive/2021/texmf.cnf
 INPUT c:/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/progetto_swe/piano_di_qualifica/piano_di_qualifica/piano_di_qualifica.tex
+INPUT e:/github/dreamteam_swe/piano_di_qualifica/piano_di_qualifica/piano_di_qualifica.tex
 OUTPUT piano_di_qualifica.log
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
