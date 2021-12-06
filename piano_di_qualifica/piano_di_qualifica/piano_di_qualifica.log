@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.30)  3 DEC 2021 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.30)  6 DEC 2021 10:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -594,39 +594,26 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 7.
  (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `T1/qcs/m/sl' in size <14.4> not available
-(Font)              Font shape `T1/qcs/m/it' tried instead on input line 28.
+(Font)              Font shape `T1/qcs/m/it' tried instead on input line 27.
 
 <../latex/images/logoUniPD.png, id=43, 2309.62875pt x 1043.9pt>
 File: ../latex/images/logoUniPD.png Graphic file (type png)
 <use ../latex/images/logoUniPD.png>
-Package pdftex.def Info: ../latex/images/logoUniPD.png  used on input line 30.
+Package pdftex.def Info: ../latex/images/logoUniPD.png  used on input line 29.
 (pdftex.def)             Requested size: 127.01234pt x 57.40671pt.
 [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../latex/images/DreamTeam.png>]
-File: ../latex/images/DreamTeam.png Graphic file (type png)
-<use ../latex/images/DreamTeam.png>
-Package pdftex.def Info: ../latex/images/DreamTeam.png  used on input line 34.
-(pdftex.def)             Requested size: 62.2858pt x 45.96136pt.
-
-
-Package fancyhdr Warning: \headheight is too small (35.0pt): 
-(fancyhdr)                Make it at least 49.5614pt, for example:
-(fancyhdr)                \setlength{\headheight}{49.5614pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-14.5614pt}.
-
-[2 <../latex/images/logoUniPD.png>]) (../latex/registro_modifiche.tex
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../latex/images/DreamTeam.png> <../latex/images/logoUniPD.png>]) (../latex/registro_modifiche.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -669,11 +656,7 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.5614pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.18 	
-       [2] (./res/sections/01_introduzione.tex) (./res/sections/02_descrizione_generale.tex
+[2] (./res/sections/01_introduzione.tex) (./res/sections/02_descrizione_generale.tex
 File: ../latex/images/DreamTeam.png Graphic file (type png)
 <use ../latex/images/DreamTeam.png>
 Package pdftex.def Info: ../latex/images/DreamTeam.png  used on input line 1.
@@ -712,12 +695,12 @@ Here is how much of TeX's memory you used:
  32803 multiletter control sequences out of 15000+600000
  446882 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,16n,66p,565b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,16n,66p,565b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qcsb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qcsr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qcsri.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
-Output written on piano_di_qualifica.pdf (6 pages, 670426 bytes).
+Output written on piano_di_qualifica.pdf (5 pages, 670069 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  15 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

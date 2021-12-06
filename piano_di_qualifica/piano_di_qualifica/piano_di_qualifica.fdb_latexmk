@@ -1,15 +1,15 @@
 # Fdb version 3
-["makeindex piano_di_qualifica.idx"] 1638487769 "piano_di_qualifica.idx" "piano_di_qualifica.ind" "piano_di_qualifica" 1638544518
-  "piano_di_qualifica.idx" 1638544515 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex piano_di_qualifica.idx"] 1638487769 "piano_di_qualifica.idx" "piano_di_qualifica.ind" "piano_di_qualifica" 1638782301
+  "piano_di_qualifica.idx" 1638782299 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "piano_di_qualifica.ilg"
   "piano_di_qualifica.ind"
-["pdflatex"] 1638544513 "e:/github/dreamteam_swe/piano_di_qualifica/piano_di_qualifica/piano_di_qualifica.tex" "piano_di_qualifica.pdf" "piano_di_qualifica" 1638544518
+["pdflatex"] 1638782297 "e:/github/dreamteam_swe/piano_di_qualifica/piano_di_qualifica/piano_di_qualifica.tex" "piano_di_qualifica.pdf" "piano_di_qualifica" 1638782301
   "../latex/images/DreamTeam.png" 1638486213 504486 bd54452a734bb4c42ea22aaff26ec9ac ""
   "../latex/images/logoUniPD.png" 1638486213 32187 5c75d98b358fbb8263f5c69c4cd9a090 ""
   "../latex/package.tex" 1638488519 3054 6acd81e492e06fcb1e7f279e708b7912 ""
-  "../latex/registro_modifiche.tex" 1638542842 1039 78571209753878925d3191cb9f8daab3 ""
-  "../latex/titlepage.tex" 1638488410 1154 7e26a21c4e0c10e35951c6ef398880f6 ""
+  "../latex/registro_modifiche.tex" 1638781995 1070 cd743c658e141497370d4ab9c832fa5b ""
+  "../latex/titlepage.tex" 1638782292 1147 c7e7b2868f9a222e29bdcd2968b6baca ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1638262771 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc" 1638267150 2881 8e2aef9e38084b946e7656b60672fedb ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc" 1638267150 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
@@ -120,11 +120,11 @@
   "c:/texlive/2021/texmf.cnf" 1638273153 713 e69b156964470283e0530f5060668171 ""
   "config/titlepage_input.tex" 1638486213 68 89604c90c5182fcb797b755e485be6d1 ""
   "e:/github/dreamteam_swe/piano_di_qualifica/piano_di_qualifica/piano_di_qualifica.tex" 1638488318 615 756c970dd9d126782cf0f97b79c89dba ""
-  "piano_di_qualifica.aux" 1638544517 2032 7b2c567be322101ca11fbbfc200fe5e9 "pdflatex"
+  "piano_di_qualifica.aux" 1638782301 2032 a92130f703601576a4799c585403829a "pdflatex"
   "piano_di_qualifica.ind" 1638542271 0 d41d8cd98f00b204e9800998ecf8427e "makeindex piano_di_qualifica.idx"
-  "piano_di_qualifica.out" 1638544517 1504 6a9b0feab6f1a617cdfc67427cc395f1 "pdflatex"
+  "piano_di_qualifica.out" 1638782301 1504 6a9b0feab6f1a617cdfc67427cc395f1 "pdflatex"
   "piano_di_qualifica.tex" 1638488318 615 756c970dd9d126782cf0f97b79c89dba ""
-  "piano_di_qualifica.toc" 1638544517 840 962bc28c77c4fd69e4d7013c43ac46de "pdflatex"
+  "piano_di_qualifica.toc" 1638782301 840 962bc28c77c4fd69e4d7013c43ac46de "pdflatex"
   "res/sections/01_introduzione.tex" 1638544512 1610 71d4cd14a8ab7c904128c93a3eebc8b5 ""
   "res/sections/02_descrizione_generale.tex" 1638487780 192 0fbfb18b8140068eb69f6927acb6323c ""
   (generated)
