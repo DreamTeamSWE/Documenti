@@ -1,0 +1,31 @@
+\documentclass[a4paper]{article}
+\input{Sezioni/Packages.tex}
+
+\begin{document}
+
+	\input{Intro.tex}	
+	\input{Sezioni/Impaginazione.tex}
+	\input{Sezioni/RegistroModifiche.tex}	
+		
+	% indice
+	\renewcommand{\contentsname}{Indice}
+	\tableofcontents	
+	\pagebreak
+	
+	% contenuto del documento, ogni sezione in un file
+	\input{Sezioni/Introduzione.tex} 	
+	\pagebreak %si possono eventualmente togliere per accorciare lo spazio
+	\input{Sezioni/Analisi_dei_rischi.tex} 	
+	\pagebreak
+	\input{Sezioni/Modello_di_sviluppo.tex} 
+	\pagebreak
+	\input{Sezioni/Pianificazione.tex} 
+	\pagebreak
+	\input{Sezioni/Preventivo.tex} 
+	\pagebreak
+	\input{Sezioni/Consuntivo.tex} 
+	\pagebreak
+	\input{Sezioni/Organigramma.tex} 
+	\pagebreak
+
+\end{document}
