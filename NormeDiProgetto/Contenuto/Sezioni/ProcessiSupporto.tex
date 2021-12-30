@@ -181,9 +181,9 @@ dove:
 \paragraph{Stile di testo}
 Gli stili di testi adottati nei documenti sono:
 \begin{itemize}
-\item \textbf{Grassetto}: per titoli, sottotitoli, e altri termini ritenuti importanti o da enfatizzare dal redattore;
-\item \textbf{Maiuscolo}: per acronimi e iniziali di nomi propri, nomi documenti e paragrafi;
-\item \textbf{Corsivo}: per nomi propri dei membri del gruppo, committenti e proponente e per i nomi dei documenti.
+\item \textbf{Grassetto}: per titoli, sottotitoli, e altri termini ritenuti importanti o da enfatizzare dal Redattore;
+\item MAIUSCOLO: per acronimi e iniziali di nomi propri, nomi documenti e paragrafi;
+\item \textit{Corsivo}: per nomi propri dei membri del gruppo, committenti e proponente e per i nomi dei documenti.
 \end{itemize}
 
 
@@ -195,7 +195,7 @@ I redattori devono seguire le seguenti regole stilistiche:
 \begin{itemize}
 \item \textbf{Elenchi puntati}: un elenco puntato utilizzerà il simbolo • (pallino). Un successivo annidamento utilizzerà il simbolo - (trattino) e un altro ancora un asterisco (*). Se si tratta di un elenco numerato, i quattro livelli di enumerazione sono ordinati con i numeri arabi divisi da un punto fermo. Ogni voce dell’elenco inizia con una lettera maiuscola e termina con un punto e virgola, tranne l'ultima voce che termina con un punto;
 
-\item \texbf{Formati di data}: Le date usano il formato \textbf{[DD].[MM].[YYYY]} dove:
+\item \textbf{Formati di data}: Le date usano il formato \textbf{[DD].[MM].[YYYY]} dove:
     \begin{itemize}
     \item \textbf{[DD]} corrisponde al giorno;
     \item \textbf{[MM]} corrisponde al mese;
@@ -248,6 +248,7 @@ Gli strumenti dedicati alla stesura sono:
 \begin{itemize}
 \item Latex : linguaggio compilato basato sul programma di composizione tipografica Tex;
 \item Texmaker : l’editor scelto per la stesura dei documenti;
+\item Draw.io : l'editor online usato per i diagrammi UML.
 \end{itemize}
 
 \subsection{Gestione della configurazione}
@@ -328,8 +329,8 @@ Lo scopo è definire come bisogna attuare il processo di verifica, per accertars
 \subsubsection{Descrizione}
 La verifica viene applicato ad ogni processo in esecuzione. In questo processo ci si affida all’analisi e ai test. L’analisi si divide in due tipologie :
 \begin{itemize}
-\item statica, che non richiede l’esecuzione dell’oggetto in verifica, perciò è applicabile a qualsiasi elemento;
-\item dinamica, che richiede l’esecuzione dell’oggetto in verifica, applicabile perciò solo al codice.
+\item \textbf{statica}, che non richiede l’esecuzione dell’oggetto in verifica, perciò è applicabile a qualsiasi elemento;
+\item \textbf{dinamica}, che richiede l’esecuzione dell’oggetto in verifica, applicabile perciò solo al codice.
 \end{itemize}
 
 \subsubsection{Verifica della documentazione}
@@ -347,15 +348,15 @@ Si utilizza sia l’analisi statica che quella dinamica. In particolare :
 \end{itemize}
 
 \subsubsection{Verifica dei requisiti}
-Vengono applicate Walkthrough e Inspection per controllare validità e coerenza con quanto dichiarato e descritto all’interno dell’Analisi dei Requisiti.
+Vengono applicate Walkthrough e Inspection per controllare validità e coerenza con quanto dichiarato e descritto all’interno dell’\textit{Analisi dei Requisiti}.
 
 \subsubsection{Test}
 I test sono l’attività fondamentale dell’analisi dinamica. Servono sia per dimostrare che il programma funzioni e svolga ciò per cui è stato sviluppato. I test si dividono in quattro categorie, in base all’oggetto in verifica e allo scopo : 
 \begin{itemize}
-\item Test d’unità : I test sono l’attività fondamentale dell’analisi dinamica. Servono sia per dimostrare che il programma funzioni e svolga ciò per cui è stato sviluppato. I test si dividono in quattro categorie, in base all’oggetto in verifica e allo scopo.
-\item Test d’integrazione : Verificano la correttezza delle interfacce. Si vuole stabilire il corretto funzionamento delle varie componenti, dopo che hanno passato il test d’unità, aggregandole man mano e verificando il funzionamento nel complesso.
-\item Test di sistema : Verifica l’applicazione nella sua interezza. Venendo dopo il test d’integrazione, lo scopo è verificare che I componenti non solo sono compatibili ma che lo scambio di dati tra interfacce e le varie interazioni siano conformi. Inoltre così si controlla che i requisiti siano stati soddisfatti.
-\item Test di regressione : Verifica l’applicazione dopo modifiche al sistema. Lo scopo è controllare nuove funzionalità non testate e al tempo stesso garantire che le funzioni precedentemente implementate e testate siano ancora di qualità e non subiscano alterazioni ai loro comportamenti.
+\item \textbf{Test d’unità} : I test sono l’attività fondamentale dell’analisi dinamica. Servono sia per dimostrare che il programma funzioni e svolga ciò per cui è stato sviluppato. I test si dividono in quattro categorie, in base all’oggetto in verifica e allo scopo.
+\item \textbf{Test d’integrazione} : Verificano la correttezza delle interfacce. Si vuole stabilire il corretto funzionamento delle varie componenti, dopo che hanno passato il test d’unità, aggregandole man mano e verificando il funzionamento nel complesso.
+\item \textbf{Test di sistema} : Verifica l’applicazione nella sua interezza. Venendo dopo il test d’integrazione, lo scopo è verificare che i componenti non solo sono compatibili ma che lo scambio di dati tra interfacce e le varie interazioni siano conformi. Inoltre così si controlla che i requisiti siano stati soddisfatti.
+\item \textbf{Test di regressione} : Verifica l’applicazione dopo modifiche al sistema. Lo scopo è controllare nuove funzionalità non testate e al tempo stesso garantire che le funzioni precedentemente implementate e testate siano ancora di qualità e non subiscano alterazioni ai loro comportamenti.
 \end{itemize}
 
 \subsection{Validazione}
@@ -366,15 +367,8 @@ Lo scopo è stabilire se il prodotto è in grado di soddisfare ciò per il quale
 Questo processo avviene dopo il processo di verifica, prende il prodotto appena verificato e lo restituisce garantendo che sia conforme ai requisiti del proponente.
 
 \subsubsection{Attività}
-Il responsabile di Progetto controlla i risultati ottenuti e può :
+Il \textit{Responsabile di Progetto} controlla i risultati ottenuti e può :
 \begin{itemize}
 \item accettare e approvare il prodotto;
 \item rifiutare e chiedere un’ulteriore verifica con delle nuove indicazioni;
 \end{itemize}
-
-
-//Da rimuovere?
-\subsection{Gestione dei cambiamenti}
-\subsubsection{Scopo}
-\subsubsection{Descrizione}
-\subsubsection{Metodo}
