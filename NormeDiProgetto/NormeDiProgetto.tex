@@ -1,11 +1,13 @@
 \documentclass[a4paper]{article}
-\input{Sezioni/Packages.tex}
+\input{Struttura/Packages.tex}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
 
 \begin{document}
 
-	\input{Intro.tex}	
-	\input{Sezioni/Impaginazione.tex}
-	\input{Sezioni/RegistroModifiche.tex}	
+	\input{Contenuto/Intro.tex}	
+	\input{Struttura/Impaginazione.tex}
+	\input{Contenuto/RegistroModifiche.tex}	
 		
 	% indice
 	\renewcommand{\contentsname}{Indice}
@@ -13,13 +15,13 @@
 	\pagebreak
 	
 	% contenuto del documento, ogni sezione in un file
-	\input{Sezioni/Introduzione.tex} 	
-	\pagebreak %si possono eventualmente togliere per accorciare lo spazio
-	\input{Sezioni/ProcessiPrimari.tex}
+	\input{Contenuto/Sezioni/Introduzione.tex} 
 	\pagebreak
-	\input{Sezioni/ProcessiSupporto.tex}
+	\input{Contenuto/Sezioni/ProcessiPrimari.tex}
 	\pagebreak
-	\input{Sezioni/ProcessiOrganizzativi.tex}
+	\input{Contenuto/Sezioni/ProcessiSupporto.tex}
 	\pagebreak
+	\input{Contenuto/Sezioni/ProcessiOrganizzativi.tex}
+	
 	
 \end{document}

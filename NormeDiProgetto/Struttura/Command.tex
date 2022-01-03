@@ -12,5 +12,12 @@
 \newcommand{\VE}{Verificatore}
 \newcommand{\AM}{Amministratore}
 \newcommand{\RE}{Responsabile}
-
+%ridefinizione paragraph per andare a capo
 \newcommand{\glo}{\textsuperscript{G}}
+    \makeatletter
+    \renewcommand\paragraph{%
+        \@startsection{paragraph}{4}{0mm}%
+           {-\baselineskip}%
+           {.5\baselineskip}%
+           {\normalfont\normalsize\bfseries}}
+    \makeatother
