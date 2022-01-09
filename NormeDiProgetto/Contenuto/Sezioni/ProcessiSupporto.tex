@@ -4,7 +4,7 @@
 Ogni processo e attività per lo sviluppo del progetto devono essere documentate. Nella presente sezione verranno descritte regole e standard da seguire durante il processo di documentazione per l’intero ciclo di vita del software.
 
 \subsubsection{Descrizione}
-Vengono presentate decisioni e norme prescelte per :
+Vengono presentate decisioni e norme prescelte per:
 \begin{itemize}
   \item Stesura;
   \item Verifica;
@@ -48,7 +48,7 @@ Per semplificare le operazioni di verifica dovrà sempre essere reso disponibile
 Per ogni documento si definisce la seguente struttura di directory:\\
 \begin{forest}
   for tree={
-    font=\ttfamily,
+   font=\ttfamily,
     grow'=0,
     child anchor=west,
     parent anchor=south,
@@ -70,17 +70,16 @@ Per ogni documento si definisce la seguente struttura di directory:\\
   [NomeDocumento.tex]
   [NomeDocumento.pdf]
   [Contenuto
-    [Sezioni
-        [Introduzione.tex]
-        [Sezione1.tex]
-        [Sezione2.tex]
-    ]
-    
-    [Immagini
-        [Immagine1.png]
-        [Immagine2.jpeg]
-    ]
-    [Intro.tex]
+    	[Sezioni
+        	[Introduzione.tex]
+        	[Sezione1.tex]
+        	[Sezione2.tex]
+    	]
+    	[Immagini
+        	[Immagine1.png]
+        	[Immagine2.jpeg]
+    	]
+	[Intro.tex]
     [RegistroModifiche.tex]
   ]
   [Struttura
@@ -88,8 +87,9 @@ Per ogni documento si definisce la seguente struttura di directory:\\
     [Impaginazione.tex]
     [Packages.tex]
   ]
-]
+ ]
 \end{forest}\\
+
 In particolare:
 \begin{itemize}
 \item \textbf{NomeDocumento.tex}: importa tutti le parti necessarie per comporre il documento finale;
@@ -119,7 +119,7 @@ La prima pagina è composta da:
       \item \textbf{Verificatori}: indica chi si è occupato della verifica del documento;
       \item \textbf{Uso}: indica se il documento è dedicato a uso interno o esterno;
       \item \textbf{Distribuzione}: indica a chi viene distribuito il documento;
-        \end{itemize}
+       \end{itemize}
 \item \textbf{Indirizzo e-mail del gruppo}.
 \end{itemize}
 
