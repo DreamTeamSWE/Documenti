@@ -4,26 +4,175 @@
 Lo scopo è scoprire quali strumenti e/o competenze siano necessarie nel progetto, documentare su come si organizza il lavoro e stabilire se il materiale prodotto sia di qualità.
 
 \subsubsection{Descrizione}
+In questo processo si scelgono procedure e risorse pensate per lo sviluppo del progetto. Si andrà inoltre a definire come gestire i rapporti con il proponente, comprese consegna e manutenzione prodotto finale.
+
 \subsubsection{Documentazione fornita}
+I documenti forniti all’azienda proponente e ai committenti sono :
+\begin{itemize}
+  \item \textbf{\SdF} contiene, per ogni capitolato, informazioni sul prodotto da sviluppare,le finalità, lati positivi e negativi. Inoltre contiene la scelta del capitolato del gruppo con le sue motivazioni;
+
+  \item \textbf{\AdR} contiene l’analisi dei casi d’uso e dei requisiti;
+
+  \item \textbf{\PdP} contiene la pianificazione preventiva dei tempi, l’analisi dei rischi, il consuntivo di periodo, la data di consegna e i costi previsti;
+
+  \item \textbf{\PdQ} contiene le modalità adottate in verifica e validazione.
+
+\end{itemize}
 \subsubsection{Strumenti}
+Strumenti utilizzati :
+\begin{itemize}
+  \item Texmaker per scrivere la documentazione.
+\end{itemize}
 
 \subsection{Sviluppo}
 \subsubsection{Scopo}
+Lo scopo è definire compiti e attività per arrivare al prodotto finale richiesto dal proponente.
 \subsubsection{Descrizione}
+Sono elencate e dopo trattate le seguenti attività di questo processo :
+\begin{itemize}
+  \item Analisi dei requisiti;
+  \item Progettazione;
+  \item Codifica.
+\end{itemize}
 \subsubsection{Analisi dei requisiti}
-\paragraph{Scopo}
-\paragraph{Descrizione}
-\paragraph{Struttura}
-\paragraph{Classificazione requisiti}
-\paragraph{Classificazione casi d'uso}
-\paragraph{Qualità dei requisiti}
+\subsubsection{Scopo}
+E’ compito di ogni \textit{Analista} scrivere il documento di \textit{Analisi dei Requisiti}. Lo scopo di tale documento è :
+\begin{itemize}
+  \item aiutare i \textit{Progettisti};
+  \item stabilire ciò che si è concordato con il cliente;
+  \item fornire una base per chiunque prenda sottomano il prodotto per miglioramenti;
+  \item aiutare le revisioni del codice;
+  \item fornire riferimenti utili ai \textit{Verificatori};
+  \item tracciare il lavoro per stimarne I costi.
+\end{itemize}
+
+\subsubsection{Descrizione}
+L’obiettivo è la realizzazione dell’architettura del sistema.
+
+\subsubsection{Struttura}
+La struttura è destinata a cambiare.
+Attualmente, \AdR presenta questa struttura :
+\begin{itemize}
+  \item Introduzione al documento;
+  \item Descrizione generale, dove sono presenti requisiti estrapolati sia dal capitolato d’appalto che dagli incontri effettuati con il proponente (verbali esterni).
+\end{itemize}
+
+\subsubsection{Classificazione requisiti}
+È stato scelto di adottare la seguente rappresentazione per i requisiti:
+
+\begin{center}
+\textbf{R[Importanza][Tipologia][Codice]}
+\end{center}
+dove:
+\begin{itemize}
+\item \textbf{Importanza}: rappresenta l’importanza associata al requisito e può assumere uno dei seguenti valori:
+\begin{itemize}
+	\item \textbf{1}: Requisito \textit{Obbligatorio}, la sua soddisfazione dovrà necessariamente avvenire per garantire una buona funzionalità dell’intero sistema;
+	\item \textbf{2}: Requisito \textit{Desiderabile}, la sua soddisfazione non vincola il buon funzionamento del sistema, tuttavia ne fornisce una maggior completezza;
+	\item \textbf{3}: Requisito \textit{Facoltativo}, se soddisfatto rende il sistema più completo, ma ciò potrebbe comportare un dispendio di energie con un conseguente aumento dei costi preventivati.
+\end{itemize}
+\item \textbf{Tipologia}: si riferisce alla tipologia di requisito e può assumere uno dei seguenti valori letterali:
+\begin{itemize}
+	\item \textbf{V}: requisito di \textit{Vincolo}, descrive i vincoli offerti dal sistema;
+	\item \textbf{F}: requisito \textit{Funzionale}, descrive servizi o funzioni offerti dal sistema;
+	\item \textbf{P}: requisito \textit{Prestazionale}, descrive i vincoli sulle prestazioni da soddisfare, con il numero di informazioni da manipolare in un certo intervallo di tempo;
+	\item \textbf{Q}: requisito di \textit{Qualità}, descrive i vincoli di qualità da realizzare (xxx).
+\end{itemize}
+\item \textbf{Codice}: identifica in maniera univoca il requisito in forma gerarchica padre/figlio.
+Per esplicitare la forma gerarchica, il codice viene rappresentato come segue:
+\begin{center}
+\textbf{[CodiceBase](.[CodiceSottoCaso])}
+\end{center}
+dove: 
+\begin{itemize}
+	\item \textbf{CodiceBase}: fa riferimento al caso d’uso preso in esame e, in combinazione con la Tipologia, definisce un identificatore univoco per il requisito;
+	\item \textbf{CodiceSottoCaso}: codice progressivo opzionale, che può includere più livelli, ed identifica un eventuale sottocaso.
+\end{itemize}
+\end{itemize}
+
+Dopo aver classificato ciascun requisito con un codice, quest’ultimo non potrà più essere cambiato.
+Inoltre, ciascun codice verrà accompagnato da una serie di informazioni aggiuntive, che meglio definiranno ciascun requisito, ossia:
+
+\begin{itemize}
+	\item \textbf{Descrizione}: breve descrizione completa relativa allo scopo del requisito;
+	\item \textbf{Classificazione}: indica l’importanza del requisito e può assumere i valori \textit{Obbligatorio}, \textit{Desiderabile} e \textit{Facoltativo}. Sebbene questa informazione possa sembrare ridondante, ne facilita la lettura;
+	\item \textbf{Fonti}: indica le fonti del requisito, ossia possono essere all'interno del Capitolato d’Appalto, nei Verbali Interni, nei Verbali Esterni e nei Casi d’Uso presenti nel documento “\textit{Analisi dei Requisiti vxx.xxx}”.
+\end{itemize}
+
+\definecolor{darkblue}{cmyk}{99, 99, 0, 71}
+
+\begin{table}[!htbp]
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{ m{0.20\textwidth}<{\centering}  m{0.25\textwidth}<{\centering}  m{0.25\textwidth}<{\centering}  m{0.2\textwidth}<{\centering}}
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Requisito}} &\textcolor{white}{\textbf{Descrizione}}& \textcolor{white}{\textbf{Classificazione}} & \textcolor{white}{\textbf{Fonti}}\\ 
+
+	\rowcolor{gray!10} R1F1.1 & L’utente deve riuscire ad inserire i propri dati personali per effettuare la registrazione & Obbligatorio & UC1.1 \\	
+
+\end{tabular}
+\end{table}
+
+\subsubsection{Classificazione casi d'uso}
+La struttura adottata per la classificazione dei casi d'uso è la seguente: \\
+\centerline{\textbf{UC[CodiceCasoBase](.[CodiceSottoCaso])*}}
+Composta da:
+\begin{itemize}
+\item \textbf{UC} : acronimo di "use case";
+\item \textbf{CodiceCasoBase} : id del caso d'uso generico;
+\item \textbf{CodiceSottoCaso} : id opzionale per i sottocasi di un caso d'uso.
+\end{itemize}
+
+Ogni caso d'uso è descritto da : 
+\begin{itemize}
+    \item \textbf{Id} : codice identificativo del caso d'uso, stabilito come enunciato sopra;
+    \item \textbf{Nome} : stringa titolo del caso d'uso posta dopo l'id;
+    \item \textbf{Diagramma UML} : diagramma per rappresentare graficamente il caso d'uso;
+    \item \textbf{Descrizione} : breve descrizione del caso d'uso;
+    \item \textbf{Attori} : entità esterne al sistema che interagiscono con esso. Ne esistono due varianti : 
+    \begin{itemize}
+    \item \textbf{Primario} : interagisce con il sistema per raggiungere un obiettivo;
+    \item \textbf{Secondario} : aiuta il primario a raggiungere l'obiettivo. Non utilizzato.
+    \end{itemize}
+    \item \textbf{Precondizione} : descrive lo stato del sistema prima del verificarsi del caso d'uso;
+    \item \textbf{Postcondizione} : descrive lo stato del sistema dopo che si è verificato il caso d'uso;
+    \item \textbf{Scenario principale} : elenco numerato che descrive il flusso degli eventi del caso d'uso;
+    \item \textbf{Scenario secondario/alternativo} : elenco numerato che descrive il flusso degli eventi del caso d'uso dopo un evento imprevisto che lo ha deviato dal caso principale. Può non esserci o possono esserci più di uno;
+    \item \textbf{Estensioni} : utilizzate nei scenari alternativi. Se si verifica una determinata situazione, il caso d'uso collegato all'estensione viene interrotto.
+\end{itemize}
+
+\subsubsection{Qualità dei requisiti}
+Ciascun requisito deve essere :
+\begin{itemize}
+  \item Completo, ovvero dettagliato;
+  \item Consistente, che non sia in contraddizione con altri requisiti;
+  \item Necessario;
+  \item Verificabile, ovvero che sia possibile controllare che il sistema lo realizzi.
+  \item Tracciabile.
+\end{itemize}
+
 \subsection{Progettazione}
-\paragraph{Scopo}
-\paragraph{Descrizione}
-\paragraph{Qualità}
+\subsubsection{Scopo}
+Lo scopo è capire le caratteristiche che il prodotto deve avere per soddisfare i requisiti. La progettazione lo fa suddividendo il problema ai singoli componenti, ottimizzando tempi e risorse assegnate. Al tempo stesso garantendo la qualità del prodotto.
+
+\subsubsection{Descrizione}
+L’obiettivo è la realizzazione dell’architettura del sistema.
+
+\subsubsection{Qualità}
+E’ compito del \textit{Progettista} definire un’architettura di qualità. Le caratteristiche che essa deve avere sono :
+\begin{itemize}
+  \item Soddisfare i requisiti indicati nel documento \AdR;
+  \item Essere comprensibile, robusto e affidabile;
+  \item Presentare componenti semplici, in maniera tale da garantire modularità e riusabilità;
+  \item Utilizzare le risorse in maniera efficiente.
+\end{itemize}
+
 \subsection{Codifica}
-\paragraph{Scopo}
-\paragraph{Descrizione}
-\paragraph{Stile di codifica}
-\paragraph{Metriche}
-\paragraph{Strumenti}
+\subsubsection{Scopo}
+Compito del \textit{Programmatore}, lo scopo è l’effettiva realizzazione del prodotto software. Si può vedere come la trasformazione in codice dell’architettura dei \textit{Progettisti}.
+
+\subsubsection{Descrizione}
+Il codice deve rispettare quanto scritto nella documentazione \PdQ. Qui saranno elencate regole e norme di carattere più generale, utilizzate da ogni linguaggio di programmazione impiegato nel progetto.
+
+\subsubsection{Stile di codifica}
+\subsubsection{Metriche}
+\subsubsection{Strumenti}
