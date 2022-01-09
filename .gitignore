@@ -1,0 +1,10 @@
+piano_di_progetto/*.toc
+piano_di_progetto/*.out
+piano_di_progetto/*.log
+piano_di_progetto/*.ind
+piano_di_progetto/*.ilg
+piano_di_progetto/*.idx
+piano_di_progetto/*.fls
+piano_di_progetto/*.fdb_latexmk
+piano_di_progetto/*.aux
+piano_di_progetto/*.log
