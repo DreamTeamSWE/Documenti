@@ -253,18 +253,73 @@ Gli strumenti dedicati alla stesura sono:
 
 \subsection{Gestione della configurazione}
 \subsubsection{Scopo}
+Lo scopo è di gestire e controllare la produzione di documenti e codice in maniera sistematica. Per ogni oggetto sottoposto a configurazione viene garantito il versionamento e controllo sulle modifiche per permettere il mantenimento dell'integrità del prodotto. 
+
 \subsubsection{Descrizione}
+Vengono raggruppati e organizzati tutti i mezzi usati per la configurazione degli strumenti designati alla produzione di documenti e codice, per poter gestire struttura e la disposizione dei file all’interno di repository e anche  quelli per versionamento e coordinamento.
+
 \subsubsection{Versionamento}
+Per poter capire lo stato di avanzamento di un prodotto delle attività del progetto è necessario un identificatore. Il formato del codice di versione utilizzato è \\
+\centerline{\textbf{v[X].[Y].[Z]}} \\ 
+dove :
+\begin{itemize}
+\item \textbf{X} indica il rilascio pubblico e corrisponde ad una versione approvata dal Responsabile di Progetto. La numerazione parte da 0;
+\item \textbf{Y} indica una revisione complessiva del prodotto per verificare che, dopo una modifica, il prodotto sia ancora coeso e consistente. La numerazione parte da 0 e si azzera ad ogni incremento di X;
+\item \textbf{Z} viene incrementato ad ogni modifica con relativa verifica. La numerazione parte da 0 e si azzera ad ogni incremento di X o Y.
+\end{itemize}
+
 \paragraph{Strumenti}
+Per il versionamento si è scelto di utilizzare un repository GitHub, che, a sua volta, implementa il software di controllo versione distribuito Git.
+
 \subsubsection{Struttura del repository}
-\subsubsection{Comandi base di GitHub}
+Il repository utilizzato dal gruppo per la creazione dei documenti contiene una directory per ogni documento denominata NomeDocumento, la cui struttura è approfondita in TODO: metti i link.
+Il repository è suddiviso in più branch così definiti:
+\begin{itemize}
+\item \textbf{main}: il branch principale, che contiene l'ultima versione verificata di ogni documento;
+\item \textbf{NomeDocumento}: uno per ogni documento, è dove il documento vive e viene attivamente stilato dai membri del gruppo.
+\end{itemize}
+
 \subsubsection{Modifiche al repository}
+Non è consentito fare commit direttamente sul branch \textbf{main}, poiché porterebbe ad un elevato rischio di incongruenze e merge conflicts. Potrà essere modificato solo tramite il meccanismo di pull request con verifica obbligatoria, in modo da garantire che sia sempre presente una versione verificata e corretta del documento, anche se incompleta.
+Nel branch \textbf{NomeDocumento} invece ogni membro può fare commit a patto che siano relative solo al documento specificato. Ogni commit deve referenziare la issue da cui è derivata e quindi, in generale, potranno effettuare modifiche sul branch solo gli assegnatari di issue che trattano quel documento specifico. Per quanto riguarda cambiamenti minimali (punteggiatura, errori ortografici, ecc.) è permessa la modifica autonoma da parte di qualsiasi membro del gruppo e non è necessario referenziare nessuna issue.
 
 \subsection{Gestione della qualità}
 \subsubsection{Scopo}
+Lo scopo del processo di gestione della qualità è di assicurare che i requisiti di qualità individuati dagli stakeholder e le esigenze espresse dal proponente vengano rispettate dai prodotti e processi da sviluppare.
+
 \subsubsection{Descrizione}
+Il \textit{Piano di Qualifica} è il documento dedicato alla gestione della qualità. In esso sono descritti metriche e standard con le quali misurare e valutare la qualità di prodotti e processi.  
+
+\subsubsection{Attività di processo}
+Si possono individuare tre attività principali nel processo di gestione di qualità:
+\begin{itemize}
+\item \textbf{Pianificazione}: definire obiettivi di qualità, le strategie per raggiungerli e le risorse necessarie; 
+\item \textbf{Valutazione}: applicare quanto pianificato, misurando i risultati;
+\item \textbf{Reazione}: analizzando i risultati ottenuti con lo scopo di attuare miglioramenti o sanare situazioni non desiderate.
+\end{itemize}
+
 \subsubsection{Controllo di qualità}
-\subsubsection{Tecniche}
+Per essere sicuri di arrivare alla qualità desiderata, ogni membro deve essere in grado di:
+\begin{itemize}
+\item Comprendere gli obiettivi da raggiungere;
+\item Individuare eventuali errori;
+\item Stimare in termini di valore, dimensione e complessità le task;
+\item Produrre risultati concreti e quantificabili.
+\end{itemize}
+
+\subsubsection{Denominazione metriche}
+Per la denominazione delle metriche è stato adottato il formato: \\
+\centerline{\textbf{M[Tipologia][Numero]}} \\
+dove:
+\begin{itemize}
+\item \textbf{[Tipologia]}: indica la tipologia a cui si riferisce la metrica, può assumere tre valori:
+    \begin{itemize}
+    \item \textbf{PD}: relativa ai prodotti; 
+    \item \textbf{PR}: relativa ai processi;
+    \item \textbf{TS}: relativa ai test.
+    \end{itemize}
+\item \textbf{[Numero]}: indica il numero progressivo della metrica, parte da 1.
+\end{itemize}
 
 
 \subsection{Verifica}
