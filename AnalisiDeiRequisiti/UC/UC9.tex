@@ -1,0 +1,35 @@
+\subsection{UC9 – Gestione lista dei locali preferiti}
+\begin{center}
+\includegraphics[scale=0.5]{UC_images/UC9.png} 
+\end{center}
+\begin{itemize}
+    \item \textbf{Attore primario}: Utente autenticato.
+    \item \textbf{Precondizione}: L'utente è autenticato e si trova all’interno della piattaforma Sweeat.
+    \item \textbf{Postcondizione}: Viene visualizzata o modificata la lista dei locali preferiti.
+    \item \textbf{Scenario principale}: L’utente accede alla funzionalità di gestione della lista dei locali preferiti cliccando su “Preferiti”.
+    \item \textbf{Generalizzazioni}:
+     \begin{enumerate}
+        \item Inserimento di un locale nella lista dei locali preferiti (UC9.1 §).
+        \item Rimozione di un locale dalla lista dei locali preferiti (UC9.2 §).
+    \end{enumerate}
+\end{itemize}
+\subsubsection{UC9.1 – Inserimento locale nella lista dei preferiti}
+\begin{itemize}
+    \item \textbf{Attore primario}: Utente autenticato.
+    \item \textbf{Precondizione}: L'utente è autenticato e si trova all’interno della piattaforma Sweeat.
+    \item \textbf{Postcondizione}: Viene inserito il locale scelto dall’utente nella lista dei locali preferiti.
+    \item \textbf{Scenario principale}: L’utente seleziona dalla lista dei locali il locale da inserire nella lista dei locali preferiti, cliccando su “Aggiungi ai Preferiti”.
+\end{itemize}
+
+\subsubsection{UC9.2 – Rimozione locale dalla lista dei preferiti}
+
+\begin{itemize}
+    \item \textbf{Attore primario}: Utente autenticato.
+    \item \textbf{Precondizione}:  L’utente è autenticato nel sistema e c'è almeno un locale inserito nella lista dei locali preferiti dall’utente.
+    \item \textbf{Postcondizione}: Viene rimosso il locale scelto dall’utente dalla lista dei locali preferiti.
+    \item \textbf{Scenario principale}:
+    \begin{enumerate}
+        \item L’utente seleziona dalla lista dei locali preferiti il locale da rimuovere dalla lista dei locali preferiti;
+        \item L’utente rimuove il locale da rimuovere dalla lista dei locali preferiti, cliccando su “Rimuovi dai Preferiti”.
+    \end{enumerate}
+\end{itemize}
