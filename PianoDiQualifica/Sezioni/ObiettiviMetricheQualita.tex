@@ -15,7 +15,7 @@
         Capacità del processo di valutare e migliorare costantemente le proprie prestazioni. &
         MPC01: SPICE. \\
         
-        \rowcolor{gray!10}
+        \rowcolor{gray!25}
         OPC02 &
         Efficienza nell’utilizzo delle risorse. &
         Assicurare il corretto consumo delle risorse durante le attività di progetto. &
@@ -29,14 +29,15 @@
         MPC05: Schedule variance; \newline
         MPC06: Budget variance. \\
 
-        \rowcolor{gray!10}
+        \rowcolor{gray!25}
         OPC04 &
         Sviluppo. &
         Controllare che lo sviluppo del progetto soddisfa i requisiti. &
-        MPC07: Requirements stability; \newline
-        MPC08: Fulfilled mandatory requirements. \\
+        MPC07: Requirements stability. \\
+        % MPC08: Fulfilled mandatory requirements. \\
 
     \end{tabular}
+    \caption{Obiettivi di qualità di processo}
 \end{table}
 
 \subsubsection{Obiettivi di qualità di prodotto}
@@ -67,7 +68,7 @@
         MQP08: Numero di Code smell; \newline
         MQP09: Linee di Commento per Linee di Codice. \\
 
-        \rowcolor{gray!10}
+        \rowcolor{gray!25}
         OQP03 &
         Funzionalità. &
         Tutti i requisiti richiesti e riportati nell'Analisi dei requisiti devono essere soddisfatti. &
@@ -83,6 +84,7 @@
         MQP12: Numero di vulnerabilità. \\
 
     \end{tabular}
+    \caption{Obiettivi di qualità di prodotto}
 \end{table}
 
 \subsection{Metriche di qualità}
@@ -101,7 +103,7 @@
         Livello di Capability $\geq$ 4 &
         OPC01: Miglioramento continuo \\
 
-        \rowcolor{gray!10}
+        \rowcolor{gray!25}
         MPC02 &
         Budgeted cost of work scheduled &
         $\geq$ 0 &
@@ -114,7 +116,7 @@
         BCWS &
         OPC02: Efficienza nell’utilizzo delle risorse\\
 
-        \rowcolor{gray!10}
+        \rowcolor{gray!25}
         MPC04 &
         Budgeted cost of work performed &
         $\geq$ 0 &
@@ -127,7 +129,7 @@
         0\% &
         OPC03: Rispetto della pianificazione \\
 
-        \rowcolor{gray!10}
+        \rowcolor{gray!25}
         MPC06 &
         Budget variance &
         $\geq$ -10\% &
@@ -140,15 +142,16 @@
         100\% &
         OPC04: Sviluppo \\
 
-        \rowcolor{gray!10}
-        MPC08 &
-        Fulfilled mandatory requirements &
-        100\% &
-        100\% &
-        OPC04: Sviluppo \\
+        % \rowcolor{gray!25}
+        % MPC08 &
+        % Fulfilled mandatory requirements &
+        % 100\% &
+        % 100\% &
+        % OPC04: Sviluppo \\
 
 
     \end{tabular}
+    \caption{Metriche di qualità di processo}
 \end{table}
 
 \subsubsection{Metriche di qualità di prodotto}
@@ -165,6 +168,7 @@
         $\geq$ 70  &
         OQP01: Leggibilità dei documenti \\
 
+        \rowcolor{gray!25}
         MQP02 &
         Profondità di una gerarchia &
         $\leq$ 3 &
@@ -177,6 +181,7 @@
         $\leq$ 4 &
         OQP02: Manutenibilità \\
 
+        \rowcolor{gray!25}
         MQP04 &
         Code coverage &
         $\geq$ 70\% &
@@ -189,6 +194,7 @@
         100\% &
         OQP03: Funzionalità \\
 
+        \rowcolor{gray!25}
         MQP06 &
         Complessità ciclomatica &
         $\leq$ 20 &
@@ -201,6 +207,7 @@
         $\leq$ 5 &
         OQP04: Affidabilità \\
 
+        \rowcolor{gray!25}
         MQP08 &
         Numero di Code smell &
         $\leq$ 40 &
@@ -213,6 +220,7 @@
         $\leq$ 10\% &
         OQP02: Manutenibilità \\
 
+        \rowcolor{gray!25}
         MQP10 &
         Branch coverage &
         $\geq$ 70\% &
@@ -225,10 +233,12 @@
         100\% &
         OQP04: Affidabilità \\
 
+        \rowcolor{gray!25}
         MQP12 &
         Numero di vulnerabilità &
         $\leq$ 2 &
         0 &
         OQP04: Affidabilità \\
     \end{tabular}
+    \caption{Metriche di qualità di prodotto}
 \end{table}
