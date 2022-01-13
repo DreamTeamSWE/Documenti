@@ -75,7 +75,6 @@ Per ogni documento si definisce la seguente struttura di directory:\\
         [Sezione1.tex]
         [Sezione2.tex]
     ]
-    
     [Immagini
         [Immagine1.png]
         [Immagine2.jpeg]
@@ -92,8 +91,8 @@ Per ogni documento si definisce la seguente struttura di directory:\\
 \end{forest}\\
 In particolare:
 \begin{itemize}
-\item \textbf{NomeDocumento.tex}: importa tutti le parti necessarie per comporre il documento finale;
-\item \textbf{NomeDocumento.pdf}: versione finale del documento il formato PDF;
+\item \textbf{NomeDocumento.tex}: importa tutte le parti necessarie per comporre il documento finale;
+\item \textbf{NomeDocumento.pdf}: versione finale del documento in formato PDF;
 \item \textbf{Introduzione.tex}: rappresenta la prima sezione che introduce il documento, fornendo il suo scopo, lo scopo del prodotto, riferimenti normativi e informativi e informazioni sul \textit{Glossario};
 \item \textbf{Intro.tex}: contiene tutti i comandi per creare la prima pagina del documento;
 \item \textbf{RegistroModifiche.tex}: contiene tutti i comandi per creare la tabella del registro delle modifiche;
@@ -117,7 +116,7 @@ La prima pagina è composta da:
       \item \textbf{Data approvazione};
       \item \textbf{Redattori}: indica chi si è occupato della stesura del documento;
       \item \textbf{Verificatori}: indica chi si è occupato della verifica del documento;
-      \item \textbf{Uso}: indica se il documento è dedicato a uso interno o esterno;
+      \item \textbf{Uso}: indica se il documento è destinato a uso interno o esterno;
       \item \textbf{Distribuzione}: indica a chi viene distribuito il documento;
         \end{itemize}
 \item \textbf{Indirizzo e-mail del gruppo}.
@@ -131,8 +130,7 @@ Sotto forma di tabella, riporta:
   		\item Data della modifica;
   		\item Nome dell’autore della modifica;
   		\item Ruolo dell’autore al momento della modifica;
-  		\item Descrizione breve della modifica;
-  		\item Nome della persona che si è occupata di verificare la modifica.
+  		\item Descrizione breve della modifica. Dopo la verifica, viene aggiunto il nome della persona che si è occupata della verifica di quella modifica. 
 	\end{itemize}
 
 \paragraph{Indice}
@@ -142,7 +140,7 @@ Presente dopo il registro delle modifiche, l’indice permette di avere una visi
 Ogni pagina, a eccezione della prima, è formata da questi elementi:
   \begin{itemize}
   		\item In alto a sinistra si trova una miniatura a colori del logo del gruppo;
-  		\item in alto a destra è presente il titolo del documento;
+  		\item In alto a destra è presente il titolo del documento;
   		\item Sotto i due elementi appena elencati una linea nera continua li separa dal contenuto della pagina;
   		\item Il contenuto della pagina;
   		\item Sul lato destro del piè di pagina è indicato il numero della pagina corrente;
@@ -170,11 +168,11 @@ in particolare:
 \item \textbf{v[X].[Y].[Z]} rappresenta la versione corrente del documento seguendo lo schema di versionamento presentato in TODO: metti i link;
 \end{itemize}
 I verbali, in quanto non soggetti a versionamento avranno una struttura del nome diversa, ovvero:\\ \\
-\centerline{\textbf{Verbale[Tipologia]-[DD].[MM].[YYYY]}} \\
+\centerline{\textbf{Verbale[Tipologia]-[YYYY].[MM].[DD]}} \\
 dove:
 \begin{itemize}
 \item \textbf{[Tipologia]} intende il tipo del verbale, può essere \textbf{Interno} o \textbf{Esterno};
-\item \textbf{[DD].[MM].[YYYY]} indica la data in cui è avvenuto l'incontro, essa segue le specifiche degli elementi testuali definite in TODO: metti i link.
+\item \textbf{[YYYY].[MM].[DD]} indica la data in cui è avvenuto l'incontro, essa segue le specifiche degli elementi testuali definite in TODO: metti i link  (Promemoria : data su nome file e data su elementi testuali sono diverse per volontà!).
 \end{itemize}
 
 
@@ -183,7 +181,7 @@ Gli stili di testi adottati nei documenti sono:
 \begin{itemize}
 \item \textbf{Grassetto}: per titoli, sottotitoli, e altri termini ritenuti importanti o da enfatizzare dal Redattore;
 \item MAIUSCOLO: per acronimi e iniziali di nomi propri, nomi documenti e paragrafi;
-\item \textit{Corsivo}: per nomi propri dei membri del gruppo, committenti e proponente e per i nomi dei documenti.
+\item \textit{Corsivo}: per nomi propri dei membri del gruppo, committenti, proponente e per i nomi dei documenti.
 \end{itemize}
 
 
@@ -195,11 +193,11 @@ I redattori devono seguire le seguenti regole stilistiche:
 \begin{itemize}
 \item \textbf{Elenchi puntati}: un elenco puntato utilizzerà il simbolo • (pallino). Un successivo annidamento utilizzerà il simbolo - (trattino) e un altro ancora un asterisco (*). Se si tratta di un elenco numerato, i quattro livelli di enumerazione sono ordinati con i numeri arabi divisi da un punto fermo. Ogni voce dell’elenco inizia con una lettera maiuscola e termina con un punto e virgola, tranne l'ultima voce che termina con un punto;
 
-\item \textbf{Formati di data}: Le date usano il formato \textbf{[DD].[MM].[YYYY]} dove:
+\item \textbf{Formati di data}: Le date usano il formato \textbf{[YYYY]-[MM]-[DD]} dove:
     \begin{itemize}
-    \item \textbf{[DD]} corrisponde al giorno;
+    \item \textbf{[YYYY]} corrisponde all’anno;
     \item \textbf{[MM]} corrisponde al mese;
-    \item \textbf{[YYYY]} corrisponde all’anno.
+    \item \textbf{[DD]} corrisponde al giorno.
     \end{itemize}
 
 \item \textbf{Orario}: gli orari usano il formato \textbf{[HH]:[MM]} dove:
@@ -237,7 +235,7 @@ I redattori devono seguire le seguenti regole stilistiche:
 Le regole per quanto riguarda l’uso di elementi grafici sono :
 \begin{itemize}
 \item \textbf{Immagini}: le figure presenti sono centrate rispetto al testo e accompagnate da didascalia;
-\item \textbf{Diagrammi UML}: verranno inseriti nel documento tramite delle immagini
+\item \textbf{Diagrammi UML}: inseriti nel documento sotto formato di immagini in formato png.
 \end{itemize}
 
 \paragraph{Metriche}
@@ -327,7 +325,7 @@ dove:
 Lo scopo è definire come bisogna attuare il processo di verifica, per accertarsi che non ci siano errori e che il prodotto sia completo.
 
 \subsubsection{Descrizione}
-La verifica viene applicato ad ogni processo in esecuzione. In questo processo ci si affida all’analisi e ai test. L’analisi si divide in due tipologie :
+La verifica viene applicata ad ogni processo in esecuzione. In questo processo ci si affida all’analisi e ai test. L’analisi si divide in due tipologie :
 \begin{itemize}
 \item \textbf{statica}, che non richiede l’esecuzione dell’oggetto in verifica, perciò è applicabile a qualsiasi elemento;
 \item \textbf{dinamica}, che richiede l’esecuzione dell’oggetto in verifica, applicabile perciò solo al codice.
@@ -336,8 +334,8 @@ La verifica viene applicato ad ogni processo in esecuzione. In questo processo c
 \subsubsection{Verifica della documentazione}
 Si utilizza un’analisi statica. Si possono utilizzare strumenti automatici oppure si può fare a mano attraverso due metodi :
 \begin{itemize}
-\item Walkthrough, che consiste in un controllo completo del documento;
-\item Inspection, che consiste nel controllo di un punto mirato del documento.
+\item \textbf{Walkthrough}, che consiste in un controllo completo del documento;
+\item \textbf{Inspection}, che consiste nel controllo di un punto mirato del documento.
 \end{itemize}
 
 \subsubsection{Verifica del codice}
@@ -353,7 +351,7 @@ Vengono applicate Walkthrough e Inspection per controllare validità e coerenza 
 \subsubsection{Test}
 I test sono l’attività fondamentale dell’analisi dinamica. Servono sia per dimostrare che il programma funzioni e svolga ciò per cui è stato sviluppato. I test si dividono in quattro categorie, in base all’oggetto in verifica e allo scopo : 
 \begin{itemize}
-\item \textbf{Test d’unità} : I test sono l’attività fondamentale dell’analisi dinamica. Servono sia per dimostrare che il programma funzioni e svolga ciò per cui è stato sviluppato. I test si dividono in quattro categorie, in base all’oggetto in verifica e allo scopo.
+\item \textbf{Test d’unità} : I test sono l’attività fondamentale dell’analisi dinamica. Servono per dimostrare che il programma funzioni e svolga ciò per cui è stato sviluppato. I test si dividono in quattro categorie, in base all’oggetto in verifica e allo scopo.
 \item \textbf{Test d’integrazione} : Verificano la correttezza delle interfacce. Si vuole stabilire il corretto funzionamento delle varie componenti, dopo che hanno passato il test d’unità, aggregandole man mano e verificando il funzionamento nel complesso.
 \item \textbf{Test di sistema} : Verifica l’applicazione nella sua interezza. Venendo dopo il test d’integrazione, lo scopo è verificare che i componenti non solo sono compatibili ma che lo scambio di dati tra interfacce e le varie interazioni siano conformi. Inoltre così si controlla che i requisiti siano stati soddisfatti.
 \item \textbf{Test di regressione} : Verifica l’applicazione dopo modifiche al sistema. Lo scopo è controllare nuove funzionalità non testate e al tempo stesso garantire che le funzioni precedentemente implementate e testate siano ancora di qualità e non subiscano alterazioni ai loro comportamenti.

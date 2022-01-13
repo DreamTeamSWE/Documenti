@@ -4,12 +4,12 @@
 Lo scopo è scoprire quali strumenti e/o competenze siano necessarie nel progetto, documentare su come si organizza il lavoro e stabilire se il materiale prodotto sia di qualità.
 
 \subsubsection{Descrizione}
-In questo processo si scelgono procedure e risorse pensate per lo sviluppo del progetto. Si andrà inoltre a definire come gestire i rapporti con il proponente, comprese consegna e manutenzione prodotto finale.
+In questo processo si scelgono procedure e risorse pensate per lo sviluppo del progetto. Si andrà inoltre a definire come gestire i rapporti con il proponente, comprese consegna e manutenzione del prodotto finale.
 
 \subsubsection{Documentazione fornita}
 I documenti forniti all’azienda proponente e ai committenti sono :
 \begin{itemize}
-  \item \textbf{\SdF} contiene, per ogni capitolato, informazioni sul prodotto da sviluppare,le finalità, lati positivi e negativi. Inoltre contiene la scelta del capitolato del gruppo con le sue motivazioni;
+  \item \textbf{\SdF} contiene, per ogni capitolato, informazioni sul prodotto da sviluppare, le finalità, lati positivi e negativi. Inoltre contiene la scelta del capitolato del gruppo con le sue motivazioni;
 
   \item \textbf{\AdR} contiene l’analisi dei casi d’uso e dei requisiti;
 
@@ -21,7 +21,8 @@ I documenti forniti all’azienda proponente e ai committenti sono :
 \subsubsection{Strumenti}
 Strumenti utilizzati :
 \begin{itemize}
-  \item Texmaker per scrivere la documentazione.
+  \item Texmaker, editor per scrivere la documentazione in Latex TODO;
+  \item Draw.io,  editor online per la creazione degli schemi UML.
 \end{itemize}
 
 \subsection{Sviluppo}
@@ -43,11 +44,17 @@ E’ compito di ogni \textit{Analista} scrivere il documento di \textit{Analisi 
   \item fornire una base per chiunque prenda sottomano il prodotto per miglioramenti;
   \item aiutare le revisioni del codice;
   \item fornire riferimenti utili ai \textit{Verificatori};
-  \item tracciare il lavoro per stimarne I costi.
+  \item tracciare il lavoro per stimarne i costi.
 \end{itemize}
 
 \subsubsection{Descrizione}
-L’obiettivo è la realizzazione dell’architettura del sistema.
+E' possibile ricavare i requisiti da varie fonti : 
+\begin{itemize}
+    \item Capitolati d’appalto : nel capitolato è possibile individuare dei requisiti;
+    \item Verbali interni : dalle riunioni interne possono emergere dei requisiti;
+    \item Verbali esterni : dalle riunioni esterne e/o con contatti e discussioni con il responsabile aziendale si possono ottenere dei requisiti;
+    \item Casi d’uso : i requisiti sono trovabili in uno o più casi d’uso.
+\end{itemize}
 
 \subsubsection{Struttura}
 La struttura è destinata a cambiare.
@@ -59,6 +66,16 @@ Attualmente, \AdR presenta questa struttura :
 
 \subsubsection{Classificazione requisiti}
 //TODO
+
+\subsubsection{Qualità dei requisiti}
+Ciascun requisito deve essere :
+\begin{itemize}
+  \item Completo, ovvero dettagliato;
+  \item Consistente, che non sia in contraddizione con altri requisiti;
+  \item Necessario;
+  \item Verificabile, ovvero che sia possibile controllare che il sistema lo realizzi.
+  \item Tracciabile.
+\end{itemize}
 
 \subsubsection{Classificazione casi d'uso}
 La struttura adottata per la classificazione dei casi d'uso è la seguente: \\
@@ -90,15 +107,7 @@ Ogni caso d'uso è descritto da :
 
 
 
-\subsubsection{Qualità dei requisiti}
-Ciascun requisito deve essere :
-\begin{itemize}
-  \item Completo, ovvero dettagliato;
-  \item Consistente, che non sia in contraddizione con altri requisiti;
-  \item Necessario;
-  \item Verificabile, ovvero che sia possibile controllare che il sistema lo realizzi.
-  \item Tracciabile.
-\end{itemize}
+
 
 \subsection{Progettazione}
 \subsubsection{Scopo}
