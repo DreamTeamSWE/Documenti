@@ -1,0 +1,37 @@
+\subsection{UCE10 - Visualizza errore se il profilo non è esistente}
+\begin{itemize}
+    \item \textbf{Attore primario}: Utente autenticato.
+    \item \textbf{Precondizione}: L’utente ha richiesto l’aggiunta di un profilo social fornendo uno username non esistente.
+    \item \textbf{Postcondizione}: Viene visualizzato un messaggio di errore e lo username non viene aggiunto al sistema.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'inserimento dello username nella lista fallisce;
+        \item Viene visualizzato a schermo un messaggio di errore il quale informa l'utente del fatto che il profilo inserito non è esistente;
+        \item Viene fornita all'utente la possibilità di modificare lo username inserito.
+    \end{enumerate}
+\end{itemize}
+
+\subsection{UCE11 - Visualizza errore se il profilo è privato}
+\begin{itemize}
+    \item \textbf{Attore primario}: Utente autenticato.
+    \item \textbf{Precondizione}: L’utente ha richiesto l’aggiunta di un profilo social fornendo lo username di un profilo privato.
+    \item \textbf{Postcondizione}: Viene visualizzato un messaggio di errore e lo username non viene aggiunto al sistema.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'inserimento dello username nella lista fallisce;
+        \item Viene visualizzato a schermo un messaggio di errore il quale informa l'utente del fatto che non è possiibile inserire profili privati.
+    \end{enumerate}
+\end{itemize}
+
+\subsection{UCE10 - Visualizza errore se il profilo è già presente nel sistema}
+\begin{itemize}
+    \item \textbf{Attore primario}: Utente autenticato.
+    \item \textbf{Precondizione}: L’utente ha richiesto l’aggiunta di un profilo social fornendo uno username già presente nel sistema.
+    \item \textbf{Postcondizione}: Viene visualizzato un messaggio di errore e lo username non viene aggiunto al sistema.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'inserimento dello username nella lista fallisce;
+        \item Viene visualizzato a schermo un messaggio di errore il quale informa l'utente del fatto che il profilo inserito è già presente nel sistema.
+    \end{enumerate}
+\end{itemize}
+%\clearpage 

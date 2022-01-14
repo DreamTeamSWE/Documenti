@@ -1,7 +1,5 @@
-\subsection{UC5 – Filtra classifica}
-\begin{center}
-\includegraphics[scale=0.5]{UC_images/UC5.png}
-\end{center}
+\subsection{UCW8 - Filtra classifica}
+
 \begin{itemize}
     \item \textbf{Attore primario}: Utente generico.
     \item \textbf{Precondizione}: L’utente sta visualizzando la classifica (UC3 §).
@@ -13,26 +11,30 @@
         \item L’utente clicca il pulsante “Applica Filtri”.
     \end{enumerate}
 
-    \item \textbf{Generalizzazioni}:
+    \item \textbf{Sottocasi}:
     \begin{enumerate}
-        \item Filtra per zona (UC5.1 §);
-        \item Filtra per giorno e orario di apertura (UC5.2 §);
-        \item Filtra per tipo di cucina (UC5.3 §);
-        \item Filtra per fascia di prezzo (UC5.4 §);
-        \item Filtra per punteggio (UC5.5 §).
+        \item Filtra per zona (UCW8.1 §);
+        \item Filtra per giorno e orario di apertura (UCW8.2 §);
+        \item Filtra per tipo di cucina (UCW8.3 §);
+        \item Filtra per fascia di prezzo (UCW8.4 §);
+        \item Filtra per punteggio (UCW8.5 §).
     \end{enumerate}
 
     \item \textbf{Estensioni}:
     \begin{itemize}
         \item Nel caso in cui non ci sia nemmeno un locale che rispetta i filtri applicati:
         \begin{enumerate}
-            \item Viene visualizzato un messaggio che informa l’utente del fatto che nessun locale rientra nei filtri inseriti (UC5.6 §);
+            \item Viene visualizzato un messaggio che informa l’utente del fatto che nessun locale rientra nei filtri inseriti (UCE13 §);
             \item Viene fornita la possibilità di modificare i filtri.
         \end{enumerate}
     \end{itemize}
 \end{itemize}
 
-\subsubsection{UC5.1 – Filtra per zona}
+\begin{center}
+    \includegraphics[scale=0.5]{UC_images/UCW8.png}
+\end{center}
+
+\subsubsection{UCW8.1 - Filtra per zona}
 \begin{itemize}
     \item \textbf{Attore primario}: Utente generico.
     \item \textbf{Precondizione}: L’utente sta visualizzando la classifica (UC4 §) e ha premuto il pulsante “Filtra Classifica”.
@@ -44,7 +46,7 @@
     \end{enumerate}
 \end{itemize}
 
-\subsubsection{UC5.2 – Filtra per giorno e orario di apertura}
+\subsubsection{UCW8.2 - Filtra per giorno e orario di apertura}
 \begin{itemize}
     \item \textbf{Attore primario}: Utente generico.
     \item \textbf{Precondizione}: L’utente sta visualizzando la classifica (UC4 §) e ha premuto il pulsante “filtra classifica”.
@@ -57,7 +59,7 @@
     \end{enumerate}
 \end{itemize}
 
-\subsubsection{UC5.3 – Filtra per tipo di cucina}
+\subsubsection{UCW8.3 - Filtra per tipo di cucina}
 \begin{itemize}
     \item \textbf{Attore primario}: Utente generico.
     \item \textbf{Precondizione}: L’utente sta visualizzando la classifica (UC4 §) e ha premuto il pulsante “Filtra Classifica”.
@@ -69,7 +71,7 @@
     \end{enumerate}
 \end{itemize}
 
-\subsubsection{UC5.4 – Filtra per fascia di prezzo}
+\subsubsection{UCW8.4 - Filtra per fascia di prezzo}
 \begin{itemize}
     \item \textbf{Attore primario}: Utente generico.
     \item \textbf{Precondizione}: L’utente sta visualizzando la classifica (UC4 §) e ha premuto il pulsante “Filtra Classifica”.
@@ -82,7 +84,7 @@
     \end{enumerate}
 \end{itemize}
 
-\subsubsection{UC5.5 – Filtra per punteggio}
+\subsubsection{UCW8.5 - Filtra per punteggio}
 \begin{itemize}
     \item \textbf{Attore primario}: Utente generico.
     \item \textbf{Precondizione}: L’utente sta visualizzando la classifica (UC4 §) e ha premuto il pulsante “filtra classifica”.
@@ -95,16 +97,5 @@
     \end{enumerate}
 \end{itemize}
 
-\subsubsection{UC5.6 – Visualizza errore nei filtri}
-\begin{itemize}
-    \item \textbf{Attore primario}: Utente generico.
-    \item \textbf{Precondizione}: L'utente ha inserito filtri ai quali non corrisponde alcun locale presente nel sistema.
-    \item \textbf{Postcondizione}: Viene visualizzato un messaggio di errore.
-    \item \textbf{Scenario principale}: 
-    \begin{enumerate}
-        \item L'utente inserisce dei filtri alla classifica;
-        \item Nessun locale rientra nei filtri inseriti;
-        \item Viene visualizzato a schermo un messaggio che informa l'utente di ciò che è accaduto.
-    \end{enumerate}
-\end{itemize}
+
 %\clearpage 
