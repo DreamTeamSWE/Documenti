@@ -2,28 +2,98 @@
 
 \definecolor{darkblue}{cmyk}{99, 99, 0, 71}
 
-\begin{table}[!htbp]
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{ m{0.20\textwidth}<{\centering}  m{0.25\textwidth}<{\centering}  m{0.25\textwidth}<{\centering}  m{0.2\textwidth}<{\centering}}
+\begin{longtable}{ m{0.2\textwidth}<{\centering}  m{0.35\textwidth}<{\centering}  m{0.15\textwidth}<{\centering}  m{0.2\textwidth}<{\centering}}
 	\rowcolor{darkblue}
 	\textcolor{white}{\textbf{Requisito}} &\textcolor{white}{\textbf{Descrizione}}& \textcolor{white}{\textbf{Classificazione}} & \textcolor{white}{\textbf{Fonti}}\\ 
-	%1.0.0& XX.12.21& \shortstack{ \\ XX} &\shortstack{ \\ \RE{} } & Approvazione per il rilascio\\
 
-	\rowcolor{gray!10} v0.1.3 & 22.01.03 & \shortstack{ \\ \GC{}} &\shortstack{ \\ \AN{} } \\	
+	v0.1.3 & L’utente deve riuscire ad inserire i propri dati personali per effettuare la registrazione & \Ob & s\\	
 
-	v0.1.2 & 20.12.21& \shortstack{ \\ \LW{}} &\shortstack{ \\ \AN{} } \\	
+	 \rowcolor{gray!25} s & I dati da inserire in fase di registrazione sono: nome, cognome, indirizzo e-mail e password & \Ob & s\\	
+	 
+	 s & L’utente deve riuscire ad inserire i propri dati (indirizzo e-mail e password) per effettuare il login & \Ob & s\\	
 
-	\rowcolor{gray!10} v0.1.1 & 21.12.20 & \shortstack{ \\ \FP{}} &\shortstack{ \\ \AN{} } \\	
+	 \rowcolor{gray!25} s & L’utente deve riuscire a recuperare la password, nel caso l’avesse dimenticata & \Ob & s\\	
+	 
+	 \rowcolor{gray!25} s & L’utente deve riuscire a recuperare la password, nel caso l’avesse dimenticata & \Ob & s\\	
+	 
+	 s & All’utente viene mostrato un errore nel caso non inserisca correttamente il nome in fase di registrazione & \Ob & s\\	
+	 
+	 \rowcolor{gray!25} s & All’utente viene mostrato un errore nel caso non inserisca correttamente il cognome in fase di registrazione & \Ob & s\\	
+	 
+	 \rowcolor{gray!25} s & All’utente viene mostrato un errore nel caso non inserisca correttamente l’indirizzo e-mail in fase di registrazione & \Ob & s\\	
+
+	 s & All’utente viene mostrato un errore nel caso non inserisca una password corretta in fase di registrazione & \Ob & s\\	
+	 
+	 \rowcolor{gray!25} s & All’utente viene mostrato un errore nel caso non inserisca correttamente l’indirizzo e-mail nel recupero password & \Ob & s\\	
+	 
+	 s & L’utente autenticato può collegare il proprio profilo Instagram  & \De & s\\	
+	 
+	 \rowcolor{gray!25} s & All’utente autenticato viene mostrato un messaggio d’errore nel caso il collegamento al profilo Instagram non vada a buon fine & \De ? & s\\	
+	 
+	 s & L’utente autenticato può collegare al proprio profilo l’account TikTok & \De & s\\		 
+
+	\rowcolor{gray!25} v0.1.1 & All’utente autenticato viene mostrato un messaggio d’errore nel caso il collegamento al profilo TikTok non vada a buon fine  & \De ? & x \\	
+
+	 s & L’utente autenticato può modificare l'indirizzo e-mail con cui accede al sistema & \Fa & s\\		
+	 
+	 \rowcolor{gray!25} s & L’utente autenticato può modificare la password con cui accede al sistema & \Fa & s\\		
+	 
+	 s & All’utente autenticato viene mostrato un errore nel caso non inserisca un indirizzo e-mail valido, in fase di modifica & \Fa ? & s\\		
+	 
+	 \rowcolor{gray!25} s & L’utente autenticato può modificare la password di accesso al sistema & \Fa ? & s\\		
+	 
+	 s & All’utente autenticato viene mostrato un errore nel caso non inserisca una password valida, in fase di modifica  & \Fa ? & s\\			
+	  	 	 	
+	 \rowcolor{gray!25} s & L’utente autenticato può suggerire dei profili social da cui fare il crawling dei dati & \Ob & s\\		
+	 
+	 s & All’utente viene mostrato un messaggio d’errore nel caso suggerisca un profilo social inesistente & \De & s\\		
+	 
+	 \rowcolor{gray!25} s & All’utente viene mostrato un messaggio d’errore nel caso suggerisca un profilo già presente a sistema & \De & s\\		
+	 
+	 s & All’utente viene mostrato un messaggio d’errore nel caso l’utente suggerito abbia un profilo privato & \De & s\\	
+	 
+	 \rowcolor{gray!25} s & L’utente può visualizzare la classifica con i locali presenti nel database della piattaforma & \Ob & s\\	
+	 
+	 s & L’utente può filtrare la classifica & \Ob & s\\		
+	 
+	 \rowcolor{gray!25} s & L’utente può filtrare la classifica dei locali presenti nel database del sistema in base alla zona & \De & s\\	
+	 
+	 s & L’utente può filtrare la classifica dei locali presenti nel database del sistema per giorno ed orario di apertura & \De & s\\	
+	 
+	 \rowcolor{gray!25} s & L’utente può filtrare la classifica dei locali presenti nel database del sistema in base al tipo di cucina & \De & s\\	
+	 
+	 s & L’utente può filtrare la classifica dei locali presenti nel database del sistema per fascia di prezzo & \De & s\\	 
+	 
+	 \rowcolor{gray!25} s & L’utente può filtrare la classifica dei locali presenti nel database del sistema in base al punteggio & \De & s\\	 
+	 
+	 s & L’utente può modificare l’ordinamento di visualizzazione della classifica & \De & s\\	
+	 
+	 \rowcolor{gray!25} s & L’utente può modificare la visualizzazione dei risultati della classifica, impostando il peso dei social & \De & s\\	 
+	 
+	 s & L’utente può modificare la visualizzazione dei risultati della classifica, impostando il peso dei tipi di contenuto & \De & s\\	 
+	 
+	\rowcolor{gray!25} s & Nel caso non ci sia alcun risultato compatibile con i filtri applicati, viene mostrato un errore & \De & s\\	 
+	 
+	 s & L’utente può cercare un locale presente nel database del sistema tramite il suo nome & \De ? & s\\	 
+	 
+	 \rowcolor{gray!25} s & All’utente viene mostrato un errore in caso il locale cercato non sia presente nel sistema & \De ? & s\\	 
+	 
+	 s & L’utente può visualizzare dei locali alternativi, nel caso il locale cercato non sia presente nel sistema & \De ? & s\\	 
+	 
+	 \rowcolor{gray!25} s & L’utente può visualizzare le informazioni di un locale presente nel sistema & \Ob & s\\	 	 	 
 	
-	v0.1.0 & 21.12.17 & \shortstack{ \\ \GC{}} &\shortstack{ \\ \AN{} } \\	
+	v0.1.0 & L’utente può creare una lista di locali preferiti & \De & \\	
 	
-	\rowcolor{gray!10} v0.0.4& 21.12.07 & \shortstack{ \\ \GC{}} &\shortstack{ \\ \AN{} } \\
+	\rowcolor{gray!25} v0.0.4& 21.12.07 & \shortstack{ \\ \GC{}} &\shortstack{ \\ \AN{} } \\
 
-	v0.0.3& 21.11.30 & \shortstack{ \\ \GC} &\shortstack{ \\ \AN{} } \\
+	v0.0.3& L’utente può aggiungere un locale alla lista dei preferiti & \De &  \\
 
-	\rowcolor{gray!10} v0.0.2& 21.11.29 & \shortstack{ \\ \FP{}} &\shortstack{ \\ \AN{}} \\
+	\rowcolor{gray!25} v0.0.2& L’utente può rimuovere un locale dalla lista dei preferiti & \De & \\
 
-	v0.0.1& 21.11.29 & \shortstack{ \\ \LW{}} &\shortstack{ \\ \AN{} } \\
+	v0.0.1& L’utente può suggerire delle modifiche da apportare relative alle informazioni di un locale & \Fa & \\
+	
+	\caption{Requisiti Funzionali}
+\end{longtable}
 
-\end{tabular}
-\end{table}
+\clearpage
