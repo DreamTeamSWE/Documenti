@@ -2,10 +2,10 @@
 
 \subsection{Caratteristiche del Prodotto}
 
-A seguito della presentazione del capitolato e dei primi due incontri fatti col proponente è emerso che il prodotto che andremo a realizzare dovrà avere le seguenti caratteristiche:
+A seguito della presentazione del capitolato e dei primi incontri fatti con il proponente è emerso che il prodotto che andremo a realizzare dovrà avere le seguenti caratteristiche:
 
 \subsubsection{Crawling dei dati da Instagram e TikTok}
-Il team dovrà effettuare un’analisi sulle API \textsuperscript{G} social di Instagram e TikTok per capire se esse sono sufficienti a raccogliere e analizzare le informazioni, in caso contrario si dovrà individuare una soluzione alternativa per effettuare tali operazioni. In ogni caso si dovranno analizzare esclusivamente profili pubblici ed escogitare una strategia per evitare di essere inseriti nelle black-list \textsuperscript{G} di Instagram e TikTok a causa di queste operazioni.
+Il team dovrà effettuare un’analisi mediante le API \textsuperscript{G} social di Instagram e TikTok per capire se esse sono sufficienti a raccogliere e analizzare le informazioni, in caso contrario si dovrà individuare una soluzione alternativa per effettuare tali operazioni. In ogni caso si dovranno analizzare esclusivamente profili pubblici ed escogitare una strategia per evitare di essere inseriti nelle black-list \textsuperscript{G} di Instagram e TikTok a causa di queste operazioni.
 
 \subsubsection{Traduzione dei dati ottenuti}
 Nella fase di crawling \textsuperscript{G} verranno raccolti dati di diverso tipo quali foto, video, stories, post e commenti. Questi dati andranno poi “tradotti” utilizzando diversi servizi come ad esempio Amazon Transcribe \textsuperscript{G}, Amazon Rekognition \textsuperscript{G} e Amazon Comprehend \textsuperscript{G} in modo da assegnare a ciascun dato un valore quantitativo relativo alla sua positività. Bisognerà inoltre riconoscere tutti i dati raccolti che non sono assolutamente rilevanti, i quali verranno scartati. Particolare attenzione andrà prestata ai commenti, riguardo i quali è richiesto di svolgere un’analisi preliminare al fine di capire se è davvero utile includerli nella raccolta dei dati.
@@ -19,50 +19,64 @@ Anche per questa fase viene concessa molta libertà di sviluppo al team senza pe
 
 \subsection{Caratteristiche degli Utenti}
 
-La piattaforma \textsuperscript{G} offre la possibilità sia ad utenti generici che registrati di poter consultare la guida tramite app per smartphone o webapp \textsuperscript{G}. Ciascuna tipologia di utente \textsuperscript{G} ha diverse funzionalità.
+La piattaforma \glo offre la possibilità sia ad utenti non autenticati che registrati di poter consultare la guida tramite WebApp \glo. Ciascuna tipologia di utente \glo ha diverse funzionalità.
+
+\subsubsection{Utente Non Autenticato}
+
+Con il termine utente non autenticato \glo ci si riferisce ad una qualsiasi persona non autenticata nel sistema, che può sfruttare le funzionalità di base offerte dalla piattaforma \glo, ossia:
+
+\begin{itemize}
+  \item Visualizzare la lista di locali \glo data una specifica posizione;
+  \item Cercare un determinato locale attraverso la funzionalità di ricerca (impostando anche dei filtri \glo);
+  \item Visualizzare un ranking \glo di locali per zona o in base alla propria posizione;
+  \item Consultare il profilo \glo social di un locale, conoscere gli orari di apertura ed il numero di telefono, oltre a visitare il sito web (nel caso esista);
+  \item Registrarsi nella piattaforma per sfruttare delle funzionalità aggiuntive.
+\end{itemize}
+
+\subsubsection{Utente Autenticato}
+
+Invece, con il termine “utente autenticato\glo{}” ci si riferisce ad una persona registrata nel database e che ha effettuato l'accesso nella piattaforma \glo, la quale, oltre a sfruttare le funzionalità dell’utente generico \glo, può anche:
+
+\begin{itemize}
+  \item Compilare il modulo di login per autenticarsi \glo{};
+  \item Suggerire nuovi utenti \glo che potrebbero iscriversi alla piattaforma \glo{};
+  \item Creare liste personalizzate private \glo con i locali preferiti \glo{};
+  \item Gestire il profilo personale (modificare la password, collegare l'account Instagram e/o TikTok).
+\end{itemize}
 
 \subsubsection{Utente Generico}
 
-Con il termine utente generico \textsuperscript{G} ci si riferisce ad una qualsiasi persona non registrata nel sistema e che può sfruttare le funzionalità di base offerte dalla piattaforma \textsuperscript{G}, ossia:
+\colorbox{yellow}{\parbox{0.99\textwidth}{In questo documento, alle volte si farà riferimento all'utente come “utente generico”. In tal caso, con il termine “utente generico” ci si riferisce sia ad un utente non autenticato che ad un utente autenticato nella piattaforma. ??????????QUESTA PARTE LA TENIAMO???????}}
 
-\begin{itemize}
-  \item Visualizzare la lista di locali \textsuperscript{G} data una specifica posizione;
-  \item Cercare un determinato locale attraverso la funzionalità di ricerca (impostando anche dei filtri \textsuperscript{G});
-  \item Visualizzare un ranking \textsuperscript{G} di locali per zona o in base alla propria posizione;
-  \item Consultare il profilo \textsuperscript{G} social di un locale e conoscere gli orari di apertura.
-\end{itemize}
+\subsubsection{WebApp}
 
-\subsubsection{Utente Registrato}
+Tra le caratteristiche del prodotto, troviamo anche la realizzazione di una WebApp che permetterà all'utente finale di poter fruire dei contenuti presenti nella piattaforma.
 
-Invece, con il termine utente registrato \textsuperscript{G} ci si riferisce ad una persona registrata nella piattaforma \textsuperscript{G}, che oltre a sfruttare le funzionalità dell’utente generico \textsuperscript{G} può anche:
-
-\begin{itemize}
-  \item Riempire il modulo di registrazione ed autenticarsi \textsuperscript{G};
-  \item Suggerire nuovi utenti \textsuperscript{G} che potrebbero iscriversi alla piattaforma \textsuperscript{G};
-  \item Creare liste personalizzate private \textsuperscript{G} con i locali preferiti \textsuperscript{G} e da visitare in futuro.
-\end{itemize}
-
-\subsection{Piattaforme di Esecuzione}
-
-\subsubsection{Web}
-Insieme di pagine web accessibili tramite i browser più utilizzati, come Google Chrome, Firefox, Safari, Microsoft Edge o Opera. I browser devono essere aggiornati nelle loro versioni più recenti.
-
-\subsubsection{Android}
-L'applicazione verrà installata tramite un file con l’estensione apk e sarà eseguibile nel sistema operativo android per la piattaforma \textsuperscript{G} mobile.
+Una WebApp \glo{} è un'applicazione formata da più pagine web accessibili tramite un browser (ad esempio: Google Chrome, Firefox, Safari, Microsoft Edge ed Opera). Al fine di ottenere la miglior esperienza utente possibile, è consigliabile consultare la piattaforma usando un browser (tra quelli appena elencati) nella sua versione più aggiornata.
 
 \subsection{Obblighi di Progettazione}
-\begin{itemize}
-  \item Creare degli API \textsuperscript{G} per il crawling \textsuperscript{G};
-  \item Valutare strategie Voice to Text se le informazioni quali testi, commenti e tag non sono sufficienti;
-  \item Realizzare una webapp \textsuperscript{G} per offrire il servizio agli utenti che utilizzano un browser;
-  \item Realizzare una mobile app \textsuperscript{G} rendendo disponibile la guida ai dispositivi android;
-  \item Utilizzo delle seguenti tecnologie: 
-  \begin{itemize}
-    \item NodeJS \textsuperscript{G} per lo sviluppo degli API \textsuperscript{G} per supportare l’applicativo;
-    \item AWS \textsuperscript{G} per l'analisi dei dati raccolti tramite crawling \textsuperscript{G};
-    \item Neptune per il database dove memorizzare i dati raccolti;
-    \item Utilizzo di un linguaggio nativo per lo sviluppo della mobile app \textsuperscript{G}.
-  \end{itemize}
-  \item Utilizzo di un'architettura basata a microservizi \textsuperscript{G}.
 
+
+\begin{itemize}
+  \item Creare e sfruttare delle API \glo per il crawling \glo dei dati;
+  \item Valutare strategie Voice to Text se le informazioni quali testi, commenti e tag non sono sufficienti;
+  \item Realizzare una WebApp \glo con design responsive per permettere agli utenti di consultare i contenuti presenti nella piattaforma ed usufruire di tutte le sue funzionalità;
+  \item Utilizzo delle seguenti tecnologie: 
+  \item Utilizzo di un'architettura a micro-servizi \glo{}.
 \end{itemize}
+
+\subsubsection{Tecnologie utilizzate}
+
+Per sviluppare la piattaforma verranno utilizzare le seguenti tecnologie:
+\begin{itemize}
+    \item NodeJS \glo{} per lo sviluppo delle API \glo{} per supportare l’applicativo;
+    \item Python per la creazione e l'utilizzo del crawler che estrapolerà i dati dai contenuti social;
+    \item React per la creazione dell'interfaccia utente;
+    \item AWS \glo{} per l'analisi dei dati raccolti tramite crawling \glo{} ed in particolare:
+    \begin{itemize}
+    	\item Amazon Rekognition per analizzare e riconoscere attributi \glo{}, oggetti e testi dei contenuti multimediali;
+    	\item Amazon Comprehend per analizzare e riconoscere informazioni presenti nei contenuti testuali;
+    	\item Amazon Aurora con MySQL come database relazionale;
+    	\item Amazon S3 per l'archiviazione di documenti.
+	\end{itemize}
+  \end{itemize}
