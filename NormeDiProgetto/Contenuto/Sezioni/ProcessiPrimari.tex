@@ -70,7 +70,7 @@ L’obiettivo è la realizzazione dell’architettura del sistema.
 
 \paragraph{Struttura}
 La struttura potrà essere soggetta a  cambiamenti.
-Attualmente, \AdR presenta questa struttura :
+Attualmente, \AdR presenta questa struttura:
 \begin{itemize}
   \item Introduzione al documento;
   \item Descrizione generale, dove sono presenti requisiti estrapolati sia dal capitolato d’appalto che dagli incontri effettuati con il proponente (verbali esterni).
@@ -161,7 +161,7 @@ Ogni caso d'uso è descritto da:
 \end{itemize}
 
 \paragraph{Qualità dei requisiti}
-Ciascun requisito deve essere :
+Ciascun requisito deve essere:
 \begin{itemize}
   \item Completo, ovvero dettagliato;
   \item Consistente, che non sia in contraddizione con altri requisiti;
@@ -170,21 +170,41 @@ Ciascun requisito deve essere :
   \item Tracciabile.
 \end{itemize}
 
+\paragraph{UML}
+I diagrammi UML devono essere realizzati usando la versione del linguaggio v2.0.
 
 
 \subsection{Progettazione}
 \subsubsection{Scopo}
-Lo scopo è capire le caratteristiche che il prodotto deve avere per soddisfare i requisiti. La progettazione lo fa suddividendo il problema ai singoli componenti, ottimizzando tempi e risorse assegnate. Al tempo stesso garantendo la qualità del prodotto.
+Lo scopo della Progettazione è di determinare le caratteristiche che il prodotto deve avere per soddisfare i requisiti individuati dagli stakeholder. Il procedimento seguito è l'opposto rispetto a quello usato per l'\AdR. Vengono individuate le varie parti, coerenti con i requisiti, che verranno poi raggruppate in vari sottoinsiemi fino ad arrivare ad un'unica soluzione finale. Restano da rispettare i vincoli di sostenibilità nell'utilizzo delle risorse, nel contenimento dei costi e nel rispetto degli obiettivi di qualità.
 
 \subsubsection{Descrizione}
 L’obiettivo è la realizzazione dell’architettura del sistema.
 
+\subsubsection{Tecnology Baseline}
+Misura la comprensione delle tecnologie individuate per la realizzazione del prodotto, motivandone la scelta. 
+Dovranno essere mostrate:
+\begin{itemize}
+	\item Le varie tecnologie adottate, motivando le scelte;
+	\item Le relazioni tra i vari componenti e come interagiscono tra di loro;
+	\item Il \textit{\textbf{Proof of Concept}}: un prototipo (incompleto) eseguibile che riunisce tutte le tecnologie adottate, dimostrando in maniera pratica la loro adeguatezza e compatibilità reciproca. 
+\end{itemize}
+
+\subsubsection{Product Baseline}
+Rappresenta la baseline architetturale (design e coding) del prodotto, coerente con la Tecnology Baseline. Mostra il design definitivo del prodotto.
+Dovrà contenere:
+\begin{itemize}
+	\item Diagrammi UML delle classi e di sequenza;
+	\item Tracciamento per ogni classe dei requisiti che deve soddisfare;
+	\item Descrizione dei design pattern utilizzati.
+\end{itemize}
+
 \subsubsection{Qualità}
-E’ compito del \textit{Progettista} definire un’architettura di qualità. Le caratteristiche che essa deve avere sono :
+\'E compito del \textit{Progettista} definire un’architettura di qualità. Le caratteristiche che essa deve avere sono :
 \begin{itemize}
   \item Soddisfare i requisiti indicati nel documento \AdR;
-  \item Essere comprensibile, robusto e affidabile;
-  \item Presentare componenti semplici, in maniera tale da garantire modularità e riusabilità;
+  \item Essere comprensibile, robusta e affidabile;
+  \item Presentare componenti semplici, in maniera tale da garantire modularità e riusabilità, semplificando il lavoro dello sviluppatore;
   \item Utilizzare le risorse in maniera efficiente.
 \end{itemize}
 
