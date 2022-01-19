@@ -1,8 +1,8 @@
-\subsection{UCE5 – Visualizza errore in caso non venga inserito un indirizzo e-mail valido}
+\subsection{UCE5 – Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il login}
 \begin{itemize}
-\item \textbf{Descrizione}: L'utente non autenticato inserisce un indirizzo e-mail non registrato a sistema per accedere alla piattaforma.
+\item \textbf{Descrizione}: L'utente non autenticato inserisce un indirizzo e-mail non registrato all'interno del sistema per accedere alla piattaforma.
 \item \textbf{Attore primario}: Utente non autenticato.
-\item \textbf{Precondizione}: L'utente non è ancora autenticato presso il sistema.
+\item \textbf{Precondizione}: L'utente ha inserito un indirizzo email non registrato nel sistema in fase di login.
 \item \textbf{Postcondizione}: Viene mostrato un messaggio d'errore e l'utente non viene autenticato nel sistema.
 
 \item \textbf{Scenario principale}:
@@ -13,11 +13,11 @@
 \end{enumerate}
 \end{itemize}
 
-\subsection{UCE6 – Visualizza errore in caso non venga inserita una password valida}
+\subsection{UCE6 – Visualizza errore in caso non venga inserita una password corretta durante il login}
 \begin{itemize}
-\item \textbf{Descrizione}: L'utente non autenticato inserisce una password non valida per accedere alla piattaforma Sweeat.
+\item \textbf{Descrizione}: L'utente non autenticato inserisce una password non corrispondente all'indirizzo e-mail inserito per accedere alla piattaforma Sweeat.
 \item \textbf{Attore primario}: Utente non autenticato.
-\item \textbf{Precondizione}: L'utente non è ancora autenticato presso il sistema.
+\item \textbf{Precondizione}: L'utente inserisce una password errata in fase di login.
 \item \textbf{Postcondizione}: Viene mostrato un messaggio d'errore e l'utente non viene autenticato nel sistema.
 
 \item \textbf{Scenario principale}:
@@ -28,11 +28,11 @@
 \end{enumerate}
 \end{itemize}
 
-\subsection{UCE7 – Visualizza errore in caso non venga inserito un indirizzo e-mail valido}
+\subsection{UCE7 – Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il recupero password}
 \begin{itemize}
-\item \textbf{Descrizione}: L'utente non autenticato inserisce un indirizzo e-mail non valido per recuperare la password con cui accedere al sistema.
+\item \textbf{Descrizione}: L'utente non autenticato inserisce un indirizzo e-mail non registrato all'interno del sistema per recuperare la password con cui accedere al sistema.
 \item \textbf{Attore primario}: Utente non autenticato.
-\item \textbf{Precondizione}: L'utente non è ancora autenticato presso il sistema.
+\item \textbf{Precondizione}: L'utente inserisce un indirizzo e-mail non presente nel sistema durante il recupero password.
 \item \textbf{Postcondizione}: Viene mostrato un messaggio d'errore e l'utente non è in grado di recuperare la password.
 
 \item \textbf{Scenario principale}:
