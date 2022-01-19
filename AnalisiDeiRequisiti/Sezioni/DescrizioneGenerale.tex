@@ -69,14 +69,16 @@ Una WebApp \glo{} è un'applicazione formata da più pagine web accessibili tram
 
 Per sviluppare la piattaforma verranno utilizzare le seguenti tecnologie:
 \begin{itemize}
-    \item NodeJS \glo{} per lo sviluppo delle API \glo{} per supportare l’applicativo;
-    \item Python per la creazione e l'utilizzo del crawler che estrapolerà i dati dai contenuti social;
-    \item React per la creazione dell'interfaccia utente;
-    \item AWS \glo{} per l'analisi dei dati raccolti tramite crawling \glo{} ed in particolare:
+    \item \textbf{NodeJS} \glo{} per lo sviluppo delle API \glo{} per supportare l’applicativo;
+    \item \textbf{Python} per la creazione e l'utilizzo del crawler che estrapolerà i dati dai contenuti social;
+    \item \textbf{React} per la creazione dell'interfaccia utente;
+    \item \textbf{AWS} \glo{} per l'analisi dei dati raccolti tramite crawling \glo{} ed in particolare:
     \begin{itemize}
-    	\item Amazon Rekognition per analizzare e riconoscere attributi \glo{}, oggetti e testi dei contenuti multimediali;
-    	\item Amazon Comprehend per analizzare e riconoscere informazioni presenti nei contenuti testuali;
-    	\item Amazon Aurora con MySQL come database relazionale;
-    	\item Amazon S3 per l'archiviazione di documenti.
+    	\item \textbf{Amazon Rekognition} per analizzare e riconoscere attributi \glo{}, oggetti e testi dei contenuti multimediali;
+    	\item \textbf{Amazon Comprehend} per analizzare e riconoscere informazioni presenti nei contenuti testuali;
+    	\item \textbf{Amazon Aurora} con \textbf{MySQL} come database relazionale;
+    	\item \textbf{Amazon S3} per l'archiviazione di documenti;
+    	\item \textbf{Amazon Amplify} che consiste in un set di strumenti che permettono di realizzare e far funzionare correttamente la WebApp.
+    	\item {\colorbox{yellow}{\parbox{0.8\textwidth}{Amazon Cognito - serve per l'autenticazione.. lo teniamo per il PoC? Io di aggiungerlo in seguito}}}
 	\end{itemize}
   \end{itemize}
