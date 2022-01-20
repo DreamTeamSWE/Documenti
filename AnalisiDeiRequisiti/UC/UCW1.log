@@ -48,7 +48,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
 l.2 \subsubsection
-                  {UCW1 – Registrazione}
+                  {UCW1 - Registrazione}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -143,7 +143,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.6 \caption
-            {UCW1 – Registrazione}
+            {UCW1 - Registrazione}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
