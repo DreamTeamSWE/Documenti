@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 .vscode/tasks.json
-=======
 piano_di_progetto/*.toc
 piano_di_progetto/*.out
 piano_di_progetto/*.log
@@ -11,4 +9,3 @@ piano_di_progetto/*.fls
 piano_di_progetto/*.fdb_latexmk
 piano_di_progetto/*.aux
 piano_di_progetto/*.log
->>>>>>> origin/PianodiProgetto

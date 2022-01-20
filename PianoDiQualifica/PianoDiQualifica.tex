@@ -11,12 +11,18 @@
 	% indice
 	\renewcommand{\contentsname}{Indice}
 	\tableofcontents	
+
+	\thispagestyle{empty}
+	% \listoffigures
+	\listoftables
 	\pagebreak
+
 	
 	% contenuto del documento, ogni sezione in un file
 	\input{Sezioni/Introduzione.tex} 	
 	\pagebreak %si possono eventualmente togliere per accorciare lo spazio
 	\input{Sezioni/DescrizioneGenerale.tex} 	
 	\pagebreak
-	
+	\input{Sezioni/ObiettiviMetricheQualita.tex}
+	\pagebreak
 \end{document}
