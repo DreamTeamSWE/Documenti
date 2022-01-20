@@ -4,7 +4,7 @@
 Lo scopo del processo di fornitura, come definito nello standard ISO/IEC/IEEE 12207:1995, è di determinare quali strumenti, risorse e competenze siano necessarie per lo svolgimento del progetto. 
 
 \subsubsection{Descrizione}
-La presente sezione contiene tutte le norme che ogni membro del gruppo è tenuto aseguire, durante le varie fasi di svolgimento del progetto, per poter divenire fornitori del proponente zero12 e dei committenti Prof. Tullio Vardanega e Prof. Riccardo Cardin. 
+La presente sezione contiene tutte le norme che ogni membro del gruppo è tenuto a seguire, durante le varie fasi di svolgimento del progetto, per poter divenire fornitori del proponente zero12 e dei committenti Prof. Tullio Vardanega e Prof. Riccardo Cardin. 
 Verrà definita la gestione dei rapporti con il proponente, comprese consegna e manutenzione del prodotto finale.
 
 \subsubsection{Rapporti con il proponente}
@@ -215,8 +215,42 @@ Dovrà contenere:
 Lo scopo del processo di codifica è l’effettiva realizzazione del prodotto software, svolto dal \textit{Programmatore}. Si può vedere come la trasformazione in codice dell’architettura definita dai \textit{Progettisti}.
 
 \subsubsection{Descrizione}
-Il codice deve rispettare gli obiettivi di qualità definiti nel \PdQ. Qui saranno elencate regole e norme di carattere più generale, utilizzate da ogni linguaggio di programmazione impiegato nel progetto.
+Il codice deve rispettare gli obiettivi di qualità definiti nel \PdQ. Nelle sezioni sottostanti saranno elencate regole e norme di carattere più generale, utilizzate da ogni linguaggio di programmazione impiegato nel progetto. 
 
 \subsubsection{Stile di codifica}
+
+\paragraph{Norme di buona programmazione}
+\begin{itemize}
+\item Produrre codice leggibile e verificabile;
+\item Strutturare la codifica in modo da rispettare il design progettato;
+\item Massimizzare l'information hiding.
+\end{itemize}
+
+\paragraph{Norme di struttura}
+\begin{itemize}
+\item \textbf{Indentazione}: i blocchi di codice innestati dovranno avere un’indentazione di quattro spazi, evitando l'utilizzo di tabulazioni;
+\item \textbf{Parentesi}: le parentesi aperte di delimitazione dei blocchi di codice dovranno trovarsi in linea con l'istruzione che definisce il blocco di codice. Eccezione ovvia la fanno i linguaggi che non usano questo sistema di delimitazione dei blocchi di codice;
+\item \textbf{Commenti}: i commenti al codice saranno presentati in lingua italiana. Se necessari dovranno trovarsi generalmente sopra al costrutto in questione;
+\item \textbf{Lunghezza riga}: una riga di codice dovrà essere lunga al massimo 140 caratteri, altrimenti va spezzata in maniera uniforme;
+\item  \textbf{Univocità dei nomi}: tutti i costrutti dovranno avere nomi univoci ed autoesplicativi, da evitare nomi eccessivamente lunghi.
+\end{itemize}
+
+\paragraph{Convenzioni sulla nomenclatura}
+In generale per i nomi verrà utilizzata la nomenclatura a cammello (camel case). con alcune particolarità:
+\begin{itemize}
+\item Nomi di variabili e metodi dovranno cominciare con la lettera minuscola;
+\item Nomi di classi, file, cartelle dovranno cominciare con la lettera maiuscola;
+\item Nomi di costanti dovranno essere scritti tutti in maiuscolo, separando le parole con il carattere underscore "\_" .
+\end{itemize}
+
+\paragraph{Brevità dei metodi}
+In generale ogni metodo o procedura dovrebbe essere breve e conciso, tra le 20 e 25 righe (contando un'istruzione per riga). Poiché il bisogno di scrivere un metodo più lungo può diventare necessario, si possono considerare tollerabili procedure fino ad un massimo di 35-40 righe. Se la soglia viene superata ha senso considerare una suddivisione della procedura. \'E fondamentale concentrarsi sullo scopo di ogni procedura, evitando singola procedure che svolgono troppi compiti.
+
 \subsubsection{Metriche}
 \subsubsection{Strumenti}
+Gli strumenti che verranno adottati durante il processo di sviluppo sono:
+\begin{itemize}
+\item \textbf{Visual Studio Code}: IDE utilizzato dal gruppo per la stesura del codice;
+\item \textbf{AWS CLI}: uno strumento unificato per la gestione dei servizi AWS via interfaccia a riga di comando.
+\end{itemize}
+
