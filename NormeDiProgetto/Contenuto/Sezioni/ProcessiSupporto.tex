@@ -1,0 +1,341 @@
+\section{Processi di Supporto}
+\subsection{Documentazione}
+\subsubsection{Scopo}
+Ogni processo e attività per lo sviluppo del progetto dovrà essere documentata. Nella presente sezione verranno descritte regole e standard da seguire durante il processo di documentazione per l’intero ciclo di vita del software.
+
+\subsubsection{Descrizione}
+Vengono presentate decisioni e norme prescelte per:
+\begin{itemize}
+  \item Stesura;
+  \item Verifica;
+  \item Approvazione.
+\end{itemize}
+
+\subsubsection{Documenti prodotti}
+I documenti prodotti sono:
+\begin{itemize}
+  \item \textbf{Norme di progetto}: documento interno che contiene norme e regole stabilite dal gruppo, che devono essere seguite per l’intera durata del progetto;
+  \item \textbf{Glossario}: documento esterno dove sono presenti i termini tecnici usati nella documentazione con le loro definizioni, affinché non ci siano ambiguità e/o incongruenze;
+  \item \textbf{Piano di progetto}: documento esterno con la pianificazione delle attività del progetto previste dal gruppo. Contiene la previsione dell’impegno orario dei singoli membri, il preventivo spese e i consuntivi di periodo;
+  \item \textbf{Piano di qualifica}: documento esterno che descrive i criteri con cui si valuta la qualità;
+  \item \textbf{Analisi dei requisiti}: documento esterno contenente requisiti e caratteristiche del prodotto finale;
+  \item \textbf{Verbali}:
+  \begin{itemize}
+  		\item Interni: resoconti degli incontri del gruppo;
+  		\item Esterni: resoconti degli incontri del gruppo con i committenti e/o il proponente.
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{Sistema software per la preparazione dei documenti}
+Tutti i documenti prodotti dal gruppo verranno redatti usando il linguaggio di markup \LaTeX.
+
+\subsubsection{Ciclo di vita di un documento}
+Ogni documento passa per i seguenti step:
+\begin{itemize}
+  \item \textbf{Creazione}: il documento viene creato basandosi su un template comune;
+  \item \textbf{Strutturazione}: il documento viene fornito di:
+  \begin{itemize}
+  		\item Registro delle modifiche;
+  		\item Indice dei contenuti.
+	\end{itemize}
+  \item \textbf{Stesura}: il gruppo redige il documento adottando il metodo incrementale;
+  \item \textbf{Revisione}: ogni sezione del corpo del documento è rivista da almeno un membro del gruppo che non sia il redattore della parte in verifica;
+  \item \textbf{Approvazione}: se revisionato, il Responsabile di Progetto può stabilire che il documento è valido. Se approvato, può essere rilasciato.
+\end{itemize}
+Per semplificare le operazioni di verifica dovrà sempre essere reso disponibile il documento  completo (fino alla versione più attuale) in formato PDF.
+
+\subsubsection{Struttura delle directory e dei files}
+Per ogni documento si definisce la seguente struttura di directory:\\
+\begin{forest}
+  for tree={
+    font=\ttfamily,
+    grow'=0,
+    child anchor=west,
+    parent anchor=south,
+    anchor=west,
+    calign=first,
+    edge path={
+      \noexpand\path [draw, \forestoption{edge}]
+      (!u.south west) +(7.5pt,0) |- node[fill,inner sep=1.25pt] {} (.child anchor)\forestoption{edge label};
+    },
+    before typesetting nodes={
+      if n=1
+        {insert before={[,phantom]}}
+        {}
+    },
+    fit=band,
+    before computing xy={l=15pt},
+  }
+[NomeDocumento
+  [NomeDocumento.tex]
+  [NomeDocumento.pdf]
+  [Contenuto
+    [Sezioni
+        [Introduzione.tex]
+        [Sezione1.tex]
+        [Sezione2.tex]
+    ]
+    [Immagini
+        [Immagine1.png]
+        [Immagine2.jpeg]
+    ]
+    [Intro.tex]
+    [RegistroModifiche.tex]
+  ]
+  [Struttura
+    [Command.tex]
+    [Impaginazione.tex]
+    [Packages.tex]
+  ]
+]
+\end{forest}\\
+In particolare:
+\begin{itemize}
+\item \textbf{NomeDocumento.tex}: importa tutti le parti necessarie per comporre il documento finale;
+\item \textbf{NomeDocumento.pdf}: versione del documento in formato PDF;
+\item \textbf{Introduzione.tex}:  sezione introduttiva del documento, definisce lo scopo del prodotto e del documento, i riferimenti normativi e informativi e informazioni sul \textit{Glossario};
+\item \textbf{Intro.tex}: contiene tutti i comandi per creare la prima pagina del documento;
+\item \textbf{RegistroModifiche.tex}: contiene tutti i comandi per creare la tabella del registro delle modifiche;
+\item \textbf{Command.tex}: contiene tutti i comandi aggiuntivi creati dal gruppo;
+\item \textbf{Impaginazione.tex}: definisce alcune istruzioni per l'impaginazione e si occupa di creare header e footer del documento;
+\item \textbf{Packages.tex}: contiene tutti i pacchetti aggiuntivi e necessari per la compilazione.
+\end{itemize}
+
+
+
+\subsubsection{Struttura di un documento}
+\paragraph{Prima pagina}
+La prima pagina è composta da:
+\begin{itemize}
+  \item \textbf{Logo del gruppo};
+  \item \textbf{Titolo del documento};
+  \item \textbf{Informazioni varie del documento}:
+      \begin{itemize}
+      \item \textbf{Versione corrente};
+      \item \textbf{Approvatori}: indica chi ha approvato il documento. Se non presente, indica che il documento non è ancora stato approvato;
+      \item \textbf{Data approvazione};
+      \item \textbf{Redattori}: indica chi si è occupato della stesura del documento;
+      \item \textbf{Verificatori}: indica chi si è occupato della verifica del documento;
+      \item \textbf{Uso}: indica se il documento è dedicato a uso interno o esterno;
+      \item \textbf{Distribuzione}: indica a chi viene distribuito il documento;
+        \end{itemize}
+\item \textbf{Indirizzo e-mail del gruppo}.
+\end{itemize}
+
+\paragraph{Registro delle modifiche}
+Ogni documento ha il suo registro modifiche che tiene traccia di tutte le modifiche importanti del documento durante il suo ciclo di vita.
+Sotto forma di tabella, riporta:
+  \begin{itemize}
+  		\item Versione del documento dopo la modifica;
+  		\item Data della modifica;
+  		\item Nome dell’autore della modifica;
+  		\item Ruolo dell’autore al momento della modifica;
+  		\item Descrizione breve della modifica;
+  		\item Nome della persona che si è occupata di verificare la modifica.
+	\end{itemize}
+
+\paragraph{Indice}
+Presente dopo il registro delle modifiche, l’indice permette di avere una visione completa del documento e di individuare le varie parti, ogni voce è un collegamento ipertestuale alla parte del documento in cui viene trattata.
+
+\paragraph{Struttura delle pagine}
+Ogni pagina, a eccezione della prima, è formata da questi elementi:
+  \begin{itemize}
+  		\item In alto a sinistra si trova una miniatura a colori del logo del gruppo;
+  		\item In alto a destra è presente il titolo del documento;
+  		\item Sotto i due elementi appena elencati una linea nera continua li separa dal contenuto della pagina;
+  		\item Il contenuto della pagina;
+  		\item Sul lato destro del piè di pagina è indicato il numero della pagina corrente;
+	\end{itemize}
+	
+\paragraph{Verbali}
+I verbali applicano le stesse norme strutturali degli altri documenti con la differenza che non sono soggetti a versionamento. Ogni verbale sia interno che esterno dovrà contenere:
+\begin{itemize}
+\item Motivo della riunione;
+\item Luogo della riunione;
+\item Data della riunione;
+\item Orario di inizio e fine riunione;
+\item Partecipanti della riunione;
+\item Resoconto della riunione;
+\item Registro delle decisioni, dove si riporta in tabella le decisioni prese dal gruppo durante l’incontro;
+\end{itemize}  		
+
+\subsubsection{Normativa tipografica}
+\paragraph{Nomi dei documenti}
+La struttura generale del nome è la seguente: \\ \\
+\centerline{\textbf{[NomeDocumento]-v[X].[Y].[Z]}}\\
+in particolare:
+\begin{itemize}
+\item \textbf{[NomeDocumento]} inizia sempre con la lettera maiuscola. Se presenti più parole, queste saranno attaccate ma distinguibili dalla lettera maiuscola (convenzione \textit{"CamelCase"});
+\item \textbf{v[X].[Y].[Z]} rappresenta la versione corrente del documento seguendo lo schema di versionamento presentato in TODO: metti i link;
+\end{itemize}
+I verbali, in quanto non soggetti a versionamento avranno una struttura del nome diversa, ovvero:\\ \\
+\centerline{\textbf{Verbale[Tipologia]-[YYYY].[MM].[DD]}} \\
+dove:
+\begin{itemize}
+\item \textbf{[Tipologia]} intende il tipo del verbale, può essere \textbf{Interno} o \textbf{Esterno};
+\item \textbf{[YYYY].[MM].[DD]} indica la data in cui è avvenuto l'incontro, essa segue le specifiche degli elementi testuali definite in TODO: metti i link.
+\end{itemize}
+
+
+\paragraph{Stile di testo}
+Gli stili di testi adottati nei documenti sono:
+\begin{itemize}
+\item \textbf{Grassetto}: per titoli, sottotitoli, e altri termini ritenuti importanti dal redattore;
+\item \textbf{Maiuscolo}: per acronimi e iniziali di nomi propri, dei documenti o dei paragrafi;
+\item \textbf{Corsivo}: per nomi propri dei membri del gruppo, committenti e proponente e per i nomi dei documenti.
+\end{itemize}
+
+
+\paragraph{Termini di glossario}
+I termini che possono risultare ambigui e/o incongruenti sono contrassegnati con una \textsuperscript{G} alla loro prima occorrenza nella sezione d’interesse. Questi termini sono riportati con il loro significato in un documento esterno, il \textit{Glossario}.
+
+\paragraph{Elementi testuali}
+I redattori devono seguire le seguenti regole stilistiche:
+\begin{itemize}
+\item \textbf{Elenchi puntati}: un elenco puntato utilizzerà il simbolo • (pallino). Un successivo annidamento utilizzerà il simbolo - (trattino) e un altro ancora un asterisco (*). Se si tratta di un elenco numerato, i quattro livelli di enumerazione sono ordinati con i numeri arabi divisi da un punto fermo. Ogni voce dell’elenco inizia con una lettera maiuscola e termina con un punto e virgola, tranne l'ultima voce che termina con un punto;
+
+\item \textbf{Formati di data}: Le date usano il formato \textbf{[YYYY].[MM].[DD]} dove:
+    \begin{itemize}
+    \item \textbf{[YYYY]} corrisponde all’anno;
+    \item \textbf{[MM]} corrisponde al mese;
+    \item \textbf{[DD]} corrisponde al giorno.
+    \end{itemize}
+
+\item \textbf{Orario}: gli orari usano il formato \textbf{[HH]:[MM]} dove:
+    \begin{itemize}
+    \item \textbf{[HH]} rappresentano le ore;
+    \item \textbf{[MM]} rappresentano i minuti.
+    \end{itemize}
+
+\item \textbf{Sigle}: Tutte le sigle hanno le iniziali di ogni parola maiuscola tranne preposizioni, congiunzioni e articoli. Le sigle utilizzate sono:
+    \begin{itemize}
+    \item Relative ai documenti:
+        \begin{itemize}
+        \item \textbf{Analisi dei Requisiti}: AdR;
+        \item \textbf{Piano di Progetto}: PdP;
+        \item \textbf{Piano di Qualifica}: PdQ;
+        \item \textbf{Glossario}: G;
+        \item \textbf{Norme di Progetto}: NdP;
+        \item \textbf{Verbali Interni}: VI;
+        \item \textbf{Verbali Esterni}: VE.
+        \end{itemize}
+    
+    \item Relative ai ruoli di progetto:
+        \begin{itemize}
+        \item \textbf{Responsabile di Progetto}: RE;
+        \item \textbf{Amministratore}: AM;
+        \item \textbf{Analista}: AN;
+        \item \textbf{Progettista}: PT;
+        \item \textbf{Programmatore}: PR;
+        \item \textbf{Verificatore}: VE.
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\paragraph{Elementi grafici}
+Le regole per quanto riguarda l’uso di elementi grafici sono:
+\begin{itemize}
+\item \textbf{Immagini}: le figure presenti sono centrate rispetto al testo e accompagnate da didascalia;
+\item \textbf{Diagrammi UML}: verranno inseriti nel documento tramite delle immagini
+\end{itemize}
+
+\paragraph{Metriche}
+//Da definire
+
+\paragraph{Strumenti}
+Gli strumenti dedicati alla stesura sono:
+\begin{itemize}
+\item \textbf{\LaTeX}: linguaggio compilato basato sul programma di composizione tipografica Tex;
+\item \textbf{Texmaker}: l’editor per la stesura dei documenti;
+\item \textbf{Overleaf}: editor per la stesura dei documenti basato sul cloud;
+\item \textbf{Draw.io}: utilizzato per la creazione di grafici UML. 
+\end{itemize}
+
+\subsection{Gestione della configurazione}
+\subsubsection{Scopo}
+Lo scopo è di gestire e controllare la produzione di documenti e codice in maniera sistematica. Per ogni oggetto sottoposto a configurazione viene garantito il versionamento e controllo sulle modifiche per permettere il mantenimento dell'integrità del prodotto. 
+
+\subsubsection{Descrizione}
+Vengono raggruppati e organizzati tutti i mezzi usati per la configurazione degli strumenti designati alla produzione di documenti e codice, per poter gestire struttura e la disposizione dei file all’interno di repository e anche  quelli per versionamento e coordinamento.
+
+\subsubsection{Versionamento}
+Per poter capire lo stato di avanzamento di un prodotto delle attività del progetto è necessario un identificatore. Il formato del codice di versione utilizzato è \\
+\centerline{\textbf{v[X].[Y].[Z]}} \\ 
+dove :
+\begin{itemize}
+\item \textbf{X} indica il rilascio pubblico e corrisponde ad una versione approvata dal Responsabile di Progetto. La numerazione parte da 0;
+\item \textbf{Y} indica una revisione complessiva del prodotto per verificare che, dopo una modifica, il prodotto sia ancora coeso e consistente. La numerazione parte da 0 e si azzera ad ogni incremento di X;
+\item \textbf{Z} viene incrementato ad ogni modifica con relativa verifica. La numerazione parte da 0 e si azzera ad ogni incremento di X o Y.
+\end{itemize}
+
+\paragraph{Strumenti}
+Per il versionamento si è scelto di utilizzare un repository GitHub, che, a sua volta, implementa il software di controllo versione distribuito Git.
+
+\subsubsection{Struttura del repository}
+Il repository utilizzato dal gruppo per la creazione dei documenti contiene una directory per ogni documento denominata NomeDocumento, la cui struttura è approfondita in TODO: metti i link.
+Il repository è suddiviso in più branch così definiti:
+\begin{itemize}
+\item \textbf{main}: il branch principale, che contiene l'ultima versione verificata di ogni documento;
+\item \textbf{NomeDocumento}: uno per ogni documento, è dove il documento vive e viene attivamente stilato dai membri del gruppo.
+\end{itemize}
+
+\subsubsection{Modifiche al repository}
+Non è consentito fare commit direttamente sul branch \textbf{main}, poiché porterebbe ad un elevato rischio di incongruenze e merge conflicts. Potrà essere modificato solo tramite il meccanismo di pull request con verifica obbligatoria, in modo da garantire che sia sempre presente una versione verificata e corretta del documento, anche se incompleta.
+Nel branch \textbf{NomeDocumento} invece ogni membro può fare commit a patto che siano relative solo al documento specificato. Ogni commit deve referenziare la issue da cui è derivata e quindi, in generale, potranno effettuare modifiche sul branch solo gli assegnatari di issue che trattano quel documento specifico. Per quanto riguarda cambiamenti minimali (punteggiatura, errori ortografici, ecc.) è permessa la modifica autonoma da parte di qualsiasi membro del gruppo e non è necessario referenziare nessuna issue.
+
+\subsection{Gestione della qualità}
+\subsubsection{Scopo}
+Lo scopo del processo di gestione della qualità è di assicurare che i requisiti di qualità individuati dagli stakeholder e le esigenze espresse dal proponente vengano rispettate dai prodotti e processi da sviluppare.
+
+\subsubsection{Descrizione}
+Il \textit{Piano di Qualifica} è il documento dedicato alla gestione della qualità. In esso sono descritti metriche e standard con le quali misurare e valutare la qualità di prodotti e processi.  
+
+\subsubsection{Attività di processo}
+Si possono individuare tre attività principali nel processo di gestione di qualità:
+\begin{itemize}
+\item \textbf{Pianificazione}: definire obiettivi di qualità, le strategie per raggiungerli e le risorse necessarie; 
+\item \textbf{Valutazione}: applicare quanto pianificato, misurando i risultati;
+\item \textbf{Reazione}: analizzando i risultati ottenuti con lo scopo di attuare miglioramenti o sanare situazioni non desiderate.
+\end{itemize}
+
+\subsubsection{Controllo di qualità}
+Per essere sicuri di arrivare alla qualità desiderata, ogni membro deve essere in grado di:
+\begin{itemize}
+\item Comprendere gli obiettivi da raggiungere;
+\item Individuare eventuali errori;
+\item Stimare in termini di valore, dimensione e complessità le task;
+\item Produrre risultati concreti e quantificabili.
+\end{itemize}
+
+\subsubsection{Denominazione metriche}
+Per la denominazione delle metriche è stato adottato il formato: \\
+\centerline{\textbf{M[Tipologia][Numero]}} \\
+dove:
+\begin{itemize}
+\item \textbf{[Tipologia]}: indica la tipologia a cui si riferisce la metrica, può assumere tre valori:
+    \begin{itemize}
+    \item \textbf{PD}: relativa ai prodotti; 
+    \item \textbf{PR}: relativa ai processi;
+    \item \textbf{TS}: relativa ai test.
+    \end{itemize}
+\item \textbf{[Numero]}: indica il numero progressivo della metrica, parte da 1.
+\end{itemize}
+
+
+\subsection{Verifica}
+\subsubsection{Scopo}
+\subsubsection{Descrizione}
+\subsubsection{Verifica della documentazione}
+\subsubsection{Verifica del codice}
+\subsubsection{Verifica dei requisiti}
+\subsubsection{Test}
+
+\subsection{Validazione}
+\subsubsection{Scopo}
+\subsubsection{Descrizione}
+\subsubsection{Attività}
+
+\subsection{Gestione dei cambiamenti}
+\subsubsection{Scopo}
+\subsubsection{Descrizione}
+\subsubsection{Metodo}
