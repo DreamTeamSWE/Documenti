@@ -62,11 +62,12 @@ Sono elencate e dopo trattate le seguenti attività di questo processo:
 L’obiettivo è la realizzazione dell’architettura del sistema.
 
 \paragraph{Struttura}
-La struttura potrà essere soggetta a  cambiamenti.
-Attualmente, \AdR presenta questa struttura:
+La struttura potrà essere soggetta a cambiamenti. Attualmente, \AdR presenta questa struttura:
 \begin{itemize}
   \item Introduzione al documento;
-  \item Descrizione generale, dove sono presenti requisiti estrapolati sia dal capitolato d’appalto che dagli incontri effettuati con il proponente (verbali esterni).
+  \item Descrizione generale, dove sono presenti requisiti estrapolati sia dal capitolato d’appalto che dagli incontri effettuati con il proponente (verbali esterni);
+  \item Casi d'uso relativi alle varie funzionalità fruibili nella piattaforma;
+  \item Requisiti che dovrà soddisfare la piattaforma.
 \end{itemize}
 
 \paragraph{Classificazione requisiti}
@@ -93,10 +94,15 @@ dove:
 \item \textbf{Codice}: identifica in maniera univoca il requisito in forma gerarchica padre/figlio.
 Per esplicitare la forma gerarchica, il codice viene rappresentato come segue:
 \begin{center}
-\textbf{[CodiceBase](.[CodiceSottoCaso])}
+\textbf{[Identificatore][CodiceBase](.[CodiceSottoCaso])}
 \end{center}
 dove: 
 \begin{itemize}
+	\item \textbf{Identificatore}: può essere presente o meno. Nel caso sia presente, può assumere una delle seguenti espressioni letterali:
+		\begin{itemize}
+			\item \textbf{W}: identifica un caso d'uso relativo alla WebApp;
+			\item \textbf{E}: identifica un caso d'uso di un errore.
+		\end{itemize}
 	\item \textbf{CodiceBase}: fa riferimento al caso d’uso preso in esame e, in combinazione con la Tipologia, definisce un identificatore univoco per il requisito;
 	\item \textbf{CodiceSottoCaso}: codice progressivo opzionale, che può includere più livelli, ed identifica un eventuale sottocaso.
 \end{itemize}
