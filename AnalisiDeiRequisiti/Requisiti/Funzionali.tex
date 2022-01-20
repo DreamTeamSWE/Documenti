@@ -4,11 +4,11 @@
 
 \renewcommand{\arraystretch}{1.5}
 \rowcolors{2}{gray!25}{white}
-\begin{longtable}{ m{0.2\textwidth}<{\centering}  m{0.35\textwidth}<{\centering}  m{0.16\textwidth}<{\centering}  m{0.19\textwidth}<{\centering}}
+\begin{longtable}{ m{0.15\textwidth}<{\centering}  m{0.4\textwidth}<{\centering}  m{0.16\textwidth}<{\centering}  m{0.19\textwidth}<{\centering}}
 	\rowcolor{darkblue}
 	\textcolor{white}{\textbf{Requisito}} &\textcolor{white}{\textbf{Descrizione}}& \textcolor{white}{\textbf{Classificazione}} & \textcolor{white}{\textbf{Fonti}}\\ 
 
-	R1FW1 & L’utente deve riuscire ad inserire i propri dati personali (nome, cognome, indirizzo e-mail e password) per effettuare la registrazione & \Ob & UCW1, \Di \\	
+	R1FW1 & L’utente deve riuscire ad inserire i propri dati personali (nome, cognome, indirizzo e-mail e password) per effettuare la registrazione & \Ob & UCW1 \\	
 	 
 	R1FW2 & L’utente deve riuscire ad inserire i propri dati (indirizzo e-mail e password) per effettuare il login & \Ob & UCW2\\	
 
@@ -42,7 +42,7 @@
 	 
 	R3FE15 & All’utente autenticato viene mostrato un errore nel caso non inserisca una password valida, in fase di modifica  & \Fa & UCE15\\			
 	  	 	 	
-	R1FW5 & L’utente autenticato può suggerire dei profili social da cui fare il crawling dei dati & \Ob & UCW5, Decisione interna\\		
+	R1FW5 & L’utente autenticato può suggerire dei profili social da cui fare il crawling dei dati & \Ob & UCW5, UCW6\\		
 	 
 	R2FE10 & All’utente viene mostrato un messaggio d’errore nel caso suggerisca un profilo social inesistente & \De & UCE10\\		
 
@@ -66,25 +66,23 @@
 	 
 	R2FW8.5 & L’utente può filtrare la classifica dei locali presenti nel database del sistema in base al punteggio & \De & UCW8.5\\	 
 	 
-	R2FW9 & L’utente può modificare l’ordinamento di visualizzazione della classifica & \De & UCW9\\	
+	R3FW9 & L’utente può modificare l’ordinamento di visualizzazione della classifica & \Fa & UCW9\\	
 	 
-	R2FW9.1 & L’utente può modificare la visualizzazione dei risultati della classifica, impostando il peso dei social & \De & UCW9.1\\	 
+	R3FW9.1 & L’utente può modificare la visualizzazione dei risultati della classifica, impostando il peso dei social & \Fa & UCW9.1\\	 
 	 
-	R2FW9.2 & L’utente può modificare la visualizzazione dei risultati della classifica, impostando il peso dei tipi di contenuto & \De & UCW9.2\\	  
+	R3FW9.2 & L’utente può modificare la visualizzazione dei risultati della classifica, impostando il peso dei tipi di contenuto & \Fa & UCW9.2\\	  
 	 
-	R2FW10 & L’utente può cercare un locale presente nel database del sistema tramite il suo nome & \Ob & UCW10, \Di \\	 
+	R1FW10 & L’utente può cercare un locale presente nel database del sistema tramite il suo nome & \Ob & UCW10 \\	 
 	 
 	R2FE14 & All’utente viene mostrato un errore in caso il locale cercato non sia presente nel sistema & \De & UCE14\\	 
-	 
-	R2F & L’utente può visualizzare dei locali alternativi, nel caso il locale cercato non sia presente nel sistema & \De ? & \Di \\	 
-	 
+	 	 
 	R1FW11 & L’utente può visualizzare le informazioni di un locale presente nel sistema & \Ob & UCW11\\	 	 	 	
 
 	R2FW12 & L’utente può aggiungere un locale alla lista dei preferiti & \De &  UCW12\\
 
 	R2FW13 & L’utente può rimuovere un locale dalla lista dei preferiti & \De & UCW13\\
 
-	R3F & L’utente può suggerire delle modifiche da apportare relative alle informazioni di un locale & \Fa & \Di \\
+	R3F1 & L’utente può suggerire delle modifiche da apportare relative alle informazioni di un locale & \Fa & \Di \\
 
 	\hiderowcolors \caption{Requisiti Funzionali}
 \end{longtable}
