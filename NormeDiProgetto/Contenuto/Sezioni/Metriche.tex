@@ -1,6 +1,3 @@
-\documentclass[a4paper]{article}
-\usepackage{mathtools}  
-\begin{document}
 \section{Standard ISO/IEC 15504 - SPICE}
 \subsection{Introduzione}
 Lo standard SPICE (\textit{Software Process Improvement and Capability Determination}) è un insieme di standard tecnici per i processi di sviluppo software.
@@ -51,87 +48,73 @@ Ogni processo è valutato tramite la seguente scala di valori che esprimono nume
 
 
 \section{Metriche per la qualità del processo}
-
 \subsection{MPC01 SPICE}
-\subsubsection{Descrizione}
-Metrica utilizzata per misurare la qualità dei processi impiegati e fornire una valutazione relativa ad essi. Lo standard è illustrato nel dettaglio all’interno del capitolo TODO
+Metrica utilizzata per misurare la qualità dei processi impiegati e fornire una valutazione relativa ad essi. Lo standard è illustrato nel dettaglio all’interno dell'appendice A.
 
 \subsection{MPC02 Budgeted cost of work scheduled}
-\subsubsection{descrizione}
 Indica una previsione della somma di budget spesa dal gruppo per il lavoro svolto dall’inizio del progetto fino alla data corrente. Questo valore è reperibile all’interno del Piano di Progetto.
 
 \subsection{MPC03 Actual cost of work performed}
-\subsubsection{Descrizione}
 Valore che indica la somma di tutte le spese realmente sostenute dal gruppo, questo valore deve essere minore o uguale a quanto preventivato nel Piano di Progetto
 
 \subsection{MPC04 Budgeted cost of work performed}
-\subsubsection{Descrizione}
 Indica il valore effettivo del prodotto ottenuto fino al momento in cui l’indice viene calcolato.
 
 \subsection{MPC05 Schedule variance}
-\subsubsection{Descrizione}
 Indica il discostamento percentuale tra la programmazione preventivata e quella effettiva.
 La formula è:
 \begin{itemize}
-  \item \[SV =  \frac{100 * (BCWP - BCWS)}{BCWS};\]
+  \item[] \[SV =  \frac{100 * (BCWP - BCWS)}{BCWS};\]
   \item SV = Schedule variance;
   \item BCWP = Budgeted cost of work performed;
   \item BCWS = Budgeted cost of work scheduled;
 \end{itemize}
 
 \subsection{MPC06 Budget variance}
-\subsubsection{Descrizione}
 Indice percentuale che mostra se le spese sostenute a partire dall’inizio del progetto fino al momento in cui viene calcolato rientrano nel budget di spesa previsto per la data corrente.
 La formula è:
 \begin{itemize}
-\item \[BV = \frac{100 * (BCWS - ACWS)}{BCWS};\]
+\item[] \[BV = \frac{100 * (BCWS - ACWS)}{BCWS};\]
 \item BV = Budget variance;
 \item BCWS = Budgeted cost of work scheduled;
 \item ACWP = Actual cost of work performed.
 \end{itemize}
 
 \subsection{MPC07: Requirements stability}
-\subsubsection{Descrizione}
 Indice percentuale che mostra come i requisiti cambiano nel tempo.
 La formula è:
 \begin{itemize}
-  \item \[RS = 1 - \frac{RM}{RT} * 100;\]
+  \item[] \[RS = 1 - \frac{RM}{RT} * 100;\]
   \item RS = Requirements stability;
   \item RM = somma tra i requisiti modificati, eliminati e aggiunti;
   \item RT = totale dei requisiti iniziali.
   \end{itemize}
 
 \section{Metriche per la qualità del processo}
-
 \subsection{MQP01 Indice di Gulpease}
-\subsubsection{Descrizione}
 \'E un indice di leggibilità di un determinato testo. Calcola la lunghezza delle parole e delle frasi rispetto al numero totale delle lettere, per fare ciò considera: la lunghezza della parola e la lunghezza della frase rispetto al numero delle lettere. Il valore è un numero intero compreso tra 0 e 100.
 La formula è:
 \begin{itemize}
-  \item \[IDG =  89 + \frac{300 * NDF - 10 * NDL}{NDP};\]
+  \item[] \[IDG =  89 + \frac{300 * NDF - 10 * NDL}{NDP};\]
   \item NDF = Numero dei frasi;
   \item NDL = Numero di lettere;
   \item NDP = Numero di parole.
   \end{itemize}
 
 \subsection{MQP02 Profondità di una gerarchia}
-\subsubsection{Descrizione}
 \'E un valore intero che definisce quanto può essere profonda la gerarchia di una classe. Nel caso una gerarchia abbia una sola classe, allora il suo valore sarà pari a 1.
 
 \subsection{MQP03 Numero parametri per metodo}
-\subsubsection{Descrizione}
 Indica il numero intero di parametri che può avere un metodo. Un numero di parametri troppo elevato, indica che è necessario ridurre delle funzionalità associate al metodo a cui si fa riferimento. Inoltre, se si ha un numero elevato di parametri, la probabilità di avere più errori progettuali aumenta.
 
 \subsection{MQP04 Code coverage}
-\subsubsection{Descrizione}
 È la misura in percentuale di linee di codice eseguite in un test rispetto al totale delle linee di codice del sorgente di un programma. Un programma che ha un’elevata copertura del codice sorgente eseguito durante i test ha una minore possibilità di contenere bug.
 
 \subsection{MQP05 Percentuale requisiti obbligatori soddisfatti}
-\subsubsection{Descrizione}
 Indica la quantità percentuale dei requisiti obbligatori soddisfatti in rapporto al totale dei requisiti obbligatori.
 La formula è:
 \begin{itemize}
-  \item \[RS = \frac{ROS}{TRO} * 100;\]
+  \item[] \[RS = \frac{ROS}{TRO} * 100;\]
   \item RS = Percentuale requisiti obbligatori soddisfatti
   \item ROS = Requisiti obbligatori soddisfatti;
   \item TRO = Totale requisiti 	obbligatori.
@@ -139,11 +122,10 @@ La formula è:
 
 
 \subsection{MQP06 Complessità ciclomatica}
-\subsubsection{Descrizione}
 La complessità ciclomatica è una metrica sviluppata da Thomas J. McCabeornisce che fornisce una misura quantitativa della complessità di un programma, essa è identificata dal numero di cammini linearmente indipendenti presenti nel grafo del flusso di controllo del programma. Un valore elevato di tale misurazione indica che il software possiede un comportamento poco predicibile, fattore che causa grandi rischi.
 La formula è:
 \begin{itemize}
-  \item \[CC 	= E - N + P;\]
+  \item[] \[CC 	= E - N + P;\]
   \item CC = Complessità ciclomatica;
   \item E = Numero di congiunzioni tra statement \(gli archi di un grafo\);
   \item N = Numero di statement \(nodi presenti nel grafo\);
@@ -152,29 +134,25 @@ La formula è:
 
 
 \subsection{MQP07 Numero di bug}
-\subsubsection{Descrizione}
 Numero di righe di codice del programma che potrebbero comportare un risultato diverso da quello previsto
 
 \subsection{MQP08 Numero di code smell}
-\subsubsection{Descrizione}
 Indica una serie di caratteristiche che il codice sorgente può avere e che sono generalmente riconosciute come probabili indicazioni di un difetto di programmazione
 
 \subsection{MQP09 Linee di Commento per Linee di Codice}
-\subsubsection{Descrizione}
 La formula è:
 \begin{itemize}
-  \item \[LCC = \frac{LDC}{LCD} * 100 ;\]
+  \item[] \[LCC = \frac{LDC}{LCD} * 100 ;\]
   \item LCC = Percentuale rapporto tra linee di commento e linee di codice di istruzioni;
   \item LDC = Linee di commento;
   \item LCD = Linee di codice.
   \end{itemize}
 
 \subsection{MQP10 Branch coverage}
-\subsubsection{Descrizione}
 Percentuale di copertura di rami condizionali durante i test
 La formula è:
 \begin{itemize}
-  \item \[BC = \frac{RCC}{RCT} * 100 ;\]
+  \item[] \[BC = \frac{RCC}{RCT} * 100 ;\]
   \item BC = Percentuale rapporto tra linee di commento e linee di codice di istruzioni;
   \item RCC = Rami condizionali coperti da test;
   \item RCT = Rami condizionali totali.
@@ -182,18 +160,15 @@ La formula è:
 
 
 \subsection{MQP11 Successo dei test}
-\subsubsection{Descrizione}
 Percentuali di test superati rispetto ai test implementati.
 La formula è:
 \begin{itemize}
-  \item \[SDT = \frac{NTS}{NTT} * 100 ;\]
+  \item[] \[SDT = \frac{NTS}{NTT} * 100 ;\]
   \item SDT = Percentuale di successo dei test;
   \item NTS = Numero di test superati;
   \item NTT = Numero di test totali.
   \end{itemize}
 
 \subsection{MQP12 Numero di bug}
-\subsubsection{Descrizione}
 Indica il numero di vulnerabilità presenti nel codice sorgente del prodotto.
 
-\end{document}
