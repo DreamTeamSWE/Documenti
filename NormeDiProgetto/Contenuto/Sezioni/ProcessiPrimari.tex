@@ -70,8 +70,51 @@ La struttura potrà essere soggetta a cambiamenti. Attualmente, \AdR presenta qu
   \item Requisiti che dovrà soddisfare la piattaforma.
 \end{itemize}
 
+\paragraph{Classificazione casi d'uso}
+La struttura adottata per la classificazione dei casi d'uso è la seguente: \\
+\centerline{\textbf{UC[Identificatore][CodiceCasoBase](.[CodiceSottoCaso])*}}
+Composta da:
+\begin{itemize}
+\item \textbf{UC}: acronimo di "Use Case";
+\item \textbf{Identificatore}: che può assumere le diverse espressioni letterali:
+	\begin{itemize}
+		\item \textbf{W}: identifica un caso d'uso relativo alla WebApp;
+		\item \textbf{E}: identifica un caso d'uso d'errore.
+	\end{itemize}
+\item \textbf{CodiceCasoBase}: ID del caso d'uso generico;
+\item \textbf{CodiceSottoCaso}: ID opzionale per i sottocasi di un caso d'uso.
+\end{itemize}
+
+Ogni caso d'uso è descritto da: 
+\begin{itemize}
+    \item \textbf{Id}: codice identificativo del caso d'uso, stabilito come enunciato sopra;
+    \item \textbf{Nome}: stringa titolo del caso d'uso posta dopo l'id;
+    \item \textbf{Diagramma UML}: diagramma per rappresentare graficamente il caso d'uso;
+    \item \textbf{Descrizione}: breve descrizione del caso d'uso;
+    \item \textbf{Attori}: entità esterne al sistema che interagiscono con esso. Ne esistono due varianti : 
+    \begin{itemize}
+    \item \textbf{Primario}: interagisce con il sistema per raggiungere un obiettivo;
+    \item \textbf{Secondario}: aiuta il primario a raggiungere l'obiettivo. Non utilizzato.
+    \end{itemize}
+    \item \textbf{Precondizione}: descrive lo stato del sistema prima del verificarsi del caso d'uso;
+    \item \textbf{Postcondizione}: descrive lo stato del sistema dopo che si è verificato il caso d'uso;
+    \item \textbf{Scenario principale}: elenco numerato che descrive il flusso degli eventi del caso d'uso;
+    \item \textbf{Scenario secondario/alternativo} : elenco numerato che descrive il flusso degli eventi del caso d'uso dopo un evento imprevisto che lo ha deviato dal caso principale. Può non esserci o possono esserci più di uno;
+    \item \textbf{Estensioni}: utilizzate nei scenari alternativi. Se si verifica una determinata situazione, il caso d'uso collegato all'estensione viene interrotto.
+\end{itemize}
+
+\paragraph{Modello di Diagramma di un Caso D'Uso}
+
+Qui di seguito viene mostrato un esempio di diagramma di un caso d'uso con tutte le componenti UML usate.
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{Contenuto/Immagini/UseCase.png}
+\caption{Esempio di Caso D'Uso}
+\end{figure}
+
 \paragraph{Classificazione requisiti}
-È stato scelto di adottare la seguente rappresentazione per i requisiti:
+
+Un requisito è un obiettivo, accordato con il proponente o preso mediante una decisione interna, da raggiungere per risolvere un determinato problema. Per rappresentare un requisito, è stato scelto di adottare la seguente convenzione:
 
 \begin{center}
 \textbf{R[Importanza][Tipologia][Codice]}
@@ -122,7 +165,7 @@ Ad esempio:\\
 
 \begin{table}[!htbp]
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{ m{0.15\textwidth}<{\centering}  m{0.4\textwidth}<{\centering}  m{0.25\textwidth}<{\centering}  m{0.2\textwidth}<{\centering}}
+\begin{tabular}{ m{0.15\textwidth}<{\centering}  m{0.37\textwidth}<{\centering}  m{0.23\textwidth}<{\centering}  m{0.15\textwidth}<{\centering}}
     \rowcolor{darkblue}
     \textcolor{white}{\textbf{Requisito}} &\textcolor{white}{\textbf{Descrizione}}& \textcolor{white}{\textbf{Classificazione}} & \textcolor{white}{\textbf{Fonti}}\\ 
 
@@ -130,34 +173,6 @@ Ad esempio:\\
 
 \end{tabular}
 \end{table}
-
-\paragraph{Classificazione casi d'uso}
-La struttura adottata per la classificazione dei casi d'uso è la seguente: \\
-\centerline{\textbf{UC[CodiceCasoBase](.[CodiceSottoCaso])*}}
-Composta da:
-\begin{itemize}
-\item \textbf{UC}: acronimo di "use case";
-\item \textbf{CodiceCasoBase}: id del caso d'uso generico;
-\item \textbf{CodiceSottoCaso}: id opzionale per i sottocasi di un caso d'uso.
-\end{itemize}
-
-Ogni caso d'uso è descritto da: 
-\begin{itemize}
-    \item \textbf{Id}: codice identificativo del caso d'uso, stabilito come enunciato sopra;
-    \item \textbf{Nome}: stringa titolo del caso d'uso posta dopo l'id;
-    \item \textbf{Diagramma UML}: diagramma per rappresentare graficamente il caso d'uso;
-    \item \textbf{Descrizione}: breve descrizione del caso d'uso;
-    \item \textbf{Attori}: entità esterne al sistema che interagiscono con esso. Ne esistono due varianti : 
-    \begin{itemize}
-    \item \textbf{Primario}: interagisce con il sistema per raggiungere un obiettivo;
-    \item \textbf{Secondario}: aiuta il primario a raggiungere l'obiettivo. Non utilizzato.
-    \end{itemize}
-    \item \textbf{Precondizione}: descrive lo stato del sistema prima del verificarsi del caso d'uso;
-    \item \textbf{Postcondizione}: descrive lo stato del sistema dopo che si è verificato il caso d'uso;
-    \item \textbf{Scenario principale}: elenco numerato che descrive il flusso degli eventi del caso d'uso;
-    \item \textbf{Scenario secondario/alternativo} : elenco numerato che descrive il flusso degli eventi del caso d'uso dopo un evento imprevisto che lo ha deviato dal caso principale. Può non esserci o possono esserci più di uno;
-    \item \textbf{Estensioni}: utilizzate nei scenari alternativi. Se si verifica una determinata situazione, il caso d'uso collegato all'estensione viene interrotto.
-\end{itemize}
 
 \paragraph{Qualità dei requisiti}
 Ciascun requisito deve essere:
@@ -168,9 +183,6 @@ Ciascun requisito deve essere:
   \item Verificabile, ovvero che sia possibile controllare che il sistema lo realizzi.
   \item Tracciabile.
 \end{itemize}
-
-\paragraph{UML}
-I diagrammi UML devono essere realizzati usando la versione del linguaggio v2.0.
 
 \subsection{Progettazione}
 \subsubsection{Scopo}
