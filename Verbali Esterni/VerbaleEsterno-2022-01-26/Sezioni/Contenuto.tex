@@ -43,7 +43,7 @@ La prima cosa che abbiamo mostrato all'azienda in questa riunione esterna sono s
 \item Modifica parametri di ordinamento classifica e sottocasi (UCW9 \S{3.10}).
 \end{enumerate}
 
-Poiché abbiamo discusso internamente di alcuni sottocasi del caso d'uso UCW7, abbiamo esposto le nostre perplessità all'azienda, che ci ha dato delle dritte in merito: i nostri dubbi erano relativi a “Filtra per tipo di cucina” (UCW8.3 \S{}3.9.3) e “Filtra per fascia di prezzo” (UCW8.4 \S{}3.9.4), perché non avevamo trovato informazioni necessarie per realizzare questi filtri. L'azienda ci ha suggerito di risolvere sfruttando i dati raccolti con i servizi Amazon (quali: \textbf{Rekognition} e \textbf{Comprehend}), dopo aver analizzato i contenuti multimediali, realizzando così una soluzione “in casa”.
+Poiché abbiamo discusso internamente di alcuni sottocasi del caso d'uso UCW7, abbiamo esposto le nostre perplessità all'azienda, che ci ha dato delle dritte in merito: i nostri dubbi erano relativi a “Filtra per tipo di cucina” (UCW8.3 \S{}3.9.3) e “Filtra per fascia di prezzo” (UCW8.4 \S{}3.9.4), perché non avevamo trovato informazioni necessarie per realizzare questi filtri. Stefano Dindo di Zero 12 ci ha suggerito di risolvere sfruttando i dati raccolti con i servizi Amazon (quali: \textbf{Rekognition} e \textbf{Comprehend}), dopo aver analizzato i contenuti multimediali, realizzando così una soluzione “in casa”.
 \\
 Per quanto riguarda i restanti casi d'uso, a detta dell'azienda vanno bene.
 \\ \\
@@ -51,7 +51,7 @@ Lato requisiti, non ci sono stati particolari problemi, ma abbiamo chiesto qualc
 
 \subsection{Discussione su API Gateway}
 
-Non ci era molto chiaro cosa fossero le \textbf{API Gateway}, l'azienda ci ha spiegato che è un servizio offerto da Amazon e permette di accedere ai dati presenti nel database, mediante la parte front-end, mantenendo intatta la loro sicurezza: in pratica, è una sorta di interfaccia, che interagisce tra database ed interazioni dell'utente (e, di conseguenza, mostra all'utente ciò che chiede).
+Non ci era molto chiaro cosa fossero le \textbf{API Gateway}; l'azienda ci ha spiegato che è un servizio offerto da Amazon e permette di accedere ai dati presenti nel database, mediante la parte front-end, mantenendo intatta la loro sicurezza: in pratica, è una sorta di interfaccia, che interagisce tra database ed interazioni dell'utente (e, di conseguenza, mostra all'utente ciò che chiede).
 
 \begin{figure}[!h]
 \centering
@@ -61,14 +61,14 @@ Non ci era molto chiaro cosa fossero le \textbf{API Gateway}, l'azienda ci ha sp
 
 \subsection{Discussione sulle Lambda}
 
-Abbiamo illustrato all'azienda alcuni dubbi sul corretto utilizzo delle lambda, in particolare non ci era molto chiaro se si dovessero effettuare all'interno della lambda le query di inserimento nel database. L'azienda ci ha risposto che è corretto connettersi al database ed effettuare query all'interno di una lambda.
+Abbiamo illustrato a Zero 12 alcuni dubbi sul corretto utilizzo delle lambda, in particolare non ci era molto chiaro se si dovessero effettuare all'interno della lambda le query di inserimento nel database. L'azienda ci ha risposto che è corretto connettersi al database ed effettuare query all'interno di una lambda.
 
 \subsection{Problemi legati ai crawler}
 
-Sono stati esposti all'azienda alcuni problemi problemi relativi alla poca affidabilità dei crawler i quali potrebbero non funzionare a seguito di un aggiornamento di instagram o di tiktok. L'azienda ci ha detto che aveva già previsto questo rischio e ci ha suggerito di registrare un video che illustra il funzionamento dei crawler in modo da poterlo avere a disposizione in caso il crawler non funzioni a ridosso di una consegna.  
+Sono stati esposti all'azienda alcuni problemi problemi relativi alla poca affidabilità dei crawler i quali potrebbero non funzionare a seguito di un aggiornamento di instagram o di tiktok. Zero 12 ci ha detto che aveva già previsto questo rischio e ci ha suggerito di registrare un video che illustra il funzionamento dei crawler in modo da poterlo avere a disposizione in caso il crawler non funzioni a ridosso di una consegna.  
 
 \subsection{Crediti AWS}
 
-Attualmente stiamo facendo delle prove su un database RDS e stiamo sfruttando i servizi di AWS (quali Rekognition e Comprehend) in versione di test (quindi, gratuitamente), perché non ci sono ancora stati dati i crediti da parte dell'azienda. L'azienda ha confermato che i crediti dovrebbero arrivare entro la prossima settimana e che il tetto massimo spendibile è di \textbf{2000\$}.
+Attualmente stiamo facendo delle prove su un database RDS e stiamo sfruttando i servizi di AWS (quali Rekognition e Comprehend) in versione di test (quindi, gratuitamente), perché non ci sono ancora stati dati i crediti da parte dell'azienda. Zero 12 ha confermato che i crediti dovrebbero arrivare entro la prossima settimana e che il tetto massimo spendibile è di \textbf{2000\$}.
 
 \pagebreak
