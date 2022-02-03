@@ -89,6 +89,7 @@ Per ogni documento si definisce la seguente struttura di directory:\\
   ]
 ]
 \end{forest}\\
+
 In particolare:
 \begin{itemize}
 \item \textbf{NomeDocumento.tex}: importa tutti le parti necessarie per comporre il documento finale;
@@ -100,7 +101,6 @@ In particolare:
 \item \textbf{Impaginazione.tex}: definisce alcune istruzioni per l'impaginazione e si occupa di creare header e footer del documento;
 \item \textbf{Packages.tex}: contiene tutti i pacchetti aggiuntivi e necessari per la compilazione.
 \end{itemize}
-
 
 
 \subsubsection{Struttura di un documento}
@@ -334,7 +334,7 @@ dove:
 
 \subsection{Verifica}
 \subsubsection{Scopo}
-Lo scopo è definire come bisogna attuare il processo di verifica, per accertarsi che non ci siano errori durante lo sviluppo del prodotto e la redazione della documentazione e che i requisiti in oggetto siano rispettati. 
+Lo scopo è definire come attuare il processo di verifica, per accertarsi che non ci siano errori durante lo sviluppo del prodotto, che la redazione della documentazione e che i requisiti in oggetto vengano rispettati. 
 
 \subsubsection{Descrizione}
 La verifica viene applicata ad ogni processo in esecuzione. Per il processo di verifica ci si affida all'analisi e ai test. L'analisi si divide in due tipologie:
@@ -347,18 +347,18 @@ La verifica viene applicata ad ogni processo in esecuzione. Per il processo di v
 Si utilizza un'analisi statica. Si possono utilizzare strumenti automatici oppure si può fare a mano (desk check) attraverso due metodi:
 \begin{itemize}
 \item \textbf{Walkthrough}: che consiste in un controllo completo del documento tramite una lettura ad ampio spettro;
-\item \textbf{Inspection}: che consiste nel controllo specifica tramite una lettura mirata del documento.
+\item \textbf{Inspection}: che consiste in un controllo specifico tramite una lettura mirata del documento.
 \end{itemize}
 
 \paragraph{Walkthrough}
-Attività svolta dal \VE, viene di norma adottata nelle fasi iniziali. Risulta essere molto onerosa e quindi va ridotto l'uso) il prima possibile. Nel caso del nostro gruppo sarà adottata fino a che non è disponibile una lista di controllo.
+Attività svolta dal \VE{}, viene di norma adottata nelle fasi iniziali. Risulta essere molto onerosa e quindi va ridotto l'uso il prima possibile. Nel caso del nostro gruppo, questo metodo verrà adottato fino a che non sarà disponibile una lista di controllo.
 
 \paragraph{Inspection}
-Attività svolta dal \VE, sfrutta una lettura mirata per trovare gli errori tramite una lista di controllo, compilata seguendo gli errori più comuni nelle varie verifiche in modalità walkthrough. Meno onerosa e da preferire, verrà utilizzata dal nostro gruppo quando sarà disponibile una lista di controllo esaustiva.
+Attività svolta dal \VE{}, sfrutta una lettura mirata per trovare gli errori tramite una lista di controllo, compilata seguendo gli errori più comuni nelle varie verifiche in modalità Walkthrough. RIspetto la tecnica Walkthrough, questo metodo è meno oneroso e da preferire, verrà utilizzata dal nostro gruppo quando sarà disponibile una lista di controllo esaustiva.
 
 
 \subsubsection{Verifica del codice}
-Si utilizza sia l'analisi statica che quella dinamica. In particolare:
+Si utilizza sia l'analisi statica che quella dinamica. In particolare con:
 \begin{itemize}
 \item L'analisi statica si controlla la bontà del codice, sia dal punto di vista della correttezza che del rispetto delle norme di buona programmazione definite dal gruppo (vedi TODO);
 \item L'analisi dinamica si controlla la presenza o meno di bug durante l'esecuzione del software prodotto.
@@ -368,9 +368,9 @@ Si utilizza sia l'analisi statica che quella dinamica. In particolare:
 I test sono l'attività fondamentale dell'analisi dinamica. Servono per dimostrare che il programma funzioni e svolga ciò per cui è stato sviluppato. I test si dividono in quattro categorie, in base all'oggetto in verifica e allo scopo: 
 \begin{itemize}
 \item \textbf{Test d'unità}: verificano una singola unità di codice, la più piccola parte che ha senso verificare (es. singola procedura);
-\item \textbf{Test d'integrazione}: verificano la correttezza delle interfacce. Si vuole stabilire il corretto funzionamento delle varie componenti, dopo che hanno passato il test d'unità, aggregandole man mano e verificando il funzionamento nel complesso;
-\item \textbf{Test di sistema}: verifica l'applicazione nella sua interezza. Venendo dopo il test d'integrazione, lo scopo è verificare che i componenti non solo sono compatibili ma che lo scambio di dati tra interfacce e le varie interazioni siano conformi. Inoltre così si controlla che i requisiti siano stati soddisfatti;
-\item \textbf{Test di regressione}: verifica l'applicazione dopo modifiche al sistema. Lo scopo è controllare nuove funzionalità non testate e al tempo stesso garantire che il codice già presente e testato in precedenza non subisca alterazioni al suo comportamento.
+\item \textbf{Test d'integrazione}: verificano la correttezza delle interfacce. Si vuole stabilire il corretto funzionamento delle varie componenti, una volta passato il test d'unità, aggregandole man mano e verificando il funzionamento nel complesso;
+\item \textbf{Test di sistema}: verifica l'applicazione nella sua interezza. Venendo dopo il test d'integrazione, lo scopo è verificare che le componenti non solo sono compatibili, ma che lo scambio di dati tra interfacce e le varie interazioni siano conformi. Inoltre, così si controlla che i requisiti siano stati soddisfatti;
+\item \textbf{Test di regressione}: verifica l'applicazione dopo aver apportato modifiche al sistema. Lo scopo è controllare nuove funzionalità non testate e, al tempo stesso, garantire che il codice già presente e testato in precedenza non subisca alterazioni al suo comportamento.
 \end{itemize}
 
 \paragraph{Nominazione dei test}
@@ -392,7 +392,7 @@ In particolare:
 
 
 \subsubsection{Verifica dei requisiti}
-Vengono applicate Walkthrough e Inspection per controllare validità e coerenza con quanto dichiarato e descritto all'interno dell'\textit{Analisi dei Requisiti} e quanto dichiarato al proponente.
+Vengono applicate Walkthrough e Inspection per controllare validità e coerenza con quanto dichiarato e descritto all'interno dell'\textit{Analisi dei Requisiti}, oltre a quanto dichiarato al proponente.
 
 \subsubsection{Metriche}
 Per la valutazione del processo di verifica si useranno le seguenti metriche:
@@ -401,14 +401,15 @@ Per la valutazione del processo di verifica si useranno le seguenti metriche:
 \item \textbf{MQP10 Branch coverage};
 \item \textbf{MQP11 Successo dei test}.
 \end{itemize}
-Per maggiori informazioni consultare l'appendice C.
+
+Per maggiori informazioni consultare \S{}C.
 
 \subsection{Validazione}
 \subsubsection{Scopo}
-Lo scopo è stabilire se il prodotto è in grado di soddisfare ciò per il quale è stato creato. Una validazione con esito positivo certifica che il software soddisfi e sia conforme ai requisiti del proponente.
+Lo scopo è stabilire se il prodotto è in grado di soddisfare l'obiettivo per il quale è stato creato. Una validazione con esito positivo certifica che il software soddisfi e sia conforme ai requisiti del proponente.
 
 \subsubsection{Descrizione}
-Questo processo avviene dopo il processo di verifica, validando i risultati dei test garantendo che siano conformi ai requisiti del proponente. Il compito spetta al \RE che controlla i risultati ottenuti e può:
+Questo processo avviene dopo il processo di verifica, validando i risultati dei test e garantendo che siano conformi ai requisiti del proponente. Il compito spetta al \RE che controlla i risultati ottenuti e può:
 \begin{itemize}
 \item Accettare e approvare il prodotto;
 \item Rifiutare e chiedere un'ulteriore verifica con delle nuove indicazioni.
