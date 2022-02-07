@@ -5,6 +5,7 @@
 \subsubsection{Obiettivi di qualità di processo}
 
 \begin{table}[H]
+\rowcolors{2}{gray!25}{white}
     \renewcommand{\arraystretch}{1.5}
     \begin{tabular}{ m{0.1\textwidth}<{\centering}  m{0.2\textwidth}<{\centering}  m{0.3\textwidth}<{\centering}  m{0.3\textwidth}<{\centering} }
         \rowcolor{darkblue}
@@ -43,22 +44,30 @@
 \subsubsection{Obiettivi di qualità di prodotto}
 
 \begin{table}[H]
+
+\rowcolors{2}{gray!25}{white}
     \renewcommand{\arraystretch}{1.5}
     \begin{tabular}{ m{0.1\textwidth}<{\centering}  m{0.2\textwidth}<{\centering}  m{0.3\textwidth}<{\centering}  m{0.3\textwidth}<{\centering} }
+    	\rowcolor{gray!00} {\large{\textbf{Documenti}}}\\ 
         \rowcolor{darkblue}
         \textcolor{white}{\textbf{ID}} &\textcolor{white}{\textbf{Nome}}& \textcolor{white}{\textbf{Descrizione}} & \textcolor{white}{\textbf{Metriche associate}}\\ 
-        
-        \rowcolor{gray!75}
-        \multicolumn{4}{c}{\textbf{Documenti}}\\
 
+		\rowcolor{gray!00}
         OQP01 &
         Leggibilità dei documenti. &
         I documenti devono essere comprensibili ad utenti con licenza media. &
-        MQP01: Indice di Gulpease. \\
+        MQP01: Indice di Gulpease. \\        
+\end{tabular}
 
-        \rowcolor{gray!75}
-        \multicolumn{4}{c}{\textbf{Software}}\\
 
+\rowcolors{2}{gray!25}{white}
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{ m{0.1\textwidth}<{\centering}  m{0.2\textwidth}<{\centering}  m{0.3\textwidth}<{\centering}  m{0.3\textwidth}<{\centering} }
+        \rowcolor{gray!00} {\large{\textbf{Software}}}\\ 
+        \rowcolor{darkblue}
+        \textcolor{white}{\textbf{ID}} &\textcolor{white}{\textbf{Nome}}& \textcolor{white}{\textbf{Descrizione}} & \textcolor{white}{\textbf{Metriche associate}}\\ 
+
+		\rowcolor{gray!00}
         OQP02 &
         Manutenibilità. &
         Livello di capacità del prodotto richiesto per modifiche e correzioni. Il codice prodotto deve permettere di individuare facilmente gli errori. &
@@ -68,12 +77,13 @@
         MQP08: Numero di Code smell; \newline
         MQP09: Linee di Commento per Linee di Codice. \\
 
-        \rowcolor{gray!25}
+		\rowcolor{gray!25}        
         OQP03 &
         Funzionalità. &
         Tutti i requisiti richiesti e riportati nell'Analisi dei requisiti devono essere soddisfatti. &
         MQP05: percentuale requisiti obbligatori soddisfatti. \\
 
+		\rowcolor{gray!00}
         OQP04 &
         Affidabilità. &
         Livello di affidabilità del prodotto di essere in grado di svolgere tutte le funzionalità implementate. &
@@ -92,6 +102,7 @@
 \subsubsection{Metriche di qualità di processo}
 
 \begin{table}[H]
+\rowcolors{2}{gray!25}{white}
     \renewcommand{\arraystretch}{1.5}
     \begin{tabular}{ m{0.1\textwidth}<{\centering}  m{0.2\textwidth}<{\centering}  m{0.15\textwidth}<{\centering}  m{0.15\textwidth}<{\centering} m{0.3\textwidth}<{\centering}}
         \rowcolor{darkblue}
@@ -103,7 +114,6 @@
         Livello di Capability $\geq$ 4 &
         OPC01: Miglioramento continuo \\
 
-        \rowcolor{gray!25}
         MPC02 &
         Budgeted cost of work scheduled &
         $\geq$ 0 &
@@ -116,7 +126,6 @@
         BCWS &
         OPC02: Efficienza nell’utilizzo delle risorse\\
 
-        \rowcolor{gray!25}
         MPC04 &
         Budgeted cost of work performed &
         $\geq$ 0 &
@@ -129,7 +138,6 @@
         0\% &
         OPC03: Rispetto della pianificazione \\
 
-        \rowcolor{gray!25}
         MPC06 &
         Budget variance &
         $\geq$ -10\% &
@@ -158,6 +166,7 @@
 
 
 \begin{table}[H]
+\rowcolors{2}{gray!25}{white}
     \renewcommand{\arraystretch}{1.5}
     \begin{tabular}{ m{0.1\textwidth}<{\centering}  m{0.2\textwidth}<{\centering}  m{0.15\textwidth}<{\centering}  m{0.15\textwidth}<{\centering} m{0.3\textwidth}<{\centering}}
         \rowcolor{darkblue}
@@ -168,7 +177,7 @@
         $\geq$ 70  &
         OQP01: Leggibilità dei documenti \\
 
-        \rowcolor{gray!25}
+
         MQP02 &
         Profondità di una gerarchia &
         $\leq$ 3 &
@@ -181,7 +190,7 @@
         $\leq$ 4 &
         OQP02: Manutenibilità \\
 
-        \rowcolor{gray!25}
+
         MQP04 &
         Code coverage &
         $\geq$ 70\% &
@@ -194,7 +203,7 @@
         100\% &
         OQP03: Funzionalità \\
 
-        \rowcolor{gray!25}
+
         MQP06 &
         Complessità ciclomatica &
         $\leq$ 20 &
@@ -207,7 +216,7 @@
         $\leq$ 5 &
         OQP04: Affidabilità \\
 
-        \rowcolor{gray!25}
+
         MQP08 &
         Numero di Code smell &
         $\leq$ 40 &
@@ -220,7 +229,7 @@
         $\leq$ 10\% &
         OQP02: Manutenibilità \\
 
-        \rowcolor{gray!25}
+
         MQP10 &
         Branch coverage &
         $\geq$ 70\% &
@@ -233,7 +242,7 @@
         100\% &
         OQP04: Affidabilità \\
 
-        \rowcolor{gray!25}
+
         MQP12 &
         Numero di vulnerabilità &
         $\leq$ 2 &
