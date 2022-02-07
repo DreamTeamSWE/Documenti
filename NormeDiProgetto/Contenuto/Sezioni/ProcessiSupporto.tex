@@ -1,7 +1,7 @@
 \section{Processi di Supporto}
 \subsection{Documentazione}
 \subsubsection{Scopo}
-Ogni processo e attività per lo sviluppo del progetto dovrà essere documentata. Nella presente sezione verranno descritte regole e standard da seguire durante il processo di documentazione per l'intero ciclo di vita del software.
+Ogni processo e attività per lo sviluppo del progetto dovrà essere documentata. Nella presente sezione verranno descritte regole e standard da seguire durante il processo di documentazione per l'intero ciclo di vita\textsuperscript{G} del software.
 
 \subsubsection{Descrizione}
 Vengono presentate decisioni e norme prescelte per:
@@ -45,7 +45,7 @@ Ogni documento passa per i seguenti step:
 Per semplificare le operazioni di verifica dovrà sempre essere reso disponibile il documento  completo (fino alla versione più attuale) in formato PDF.
 
 \subsubsection{Struttura delle directory e dei files}
-Per ogni documento si definisce la seguente struttura di directory:\\
+Per ogni documento si definisce la seguente struttura di directory\textsuperscript{G}:\\
 \begin{forest}
   for tree={
     font=\ttfamily,
@@ -154,7 +154,7 @@ Ogni pagina, a eccezione della prima, è formata da questi elementi:
 	\end{itemize}
 	
 \paragraph{Verbali}
-I verbali applicano le stesse norme strutturali degli altri documenti con la differenza che non sono soggetti a versionamento. Ogni verbale sia interno che esterno dovrà contenere:
+I verbali applicano le stesse norme strutturali degli altri documenti con la differenza che non sono soggetti a versionamento\textsuperscript{G}. Ogni verbale sia interno che esterno dovrà contenere:
 \begin{itemize}
 \item Motivo della riunione;
 \item Luogo della riunione;
@@ -171,7 +171,7 @@ La struttura generale del nome è la seguente: \\ \\
 \centerline{\textbf{[NomeDocumento]-v[X].[Y].[Z]}}\\
 in particolare:
 \begin{itemize}
-\item \textbf{[NomeDocumento]} inizia sempre con la lettera maiuscola. Se presenti più parole, queste saranno attaccate ma distinguibili dalla lettera maiuscola (convenzione \textit{"CamelCase"});
+\item \textbf{[NomeDocumento]} inizia sempre con la lettera maiuscola. Se presenti più parole, queste saranno attaccate ma distinguibili dalla lettera maiuscola (convenzione \textit{"CamelCase"}\textsuperscript{G});
 \item \textbf{v[X].[Y].[Z]} rappresenta la versione corrente del documento seguendo lo schema di versionamento presentato in §3.2.3;
 \end{itemize}
 I verbali, in quanto non soggetti a versionamento avranno una struttura del nome diversa, ovvero:\\ \\
@@ -265,7 +265,7 @@ Gli strumenti dedicati alla stesura sono:
 Lo scopo è di gestire e controllare la produzione di documenti e codice in maniera sistematica. Per ogni oggetto sottoposto a configurazione viene garantito il versionamento e controllo sulle modifiche per permettere il mantenimento dell'integrità del prodotto. 
 
 \subsubsection{Descrizione}
-Vengono raggruppati e organizzati tutti i mezzi usati per la configurazione degli strumenti designati alla produzione di documenti e codice, per poter gestire struttura e la disposizione dei file all’interno di repository e anche  quelli per versionamento e coordinamento.
+Vengono raggruppati e organizzati tutti i mezzi usati per la configurazione degli strumenti designati alla produzione di documenti e codice, per poter gestire struttura e la disposizione dei file all’interno del repository\textsuperscript{G} e anche  quelli per versionamento e coordinamento.
 
 \subsubsection{Versionamento}
 Per poter capire lo stato di avanzamento di un prodotto delle attività del progetto è necessario un identificatore. Il formato del codice di versione utilizzato è \\ \\
@@ -289,8 +289,9 @@ Il repository è suddiviso in più branch così definiti:
 \end{itemize}
 
 \subsubsection{Modifiche al repository}
-Non è consentito fare commit direttamente sul branch \textbf{main}, poiché porterebbe ad un elevato rischio di incongruenze e merge conflicts. Potrà essere modificato solo tramite il meccanismo di pull request con verifica obbligatoria, in modo da garantire che sia sempre presente una versione verificata e corretta del documento, anche se incompleta.
-Nel branch \textbf{NomeDocumento} invece ogni membro può fare commit a patto che siano relative solo al documento specificato. Ogni commit deve referenziare la issue da cui è derivata e quindi, in generale, potranno effettuare modifiche sul branch solo gli assegnatari di issue che trattano quel documento specifico. Per quanto riguarda cambiamenti minimali (punteggiatura, errori ortografici, ecc.) è permessa la modifica autonoma da parte di qualsiasi membro del gruppo e non è necessario referenziare nessuna issue.
+Non è consentito fare commit\textsuperscript{G} direttamente sul branch\textsuperscript{G} \textbf{main}, poiché porterebbe ad un elevato rischio di incongruenze e merge conflicts\textsuperscript{G}. Potrà essere modificato solo tramite il meccanismo di pull request\textsuperscript{G} con verifica obbligatoria, in modo da garantire che sia sempre presente una versione verificata e corretta del documento, anche se incompleta.
+Nel branch \textbf{NomeDocumento} invece ogni membro può fare commit a patto che siano relative solo al documento specificato. Ogni commit deve referenziare la issue\textsuperscript{G} da cui è derivata e quindi, in generale, potranno effettuare modifiche sul branch solo gli assegnatari di issue che trattano quel documento specifico. Per quanto riguarda cambiamenti minimali (punteggiatura, errori ortografici, ecc.) è permessa la modifica autonoma da parte di qualsiasi membro del gruppo e non è necessario referenziare nessuna issue.
+La gestione delle issue (ticket) viene trattata in §4.1.4.2.
 
 \subsection{Gestione della qualità}
 \subsubsection{Scopo}
