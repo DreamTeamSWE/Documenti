@@ -1,0 +1,68 @@
+TERMINI GLOSSARIO NDP
+
+Capitolato (d'appalto)
+Documento tecnico redatto dal cliente in cui vengono specificati i vincoli contrattuali(prezzo e scadenze) per lo sviluppo di un determinato prodotto software.
+
+Processo
+Insieme di attivitàG correlate e coese che trasformano input (bisogni) in output (prodotti) secondo regole prestabilite, consumando risorse. Deve essere sistematico, disciplinato e quantificabile.
+
+Fornitori
+Soggetto (individuo o gruppo) incaricato di realizzare il prodotto richiesto dal proponenteG. Spesso riferito con il plurale fornitori.
+
+
+Proponente
+Ente o azienda che propone un capitolato d’appaltoG per un progetto.
+
+Committenti
+Persone o gruppo di persone incaricato ad individuare il prodotto da commissionare al fornitoreG. Viene utilizzato anche il plurale committenti.
+
+Piattaforma
+
+Stakeholder
+All’interno di un progetto rappresenta un "portatore di interessi" (investitore, cliente, ecc.) o in generale chiunque sia direttamente o indirettamente coinvolto nel progetto di realizzazione del prodotto.
+
+Parti(Progettazione SW)
+
+Tecnology Baseline
+
+Product Baseline
+
+AWS CLI
+
+Servizi AWS
+
+
+Ciclo di vita
+Il ciclo di vita di un software presenta un’organizzazione in fasi che partono dal concepimento del prodotto software al suo ritiro. La fase più lunga e corposa è quella di manutenzione.
+
+Directory (Struttura di)
+
+Versionamento
+La funzione che dà la possibilità di gestire le varie versioni di uno stesso documento e che tiene traccia delle varie modifiche che vengono effettuate nel tempo.
+
+CamelCase
+Cloud
+In informatica indica una serie di tecnologie che permettono l’elaborazione, l’archiviazio-ne e la memorizzazione di dati, grazie all’utilizzo di risorse hardware e software distribuitenella rete.
+Repository
+
+Commit
+
+Branch
+
+Merge Conflicts
+
+Pull Request
+
+Issue
+
+Slack
+Telegram
+Ticket
+GitHub
+Issue
+Node.js
+AWS Cognito
+AWS Comprehend
+API Gateway
+AWS Lambda
+
