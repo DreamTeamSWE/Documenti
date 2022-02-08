@@ -1,5 +1,12 @@
 TERMINI GLOSSARIO NDP
 
+Milestone
+Indica importanti traguardi temporali intermedi nello svolgimento del progetto. Si traduce dall'inglese in pietra miliare. 
+
+
+Baseline
+Equivale al concetto di campo base (ad esempio per delle escursioni in montagna). Raprresenta un risultato concreto associato al concetto di milestoneG che risponde in maniera affermativa alla domanda:"Si può fare?", evitando situazione di rischio.
+
 Capitolato (d'appalto)
 Documento tecnico redatto dal cliente in cui vengono specificati i vincoli contrattuali(prezzo e scadenze) per lo sviluppo di un determinato prodotto software.
 
@@ -24,12 +31,15 @@ All’interno di un progetto rappresenta un "portatore di interessi" (investitor
 Parti(Progettazione SW)
 
 Tecnology Baseline
+Consiste nella baselineG tecnologica, in cui si definiscono le varie tecnologie, librerie eframework che verranno utilizzate.
 
 Product Baseline
+Rappresenta la baseline successiva alla Tecnology BaselineG. Definisce diagrammi delle classi e di attività e eventuali design pattern. 
 
-AWS CLI
+Design Pattern
+Soluzione progettuale generale ad un problema ricorrente. Utile per risolvere un problema comune, durante la fase progettuale e di sviluppo del software.
 
-Servizi AWS
+
 
 
 Ciclo di vita
@@ -41,28 +51,73 @@ Versionamento
 La funzione che dà la possibilità di gestire le varie versioni di uno stesso documento e che tiene traccia delle varie modifiche che vengono effettuate nel tempo.
 
 CamelCase
+Convenzione per la scrittura di nomi composti da multiple parole, mettendole una di seguito all'altra con l'iniziale di ogni parola maiuscola. 
+
 Cloud
 In informatica indica una serie di tecnologie che permettono l’elaborazione, l’archiviazio-ne e la memorizzazione di dati, grazie all’utilizzo di risorse hardware e software distribuitenella rete.
 Repository
 
 Commit
+In un sistema di versionamento, rappresenta l'operazione che invia le ultime modifiche al codice all'interno di un repository. Generalmente è sempre data la posibilità di tornare allo stato del codice prima di ogni commit.
 
 Branch
+In un sistema di versionamento, indica un ramo di sviluppo, quindi una ramificazione dal contenuto del repository considerato principale (detto main branch). 
+
+
+Merge
+In un sistema di versionamento, indica l'operazione che permette di unire due branch di sviluppo separati.
 
 Merge Conflicts
+In un sistema di versionamento, indica la situazione in cui un merge automatico è impossibile dato che ci sono delle modifiche nelle stesse righe che sono in contrasto tra di loro. Richiede un intervento manuale  per risolvere il conflitto.
 
 Pull Request
+Nel un sistema di versionamento integrato da GitHub è l'operazione alias al mergeG.
 
-Issue
+
+
 
 Slack
+Applicazione di messaggistica per ambienti enterprise.
+
 Telegram
+Strumento di messaggistica istantanea utilizzato per la comunicazione tra coppie di utenti o in gruppi.
+
+Discord
+Applicazione gratuita di chattare e videochat accessibile da smartphone, tablet e pc.
+
 Ticket
+Generalizzazione di una issueG, servizio offerto da GitHub.
+
 GitHub
+Servizio di hosting per progetti software. Implementazione dello strumento di controlloversione distribuito GitG.
+
+
+Git
+Sistema di controllo della versione distribuito per tenere traccia delle modifiche al codice sorgente durante lo sviluppo del software. In generale può essere usato per tenere traccia delle modifiche per ogni tipo di file.
+
 Issue
+Feature offerta dal servizio GitHubG per il tracciamentoG di idee, miglioramenti, compiti o bug su cui lavorare. Posono essere assegnate a uno o più utenti, etichettate, e catalogate.
+
+
 Node.js
+
 AWS Cognito
+Servizio AWS che offre strumenti di registrazione degli utenti, accesso e controllo degli accessi alle app Web e per dispositivi mobili, in modo rapido e semplice.
+
 AWS Comprehend
+Servizio AWS di elaborazione del linguaggio naturale (NLP) che utilizza la tecnologia machine learning per individuare informazioni dettagliate dal testo.
+
 API Gateway
+Servizio AWS per la creazione, la pubblicazione, la gestione, il monitoraggio e la protezione di API REST, HTTP e WebSocket a qualsiasi livello.
+
 AWS Lambda
+Servizio AWS che offre potenza di calcolo in modalità serverless, eseguendo il codice in risposta a determinati eventi e gestendo automaticamente le risorse di elaborazione sottostanti. 
+
+AWS CLI
+Servizio AWS che offre uno strumento open source per interazione con i servizi AWS utilizzando i comandi nella shell a riga di comando
+
+AWS
+Acronimo di Amazon Web Services, un'azienda statunitense di proprietà del gruppo Amazon, che fornisce servizi di cloud computing su un'omonima piattaforma on demand
+
+
 
