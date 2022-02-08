@@ -1,32 +1,37 @@
 \section{Informazioni Generali}
 
 \begin{itemize}
-\item{\textbf{Luogo}}: Google Meet
-\item{\textbf{Data}}: \D
-\item{\textbf{Ora}}: 14 - 14:30
+\item{\textbf{Luogo}}: Meeting Google Meet
+\item{\textbf{Data}}: \D{}
+\item{\textbf{Ora}}: 14:00 - 14:30
+\item{\textbf{Partecipanti dell'azienda Zero12}}: 
+	\begin{itemize}
+	\item{Michele Massaro,} 
+	\item{Matteo Depascale.}
+	\end{itemize} 
 \item{\textbf{Partecipanti del Gruppo}}: 
 	\begin{itemize}
 	\item{\EP{},} 
 	\item{\FP{},}
 	\item{\GC{},}
-	\item{\LW{},}
+	\item{\LW{},}	
 	\item{\MB{},}
 	\item{\PV{}.}
 	\end{itemize} 
-\item{\textbf{Partecipanti dell'azienda \textit{Zero12}}}: 
-	\begin{itemize}
-	\item{Michele Massaro,} 
-	\item{Matteo Depascale.}
-	\end{itemize} 
-\item{\textbf{Segretario}}: \PV{}	
+\item{\textbf{Segretario}}: \GC{}
 \end{itemize}
 
-\section{Ordine del Giorno}
+\section{Motivo della riunione}
 \begin{itemize}
-\item{Primo settaggio Aurora Serverless}
+\item{Configurazione Amazon Aurora Serverless}
 \end{itemize}
 
 \section{Resoconto}
- 
-\subsection{Indicazioni su Aurora Serverless} 
+
+\subsection{Configurazione Amazon Aurora Serverless}
+
+Questa riunione esterna è stata fatta per cercare di configurare al meglio un database con \textbf{Amazon Aurora Serverless} ed evitare di sprecare risorse inutilmente, che altrimenti avremmo dovuto pagare con i crediti offerti dall'azienda. In particolare, \textit{Matteo Depascale} di \textit{Zero 12} ci ha spiegato brevemente il funzionamento di Aurora Serverless, oltre ad indicarci passo passo come configurare in maniera efficiente il nostro database dalla console di AWS. Abbiamo così creato il nostro primo Database Serverless con MySQL che sfrutteremo per il PoC (attualmente stavamo usando un semplice Database Relazionale con piano gratuito, in quanto non avevamo ancora a disposizione i crediti di AWS). \\
+
+Come ribadito anche da \textit{Michele Massaro} di \textit{Zero 12}, Amazon Aurora Serverless è una configurazione a dimensionamento automatico on demand per Amazon Aurora. Si avvia, si arresta e ridimensiona automaticamente la capacità in base alle esigenze dell'applicazione; quindi consente di eseguire il proprio database nel cloud senza doverne gestire la capacità. Inoltre, si integra perfettamente con tutto l'ecosistema AWS, che stiamo usando per tutto il nostro progetto.
+
 
