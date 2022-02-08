@@ -9,3 +9,10 @@ piano_di_progetto/*.fls
 piano_di_progetto/*.fdb_latexmk
 piano_di_progetto/*.aux
 piano_di_progetto/*.log
+*.toc
+*.gz
+*.out
+*.log
+*.lof
+*.idx
+*.aux
