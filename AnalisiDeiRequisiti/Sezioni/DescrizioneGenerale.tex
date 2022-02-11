@@ -2,7 +2,7 @@
 
 \subsection{Caratteristiche del Prodotto}
 
-A seguito della presentazione del capitolato e dei primi incontri fatti con il proponente è emerso che il prodotto che andremo a realizzare dovrà avere le seguenti caratteristiche:
+A seguito della presentazione del capitolato\textsuperscript{G} e dei primi incontri fatti con il proponente\textsuperscript{G} è emerso che il prodotto che andremo a realizzare dovrà avere le seguenti caratteristiche:
 
 \subsubsection{Crawling dei dati da Instagram e TikTok}
 Il team dovrà effettuare un’analisi mediante le API\textsuperscript{G} social di Instagram e TikTok per capire se esse sono sufficienti a raccogliere e analizzare le informazioni, in caso contrario si dovrà individuare una soluzione alternativa per effettuare tali operazioni. In ogni caso si dovranno analizzare esclusivamente profili pubblici ed escogitare una strategia per evitare di essere inseriti nelle black-list\textsuperscript{G} di Instagram e TikTok a causa di queste operazioni.
@@ -14,7 +14,7 @@ Nella fase di crawling\textsuperscript{G} verranno raccolti dati di diverso tipo
 Sarà compito del team progettare un sistema di ranking\textsuperscript{G} dei locali presenti nella guida, in particolare bisognerà decidere che peso dare a ciascun tipo di contenuto e fare attenzione a considerare anche dati che apparentemente non sembrano significativi ma che correlati con altri possono assumere un significato ben preciso, come ad esempio due foto postate in successione dallo stesso profilo\textsuperscript{G} in cui nella prima si vede un ristorante e nella seconda una persona felice. Sarà inoltre necessario decidere in base a che criteri strutturare il ranking\textsuperscript{G}, i quali potrebbero essere la regione in cui si trova il locale, il tipo di cucina o altri. Per questa fase non sono state stabilite delle linee guida molto rigide e viene lasciata molta libertà al team per l’implementazione.
 
 \subsubsection{Interfaccia utente}
-L’utente\textsuperscript{G} potrà interfacciarsi con la guida tramite una WebApp\textsuperscript{G} la quale dovrà fornire alcune funzionalità principali quali la visualizzazione del ranking\textsuperscript{G}, la ricerca di uno specifico locale per la consultazione delle informazioni principali e del suo punteggio, la possibilità di registrarsi e poter suggerire nuovi profili social da cui andare a effettuare il crawling\textsuperscript{G} dei dati.
+L’utente\textsuperscript{G} potrà interfacciarsi con la guida tramite una WebApp\textsuperscript{G} la quale dovrà fornire alcune funzionalità principali quali la visualizzazione del ranking\textsuperscript{G}, la ricerca di uno specifico locale per la consultazione delle informazioni principali e del suo punteggio, la possibilità di registrarsi e poter suggerire nuovi profili\textsuperscript{G} social da cui andare a effettuare il crawling\textsuperscript{G} dei dati.
 
 \subsection{Caratteristiche degli Utenti}
 
@@ -36,7 +36,7 @@ Con il termine utente non autenticato\textsuperscript{G} ci si riferisce ad una 
 Invece, con il termine “utente autenticato\glo{}” ci si riferisce ad una persona registrata nel database e che ha effettuato l'accesso nella piattaforma\textsuperscript{G}, la quale, oltre a sfruttare le funzionalità dell’utente generico\textsuperscript{G}, può anche:
 
 \begin{itemize}
-  \item Suggerire nuovi profili dai quali andare ad effettuare il crawling dei dati per realizzare il ranking\textsuperscript{G};
+  \item Suggerire nuovi profili\textsuperscript{G} dai quali andare ad effettuare il crawling dei dati per realizzare il ranking\textsuperscript{G};
   \item Creare liste personalizzate private\textsuperscript{G} con i locali preferiti\textsuperscript{G};
   \item Gestire il profilo personale (modificare la password, collegare l'account Instagram e/o TikTok).
 \end{itemize}
@@ -61,14 +61,13 @@ Invece, con il termine “utente autenticato\glo{}” ci si riferisce ad una per
 
 Per sviluppare la piattaforma verranno utilizzare le seguenti tecnologie:
 \begin{itemize}
-    \item \textbf{NodeJS}\textsuperscript{G}{} per lo sviluppo delle API\textsuperscript{G}{} per supportare l’applicativo;
-    \item \textbf{Python} per la creazione e l'utilizzo del crawler che estrapolerà i dati dai contenuti social;
-    \item \textbf{React} per la creazione dell'interfaccia utente;
+    \item \textbf{Python} per la creazione e l'utilizzo dai crawler\textsuperscript{G} che estrapolerà i dati dai contenuti social;
+    \item \textbf{React} per la creazione dell'interfaccia\textsuperscript{G} utente;
     \item \textbf{AWS}\textsuperscript{G}{} tramite i seguenti servizi:
     \begin{itemize}
     	\item \textbf{Amazon Rekognition} per analizzare e riconoscere attributi\textsuperscript{G}{}, oggetti e testi dei contenuti multimediali;
     	\item \textbf{Amazon Comprehend} per analizzare e riconoscere informazioni presenti nei contenuti testuali;
-    	\item \textbf{AWS Lambda} per il calcolo serverless;
+    	\item \textbf{AWS Lambda\textsuperscript{G}} per il calcolo serverless;
     	\item \textbf{Amazon Aurora} con \textbf{MySQL} come database relazionale;
     	\item \textbf{Amazon S3} per l'archiviazione di documenti;
     	\item \textbf{Amazon Amplify} che consiste in un set di strumenti che permettono di realizzare e far funzionare correttamente la WebApp.
