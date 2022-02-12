@@ -1,4 +1,4 @@
-\section{Consuntivo}
+\section{Consuntivi di periodo}
 Di seguito vengono indicate le spese sostenute confrontandole con quelle preventivate per ogni ruolo.  Il bilancio potrà essere:
 \begin{itemize}
 \item \textbf{positivo}: se la spesa effettiva è minore di quanto preventivato;
@@ -14,27 +14,23 @@ Le ore di lavoro impiegate nella fase di analisi vengono considerate di investim
 \begin{center}
 \rowcolors{2}{gray!25}{white}
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{ m{0.3\textwidth}<{\centering}  m{0.2\textwidth}<{\centering} m{0.2\textwidth}<{\centering}}
+\begin{tabular}{ m{0.18\textwidth}<{\centering}  m{0.14\textwidth}<{\centering} m{0.14\textwidth}<{\centering} m{0.14\textwidth}<{\centering} m{0.16\textwidth}<{\centering} m{0.14\textwidth}<{\centering}}
 	\rowcolor{darkblue}
-	\textcolor{white}{\textbf{Ruolo}}&\textcolor{white}{\textbf{Ore}}&\textcolor{white}{\textbf{Costo (\euro) }}\\ 
+	\textcolor{white}{\textbf{Ruolo}} & \textcolor{white}{\textbf{Ore Effettive}} & \textcolor{white}{\textbf{Ore Preventivate}}&\textcolor{white}{\textbf{Costo Effettivo (\euro) }}&\textcolor{white}{\textbf{Costo Preventivato (\euro)}}&\textcolor{white}{\textbf{Differenza (\euro)}}\\ 
 
-	Responsabile  & - & - \\	
-
-	Amministratore & - & - \\
+	Responsabile  & 15 & 15 & 450 & 450 & 0\\	
 	
-	Analista & - & - \\
+	Progettista & 0 & 0 & 0 & 0 & 0\\
 	
-	Progettista & - & - \\
+	Analista & 72 & 67 & 1800 & 1675 & +125\\
 	
-	Programmatore & - & - \\
+	Amministratore & 37 & 27 & 740 & 540 & +200\\
 	
-	Verificatore & - & - \\
+	Programmatore & 0 & 0 &0 &0 & 0\\
 	
-	\textbf{Totale consuntivo } & - & - \\
+	Verificatore & 43 & 38 & 645 & 570 & +75\\
 	
-	\textbf{Totale preventivo} & - & - \\
-	
-	\textbf{Differenza } & - & - \\
+	\textbf{Totale} & 167 & 147 & 3635 & 3235 & +400\\
 	
 \end{tabular}
 \caption{Consuntivo della fase di analisi}
@@ -42,3 +38,56 @@ Le ore di lavoro impiegate nella fase di analisi vengono considerate di investim
 \end{table}
 
 \subsubsection{Conclusioni}
+Il bilancio è negativo a causa di una maggior necessità di lavoro nei ruoli di Analista,  Amministratore e Verificatore.  Le motivazioni sono:
+\begin{itemize}
+\item Analista: in seguito al colloquio con il committente abbiamo dovuto effettuare diverse modifiche alla documentazione;
+\item Amministratore: oltre ad aver calcolato male le ore necessarie,  abbiamo riscontrato una difficoltà maggiore del previsto nello stilare le metriche nelle Norme di Progetto;
+\item Verificatore: le modiche alla documentazione hanno portato a più ore di verifica.
+\end{itemize}
+
+\subsubsection{Preventivo a finire}
+Il preventivo a finire,  nonostante in questa fase siano state necessarie più ore di quelle preventivate,  è in linea.  Il surplus di 400,00\euro \xspace non è un problema perché le ore e i costi vengono considerati come investimento e quindi non verranno rendicontati.
+
+
+\pagebreak
+
+
+\subsection{Fase di produzione del proof of concept}
+\subsubsection{Consuntivo}
+Le ore di lavoro impiegate nella fase di produzione del proof of concept,  data l'inesperienza nell'uso delle tecnologie scelte,  vengono considerate di investimento; quindi non verranno rendicontate.
+
+\begin{table}[!htbp]
+\begin{center}
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{ m{0.18\textwidth}<{\centering}  m{0.14\textwidth}<{\centering} m{0.14\textwidth}<{\centering} m{0.14\textwidth}<{\centering} m{0.16\textwidth}<{\centering} m{0.14\textwidth}<{\centering}}
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Ruolo}} & \textcolor{white}{\textbf{Ore Effettive}} & \textcolor{white}{\textbf{Ore Preventivate}}&\textcolor{white}{\textbf{Costo Effettivo (\euro) }}&\textcolor{white}{\textbf{Costo Preventivato (\euro)}}&\textcolor{white}{\textbf{Differenza (\euro)}}\\ 
+	Responsabile  & 13 & 13 & 390 & 390 & 0\\	
+	
+	Progettista & 22 & 17 & 550 & 425 & +125\\
+	
+	Analista & 23 & 23 & 575 & 575 & 0\\
+	
+	Amministratore & 7 & 7 & 140 & 140 & 0\\
+	
+	Programmatore & 29 & 23 & 435 & 345 &  +90\\
+	
+	Verificatore & 24 & 24 & 360 & 360 & 0\\
+	
+	\textbf{Totale} & 112 & 107 & 2450 & 2235 & +215\\
+	
+\end{tabular}
+\caption{Consuntivo della fase di produzione del PoC}
+\end{center}
+\end{table}
+
+\subsubsection{Conclusioni}
+Il bilancio è negativo a causa di una maggior necessità di lavoro nel ruolo di Progettista e Programmatore.  Le motivazioni sono:
+\begin{itemize}
+\item Progettista: inizialmente abbiamo sbagliato a strutturare il PoC;
+\item Programmatore: abbiamo riscontrato qualche problema nell'estrapolare i contenuti,  richiesti dal proponente,  dal social TikTok.
+\end{itemize}
+
+\subsubsection{Preventivo a finire}
+Il preventivo a finire,  nonostante in questa fase siano state necessarie più ore di quelle preventivate,  è in linea.  Il surplus di 215,00\euro \xspace non è un problema perché le ore e i costi vengono considerati come investimento e quindi non verranno rendicontati.
