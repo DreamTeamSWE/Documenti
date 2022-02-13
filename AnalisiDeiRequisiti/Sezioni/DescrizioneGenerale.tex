@@ -49,27 +49,29 @@ Invece, con il termine “utente autenticato” ci si riferisce ad una persona r
 
 \subsection{Obblighi di Progettazione}
 
-
 \begin{itemize}
   \item Creare e sfruttare delle API\textsuperscript{G} per il crawling\textsuperscript{G} dei dati se quelle già esistenti non sono sufficienti allo scopo del prodotto;
   \item Valutare strategie Voice to Text se le informazioni quali testi, commenti e tag non sono sufficienti;
   \item Realizzare una WebApp\textsuperscript{G} con design responsive per permettere agli utenti di consultare i contenuti presenti nella piattaforma ed usufruire di tutte le sue funzionalità;
-  \item Utilizzo di un'architettura a micro-servizi\textsuperscript{G}{}.
+  \item Utilizzo di un'architettura a microservizi\textsuperscript{G}{}.
 \end{itemize}
 
 \subsubsection{Tecnologie utilizzate}
 
 Per sviluppare la piattaforma verranno utilizzare le seguenti tecnologie:
 \begin{itemize}
-    \item \textbf{Python} per la creazione e l'utilizzo dai crawler\textsuperscript{G} che estrapolerà i dati dai contenuti social;
-    \item \textbf{React} per la creazione dell'interfaccia\textsuperscript{G} utente;
-    \item \textbf{AWS}\textsuperscript{G}{} tramite i seguenti servizi:
+    \item \textbf{Python\textsuperscript{G}} per la creazione e l'utilizzo dai crawler\textsuperscript{G} che estrapolerà i dati dai contenuti social;
+    \item \textbf{HTML5\textsuperscript{G}}: per creare la struttura dell'interfaccia utente;
+    \item \textbf{CSS3\textsuperscript{G}}: per lo stile dell'interfaccia utente;
+    \item \textbf{React\textsuperscript{G}} per la creazione dell'interfaccia\textsuperscript{G} utente;
+    \item \textbf{AWS\textsuperscript{G}} tramite i seguenti servizi:
     \begin{itemize}
     	\item \textbf{Amazon Rekognition} per analizzare e riconoscere attributi\textsuperscript{G}{}, oggetti e testi dei contenuti multimediali;
     	\item \textbf{Amazon Comprehend} per analizzare e riconoscere informazioni presenti nei contenuti testuali;
-    	\item \textbf{AWS Lambda\textsuperscript{G}} per il calcolo serverless;
-    	\item \textbf{Amazon Aurora} con \textbf{MySQL} come database relazionale;
-    	\item \textbf{Amazon S3} per l'archiviazione di documenti;
-    	\item \textbf{Amazon Amplify} che consiste in un set di strumenti che permettono di realizzare e far funzionare correttamente la WebApp.
+    	\item \textbf{AWS Lambda\textsuperscript{G}} per il crawler, l'inserimento e l'estrazione dei dati nel/dal database;
+    	\item \textbf{Amazon Aurora Serverless\textsuperscript{G}} con \textbf{MySQL} come database relazionale;
+    	\item \textbf{Amazon S3\textsuperscript{G}} per l'archiviazione di documenti;
+    	\item \textbf{API Gateway\textsuperscript{G}} per consentire alla WebApp di visualizzare i contenuti;
+    	\item \textbf{Amazon Amplify\textsuperscript{G}} che consiste in un set di strumenti che permettono di realizzare e far funzionare correttamente la WebApp.
 	\end{itemize}
   \end{itemize}
