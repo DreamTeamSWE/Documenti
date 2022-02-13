@@ -52,13 +52,13 @@ Ogni processo è valutato tramite la seguente scala di valori che esprimono nume
 Metrica utilizzata per misurare la qualità dei processi impiegati e fornire una valutazione relativa ad essi. Lo standard è illustrato nel dettaglio all’interno dell'appendice A.
 
 \subsection{MPC02 Budgeted cost of work scheduled}
-Indica una previsione della somma di budget spesa dal gruppo per il lavoro svolto dall’inizio del progetto fino alla data corrente. Questo valore è reperibile all’interno del Piano di Progetto.
+Indica una previsione della somma di budget spesa dal gruppo per il lavoro svolto dall'inizio del progetto fino alla data corrente. Questo valore è reperibile all'interno del preventivo nel \PdP.
 
 \subsection{MPC03 Actual cost of work performed}
-Valore che indica la somma di tutte le spese realmente sostenute dal gruppo, questo valore deve essere minore o uguale a quanto preventivato nel Piano di Progetto
+Valore che indica la somma di tutte le spese realmente sostenute dal gruppo, questo valore deve essere minore o uguale a quanto preventivato all'interno del consuntivo nel \PdP
 
 \subsection{MPC04 Budgeted cost of work performed}
-Indica il valore effettivo del prodotto ottenuto fino al momento in cui l’indice viene calcolato.
+Indica il valore effettivo del prodotto ottenuto fino al momento in cui l'indice viene calcolato.
 
 \subsection{MPC05 Schedule variance}
 Indica il discostamento percentuale tra la programmazione preventivata e quella effettiva.
@@ -74,21 +74,12 @@ La formula è:
 Indice percentuale che mostra se le spese sostenute a partire dall’inizio del progetto fino al momento in cui viene calcolato rientrano nel budget di spesa previsto per la data corrente.
 La formula è:
 \begin{itemize}
-\item[] \[BV = \frac{100 * (BCWS - ACWS)}{BCWS};\]
+\item[] \[BV = \frac{100 * (BCWS - ACWP)}{BCWS};\]
 \item BV = Budget variance;
 \item BCWS = Budgeted cost of work scheduled;
 \item ACWP = Actual cost of work performed.
 \end{itemize}
 
-\subsection{MPC07: Requirements stability}
-Indice percentuale che mostra come i requisiti cambiano nel tempo.
-La formula è:
-\begin{itemize}
-  \item[] \[RS = 1 - \frac{RM}{RT} * 100;\]
-  \item RS = Requirements stability;
-  \item RM = somma tra i requisiti modificati, eliminati e aggiunti;
-  \item RT = totale dei requisiti iniziali.
-  \end{itemize}
 
 \pagebreak
 
@@ -129,9 +120,9 @@ La formula è:
 \begin{itemize}
   \item[] \[CC 	= E - N + P;\]
   \item CC = Complessità ciclomatica;
-  \item E = Numero di congiunzioni tra statement \(gli archi di un grafo\);
-  \item N = Numero di statement \(nodi presenti nel grafo\);
-  \item P = Numero delle componenti connesse da ogni nodo \(per esecuzione sequenziale p = 2 essendovi 1 predecessore e 1 successore per ogni arco\).
+  \item E = Numero di congiunzioni tra statement (gli archi di un grafo);
+  \item N = Numero di statement (nodi presenti nel grafo);
+  \item P = Numero delle componenti connesse da ogni nodo (per esecuzione sequenziale P = 2 essendovi 1 predecessore e 1 successore per ogni arco).
   \end{itemize}
 
 
