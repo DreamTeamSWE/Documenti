@@ -101,28 +101,30 @@
 \contentsline {subsection}{\numberline {5.6}Conclusioni}{52}{subsection.5.6}% 
 \contentsline {section}{\numberline {6}Consuntivi di periodo}{53}{section.6}% 
 \contentsline {subsection}{\numberline {6.1}Fase di analisi}{53}{subsection.6.1}% 
-\contentsline {subsubsection}{\numberline {6.1.1}I Periodo}{53}{subsubsection.6.1.1}% 
-\contentsline {subsubsubsection}{\numberline {6.1.1.1}Consuntivo}{53}{subsubsubsection.6.1.1.1}% 
-\contentsline {subsubsection}{\numberline {6.1.2}II Periodo}{53}{subsubsection.6.1.2}% 
+\contentsline {subsubsection}{\numberline {6.1.1}Consuntivo}{53}{subsubsection.6.1.1}% 
+\contentsline {subsubsection}{\numberline {6.1.2}I Periodo}{53}{subsubsection.6.1.2}% 
 \contentsline {subsubsubsection}{\numberline {6.1.2.1}Consuntivo}{53}{subsubsubsection.6.1.2.1}% 
-\contentsline {subsubsection}{\numberline {6.1.3}III Periodo}{53}{subsubsection.6.1.3}% 
+\contentsline {subsubsection}{\numberline {6.1.3}II Periodo}{53}{subsubsection.6.1.3}% 
 \contentsline {subsubsubsection}{\numberline {6.1.3.1}Consuntivo}{53}{subsubsubsection.6.1.3.1}% 
-\contentsline {subsubsection}{\numberline {6.1.4}Fase complessiva}{53}{subsubsection.6.1.4}% 
+\contentsline {subsubsection}{\numberline {6.1.4}III Periodo}{53}{subsubsection.6.1.4}% 
 \contentsline {subsubsubsection}{\numberline {6.1.4.1}Consuntivo}{53}{subsubsubsection.6.1.4.1}% 
-\contentsline {subsubsection}{\numberline {6.1.5}Conclusioni}{55}{subsubsection.6.1.5}% 
-\contentsline {subsubsection}{\numberline {6.1.6}Preventivo a finire}{55}{subsubsection.6.1.6}% 
+\contentsline {subsubsection}{\numberline {6.1.5}Fase complessiva}{55}{subsubsection.6.1.5}% 
+\contentsline {subsubsubsection}{\numberline {6.1.5.1}Consuntivo}{55}{subsubsubsection.6.1.5.1}% 
+\contentsline {subsubsection}{\numberline {6.1.6}Conclusioni}{55}{subsubsection.6.1.6}% 
+\contentsline {subsubsection}{\numberline {6.1.7}Preventivo a finire}{55}{subsubsection.6.1.7}% 
 \contentsline {subsection}{\numberline {6.2}Fase di produzione del proof of concept}{56}{subsection.6.2}% 
-\contentsline {subsubsection}{\numberline {6.2.1}I Periodo}{56}{subsubsection.6.2.1}% 
-\contentsline {subsubsubsection}{\numberline {6.2.1.1}Consuntivo}{56}{subsubsubsection.6.2.1.1}% 
-\contentsline {subsubsection}{\numberline {6.2.2}II Periodo}{56}{subsubsection.6.2.2}% 
+\contentsline {subsubsection}{\numberline {6.2.1}Consuntivo}{56}{subsubsection.6.2.1}% 
+\contentsline {subsubsection}{\numberline {6.2.2}I Periodo}{56}{subsubsection.6.2.2}% 
 \contentsline {subsubsubsection}{\numberline {6.2.2.1}Consuntivo}{56}{subsubsubsection.6.2.2.1}% 
-\contentsline {subsubsection}{\numberline {6.2.3}III Periodo}{56}{subsubsection.6.2.3}% 
+\contentsline {subsubsection}{\numberline {6.2.3}II Periodo}{56}{subsubsection.6.2.3}% 
 \contentsline {subsubsubsection}{\numberline {6.2.3.1}Consuntivo}{56}{subsubsubsection.6.2.3.1}% 
-\contentsline {subsubsection}{\numberline {6.2.4}Fase complessiva}{57}{subsubsection.6.2.4}% 
+\contentsline {subsubsection}{\numberline {6.2.4}III Periodo}{57}{subsubsection.6.2.4}% 
 \contentsline {subsubsubsection}{\numberline {6.2.4.1}Consuntivo}{57}{subsubsubsection.6.2.4.1}% 
-\contentsline {subsubsection}{\numberline {6.2.5}Conclusioni}{57}{subsubsection.6.2.5}% 
-\contentsline {subsubsection}{\numberline {6.2.6}Preventivo a finire}{57}{subsubsection.6.2.6}% 
-\contentsline {section}{\numberline {7}Organigramma}{58}{section.7}% 
-\contentsline {subsection}{\numberline {7.1}Redazione}{58}{subsection.7.1}% 
-\contentsline {subsection}{\numberline {7.2}Approvazione}{58}{subsection.7.2}% 
-\contentsline {subsection}{\numberline {7.3}Accettazione dei componenti}{58}{subsection.7.3}% 
+\contentsline {subsubsection}{\numberline {6.2.5}Fase complessiva}{57}{subsubsection.6.2.5}% 
+\contentsline {subsubsubsection}{\numberline {6.2.5.1}Consuntivo}{57}{subsubsubsection.6.2.5.1}% 
+\contentsline {subsubsection}{\numberline {6.2.6}Conclusioni}{58}{subsubsection.6.2.6}% 
+\contentsline {subsubsection}{\numberline {6.2.7}Preventivo a finire}{58}{subsubsection.6.2.7}% 
+\contentsline {section}{\numberline {7}Organigramma}{59}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Redazione}{59}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Approvazione}{59}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {7.3}Accettazione dei componenti}{59}{subsection.7.3}% 
