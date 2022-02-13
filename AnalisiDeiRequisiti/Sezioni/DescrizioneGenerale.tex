@@ -8,35 +8,35 @@ A seguito della presentazione del capitolato\textsuperscript{G} e dei primi inco
 Il team dovrà effettuare un’analisi mediante le API\textsuperscript{G} social di Instagram e TikTok per capire se esse sono sufficienti a raccogliere e analizzare le informazioni, in caso contrario si dovrà individuare una soluzione alternativa per effettuare tali operazioni. In ogni caso si dovranno analizzare esclusivamente profili pubblici ed escogitare una strategia per evitare di essere inseriti nelle black-list\textsuperscript{G} di Instagram e TikTok a causa di queste operazioni.
 
 \subsubsection{Traduzione dei dati ottenuti}
-Nella fase di crawling\textsuperscript{G} verranno raccolti dati di diverso tipo quali foto, video, stories, post e commenti. Questi dati andranno poi “tradotti” utilizzando diversi servizi come ad esempio Amazon Rekognition\textsuperscript{G} e Amazon Comprehend\textsuperscript{G} in modo da assegnare a ciascun dato un valore quantitativo relativo alla sua positività. Bisognerà inoltre riconoscere tutti i dati raccolti che non sono assolutamente rilevanti, i quali verranno scartati. Particolare attenzione andrà prestata ai commenti, riguardo i quali è richiesto di svolgere un’analisi preliminare al fine di capire se è davvero utile includerli nella raccolta dei dati.
+Nella fase di crawling verranno raccolti dati di diverso tipo quali foto, video, stories, post e commenti. Questi dati andranno poi “tradotti” utilizzando diversi servizi come ad esempio Amazon Rekognition\textsuperscript{G} e Amazon Comprehend\textsuperscript{G} in modo da assegnare a ciascun dato un valore quantitativo relativo alla sua positività. Bisognerà inoltre riconoscere tutti i dati raccolti che non sono assolutamente rilevanti, i quali verranno scartati. Particolare attenzione andrà prestata ai commenti, riguardo i quali è richiesto di svolgere un’analisi preliminare al fine di capire se è davvero utile includerli nella raccolta dei dati.
 
 \subsubsection{Realizzazione di un ranking}
-Sarà compito del team progettare un sistema di ranking\textsuperscript{G} dei locali presenti nella guida, in particolare bisognerà decidere che peso dare a ciascun tipo di contenuto e fare attenzione a considerare anche dati che apparentemente non sembrano significativi ma che correlati con altri possono assumere un significato ben preciso, come ad esempio due foto postate in successione dallo stesso profilo\textsuperscript{G} in cui nella prima si vede un ristorante e nella seconda una persona felice. Sarà inoltre necessario decidere in base a che criteri strutturare il ranking\textsuperscript{G}, i quali potrebbero essere la regione in cui si trova il locale, il tipo di cucina o altri. Per questa fase non sono state stabilite delle linee guida molto rigide e viene lasciata molta libertà al team per l’implementazione.
+Sarà compito del team progettare un sistema di ranking\textsuperscript{G} dei locali presenti nella guida, in particolare bisognerà decidere che peso dare a ciascun tipo di contenuto e fare attenzione a considerare anche dati che apparentemente non sembrano significativi ma che correlati con altri possono assumere un significato ben preciso, come ad esempio due foto postate in successione dallo stesso profilo\textsuperscript{G} in cui nella prima si vede un ristorante e nella seconda una persona felice. Sarà inoltre necessario decidere in base a che criteri strutturare il ranking, i quali potrebbero essere la regione in cui si trova il locale, il tipo di cucina o altri. Per questa fase non sono state stabilite delle linee guida molto rigide e viene lasciata molta libertà al team per l’implementazione.
 
 \subsubsection{Interfaccia utente}
-L’utente\textsuperscript{G} potrà interfacciarsi con la guida tramite una WebApp\textsuperscript{G} la quale dovrà fornire alcune funzionalità principali quali la visualizzazione del ranking\textsuperscript{G}, la ricerca di uno specifico locale per la consultazione delle informazioni principali e del suo punteggio, la possibilità di registrarsi e poter suggerire nuovi profili\textsuperscript{G} social da cui andare a effettuare il crawling\textsuperscript{G} dei dati.
+L’utente\textsuperscript{G} potrà interfacciarsi con la guida tramite una WebApp\textsuperscript{G} la quale dovrà fornire alcune funzionalità principali quali la visualizzazione del ranking, la ricerca di uno specifico locale per la consultazione delle informazioni principali e del suo punteggio, la possibilità di registrarsi e poter suggerire nuovi profili\textsuperscript{G} social da cui andare a effettuare il crawling dei dati.
 
 \subsection{Caratteristiche degli Utenti}
 
-La piattaforma\textsuperscript{G} offre la possibilità di poter consultare la guida tramite WebApp sia ad utenti non autenticati che ad utenti autenticati\textsuperscript{G}. Ciascuna tipologia di utente\textsuperscript{G} potrà avere accesso a funzionalità differenti.
+La piattaforma\textsuperscript{G} offre la possibilità di poter consultare la guida tramite WebApp sia ad utenti non autenticati che ad utenti autenticati\textsuperscript{G}. Ciascuna tipologia di utente potrà avere accesso a funzionalità differenti.
 
 \subsubsection{Utente Non Autenticato}
 
-Con il termine utente non autenticato\textsuperscript{G} ci si riferisce ad una qualsiasi persona non autenticata nel sistema, che può sfruttare le funzionalità di base offerte dalla piattaforma\textsuperscript{G}, ossia:
+Con il termine utente non autenticato\textsuperscript{G} ci si riferisce ad una qualsiasi persona non autenticata nel sistema, che può sfruttare le funzionalità di base offerte dalla piattaforma, ossia:
 
 \begin{itemize}
   \item Visualizzare il ranking dei locali\textsuperscript{G} applicando specifici filtri\textsuperscript{G};
   \item Cercare un determinato locale attraverso la funzionalità di ricerca;
-  \item Consultare il profilo\textsuperscript{G} social di un locale, conoscerne gli orari di apertura ed il numero di telefono, oltre a visitare il sito web (nel caso esista);
+  \item Consultare il profilo social di un locale, conoscerne gli orari di apertura ed il numero di telefono, oltre a visitare il sito web (nel caso esista);
   \item Registrarsi nella piattaforma per sfruttare delle funzionalità aggiuntive.
 \end{itemize}
 
 \subsubsection{Utente Autenticato}
 
-Invece, con il termine “utente autenticato\glo{}” ci si riferisce ad una persona registrata nel database e che ha effettuato l'accesso nella piattaforma\textsuperscript{G}, la quale, oltre a sfruttare le funzionalità dell’utente generico\textsuperscript{G}, può anche:
+Invece, con il termine “utente autenticato” ci si riferisce ad una persona registrata nel database e che ha effettuato l'accesso nella piattaforma, la quale, oltre a sfruttare le funzionalità dell’utente generico\textsuperscript{G}, può anche:
 
 \begin{itemize}
-  \item Suggerire nuovi profili\textsuperscript{G} dai quali andare ad effettuare il crawling dei dati per realizzare il ranking\textsuperscript{G};
+  \item Suggerire nuovi profili dai quali andare ad effettuare il crawling dei dati per realizzare il \textsuperscript{G};
   \item Creare liste personalizzate private\textsuperscript{G} con i locali preferiti\textsuperscript{G};
   \item Gestire il profilo personale (modificare la password, collegare l'account Instagram e/o TikTok).
 \end{itemize}
