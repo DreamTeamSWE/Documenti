@@ -4,3 +4,16 @@
 *.gz
 Glossario/Glossario.toc
 Glossario/Sezioni/RegistroModifiche.log
+Glossario/Glossario.toc
+*.aux
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.out
+*.toc
+*.toc
+*.xdv
+Glossario/Glossario.toc
