@@ -3,10 +3,6 @@
 \input{Sezioni/Packages.tex}
 \input{Sezioni/Command.tex}
 
-
-
-
-
 \begin{document}
 
 \input{Intro.tex}
@@ -17,8 +13,10 @@
 \renewcommand{\contentsname}{Indice}
 \tableofcontents
 \pagebreak
-\setcounter{tocdepth}{1} %l'indice basta quello alfabetico
+\setcounter{tocdepth}{2} %l'indice basta quello alfabetico
 \setcounter{secnumdepth}{0}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}} % per nascondere i subsubsection dall'indice
+
 
 \input{Sezioni/OrdineAlfabetico.tex}
 
