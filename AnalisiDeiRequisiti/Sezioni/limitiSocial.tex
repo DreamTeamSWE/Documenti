@@ -4,7 +4,7 @@ Come richiesto dal proponente, il team dovrà realizzare un'analisi sui limiti d
 \subsection{Instagram}
 Durante la fase di sviluppo del Proof of Concept non sono emersi limiti rilevanti riguardo l'utilizzo di Instagram nelle operazioni di crawling. Tuttavia quando sarà il momento di effettuare tali operazioni su larga scala, il team dovrà prestare attenzione a non ricevere ban da parte della piattaforma tramite i seguenti accorgimenti:
 \begin{itemize}
-    \item Utilizzare account Instagram diversi per effettuare il crawling;
+    \item Utilizzare account Instagram diversi da cui effettuare il crawling;
     \item Non effettuare troppe operazioni di crawling in un breve lasso di tempo.
 \end{itemize}
 
@@ -12,10 +12,10 @@ Durante la fase di sviluppo del Proof of Concept non sono emersi limiti rilevant
 Per quanto riguarda il crawling con TikTok, il team ha riscontrato numerosi problemi durante la fase di sviluppo del Proof of Concept, i quali hanno portato a ritenere queste operazioni come non fattibili a causa dei seguenti motivi:
 \begin{itemize}
     \item Tiktok a differenza di instagram è molto più severo nei confronti di chi effettua crawling;
-    \item L'unico crawler open source funzionante individuato dal team, dopo pochissime operazioni di crawling porta al ban dell'\textsuperscript{G}. Nonostante ciò il team è riuscito ad aggirare questo problema utilizzando dei proxy\textsuperscript{G} gratuiti e creando un algoritmo che testasse la validità di questi proxy;
+    \item L'unico crawler open source funzionante individuato dal team, dopo pochissime operazioni di crawling porta al ban dell'ip\textsuperscript{G}. Nonostante ciò il team è riuscito ad aggirare questo problema utilizzando dei proxy\textsuperscript{G} gratuiti e creando un algoritmo che testasse la validità di questi proxy;
     \item Le alternative valide al crawler utilizzato sono tutte a pagamento e quindi non utilizzabili all'interno di questo progetto;
     \item Il crawler utilizzato dal team non può funzionare all'interno di una lambda dato che fa uso del framework playwright\textsuperscript{G}, per questo problema dopo lunghe ricerche il team non è riuscito a trovare una soluzione attuabile;
-    \item L'idea di creare un nostro crawler è troppo dispendiosa se messa a confronto con le ore lavorative a disposizione, dato che dopo un po' di tentativi il team si è reso conto che un semplice parser html\textsuperscript{G} non sarà sufficiente a causa dell'autenticazione necessaria la quale necessita la risoluzione di un captcha\textsuperscript{G};
+    \item L'idea di creare un nostro crawler è troppo dispendiosa se messa a confronto con le ore lavorative a disposizione, dato che dopo un po' di tentativi il team si è reso conto che un semplice parser html\textsuperscript{G} non sarà sufficiente a causa dell'autenticazione, la quale necessita la risoluzione di un captcha\textsuperscript{G};
     \item Per quanto riguarda la versione desktop di tiktok, non è possibile guardare i profili seguiti da un utente. Questo rende irrealizzabile il caso d'uso UCW6;
     \item Difficilmente si riuscirà ad associare un locale ad un post dato che tiktok non offre la possibilità di mettere un geotag\textsuperscript{G}. Anche ricavando un indirizzo dal testo del post risulterebbe troppo oneroso associare quell'indirizzo ad uno specifico locale, infatti l'unica soluzione pensata dal team è quella di utilizzare le API di google maps, le quali offrono un numero di chiamate troppo piccolo nella versione gratuita;
     \item A tutto questo si aggiunge il fatto che tiktok non viene utilizzato spesso per caricare contenuti relativi ai ristoranti, c’è quindi il rischio di impiegare molte risorse per ricavare pochissimi dati utili.
