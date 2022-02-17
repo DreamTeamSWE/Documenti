@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.16)  16 FEB 2022 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.16)  17 FEB 2022 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,11 +378,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
+ (./piano_di_progetto.out) (./piano_di_progetto.out)
 \@outlinefile=\write3
 \openout3 = `piano_di_progetto.out'.
 
  (./Intro.tex
-<Sezioni/images/DreamTeam.png, id=4, 3113.6325pt x 2297.58376pt>
+<Sezioni/images/DreamTeam.png, id=526, 3113.6325pt x 2297.58376pt>
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 7.
@@ -400,6 +401,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
 
 Overfull \hbox (5.84564pt too wide) in paragraph at lines 11--11
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 13--13
  []|\T1/cmr/m/n/10 Amministratore| 
  []
 
@@ -424,7 +430,27 @@ Overfull \hbox (5.84564pt too wide) in paragraph at lines 25--25
  []
 
 
-Overfull \hbox (1.11884pt too wide) in alignment at lines 6--29
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 29--29
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 33--33
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 35--35
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 37--37
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (1.11884pt too wide) in alignment at lines 6--41
  [] [] [] [] [] 
  []
 
@@ -441,7 +467,33 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[2]
+[2] (./piano_di_progetto.toc
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 56.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[3]
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 113.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[4])
 \tf@toc=\write4
 \openout4 = `piano_di_progetto.toc'.
 
@@ -457,825 +509,1052 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[3] (./Sezioni/Introduzione.tex
-
-./Sezioni/Introduzione.tex:37: LaTeX Error: Environment  undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37         \begin
-                   {itemize}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./Sezioni/Introduzione.tex:41: Missing \endcsname inserted.
-<to be read again> 
-                   \def 
-l.41 \end
-         {itemize}
-(That makes 100 errors; please try again.) 
+[5] (./Sezioni/Introduzione.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 26.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 19.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[6] (./Sezioni/Analisi_dei_rischi.tex
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 20--30
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 36--46
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 51--61
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 62.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[7]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 66--76
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 83--93
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 98--108
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 109.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[8]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 114--124
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 130--140
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 148--158
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 159.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[9]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 164--174
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 182--192
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[10]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 199--209
+[][] 
+ []
+
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 21.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[11] (./Sezioni/Modello_di_sviluppo.tex)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 23.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[12] (./Sezioni/Pianificazione.tex (./Sezioni/Analisi.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 46.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[13]
+<Sezioni/gantt/Analisi.png, id=733, 1283.79625pt x 772.8875pt>
+File: Sezioni/gantt/Analisi.png Graphic file (type png)
+<use Sezioni/gantt/Analisi.png>
+Package pdftex.def Info: Sezioni/gantt/Analisi.png  used on input line 53.
+(pdftex.def)             Requested size: 449.33542pt x 270.51468pt.
+) (./Sezioni/progettazioneArchitetturale.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 13.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[14 <./Sezioni/gantt/Analisi.png (PNG copy)>]
+<Sezioni/gantt/TB.png, id=739, 1503.6175pt x 636.3775pt>
+File: Sezioni/gantt/TB.png Graphic file (type png)
+<use Sezioni/gantt/TB.png>
+Package pdftex.def Info: Sezioni/gantt/TB.png  used on input line 43.
+(pdftex.def)             Requested size: 451.08873pt x 190.91472pt.
+) (./Sezioni/progettazione_codifica.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 4.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[15 <./Sezioni/gantt/TB.png (PNG copy)>]
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 45.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[16]
+<Sezioni/gantt/progettazione_codifica.png, id=751, 1295.84125pt x 873.2625pt>
+File: Sezioni/gantt/progettazione_codifica.png Graphic file (type png)
+<use Sezioni/gantt/progettazione_codifica.png>
+Package pdftex.def Info: Sezioni/gantt/progettazione_codifica.png  used on input line 53.
+(pdftex.def)             Requested size: 453.55124pt x 305.64645pt.
+
+Overfull \hbox (0.58334pt too wide) in paragraph at lines 53--54
+ [][] 
+ []
+
+) (./Sezioni/validazione_collaudo.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 14.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[17 <./Sezioni/gantt/progettazione_codifica.png (PNG copy)>]
+<Sezioni/gantt/validazione_collaudo.png, id=757, 1207.51125pt x 752.8125pt>
+File: Sezioni/gantt/validazione_collaudo.png Graphic file (type png)
+<use Sezioni/gantt/validazione_collaudo.png>
+Package pdftex.def Info: Sezioni/gantt/validazione_collaudo.png  used on input line 42.
+(pdftex.def)             Requested size: 422.63527pt x 263.48831pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 15.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[18])
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 25.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[19 <./Sezioni/gantt/validazione_collaudo.png (PNG copy)>] (./Sezioni/Preventivo.tex (./Sezioni/SezioniPreventivo/Preventivo_analisi.tex
+<Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png, id=768, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png  used on input line 37.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 70.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[20 <./Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png, id=777, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png  used on input line 74.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+<Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png, id=778, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png  used on input line 114.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 116.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[21 <./Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png, id=788, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png  used on input line 152.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 155.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[22 <./Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png, id=796, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png  used on input line 192.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 195.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[23 <./Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png, id=804, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png  used on input line 230.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 264.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[24 <./Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png> <./Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi.png, id=814, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi.png  used on input line 269.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 302.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[25 <./Sezioni/SezioniPreventivo/grafici/Analisi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_costi.png, id=823, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_costi.png  used on input line 306.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 6.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[26 <./Sezioni/SezioniPreventivo/grafici/Analisi_costi.png>] (./Sezioni/SezioniPreventivo/Preventivo_progettazione_architetturale.tex
+<Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png, id=831, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png  used on input line 36.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 69.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[27 <./Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png, id=839, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png  used on input line 73.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+<Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png, id=840, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png  used on input line 113.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 115.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[28 <./Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png, id=849, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png  used on input line 150.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 153.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[29 <./Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png, id=857, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png  used on input line 190.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[30 <./Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png, id=865, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png  used on input line 227.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 230.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[31 <./Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc.png, id=874, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc.png  used on input line 267.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 270.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[32 <./Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_costi.png, id=882, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_costi.png  used on input line 305.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 8.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[33 <./Sezioni/SezioniPreventivo/grafici/Poc.png> <./Sezioni/SezioniPreventivo/grafici/Poc_costi.png>] (./Sezioni/SezioniPreventivo/Preventivo_progettazione_codifica.tex
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png, id=892, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png  used on input line 36.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 69.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[34 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png, id=901, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png  used on input line 73.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png, id=902, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png  used on input line 113.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 115.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[35 <./Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png, id=911, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png  used on input line 151.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 154.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[36 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png, id=919, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png  used on input line 190.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[37 <./Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png, id=928, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png  used on input line 227.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 230.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[38 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png, id=936, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png  used on input line 267.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 270.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[39 <./Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png, id=944, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png  used on input line 304.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 307.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[40 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png, id=952, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png  used on input line 343.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 346.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[41 <./Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png, id=960, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png  used on input line 380.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 10.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[42 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png> <./Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png>] (./Sezioni/SezioniPreventivo/Preventivo_validazione_collaudo.tex
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png, id=970, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png  used on input line 36.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 69.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[43 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png, id=979, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png  used on input line 73.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png, id=980, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png  used on input line 113.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 115.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[44 <./Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png, id=989, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png  used on input line 150.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 153.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[45 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png, id=997, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png  used on input line 190.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[46 <./Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png, id=1005, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png  used on input line 227.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 230.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[47 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png, id=1013, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png  used on input line 268.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 271.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[48 <./Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_costi.png, id=1022, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_costi.png  used on input line 305.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 12.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[49 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png> <./Sezioni/SezioniPreventivo/grafici/Validazione_costi.png>] (./Sezioni/SezioniPreventivo/Riepilogo.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 109.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[50]
+<Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png, id=1039, 590.205pt x 277.035pt>
+File: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png  used on input line 113.
+(pdftex.def)             Requested size: 383.6287pt x 180.0706pt.
+<Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png, id=1040, 590.205pt x 277.035pt>
+File: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png  used on input line 150.
+(pdftex.def)             Requested size: 383.6287pt x 180.0706pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 13.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[51 <./Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png>])
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 25.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[52 <./Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png>] (./Sezioni/Consuntivo.tex
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 21--40
+ [] 
+ []
+
+
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 53--72
+ [] 
+ []
+
+
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 85--104
+ [] 
+ []
+
+
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 117--136
+ [] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 138.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[53]
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 138.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[54]
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 153.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[55]
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 168--187
+ [] 
+ []
+
+
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 200--219
+ [] 
+ []
+
+
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 232--251
+ [] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 253.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+[]|\T1/cmr/m/n/10 >>>>>>> Sta-shed
+ []
+
+
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 264--286
+ [] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 293.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[57]) (./Sezioni/Organigramma.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 1.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[58]
+Overfull \hbox (8.823pt too wide) in paragraph at lines 7--13
+[][] 
+ []
+
+
+Overfull \hbox (8.823pt too wide) in paragraph at lines 19--26
+[][] 
+ []
+
+
+Overfull \hbox (8.823pt too wide) in paragraph at lines 32--43
+[][] 
+ []
+
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 31.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[59] (./piano_di_progetto.aux)
+Package rerunfilecheck Info: File `piano_di_progetto.out' has not changed.
+(rerunfilecheck)             Checksum: EDC4AA5BDDC32066F08873322467B09A;19000.
+ ) 
 Here is how much of TeX's memory you used:
- 11829 strings out of 478278
- 184675 string characters out of 5846547
- 518450 words of memory out of 5000000
- 29861 multiletter control sequences out of 15000+600000
- 479580 words of font info for 42 fonts, out of 8000000 for 9000
+ 12634 strings out of 478278
+ 211147 string characters out of 5846547
+ 545997 words of memory out of 5000000
+ 30293 multiletter control sequences out of 15000+600000
+ 480828 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,16n,73p,651b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,17n,66p,1156b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on piano_di_progetto.pdf (59 pages, 2120479 bytes).
+PDF statistics:
+ 1217 PDF objects out of 1440 (max. 8388607)
+ 1040 compressed objects within 11 object streams
+ 279 named destinations out of 1000 (max. 500000)
+ 1246 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-./Sezioni/Introduzione.tex:41:  ==> Fatal error occurred, no output PDF file produced!
