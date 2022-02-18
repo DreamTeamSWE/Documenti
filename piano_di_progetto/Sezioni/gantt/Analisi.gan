@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-11-08" view-index="0" gantt-divider-location="390" resource-divider-location="300" version="3.1.3100" locale="it_IT">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-11-15" view-index="0" gantt-divider-location="390" resource-divider-location="300" version="3.1.3100" locale="it_IT">
     <description/>
-    <view zooming-state="default:7" id="gantt-chart">
+    <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Nome" width="206" order="0"/>
         <field id="tpd4" name="Data dinizio" width="82" order="1"/>
         <field id="tpd5" name="Data di fine" width="81" order="2"/>
@@ -69,9 +69,8 @@
             <task id="67" name="Analisi dei rischi" color="#8cb6ce" meeting="false" start="2021-12-04" duration="5" complete="0" thirdDate="2021-11-29" thirdDate-constraint="0" expand="true"/>
             <task id="68" name="Modello di sviluppo" color="#8cb6ce" meeting="false" start="2021-12-04" duration="5" complete="0" thirdDate="2021-11-29" thirdDate-constraint="0" expand="true"/>
             <task id="69" name="Pianificazione" color="#8cb6ce" meeting="false" start="2021-12-08" duration="46" complete="0" thirdDate="2021-11-29" thirdDate-constraint="0" expand="true"/>
-            <task id="70" name="Preventivo dei costi" meeting="false" start="2021-11-29" duration="1" complete="0" expand="true"/>
-            <task id="71" name="Consuntivo" meeting="false" start="2021-11-29" duration="1" complete="0" expand="true"/>
-            <task id="72" name="Organigramma" meeting="false" start="2021-11-29" duration="1" complete="0" expand="true"/>
+            <task id="70" name="Preventivo dei costi" color="#8cb6ce" meeting="false" start="2021-12-20" duration="4" complete="0" thirdDate="2021-11-29" thirdDate-constraint="0" expand="true"/>
+            <task id="71" name="Consuntivo" color="#8cb6ce" meeting="false" start="2022-01-20" duration="3" complete="0" thirdDate="2021-11-29" thirdDate-constraint="0" expand="true"/>
             <task id="27" name="Verifica documento" color="#33ff33" meeting="false" start="2021-12-08" duration="46" complete="0" thirdDate="2021-11-16" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
