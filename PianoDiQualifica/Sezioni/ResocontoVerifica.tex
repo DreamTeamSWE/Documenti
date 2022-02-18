@@ -164,7 +164,6 @@ TODO:Mettere una breve descrizione dei risultati e scrivere i risultati + istogr
 \end{figure}
 
 \subsubsection{MPC04 - BCWP}
-Nel primo periodo il BCWP è inferiore al BCWS a causa di un errore nell'analisi dei requisiti, il costo è stato recuperato nel periodo successivo.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.50]{Sezioni/images/analisi-BCWP.png}
@@ -172,6 +171,7 @@ Nel primo periodo il BCWP è inferiore al BCWS a causa di un errore nell'analisi
 \end{figure}
 
 \subsubsection{MPC05 - Schedule variance}
+Nel primo periodo il BCWP è inferiore al BCWS a causa di un errore nell'analisi dei requisiti, il costo è stato recuperato nel periodo successivo.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.50]{Sezioni/images/analisi-SV.png}
@@ -179,6 +179,7 @@ Nel primo periodo il BCWP è inferiore al BCWS a causa di un errore nell'analisi
 \end{figure}
 
 \subsubsection{MPC06 - Budget variance}
+A causa dell'errore commesso durante il primo periodo nello svolgimento dell'analisi dei requisiti, sono state necessarie più ore lavorative rispetto a quelle preventivate nel secondo periodo.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.50]{Sezioni/images/analisi-BV.png}
@@ -271,7 +272,7 @@ Nel primo periodo il BCWP è inferiore al BCWS a causa di un errore nell'analisi
 \end{table}
 
 \subsection{Periodo di produzione del Proof of Concept}
-
+In questo periodo vengono calcolate le metriche MPC01, MPC02, MPC03, MPC04, MPC05, MPC06, MPC07 e MQP01. Le restanti metriche non vengono calcolate perché nonostante sia stato prodotto del codice, lo è stato fatto in piccola parte.
 \subsubsection{MPC01 - SPICE}
 Ogni sigla presente in questa sezione fa riferimento a quanto descritto all'interno del documento NormeDiProgetto-v1.0.0 §A
 
@@ -315,7 +316,6 @@ TODO:Mettere una breve descrizione dei risultati e scrivere i risultati + istogr
 \end{figure}
 
 \subsubsection{MPC04 - BCWP}
-Nel primo periodo il BCWP è inferiore al BCWS a causa di un incomprensione per la realizzazione del Proof of Concept, il costo in questione è stato recuperato nel periodo successivo.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.50]{Sezioni/images/poc-BCWP.png}
@@ -323,6 +323,7 @@ Nel primo periodo il BCWP è inferiore al BCWS a causa di un incomprensione per 
 \end{figure}
 
 \subsubsection{MPC05 - Schedule variance}
+Nel primo periodo il BCWP è inferiore al BCWS a causa di un incomprensione per la realizzazione del Proof of Concept, il costo in questione è stato recuperato nel periodo successivo.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.50]{Sezioni/images/poc-SV.png}
@@ -330,6 +331,7 @@ Nel primo periodo il BCWP è inferiore al BCWS a causa di un incomprensione per 
 \end{figure}
 
 \subsubsection{MPC06 - Budget variance}
+A causa dell'incomprensione sulla realizzazione del Proof of Concept avvenuta nel primo periodo, è stato necessario impiegare più ore lavorative rispetto a quelle preventivate nel secondo periodo.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.50]{Sezioni/images/poc-BV.png}
@@ -346,23 +348,23 @@ Nel primo periodo il BCWP è inferiore al BCWS a causa di un incomprensione per 
             \textcolor{white}{\textbf{Documento}}& \textcolor{white}{\textbf{Valore}} & \textcolor{white}{\textbf{Esito}}\\ 
 
             Norme di Progetto v1.0.0 &
-            xxx &
+            75 &
             Superato \\
 
             Piano di Progetto v1.0.0 &
-            xxx &
+            69 &
             Superato \\
 
             Piano di Qualifica v1.0.0 &
-            xxx &
+            59 &
             Superato \\
 
             Analisi dei Requisiti v1.0.0 &
-            xxx &
+            84 &
             Superato \\
             
             Glossario v1.0.0 &
-            xxx &
+            73 &
             Superato \\
 
             VerbaleInterno-2022.01.27&
@@ -381,7 +383,46 @@ Nel primo periodo il BCWP è inferiore al BCWS a causa di un incomprensione per 
             61&
             Superato \\
     \end{tabular}
-    \caption{Periodo di produzione del Proof of Concept - MQP01}\
-	TODO:da mettere istogramma generale
-	TODO: per i documenti che non sono verbali c'è da calcolare gulpease fino a 1.0.0 e fare grafico cartesiano di ognuno
+    \caption{Periodo di produzione del Proof of Concept - MQP01}
 \end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{Sezioni/images/poc-gulpease.png}
+    \caption{Produzione del Proof of Concept: MQP01 - Indice di Gulpease}
+\end{figure}
+
+Segue l'andamento dell'indice di Gulpease per i documenti:
+\begin{itemize}
+    \item NormeDiProgetto-v1.0.0
+    \item PianoDiProgetto-v1.0.0
+    \item AnalisiDeiRequisiti-v1.0.0
+    \item PianoDiQualifica-v1.0.0
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{Sezioni/images/poc-gulpease-ndp.png}
+    \caption{Produzione del Proof of Concept: MQP01 - NdP}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{Sezioni/images/poc-gulpease-pdp.png}
+    \caption{Produzione del Proof of Concept: MQP01 -PdP}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{Sezioni/images/poc-gulpease-adr.png}
+    \caption{Produzione del Proof of Concept: MQP01 - AdR}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{Sezioni/images/poc-gulpease-pdq.png}
+    \caption{Produzione del Proof of Concept: MQP01 - PdQ}
+\end{figure}
