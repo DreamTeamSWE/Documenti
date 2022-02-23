@@ -1,0 +1,1235 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.9)  12 FEB 2022 22:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**piano_di_progetto.tex
+(./piano_di_progetto.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks14
+\float@box=\box27
+\@float@everytoks=\toks15
+\@floatcapt=\box28
+)
+(./Sezioni/Packages.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/05/04 3.31 The Babel package
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/05/04 3.31 Babel switching mechanism
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2019/01/05 v.1.4.01 Italian support for the babel system
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/05/04 3.31 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)
+\it@lettering=\count91
+\it@doublequoteactive=\count92
+\it@ISOcompliance=\count93
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count94
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen106
+\Gm@wd@mp=\dimen107
+\Gm@odd@mp=\dimen108
+\Gm@even@mp=\dimen109
+\Gm@layoutwidth=\dimen110
+\Gm@layoutheight=\dimen111
+\Gm@layouthoffset=\dimen112
+\Gm@layoutvoffset=\dimen113
+\Gm@dimlist=\toks19
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen114
+\ar@mcellbox=\box29
+\extrarowheight=\dimen115
+\NC@list=\toks20
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box30
+)
+\rotheadsize=\dimen116
+\c@nlinenum=\count98
+\TeXr@lab=\toks21
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+\everycr=\toks22
+\minrowclearance=\skip45
+)
+\rownum=\count99
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box31
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen117
+\TX@old@table=\dimen118
+\TX@old@col=\dimen119
+\TX@target=\dimen120
+\TX@delta=\dimen121
+\TX@cols=\count100
+\TX@ftn=\toks23
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen122
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count103
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count104
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen123
+\Fld@menulength=\count105
+\Field@Width=\dimen124
+\Fld@charsize=\dimen125
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip47
+\f@nch@O@elh=\skip48
+\f@nch@O@erh=\skip49
+\f@nch@O@olh=\skip50
+\f@nch@O@orh=\skip51
+\f@nch@O@elf=\skip52
+\f@nch@O@erf=\skip53
+\f@nch@O@olf=\skip54
+\f@nch@O@orf=\skip55
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count111
+\LTcapwidth=\dimen126
+\LT@head=\box32
+\LT@firsthead=\box33
+\LT@foot=\box34
+\LT@lastfoot=\box35
+\LT@cols=\count112
+\LT@rows=\count113
+\c@LT@tables=\count114
+\c@LT@chunks=\count115
+\LT@p@ftn=\toks24
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box36
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen127
+\ttl@minus=\dimen128
+\ttl@toksa=\toks25
+\titlewidth=\dimen129
+\titlewidthlast=\dimen130
+\titlewidthfirst=\dimen131
+)
+\c@subsubsubsection=\count116
+
+(./Sezioni/Command.tex)) (./piano_di_progetto.aux)
+\openout1 = `piano_di_progetto.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Info: Redefining \it@ocap on input line 5.
+LaTeX Info: Redefining \it@ccap on input line 5.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen132
+\scratchbox=\box37
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen133
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring OFF on input line 5.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count123
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
+
+(./piano_di_progetto.out) (./piano_di_progetto.out)
+\@outlinefile=\write3
+\openout3 = `piano_di_progetto.out'.
+
+ (./Intro.tex
+<Sezioni/images/DreamTeam.png, id=454, 3113.6325pt x 2297.58376pt>
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 7.
+(pdftex.def)             Requested size: 155.69073pt x 114.88591pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 14.
+) [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Sezio
+ni/images/DreamTeam.png>] (./Sezioni/Impaginazione.tex) (./Sezioni/RegistroModi
+fiche.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 11--11
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 17--17
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 19--19
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 23--23
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 25--25
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (1.11884pt too wide) in alignment at lines 6--29
+ [] [] [] [] [] 
+ []
+
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 10.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (35.0pt): 
+Make it at least 38.0623pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2] (./piano_di_progetto.toc
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 56.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [3]
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 112.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [4])
+\tf@toc=\write4
+\openout4 = `piano_di_progetto.toc'.
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 15.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [5] (./Sezioni/Introduzione.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 19.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [6]
+(./Sezioni/Analisi_dei_rischi.tex
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 20--30
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 36--46
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 51--61
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 62.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+[7]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 66--76
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 83--93
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 98--108
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 109.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+[8]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 114--124
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 130--140
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 148--158
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 159.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+[9]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 164--174
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 182--192
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+[10]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 199--209
+[][] 
+ []
+
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 21.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [11] (./Sezioni/Modello_di_sviluppo.tex)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 23.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [12] (./Sezioni/Pianificazione.tex
+(./Sezioni/Analisi.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 46.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [13]
+<Sezioni/gantt/Analisi.png, id=638, 1283.79625pt x 772.8875pt>
+File: Sezioni/gantt/Analisi.png Graphic file (type png)
+<use Sezioni/gantt/Analisi.png>
+Package pdftex.def Info: Sezioni/gantt/Analisi.png  used on input line 53.
+(pdftex.def)             Requested size: 449.33542pt x 270.51468pt.
+) (./Sezioni/progettazioneArchitetturale.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 13.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+[14 <./Sezioni/gantt/Analisi.png (PNG copy)>]
+<Sezioni/gantt/TB.png, id=645, 1503.6175pt x 636.3775pt>
+File: Sezioni/gantt/TB.png Graphic file (type png)
+<use Sezioni/gantt/TB.png>
+Package pdftex.def Info: Sezioni/gantt/TB.png  used on input line 43.
+(pdftex.def)             Requested size: 451.08873pt x 190.91472pt.
+)
+(./Sezioni/progettazione_codifica.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 4.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [15 <./Sezioni/gantt/TB.png (PNG copy)>]
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 49.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+[16]
+<Sezioni/gantt/progettazione_codifica.png, id=657, 1295.84125pt x 873.2625pt>
+File: Sezioni/gantt/progettazione_codifica.png Graphic file (type png)
+<use Sezioni/gantt/progettazione_codifica.png>
+Package pdftex.def Info: Sezioni/gantt/progettazione_codifica.png  used on inpu
+t line 54.
+(pdftex.def)             Requested size: 453.55124pt x 305.64645pt.
+
+Overfull \hbox (0.58334pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+) (./Sezioni/validazione_collaudo.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 20.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+[17 <./Sezioni/gantt/progettazione_codifica.png (PNG copy)>]
+<Sezioni/gantt/validazione_collaudo.png, id=663, 1207.51125pt x 752.8125pt>
+File: Sezioni/gantt/validazione_collaudo.png Graphic file (type png)
+<use Sezioni/gantt/validazione_collaudo.png>
+Package pdftex.def Info: Sezioni/gantt/validazione_collaudo.png  used on input 
+line 42.
+(pdftex.def)             Requested size: 422.63527pt x 263.48831pt.
+))
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 25.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [18 <./Sezioni/gantt/validazione_collaudo.png (PNG copy)>] (./Sezioni/Preventi
+vo.tex
+(./Sezioni/SezioniPreventivo/Preventivo_analisi.tex
+<Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png, id=669, 627.34375pt x
+ 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png Graphic file (typ
+e png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.pn
+g  used on input line 37.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 70.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [19 <./Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png, id=678, 627.343
+75pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png Graphic fil
+e (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_co
+sti.png  used on input line 74.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+<Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png, id=679, 627.34375pt 
+x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png Graphic file (ty
+pe png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.p
+ng  used on input line 114.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 116.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [20 <./Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png, id=689, 627.34
+375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png Graphic fi
+le (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_c
+osti.png  used on input line 152.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 155.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [21 <./Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png, id=697, 627.34375pt
+ x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png Graphic file (t
+ype png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.
+png  used on input line 192.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 195.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [22 <./Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png, id=705, 627.3
+4375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png Graphic f
+ile (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_
+costi.png  used on input line 230.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 264.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [23 <./Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png> <./Sezioni/S
+ezioniPreventivo/grafici/Analisi_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi.png, id=715, 627.34375pt x 291.0875p
+t>
+File: Sezioni/SezioniPreventivo/grafici/Analisi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi.png  used on
+ input line 269.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 302.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [24 <./Sezioni/SezioniPreventivo/grafici/Analisi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_costi.png, id=723, 627.34375pt x 291
+.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_costi.png Graphic file (type pn
+g)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_costi.png  u
+sed on input line 306.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 6.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [25 <./Sezioni/SezioniPreventivo/grafici/Analisi_costi.png>]
+(./Sezioni/SezioniPreventivo/Preventivo_progettazione_architetturale.tex
+<Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png, id=732, 627.34375pt x 291
+.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png Graphic file (type pn
+g)
+<use Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png  u
+sed on input line 36.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 69.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+[26 <./Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png, id=740, 627.34375pt
+ x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png Graphic file (t
+ype png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.
+png  used on input line 73.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+<Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png, id=741, 627.34375pt x 29
+1.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png Graphic file (type p
+ng)
+<use Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png  
+used on input line 113.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 115.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [27 <./Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png, id=751, 627.34375p
+t x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png Graphic file (
+type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi
+.png  used on input line 150.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 153.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [28 <./Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png, id=759, 627.34375pt x 2
+91.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png Graphic file (type 
+png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png 
+ used on input line 190.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [29 <./Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png, id=767, 627.34375
+pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png Graphic file 
+(type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_cost
+i.png  used on input line 227.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 230.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [30 <./Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc.png, id=775, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc.png  used on inp
+ut line 267.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 270.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [31 <./Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_costi.png, id=784, 627.34375pt x 291.087
+5pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_costi.png  used 
+on input line 305.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 8.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+[32 <./Sezioni/SezioniPreventivo/grafici/Poc.png> <./Sezioni/SezioniPreventivo/
+grafici/Poc_costi.png>]
+(./Sezioni/SezioniPreventivo/Preventivo_progettazione_codifica.tex
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png, id=794
+, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png Gr
+aphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifi
+ca_I_periodo.png  used on input line 36.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 69.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [33 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png>
+]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png, id=802, 6
+10.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png Graph
+ic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_I_peri
+odo_costi.png  used on input line 73.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png, id=80
+3, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png G
+raphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifi
+ca_II_periodo.png  used on input line 113.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 115.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [34 <./Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png, id=812, 
+610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png Grap
+hic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_II_per
+iodo_costi.png  used on input line 151.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 154.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [35 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png
+>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png, id=8
+20, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png 
+Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifi
+ca_III_periodo.png  used on input line 190.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [36 <./Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png, id=828,
+ 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png Gra
+phic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_III_pe
+riodo_costi.png  used on input line 227.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 230.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [37 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.pn
+g>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png, id=83
+7, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png G
+raphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifi
+ca_IV_periodo.png  used on input line 267.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 270.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [38 <./Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png, id=845, 
+610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png Grap
+hic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_IV_per
+iodo_costi.png  used on input line 304.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 307.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [39 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png
+>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png, id=853, 627.3437
+5pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png Graphic file
+ (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifi
+ca.png  used on input line 343.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 346.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+[40 <./Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png, id=861, 610.28pt x 
+293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png Graphic file (t
+ype png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_costi.
+png  used on input line 380.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 10.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+[41 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png> <./Sezioni
+/SezioniPreventivo/grafici/Progettazione_costi.png>]
+(./Sezioni/SezioniPreventivo/Preventivo_validazione_collaudo.tex
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png, id=871, 
+627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png Grap
+hic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo
+_I_periodo.png  used on input line 36.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 69.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [42 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png, id=880, 610
+.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png Graphic
+ file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_I_period
+o_costi.png  used on input line 73.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png, id=881,
+ 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png Gra
+phic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo
+_II_periodo.png  used on input line 113.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 115.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [43 <./Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png, id=891, 61
+0.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png Graphi
+c file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_II_perio
+do_costi.png  used on input line 150.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 153.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [44 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png, id=899
+, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png Gr
+aphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo
+_III_periodo.png  used on input line 190.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [45 <./Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png, id=907, 6
+10.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png Graph
+ic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_III_peri
+odo_costi.png  used on input line 227.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 230.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [46 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png>
+]
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png, id=915, 627.34375p
+t x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png Graphic file (
+type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo
+.png  used on input line 268.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 271.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [47 <./Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_costi.png, id=923, 610.28pt x 29
+3.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_costi.png Graphic file (typ
+e png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_costi.pn
+g  used on input line 305.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 12.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [48 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png> <./Sezioni/
+SezioniPreventivo/grafici/Validazione_costi.png>] (./Sezioni/SezioniPreventivo/
+Riepilogo.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 109.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [49]
+<Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png, id=940, 590.
+205pt x 277.035pt>
+File: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png Graphic 
+file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendic
+ontate.png  used on input line 113.
+(pdftex.def)             Requested size: 383.6287pt x 180.0706pt.
+<Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png, id=941
+, 590.205pt x 277.035pt>
+File: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png Gr
+aphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendic
+ontate_costi.png  used on input line 150.
+(pdftex.def)             Requested size: 383.6287pt x 180.0706pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 13.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+[50 <./Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png>])
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 26.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+[51 <./Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png>]
+(./Sezioni/Consuntivo.tex
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 17--36
+ [] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 53.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+[52]
+Overfull \hbox (26.70041pt too wide) in paragraph at lines 63--81
+ [] 
+ []
+
+) (./Sezioni/Organigramma.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 1.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [53]
+Overfull \hbox (8.823pt too wide) in paragraph at lines 7--13
+[][] 
+ []
+
+
+Overfull \hbox (8.823pt too wide) in paragraph at lines 19--26
+[][] 
+ []
+
+
+Overfull \hbox (8.823pt too wide) in paragraph at lines 32--43
+[][] 
+ []
+
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 31.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [54]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+ (./piano_di_progetto.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
+Package rerunfilecheck Info: File `piano_di_progetto.out' has not changed.
+(rerunfilecheck)             Checksum: 1B6638CA0A13FB49BCDA5E90D9B12F3E;8550.
+ ) 
+Here is how much of TeX's memory you used:
+ 8599 strings out of 492616
+ 130972 string characters out of 6129482
+ 257597 words of memory out of 5000000
+ 12059 multiletter control sequences out of 15000+600000
+ 14561 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 33i,17n,43p,1076b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on piano_di_progetto.pdf (54 pages, 2077005 bytes).
+PDF statistics:
+ 1073 PDF objects out of 1200 (max. 8388607)
+ 916 compressed objects within 10 object streams
+ 250 named destinations out of 1000 (max. 500000)
+ 1102 words of extra memory for PDF output out of 10000 (max. 10000000)
+
