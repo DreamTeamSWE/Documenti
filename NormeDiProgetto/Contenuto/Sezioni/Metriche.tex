@@ -1,0 +1,167 @@
+\section{Standard ISO/IEC 15504 - SPICE}
+\subsection{Introduzione}
+Lo standard SPICE (\textit{Software Process Improvement and Capability Determination}) è un insieme di standard tecnici per i processi di sviluppo software.
+
+\subsubsection{Classificazione processi}
+Nello standard SPICE i processi sono suddivisi in 5 categorie:
+\begin{itemize}
+  \item Cliente-fornitore;
+  \item Ingegneristico;
+  \item Supporto;
+  \item Gestionale;
+  \item Organizzativo.
+\end{itemize}
+
+\subsection{Livelli di capability e attributi di processo}
+La \textit{capability} viene definita come la capacità di un processo di raggiornere il suo scopo.
+Per ogni processo, SPICE definisce un livello di capability dai seguenti:
+\begin{itemize}
+  \item \textbf{Livello 0 - Incomplete process}: processo non implementato, incapace di raggiungere i suoi obiettivi;
+  \item \textbf{Livello 1 - Performed process}: processo implementato e in grado di raggiungerei suoi obiettivi, ma non è sottoposto  nessun tipo di controllo; 
+  \item \textbf{Livello 2 - Managed process}: processo pianificato e sottoposto a controllo e correzione, gli obiettivi vengono raggiunti e sono tracciabili e verificati;
+  \item \textbf{Livello 3 - Established process}: processo definito da standard e quindi regolamentato;
+  \item \textbf{Livello 4 - Predictable process}: processo istanziato entro limiti ben definiti, viene monitorato in modo dettagliato con lo scopo di renderlo prevedibile e ripetibile;
+  \item \textbf{Livello 5 - Optimizing process}: processo completamente definito e tracciato, soggetto ad analisi e miglioramento continui.
+\end{itemize}
+La capability di un processo è misurata tramite gli attributi di processo, lo standard definisce 9 attributi (dove il codice rappresenta il livello alla quale vengono applicati):
+\begin{itemize}
+  \item \textbf{1.1 Process performance}: numero di obiettivi raggiunti;
+  \item \textbf{2.1 Performance management}: livello di organizzazione degli obiettivi fissati;
+  \item \textbf{2.2 Work product management}: livello di organizzazione dei prodotti rilasciati;
+  \item \textbf{3.1 Process definition}: livello di adesione agli standard prefissati;
+  \item \textbf{3.2 Process deployment}: livello di ripetibilità del processo;
+  \item \textbf{4.1 Process measurement}: livello di efficacia di applicazione delle metriche al processo;
+  \item \textbf{4.2 Process control}: livello di predicibilità delle valutazioni;
+  \item \textbf{5.1 Process innovation}: misura gli aspetti positivi generati dei cambiamenti attuati dopo una fase di analisi;
+  \item \textbf{5.2 Process optimization}: misura l'efficienza del processo, il rapporto tra i risultati ottenuti e le risorse impegnate.  
+\end{itemize}
+
+
+Ogni processo è valutato tramite la seguente scala di valori che esprimono numericamente il grado di soddisfacimento dell’attributo:
+\begin{itemize}
+  \item (\textbf{N}) Not achieved (\(0-15\%\));
+  \item (\textbf{P}) Partially achieved (\(>15-50\%\));
+  \item (\textbf{L}) Largely achieved (\(>50-85\%\));
+  \item (\textbf{F}) Fully achieved (\(>85-100\%\)). 
+\end{itemize}
+
+\pagebreak
+
+\section{Metriche per la qualità del processo}
+\subsection{MPC01 SPICE}
+Metrica utilizzata per misurare la qualità dei processi impiegati e fornire una valutazione relativa ad essi. Lo standard è illustrato nel dettaglio all’interno dell'appendice A.
+
+\subsection{MPC02 Budgeted cost of work scheduled}
+Indica una previsione della somma di budget spesa dal gruppo per il lavoro svolto dall'inizio del progetto fino alla data corrente. Questo valore è reperibile all'interno del preventivo nel \PdP.
+
+\subsection{MPC03 Actual cost of work performed}
+Valore che indica la somma di tutte le spese realmente sostenute dal gruppo, questo valore deve essere minore o uguale a quanto preventivato all'interno del consuntivo nel \PdP
+
+\subsection{MPC04 Budgeted cost of work performed}
+Indica il valore effettivo del prodotto ottenuto fino al momento in cui l'indice viene calcolato.
+
+\subsection{MPC05 Schedule variance}
+Indica il discostamento percentuale tra la programmazione preventivata e quella effettiva.
+La formula è:
+\begin{itemize}
+  \item[] \[SV =  \frac{100 * (BCWP - BCWS)}{BCWS};\]
+  \item SV = Schedule variance;
+  \item BCWP = Budgeted cost of work performed;
+  \item BCWS = Budgeted cost of work scheduled;
+\end{itemize}
+
+\subsection{MPC06 Budget variance}
+Indice percentuale che mostra se le spese sostenute a partire dall’inizio del progetto fino al momento in cui viene calcolato rientrano nel budget di spesa previsto per la data corrente.
+La formula è:
+\begin{itemize}
+\item[] \[BV = \frac{100 * (BCWS - ACWP)}{BCWS};\]
+\item BV = Budget variance;
+\item BCWS = Budgeted cost of work scheduled;
+\item ACWP = Actual cost of work performed.
+\end{itemize}
+
+
+\pagebreak
+
+\section{Metriche per la qualità del processo}
+\subsection{MQP01 Indice di Gulpease}
+È un indice di leggibilità di un determinato testo. Calcola la lunghezza delle parole e delle frasi rispetto al numero totale delle lettere, per fare ciò considera: la lunghezza della parola e la lunghezza della frase rispetto al numero delle lettere. Il valore è un numero intero compreso tra 0 e 100.
+La formula è:
+\begin{itemize}
+  \item[] \[IDG =  89 + \frac{300 * NDF - 10 * NDL}{NDP};\]
+  \item NDF = Numero dei frasi;
+  \item NDL = Numero di lettere;
+  \item NDP = Numero di parole.
+  \end{itemize}
+
+\subsection{MQP02 Profondità di una gerarchia}
+È un valore intero che definisce quanto può essere profonda la gerarchia di una classe. Nel caso una gerarchia abbia una sola classe, allora il suo valore sarà pari a 1.
+
+\subsection{MQP03 Numero parametri per metodo}
+Indica il numero intero di parametri che può avere un metodo. Un numero di parametri troppo elevato, indica che è necessario ridurre delle funzionalità associate al metodo a cui si fa riferimento. Inoltre, se si ha un numero elevato di parametri, la probabilità di avere più errori progettuali aumenta.
+
+\subsection{MQP04 Code coverage}
+È la misura in percentuale di linee di codice eseguite in un test rispetto al totale delle linee di codice del sorgente di un programma. Un programma che ha un’elevata copertura del codice sorgente eseguito durante i test ha una minore possibilità di contenere bug.
+
+\subsection{MQP05 Percentuale requisiti obbligatori soddisfatti}
+Indica la quantità percentuale dei requisiti obbligatori soddisfatti in rapporto al totale dei requisiti obbligatori.
+La formula è:
+\begin{itemize}
+  \item[] \[RS = \frac{ROS}{TRO} * 100;\]
+  \item RS = Percentuale requisiti obbligatori soddisfatti;
+  \item ROS = Requisiti obbligatori soddisfatti;
+  \item TRO = Totale requisiti 	obbligatori.
+  \end{itemize}
+
+
+\subsection{MQP06 Complessità ciclomatica}
+La complessità ciclomatica è una metrica sviluppata da Thomas J. McCabeornisce che fornisce una misura quantitativa della complessità di un programma, essa è identificata dal numero di cammini linearmente indipendenti presenti nel grafo del flusso di controllo del programma. Un valore elevato di tale misurazione indica che il software possiede un comportamento poco predicibile, fattore che causa grandi rischi.
+La formula è:
+\begin{itemize}
+  \item[] \[CC 	= E - N + P;\]
+  \item CC = Complessità ciclomatica;
+  \item E = Numero di congiunzioni tra statement (gli archi di un grafo);
+  \item N = Numero di statement (nodi presenti nel grafo);
+  \item P = Numero delle componenti connesse da ogni nodo (per esecuzione sequenziale P = 2 essendovi 1 predecessore e 1 successore per ogni arco).
+  \end{itemize}
+
+
+\subsection{MQP07 Numero di bug}
+Numero di righe di codice del programma che potrebbero comportare un risultato diverso da quello previsto.
+
+\subsection{MQP08 Numero di code smell}
+Indica una serie di caratteristiche che il codice sorgente può avere e che sono generalmente riconosciute come probabili indicazioni di un difetto di programmazione.
+
+\subsection{MQP09 Linee di Commento per Linee di Codice}
+La formula è:
+\begin{itemize}
+  \item[] \[LCC = \frac{LDC}{LCD} * 100 ;\]
+  \item LCC = Percentuale rapporto tra linee di commento e linee di codice di istruzioni;
+  \item LDC = Linee di commento;
+  \item LCD = Linee di codice.
+  \end{itemize}
+
+\subsection{MQP10 Branch coverage}
+Percentuale di copertura di rami condizionali durante i test
+La formula è:
+\begin{itemize}
+  \item[] \[BC = \frac{RCC}{RCT} * 100 ;\]
+  \item BC = Percentuale rapporto tra linee di commento e linee di codice di istruzioni;
+  \item RCC = Rami condizionali coperti da test;
+  \item RCT = Rami condizionali totali.
+  \end{itemize}
+
+
+\subsection{MQP11 Successo dei test}
+Percentuali di test superati rispetto ai test implementati.
+La formula è:
+\begin{itemize}
+  \item[] \[SDT = \frac{NTS}{NTT} * 100 ;\]
+  \item SDT = Percentuale di successo dei test;
+  \item NTS = Numero di test superati;
+  \item NTT = Numero di test totali.
+  \end{itemize}
+
+\subsection{MQP12 Numero di vulnerabilità}
+Indica il numero di vulnerabilità presenti nel codice sorgente del prodotto.
+
