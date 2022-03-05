@@ -9,6 +9,8 @@ piano_di_progetto/*.fls
 piano_di_progetto/*.fdb_latexmk
 piano_di_progetto/*.aux
 piano_di_progetto/*.log
+Glossario/*.toc
+Glossario/Sezioni/*.log
 *.toc
 *.gz
 *.out
@@ -16,3 +18,8 @@ piano_di_progetto/*.log
 *.lof
 *.idx
 *.aux
+*.fdb_latexmk
+*.fls
+*.ilg
+*.ind
+*.xdv
