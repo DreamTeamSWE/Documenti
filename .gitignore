@@ -3,6 +3,7 @@
 *.gz
 *.out
 *.log
+*.lot
 *.lof
 *.idx
 *.aux
