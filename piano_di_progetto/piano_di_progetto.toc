@@ -1,29 +1,126 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\contentsline {section}{\numberline {1}Introduzione}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Scopo del Documento}{4}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Scopo del Prodotto}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Glossario}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Riferimenti}{4}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Analisi dei rischi}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Rischi tecnologici}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Rischi personali}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Rischi organizzativi}{7}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Rischi legati ai requisiti}{8}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Modello di sviluppo}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Modello incrementale}{9}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Pianificazione}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Analisi e progettazione architetturale}{10}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Studio di fattibilità}{10}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Presentazione per assegnazione appalti}{10}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Piano di progetto}{10}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Analisi dei requisiti}{10}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Piano di qualifica}{10}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Glossario}{10}{subsubsection.4.1.6}%
-\contentsline {subsubsection}{\numberline {4.1.7}Norme di progetto}{10}{subsubsection.4.1.7}%
-\contentsline {section}{\numberline {5}Preventivo dei costi}{12}{section.5}%
-\contentsline {section}{\numberline {6}Consuntivo}{13}{section.6}%
-\contentsline {section}{\numberline {7}Organigramma}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Redazione}{14}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Approvazione}{14}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Accettazione dei componenti}{14}{subsection.7.3}%
+\contentsline {section}{\numberline {1}Introduzione}{9}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Scopo del Documento}{9}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Scopo del Prodotto}{9}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Glossario}{9}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{9}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Riferimenti Normativi}{9}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Riferimenti Informativi}{9}{subsubsection.1.4.2}%
+\contentsline {section}{\numberline {2}Analisi dei rischi}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Rischi tecnologici}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Rischi personali}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Rischi organizzativi}{13}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Rischi legati ai requisiti}{14}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Modello di sviluppo}{15}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Modello incrementale}{15}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Pianificazione}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Analisi}{16}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Attività}{16}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Periodi}{16}{subsubsection.4.1.2}%
+\contentsline {subsubsubsection}{\numberline {4.1.2.1}I Periodo}{17}{subsubsubsection.4.1.2.1}%
+\contentsline {subsubsubsection}{\numberline {4.1.2.2}II Periodo}{17}{subsubsubsection.4.1.2.2}%
+\contentsline {subsubsubsection}{\numberline {4.1.2.3}III Periodo}{17}{subsubsubsection.4.1.2.3}%
+\contentsline {subsection}{\numberline {4.2}Produzione del Proof of Concept}{17}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Periodi}{18}{subsubsection.4.2.1}%
+\contentsline {subsubsubsection}{\numberline {4.2.1.1}I Periodo}{18}{subsubsubsection.4.2.1.1}%
+\contentsline {subsubsubsection}{\numberline {4.2.1.2}II Periodo}{18}{subsubsubsection.4.2.1.2}%
+\contentsline {subsubsubsection}{\numberline {4.2.1.3}III Periodo}{18}{subsubsubsection.4.2.1.3}%
+\contentsline {subsection}{\numberline {4.3}Progettazione di dettaglio e codifica}{18}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Periodi}{19}{subsubsection.4.3.1}%
+\contentsline {subsubsubsection}{\numberline {4.3.1.1}I Periodo}{19}{subsubsubsection.4.3.1.1}%
+\contentsline {subsubsubsection}{\numberline {4.3.1.2}II Periodo}{20}{subsubsubsection.4.3.1.2}%
+\contentsline {subsubsubsection}{\numberline {4.3.1.3}III Periodo}{20}{subsubsubsection.4.3.1.3}%
+\contentsline {subsubsubsection}{\numberline {4.3.1.4}IV Periodo}{20}{subsubsubsection.4.3.1.4}%
+\contentsline {subsection}{\numberline {4.4}Validazione e collaudo}{20}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Periodi}{21}{subsubsection.4.4.1}%
+\contentsline {subsubsubsection}{\numberline {4.4.1.1}I Periodo}{21}{subsubsubsection.4.4.1.1}%
+\contentsline {subsubsubsection}{\numberline {4.4.1.2}II Periodo}{21}{subsubsubsection.4.4.1.2}%
+\contentsline {subsubsubsection}{\numberline {4.4.1.3}III Periodo}{21}{subsubsubsection.4.4.1.3}%
+\contentsline {section}{\numberline {5}Preventivo dei costi}{23}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Fase di analisi}{23}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}I Periodo}{23}{subsubsection.5.1.1}%
+\contentsline {subsubsubsection}{\numberline {5.1.1.1}Prospetto orario}{23}{subsubsubsection.5.1.1.1}%
+\contentsline {subsubsubsection}{\numberline {5.1.1.2}Prospetto economico}{23}{subsubsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2}II Periodo}{24}{subsubsection.5.1.2}%
+\contentsline {subsubsubsection}{\numberline {5.1.2.1}Prospetto orario}{24}{subsubsubsection.5.1.2.1}%
+\contentsline {subsubsubsection}{\numberline {5.1.2.2}Prospetto economico}{25}{subsubsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}III Periodo}{26}{subsubsection.5.1.3}%
+\contentsline {subsubsubsection}{\numberline {5.1.3.1}Prospetto orario}{26}{subsubsubsection.5.1.3.1}%
+\contentsline {subsubsubsection}{\numberline {5.1.3.2}Prospetto economico}{27}{subsubsubsection.5.1.3.2}%
+\contentsline {subsubsection}{\numberline {5.1.4}Fase complessiva}{28}{subsubsection.5.1.4}%
+\contentsline {subsubsubsection}{\numberline {5.1.4.1}Prospetto orario}{28}{subsubsubsection.5.1.4.1}%
+\contentsline {subsubsubsection}{\numberline {5.1.4.2}Prospetto economico}{28}{subsubsubsection.5.1.4.2}%
+\contentsline {subsection}{\numberline {5.2}Produzione del Proof of Concept}{30}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}I Periodo}{30}{subsubsection.5.2.1}%
+\contentsline {subsubsubsection}{\numberline {5.2.1.1}Prospetto orario}{30}{subsubsubsection.5.2.1.1}%
+\contentsline {subsubsubsection}{\numberline {5.2.1.2}Prospetto economico}{30}{subsubsubsection.5.2.1.2}%
+\contentsline {subsubsection}{\numberline {5.2.2}II Periodo}{31}{subsubsection.5.2.2}%
+\contentsline {subsubsubsection}{\numberline {5.2.2.1}Prospetto orario}{31}{subsubsubsection.5.2.2.1}%
+\contentsline {subsubsubsection}{\numberline {5.2.2.2}Prospetto economico}{32}{subsubsubsection.5.2.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}III Periodo}{33}{subsubsection.5.2.3}%
+\contentsline {subsubsubsection}{\numberline {5.2.3.1}Prospetto orario}{33}{subsubsubsection.5.2.3.1}%
+\contentsline {subsubsubsection}{\numberline {5.2.3.2}Prospetto economico}{34}{subsubsubsection.5.2.3.2}%
+\contentsline {subsubsection}{\numberline {5.2.4}Fase complessiva}{35}{subsubsection.5.2.4}%
+\contentsline {subsubsubsection}{\numberline {5.2.4.1}Prospetto orario}{35}{subsubsubsection.5.2.4.1}%
+\contentsline {subsubsubsection}{\numberline {5.2.4.2}Prospetto economico}{35}{subsubsubsection.5.2.4.2}%
+\contentsline {subsection}{\numberline {5.3}Progettazione e Codifica}{37}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}I Periodo}{37}{subsubsection.5.3.1}%
+\contentsline {subsubsubsection}{\numberline {5.3.1.1}Prospetto orario}{37}{subsubsubsection.5.3.1.1}%
+\contentsline {subsubsubsection}{\numberline {5.3.1.2}Prospetto economico}{37}{subsubsubsection.5.3.1.2}%
+\contentsline {subsubsection}{\numberline {5.3.2}II Periodo}{38}{subsubsection.5.3.2}%
+\contentsline {subsubsubsection}{\numberline {5.3.2.1}Prospetto orario}{38}{subsubsubsection.5.3.2.1}%
+\contentsline {subsubsubsection}{\numberline {5.3.2.2}Prospetto economico}{39}{subsubsubsection.5.3.2.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}III Periodo}{40}{subsubsection.5.3.3}%
+\contentsline {subsubsubsection}{\numberline {5.3.3.1}Prospetto orario}{40}{subsubsubsection.5.3.3.1}%
+\contentsline {subsubsubsection}{\numberline {5.3.3.2}Prospetto economico}{41}{subsubsubsection.5.3.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.4}IV Periodo}{42}{subsubsection.5.3.4}%
+\contentsline {subsubsubsection}{\numberline {5.3.4.1}Prospetto orario}{42}{subsubsubsection.5.3.4.1}%
+\contentsline {subsubsubsection}{\numberline {5.3.4.2}Prospetto economico}{42}{subsubsubsection.5.3.4.2}%
+\contentsline {subsubsection}{\numberline {5.3.5}Fase complessiva}{43}{subsubsection.5.3.5}%
+\contentsline {subsubsubsection}{\numberline {5.3.5.1}Prospetto orario}{43}{subsubsubsection.5.3.5.1}%
+\contentsline {subsubsubsection}{\numberline {5.3.5.2}Prospetto economico}{44}{subsubsubsection.5.3.5.2}%
+\contentsline {subsection}{\numberline {5.4}Validazione e collaudo}{46}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}I Periodo}{46}{subsubsection.5.4.1}%
+\contentsline {subsubsubsection}{\numberline {5.4.1.1}Prospetto orario}{46}{subsubsubsection.5.4.1.1}%
+\contentsline {subsubsubsection}{\numberline {5.4.1.2}Prospetto economico}{46}{subsubsubsection.5.4.1.2}%
+\contentsline {subsubsection}{\numberline {5.4.2}II Periodo}{47}{subsubsection.5.4.2}%
+\contentsline {subsubsubsection}{\numberline {5.4.2.1}Prospetto orario}{47}{subsubsubsection.5.4.2.1}%
+\contentsline {subsubsubsection}{\numberline {5.4.2.2}Prospetto economico}{48}{subsubsubsection.5.4.2.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}III Periodo}{49}{subsubsection.5.4.3}%
+\contentsline {subsubsubsection}{\numberline {5.4.3.1}Prospetto orario}{49}{subsubsubsection.5.4.3.1}%
+\contentsline {subsubsubsection}{\numberline {5.4.3.2}Prospetto economico}{50}{subsubsubsection.5.4.3.2}%
+\contentsline {subsubsection}{\numberline {5.4.4}Fase complessiva}{51}{subsubsection.5.4.4}%
+\contentsline {subsubsubsection}{\numberline {5.4.4.1}Prospetto orario}{51}{subsubsubsection.5.4.4.1}%
+\contentsline {subsubsubsection}{\numberline {5.4.4.2}Prospetto economico}{52}{subsubsubsection.5.4.4.2}%
+\contentsline {subsection}{\numberline {5.5}Riepilogo}{53}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Suddivisione lavoro}{53}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Prospetto economico}{53}{subsubsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.6}Conclusioni}{54}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Consuntivi di periodo}{55}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Fase di Analisi}{55}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}I Periodo}{55}{subsubsection.6.1.1}%
+\contentsline {subsubsubsection}{\numberline {6.1.1.1}Consuntivo}{55}{subsubsubsection.6.1.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}II Periodo}{55}{subsubsection.6.1.2}%
+\contentsline {subsubsubsection}{\numberline {6.1.2.1}Consuntivo}{55}{subsubsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.3}III Periodo}{56}{subsubsection.6.1.3}%
+\contentsline {subsubsubsection}{\numberline {6.1.3.1}Consuntivo}{56}{subsubsubsection.6.1.3.1}%
+\contentsline {subsubsection}{\numberline {6.1.4}Fase complessiva}{56}{subsubsection.6.1.4}%
+\contentsline {subsubsubsection}{\numberline {6.1.4.1}Consuntivo}{56}{subsubsubsection.6.1.4.1}%
+\contentsline {subsubsection}{\numberline {6.1.5}Conclusioni}{56}{subsubsection.6.1.5}%
+\contentsline {subsubsection}{\numberline {6.1.6}Preventivo a finire}{57}{subsubsection.6.1.6}%
+\contentsline {subsection}{\numberline {6.2}Fase di produzione del Proof of Concept}{58}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}I Periodo}{58}{subsubsection.6.2.1}%
+\contentsline {subsubsubsection}{\numberline {6.2.1.1}Consuntivo}{58}{subsubsubsection.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}II Periodo}{58}{subsubsection.6.2.2}%
+\contentsline {subsubsubsection}{\numberline {6.2.2.1}Consuntivo}{58}{subsubsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.3}III Periodo}{58}{subsubsection.6.2.3}%
+\contentsline {subsubsubsection}{\numberline {6.2.3.1}Consuntivo}{58}{subsubsubsection.6.2.3.1}%
+\contentsline {subsubsection}{\numberline {6.2.4}Fase complessiva}{59}{subsubsection.6.2.4}%
+\contentsline {subsubsubsection}{\numberline {6.2.4.1}Consuntivo}{59}{subsubsubsection.6.2.4.1}%
+\contentsline {subsubsection}{\numberline {6.2.5}Conclusioni}{59}{subsubsection.6.2.5}%
+\contentsline {subsubsection}{\numberline {6.2.6}Preventivo a finire}{59}{subsubsection.6.2.6}%
+\contentsline {section}{\numberline {7}Organigramma}{60}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Redazione}{60}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Approvazione}{60}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Accettazione dei componenti}{60}{subsection.7.3}%

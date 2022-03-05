@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.10)  5 MAR 2022 15:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.10)  5 MAR 2022 15:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -130,8 +130,13 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box54
 ) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen153
@@ -255,16 +260,41 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@erf=\skip59
 \f@nch@O@olf=\skip60
 \f@nch@O@orf=\skip61
-) (Sezioni/Command.tex)
-\@indexfile=\write3
-\openout3 = `piano_di_progetto.idx'.
-
-
-Writing index file piano_di_progetto.idx
-) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip62
+\LTright=\skip63
+\LTpre=\skip64
+\LTpost=\skip65
+\LTchunksize=\count280
+\LTcapwidth=\dimen162
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@gbox=\box59
+\LT@cols=\count281
+\LT@rows=\count282
+\c@LT@tables=\count283
+\c@LT@chunks=\count284
+\LT@p@ftn=\toks26
+) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box60
+\beforetitleunit=\skip66
+\aftertitleunit=\skip67
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
+\ttl@toksa=\toks27
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
+)
+\c@subsubsubsection=\count285
+ (Sezioni/Command.tex)) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count286
+\l__pdf_internal_box=\box61
 ) (piano_di_progetto.aux)
 \openout1 = `piano_di_progetto.aux'.
 
@@ -290,17 +320,17 @@ LaTeX Info: Redefining \it@ocap on input line 5.
 LaTeX Info: Redefining \it@ccap on input line 5.
  (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
-\scratchdimen=\dimen162
-\scratchbox=\box55
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count284
-\MPscratchDim=\dimen163
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count287
+\scratchdimen=\dimen168
+\scratchbox=\box62
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen169
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks29
 ) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -349,17 +379,17 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count287
+\c@section@level=\count293
 )
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
  (piano_di_progetto.out) (piano_di_progetto.out)
-\@outlinefile=\write4
-\openout4 = `piano_di_progetto.out'.
+\@outlinefile=\write3
+\openout3 = `piano_di_progetto.out'.
 
  (Intro.tex
-<Sezioni/images/DreamTeam.png, id=111, 3113.6325pt x 2297.58376pt>
+<Sezioni/images/DreamTeam.png, id=499, 3113.6325pt x 2297.58376pt>
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 7.
@@ -371,11 +401,112 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ) [1
 
 {C:/Users/matte/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Sezioni/images/DreamTeam.png>] (Sezioni/Impaginazione.tex) (Sezioni/RegistroModifiche.tex
-Overfull \hbox (46.41148pt too wide) in paragraph at lines 6--28
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
  []
 
-)
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 11--11
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 13--13
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 15--15
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 17--17
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 19--19
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 21--21
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 23--23
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 25--25
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 27--27
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 29--29
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 31--31
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 33--33
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 35--35
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 37--37
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 39--39
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 41--41
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (5.84564pt too wide) in paragraph at lines 43--43
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (1.11884pt too wide) in alignment at lines 6--47
+ [] [] [] [] [] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 47.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[2])
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 9.
@@ -388,13 +519,10 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[2] (piano_di_progetto.toc)
-\tf@toc=\write5
-\openout5 = `piano_di_progetto.toc'.
-
+[3] (piano_di_progetto.toc
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 15.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 56.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
 
 
@@ -404,10 +532,10 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[3] (Sezioni/Introduzione.tex)
+[4]
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 19.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 113.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
 
 
@@ -417,25 +545,16 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[4] (Sezioni/Analisi_dei_rischi.tex
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 19--29
-[][] 
- []
+[5])
+\tf@toc=\write4
+\openout4 = `piano_di_progetto.toc'.
 
-
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 34--44
-[][] 
- []
-
-
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 50--60
-[][] 
- []
-
+ (piano_di_progetto.lof
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 61.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 34.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
 
 Package fancyhdr Warning: \headheight is too small (35.0pt): 
 (fancyhdr)                Make it at least 38.0623pt, for example:
@@ -443,25 +562,16 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[5]
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 64--74
-[][] 
- []
+[6])
+\tf@lof=\write5
+\openout5 = `piano_di_progetto.lof'.
 
-
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 79--89
-[][] 
- []
-
-
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 94--104
-[][] 
- []
-
+ (piano_di_progetto.lot
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 105.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 44.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
 
 Package fancyhdr Warning: \headheight is too small (35.0pt): 
 (fancyhdr)                Make it at least 38.0623pt, for example:
@@ -469,25 +579,15 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[6]
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 111--121
-[][] 
- []
-
-
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 126--136
-[][] 
- []
-
-
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 143--153
-[][] 
- []
+[7])
+\tf@lot=\write6
+\openout6 = `piano_di_progetto.lot'.
 
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 154.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 17.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
 
 Package fancyhdr Warning: \headheight is too small (35.0pt): 
 (fancyhdr)                Make it at least 38.0623pt, for example:
@@ -495,12 +595,11 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[7]
-Overfull \hbox (1.3502pt too wide) in paragraph at lines 159--169
-[][] 
- []
-
-)
+[8] (Sezioni/Introduzione.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 25.
+ (C:\Users\matte\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 21.
@@ -513,7 +612,111 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[8] (Sezioni/Modello_di_sviluppo.tex)
+[9] (Sezioni/Analisi_dei_rischi.tex
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 20--30
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 36--46
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 51--61
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 62.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[10]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 66--76
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 83--93
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 98--108
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 109.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[11]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 114--124
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 130--140
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 148--158
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 159.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[12]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 164--174
+[][] 
+ []
+
+
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 182--192
+[][] 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[13]
+Overfull \hbox (1.3502pt too wide) in paragraph at lines 199--209
+[][] 
+ []
+
+)
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 23.
@@ -526,20 +729,7 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[9] (Sezioni/Pianificazione.tex
-File: Sezioni/images/DreamTeam.png Graphic file (type png)
-<use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 38.
-(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
-
-
-Package fancyhdr Warning: \headheight is too small (35.0pt): 
-(fancyhdr)                Make it at least 38.0623pt, for example:
-(fancyhdr)                \setlength{\headheight}{38.0623pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
-
-[10])
+[14] (Sezioni/Modello_di_sviluppo.tex)
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 25.
@@ -552,7 +742,114 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[11] (Sezioni/Preventivo.tex)
+[15] (Sezioni/Pianificazione.tex (Sezioni/Analisi.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 46.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[16]
+<Sezioni/gantt/Analisi.png, id=891, 1697.34125pt x 708.6475pt>
+File: Sezioni/gantt/Analisi.png Graphic file (type png)
+<use Sezioni/gantt/Analisi.png>
+Package pdftex.def Info: Sezioni/gantt/Analisi.png  used on input line 53.
+(pdftex.def)             Requested size: 449.79329pt x 187.7907pt.
+) (Sezioni/progettazioneArchitetturale.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 17.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[17 <./Sezioni/gantt/Analisi.png>]
+<Sezioni/gantt/TB.png, id=896, 1503.6175pt x 636.3775pt>
+File: Sezioni/gantt/TB.png Graphic file (type png)
+<use Sezioni/gantt/TB.png>
+Package pdftex.def Info: Sezioni/gantt/TB.png  used on input line 40.
+(pdftex.def)             Requested size: 451.08873pt x 190.91472pt.
+) (Sezioni/progettazione_codifica.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 8.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[18 <./Sezioni/gantt/TB.png (PNG copy)>]
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 44.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[19]
+<Sezioni/gantt/progettazione_codifica.png, id=908, 1295.84125pt x 873.2625pt>
+File: Sezioni/gantt/progettazione_codifica.png Graphic file (type png)
+<use Sezioni/gantt/progettazione_codifica.png>
+Package pdftex.def Info: Sezioni/gantt/progettazione_codifica.png  used on input line 52.
+(pdftex.def)             Requested size: 453.55124pt x 305.64645pt.
+
+Overfull \hbox (0.58334pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+) (Sezioni/validazione_collaudo.tex
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 15.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[20 <./Sezioni/gantt/progettazione_codifica.png (PNG copy)>]
+<Sezioni/gantt/validazione_collaudo.png, id=913, 1207.51125pt x 752.8125pt>
+File: Sezioni/gantt/validazione_collaudo.png Graphic file (type png)
+<use Sezioni/gantt/validazione_collaudo.png>
+Package pdftex.def Info: Sezioni/gantt/validazione_collaudo.png  used on input line 39.
+(pdftex.def)             Requested size: 422.63527pt x 263.48831pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 15.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[21])
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 27.
@@ -565,7 +862,773 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[12] (Sezioni/Consuntivo.tex) (Sezioni/Organigramma.tex
+[22 <./Sezioni/gantt/validazione_collaudo.png (PNG copy)>] (Sezioni/Preventivo.tex (Sezioni/SezioniPreventivo/Preventivo_analisi.tex
+<Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png, id=922, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png  used on input line 37.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 70.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[23 <./Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png, id=928, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png  used on input line 74.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+<Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png, id=929, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png  used on input line 114.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 116.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[24 <./Sezioni/SezioniPreventivo/grafici/Analisi_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png, id=936, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png  used on input line 152.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 155.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[25 <./Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png, id=943, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png  used on input line 192.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 195.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[26 <./Sezioni/SezioniPreventivo/grafici/Analisi_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png, id=949, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png  used on input line 230.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 264.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[27 <./Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo.png> <./Sezioni/SezioniPreventivo/grafici/Analisi_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi.png, id=956, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi.png  used on input line 269.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 302.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[28 <./Sezioni/SezioniPreventivo/grafici/Analisi.png>]
+<Sezioni/SezioniPreventivo/grafici/Analisi_costi.png, id=962, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Analisi_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Analisi_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Analisi_costi.png  used on input line 306.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 6.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[29 <./Sezioni/SezioniPreventivo/grafici/Analisi_costi.png>] (Sezioni/SezioniPreventivo/Preventivo_progettazione_architetturale.tex
+<Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png, id=968, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png  used on input line 36.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 69.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[30 <./Sezioni/SezioniPreventivo/grafici/Poc_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png, id=974, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png  used on input line 73.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+<Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png, id=975, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png  used on input line 113.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 115.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[31 <./Sezioni/SezioniPreventivo/grafici/Poc_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png, id=982, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png  used on input line 150.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 153.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[32 <./Sezioni/SezioniPreventivo/grafici/Poc_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png, id=988, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png  used on input line 190.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[33 <./Sezioni/SezioniPreventivo/grafici/Poc_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png, id=994, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png  used on input line 227.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 262.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[34 <./Sezioni/SezioniPreventivo/grafici/Poc_III_periodo.png> <./Sezioni/SezioniPreventivo/grafici/Poc_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc.png, id=1001, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc.png  used on input line 267.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 300.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[35 <./Sezioni/SezioniPreventivo/grafici/Poc.png>]
+<Sezioni/SezioniPreventivo/grafici/Poc_costi.png, id=1007, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Poc_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Poc_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Poc_costi.png  used on input line 305.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 8.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[36 <./Sezioni/SezioniPreventivo/grafici/Poc_costi.png>] (Sezioni/SezioniPreventivo/Preventivo_progettazione_codifica.tex
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png, id=1013, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png  used on input line 36.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 69.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[37 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png, id=1020, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png  used on input line 73.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png, id=1021, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png  used on input line 113.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 115.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[38 <./Sezioni/SezioniPreventivo/grafici/Progettazione_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png, id=1027, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png  used on input line 151.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 154.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[39 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png, id=1033, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png  used on input line 190.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[40 <./Sezioni/SezioniPreventivo/grafici/Progettazione_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png, id=1039, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png  used on input line 227.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 262.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[41 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_III_periodo.png> <./Sezioni/SezioniPreventivo/grafici/Progettazione_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png, id=1046, 596.2275pt x 284.06125pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png  used on input line 267.
+(pdftex.def)             Requested size: 387.54329pt x 184.6376pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 300.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[42 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica_IV_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png, id=1052, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png  used on input line 304.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+<Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png, id=1053, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png  used on input line 343.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 345.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[43 <./Sezioni/SezioniPreventivo/grafici/Progettazione_IV_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png, id=1060, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png  used on input line 380.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 383.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[44 <./Sezioni/SezioniPreventivo/grafici/Progettazione_codifica.png>])
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 10.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[45 <./Sezioni/SezioniPreventivo/grafici/Progettazione_costi.png>] (Sezioni/SezioniPreventivo/Preventivo_validazione_collaudo.tex
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png, id=1071, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png  used on input line 36.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 69.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[46 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_I_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png, id=1077, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png  used on input line 73.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png, id=1078, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png  used on input line 113.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 115.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[47 <./Sezioni/SezioniPreventivo/grafici/Validazione_I_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png, id=1084, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png  used on input line 150.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 153.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[48 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_II_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png, id=1090, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png  used on input line 190.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 193.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[49 <./Sezioni/SezioniPreventivo/grafici/Validazione_II_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png, id=1097, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png  used on input line 227.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 230.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[50 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo_III_periodo.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png, id=1103, 627.34375pt x 291.0875pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png  used on input line 268.
+(pdftex.def)             Requested size: 407.7686pt x 189.20462pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 271.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[51 <./Sezioni/SezioniPreventivo/grafici/Validazione_III_periodo_costi.png>]
+<Sezioni/SezioniPreventivo/grafici/Validazione_costi.png, id=1109, 610.28pt x 293.095pt>
+File: Sezioni/SezioniPreventivo/grafici/Validazione_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Validazione_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Validazione_costi.png  used on input line 305.
+(pdftex.def)             Requested size: 396.67729pt x 190.50948pt.
+)
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 12.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[52 <./Sezioni/SezioniPreventivo/grafici/Validazione_collaudo.png> <./Sezioni/SezioniPreventivo/grafici/Validazione_costi.png>] (Sezioni/SezioniPreventivo/Riepilogo.tex
+<Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png, id=1116, 590.205pt x 277.035pt>
+File: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png  used on input line 35.
+(pdftex.def)             Requested size: 383.6287pt x 180.0706pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 68.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[53 <./Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate.png>]
+<Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png, id=1122, 590.205pt x 277.035pt>
+File: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png Graphic file (type png)
+<use Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png>
+Package pdftex.def Info: Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png  used on input line 72.
+(pdftex.def)             Requested size: 383.6287pt x 180.0706pt.
+))
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 27.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[54 <./Sezioni/SezioniPreventivo/grafici/Riepilogo_ore_rendicontate_costi.png>] (Sezioni/Consuntivo.tex
+Overfull \hbox (2.27113pt too wide) in paragraph at lines 22--22
+ []|\T1/cmr/m/n/10 Responsabile| 
+ []
+
+
+Overfull \hbox (14.90694pt too wide) in paragraph at lines 28--28
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (14.18489pt too wide) in paragraph at lines 30--30
+ []|\T1/cmr/m/n/10 Programmatore| 
+ []
+
+
+Overfull \hbox (2.27113pt too wide) in paragraph at lines 54--54
+ []|\T1/cmr/m/n/10 Responsabile| 
+ []
+
+
+Overfull \hbox (14.90694pt too wide) in paragraph at lines 60--60
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (14.18489pt too wide) in paragraph at lines 62--62
+ []|\T1/cmr/m/n/10 Programmatore| 
+ []
+
+
+Overfull \hbox (2.27113pt too wide) in paragraph at lines 86--86
+ []|\T1/cmr/m/n/10 Responsabile| 
+ []
+
+
+Overfull \hbox (14.90694pt too wide) in paragraph at lines 92--92
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (14.18489pt too wide) in paragraph at lines 94--94
+ []|\T1/cmr/m/n/10 Programmatore| 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 103.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[55]
+Overfull \hbox (2.27113pt too wide) in paragraph at lines 117--117
+ []|\T1/cmr/m/n/10 Responsabile| 
+ []
+
+
+Overfull \hbox (14.90694pt too wide) in paragraph at lines 123--123
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (14.18489pt too wide) in paragraph at lines 125--125
+ []|\T1/cmr/m/n/10 Programmatore| 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 146.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[56]
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 148.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[57]
+Overfull \hbox (2.27113pt too wide) in paragraph at lines 163--163
+ []|\T1/cmr/m/n/10 Responsabile| 
+ []
+
+
+Overfull \hbox (14.90694pt too wide) in paragraph at lines 169--169
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (14.18489pt too wide) in paragraph at lines 171--171
+ []|\T1/cmr/m/n/10 Programmatore| 
+ []
+
+
+Overfull \hbox (2.27113pt too wide) in paragraph at lines 195--195
+ []|\T1/cmr/m/n/10 Responsabile| 
+ []
+
+
+Overfull \hbox (14.90694pt too wide) in paragraph at lines 201--201
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (14.18489pt too wide) in paragraph at lines 203--203
+ []|\T1/cmr/m/n/10 Programmatore| 
+ []
+
+
+Overfull \hbox (2.27113pt too wide) in paragraph at lines 227--227
+ []|\T1/cmr/m/n/10 Responsabile| 
+ []
+
+
+Overfull \hbox (14.90694pt too wide) in paragraph at lines 233--233
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (14.18489pt too wide) in paragraph at lines 235--235
+ []|\T1/cmr/m/n/10 Programmatore| 
+ []
+
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 245.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+
+Package fancyhdr Warning: \headheight is too small (35.0pt): 
+(fancyhdr)                Make it at least 38.0623pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.0623pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
+
+[58]
+Overfull \hbox (2.27113pt too wide) in paragraph at lines 257--257
+ []|\T1/cmr/m/n/10 Responsabile| 
+ []
+
+
+Overfull \hbox (14.90694pt too wide) in paragraph at lines 263--263
+ []|\T1/cmr/m/n/10 Amministratore| 
+ []
+
+
+Overfull \hbox (14.18489pt too wide) in paragraph at lines 265--265
+ []|\T1/cmr/m/n/10 Programmatore| 
+ []
+
+) (Sezioni/Organigramma.tex
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 1.
@@ -578,25 +1641,58 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[13]
-Overfull \hbox (8.823pt too wide) in paragraph at lines 6--12
-[][] 
- []
-
-
-Overfull \hbox (8.823pt too wide) in paragraph at lines 17--24
-[][] 
- []
-
-
-Overfull \hbox (8.823pt too wide) in paragraph at lines 29--40
-[][] 
- []
-
+[59]
+<Sezioni/images/FirmaEdoardo.png, id=1150, 264.99pt x 51.19125pt>
+File: Sezioni/images/FirmaEdoardo.png Graphic file (type png)
+<use Sezioni/images/FirmaEdoardo.png>
+Package pdftex.def Info: Sezioni/images/FirmaEdoardo.png  used on input line 10.
+(pdftex.def)             Requested size: 135.89114pt x 28.45364pt.
+<Sezioni/images/FirmaMatteo.png, id=1151, 444.91219pt x 102.3825pt>
+File: Sezioni/images/FirmaMatteo.png Graphic file (type png)
+<use Sezioni/images/FirmaMatteo.png>
+Package pdftex.def Info: Sezioni/images/FirmaMatteo.png  used on input line 11.
+(pdftex.def)             Requested size: 135.8915pt x 28.45287pt.
+<Sezioni/images/FirmaGreta.png, id=1152, 123.46124pt x 42.1575pt>
+File: Sezioni/images/FirmaGreta.png Graphic file (type png)
+<use Sezioni/images/FirmaGreta.png>
+Package pdftex.def Info: Sezioni/images/FirmaGreta.png  used on input line 22.
+(pdftex.def)             Requested size: 135.90007pt x 28.45314pt.
+<Sezioni/images/FirmaFrancesco.png, id=1153, 291.33844pt x 90.3375pt>
+File: Sezioni/images/FirmaFrancesco.png Graphic file (type png)
+<use Sezioni/images/FirmaFrancesco.png>
+Package pdftex.def Info: Sezioni/images/FirmaFrancesco.png  used on input line 33.
+(pdftex.def)             Requested size: 135.89328pt x 28.45232pt.
+File: Sezioni/images/FirmaEdoardo.png Graphic file (type png)
+<use Sezioni/images/FirmaEdoardo.png>
+Package pdftex.def Info: Sezioni/images/FirmaEdoardo.png  used on input line 34.
+(pdftex.def)             Requested size: 135.89114pt x 28.45364pt.
+File: Sezioni/images/FirmaGreta.png Graphic file (type png)
+<use Sezioni/images/FirmaGreta.png>
+Package pdftex.def Info: Sezioni/images/FirmaGreta.png  used on input line 35.
+(pdftex.def)             Requested size: 135.90007pt x 28.45314pt.
+<Sezioni/images/FirmaLuciano.png, id=1154, 264.99pt x 51.19125pt>
+File: Sezioni/images/FirmaLuciano.png Graphic file (type png)
+<use Sezioni/images/FirmaLuciano.png>
+Package pdftex.def Info: Sezioni/images/FirmaLuciano.png  used on input line 36.
+(pdftex.def)             Requested size: 135.89114pt x 28.45364pt.
+File: Sezioni/images/FirmaMatteo.png Graphic file (type png)
+<use Sezioni/images/FirmaMatteo.png>
+Package pdftex.def Info: Sezioni/images/FirmaMatteo.png  used on input line 37.
+(pdftex.def)             Requested size: 135.8915pt x 28.45287pt.
+<Sezioni/images/FirmaMichele.png, id=1155, 328.97906pt x 91.09032pt>
+File: Sezioni/images/FirmaMichele.png Graphic file (type png)
+<use Sezioni/images/FirmaMichele.png>
+Package pdftex.def Info: Sezioni/images/FirmaMichele.png  used on input line 38.
+(pdftex.def)             Requested size: 135.89127pt x 28.45174pt.
+<Sezioni/images/FirmaPietro.png, id=1156, 305.14pt x 91.84312pt>
+File: Sezioni/images/FirmaPietro.png Graphic file (type png)
+<use Sezioni/images/FirmaPietro.png>
+Package pdftex.def Info: Sezioni/images/FirmaPietro.png  used on input line 39.
+(pdftex.def)             Requested size: 135.89627pt x 28.45284pt.
 )
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 31.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 33.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
 
 
@@ -606,22 +1702,22 @@ Package fancyhdr Warning: \headheight is too small (35.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.0623pt}.
 
-[14] (piano_di_progetto.aux)
+[60 <./Sezioni/images/FirmaEdoardo.png> <./Sezioni/images/FirmaMatteo.png> <./Sezioni/images/FirmaGreta.png> <./Sezioni/images/FirmaFrancesco.png> <./Sezioni/images/FirmaLuciano.png> <./Sezioni/images/FirmaMichele.png> <./Sezioni/images/FirmaPietro.png>] (piano_di_progetto.aux)
 Package rerunfilecheck Info: File `piano_di_progetto.out' has not changed.
-(rerunfilecheck)             Checksum: 5ABB32453176C6BBBE9D0C555F05E9D1;4082.
+(rerunfilecheck)             Checksum: F10FD5FA19A6199264AAF10F89715663;18245.
  ) 
 Here is how much of TeX's memory you used:
- 11431 strings out of 478659
- 181596 string characters out of 2845919
- 515215 words of memory out of 3000000
- 29300 multiletter control sequences out of 15000+600000
- 413751 words of font info for 41 fonts, out of 8000000 for 9000
+ 12700 strings out of 478659
+ 216682 string characters out of 2845919
+ 551545 words of memory out of 3000000
+ 30243 multiletter control sequences out of 15000+600000
+ 415780 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,16n,66p,743b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk>
-Output written on piano_di_progetto.pdf (14 pages, 606508 bytes).
+ 65i,17n,66p,1158b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0700.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\matte\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feybr10.pfb><C:/Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on piano_di_progetto.pdf (60 pages, 2458114 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 222 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1632 PDF objects out of 1728 (max. 8388607)
+ 272 named destinations out of 1000 (max. 500000)
+ 1233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

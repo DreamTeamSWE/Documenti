@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-03-12" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3100" locale="it_IT">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="153" order="0"/>
+        <field id="tpd4" name="Data dinizio" width="63" order="1"/>
+        <field id="tpd5" name="Data di fine" width="63" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#00ff00 #ff0000 #eeeeee #33ff00]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="209" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="5" name="Norme di progetto" color="#8cb6ce" meeting="false" start="2022-03-20" duration="4" complete="0" thirdDate="2022-02-08" thirdDate-constraint="0" expand="true">
+            <task id="8" name="incremento" color="#8cb6ce" meeting="false" start="2022-03-20" duration="3" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="verifica" color="#00ff00" meeting="false" start="2022-03-23" duration="1" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="10" name="Glossario" color="#8cb6ce" meeting="false" start="2022-03-22" duration="14" complete="0" thirdDate="2022-03-14" thirdDate-constraint="0" expand="true">
+            <task id="12" name="incremento" color="#8cb6ce" meeting="false" start="2022-03-22" duration="13" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="verifica" color="#00ff00" meeting="false" start="2022-04-03" duration="2" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="14" name="Piano di Progetto" meeting="false" start="2022-03-20" duration="17" complete="0" expand="true">
+            <task id="15" name="incremento" meeting="false" start="2022-03-20" duration="3" complete="0" expand="true"/>
+            <task id="84" name="consuntivo" color="#8cb6ce" meeting="false" start="2022-04-03" duration="2" complete="0" thirdDate="2022-03-12" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="verifica" color="#00ff00" meeting="false" start="2022-04-04" duration="2" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="17" name="Piano di qualifica" color="#8cb6ce" meeting="false" start="2022-03-20" duration="4" complete="0" thirdDate="2022-03-14" thirdDate-constraint="0" expand="true">
+            <task id="19" name="incremento" color="#8cb6ce" meeting="false" start="2022-03-20" duration="3" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="verifica" color="#00ff00" meeting="false" start="2022-03-23" duration="1" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="21" name="Tecnology Baseline" meeting="false" start="2022-03-20" duration="4" complete="0" expand="true">
+            <task id="22" name="incremento" color="#8cb6ce" meeting="false" start="2022-03-20" duration="4" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="verifica" color="#00ff00" meeting="false" start="2022-03-23" duration="1" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="24" name="Product Baseline" meeting="false" start="2022-03-20" duration="5" complete="0" expand="true">
+            <task id="25" name="incremento" color="#8cb6ce" meeting="false" start="2022-03-20" duration="4" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+            <task id="26" name="verifica" color="#00ff00" meeting="false" start="2022-03-23" duration="2" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="29" name="Milestone 1" color="#ff0000" meeting="true" start="2022-03-24" duration="0" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="Specifica Tecnica" meeting="false" start="2022-04-01" duration="4" complete="0" expand="true">
+            <task id="31" name="incremento" color="#8cb6ce" meeting="false" start="2022-04-01" duration="3" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="verifica" color="#00ff00" meeting="false" start="2022-04-03" duration="2" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="33" name="Codifica" meeting="false" start="2022-03-24" duration="8" complete="0" expand="true">
+            <task id="34" name="incremento" color="#8cb6ce" meeting="false" start="2022-03-24" duration="8" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="verifica" color="#00ff00" meeting="false" start="2022-03-29" duration="3" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="37" name="Milestone 2" color="#ff0000" meeting="true" start="2022-04-01" duration="0" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        <task id="38" name="Manuale Utente" meeting="false" start="2022-04-01" duration="4" complete="0" expand="true">
+            <task id="39" name="incremento" color="#8cb6ce" meeting="false" start="2022-04-01" duration="3" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+            <task id="40" name="verifica" color="#00ff00" meeting="false" start="2022-04-03" duration="2" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="41" name="Validazione e Collaudo" color="#00ff00" meeting="false" start="2022-04-01" duration="6" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+        <task id="42" name="Consegna CA" color="#ff0000" meeting="true" start="2022-04-08" duration="0" complete="0" thirdDate="2022-03-20" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
