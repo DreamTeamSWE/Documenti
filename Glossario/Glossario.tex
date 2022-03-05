@@ -1,0 +1,25 @@
+\documentclass[a4paper]{article}
+
+\input{Sezioni/Packages.tex}
+\input{Sezioni/Command.tex}
+
+\begin{document}
+
+\input{Intro.tex}
+\input{Sezioni/Impaginazione.tex}
+\input{Sezioni/RegistroModifiche.tex}
+
+% indice
+\renewcommand{\contentsname}{Indice}
+\tableofcontents
+\pagebreak
+\setcounter{tocdepth}{2} %l'indice basta quello alfabetico
+\setcounter{secnumdepth}{0}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}} % per nascondere i subsubsection dall'indice
+
+
+\input{Sezioni/OrdineAlfabetico.tex}
+
+\input{Sezioni/Riferimenti.tex}
+
+\end{document}
