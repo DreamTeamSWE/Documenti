@@ -1,0 +1,59 @@
+\subsection{UCE1 - Visualizza errore in caso venga inserita una stringa vuota nel nome durante la registrazione}
+\begin{itemize}
+\item \textbf{Descrizione}: L'utente non autenticato inserisce una stringa vuota al posto del nome in fase di registrazione alla piattaforma Sweeat.
+\item \textbf{Attore primario}: Utente non autenticato.
+\item \textbf{Precondizione}: L'utente inserisce una stringa vuota nel campo nome della registrazione (UCW1 §3.4.1).
+\item \textbf{Postcondizione}: Viene mostrato un messaggio d'errore e l'utente non viene registrato nel sistema.
+
+\item \textbf{Scenario principale}:
+\begin{enumerate}
+\item L'operazione di inserimento del nome fallisce perché viene inserita una stringa vuota;
+\item Viene mostrato il corrispondente messaggio d'errore;
+\item All'utente viene data la possibilità di tentare nuovamente la registrazione al sistema.
+\end{enumerate}
+\end{itemize}
+
+\subsection{UCE2 - Visualizza errore in caso venga inserita una stringa vuota nel cognome durante la registrazione}
+\begin{itemize}
+\item \textbf{Descrizione}: L'utente non autenticato inserisce una stringa vuota al posto del cognome in fase di registrazione alla piattaforma Sweeat.
+\item \textbf{Attore primario}: Utente non autenticato.
+\item \textbf{Precondizione}: L'utente inserisce una stringa vuota nel campo cognome della registrazione (UCW1 §3.4.1).
+\item \textbf{Postcondizione}: Viene mostrato un messaggio d'errore e l'utente non viene registrato nel sistema.
+
+\item \textbf{Scenario principale}:
+\begin{enumerate}
+\item L'operazione di inserimento del cognome fallisce perché viene inserita una stringa vuota;
+\item Viene mostrato il corrispondente messaggio d'errore;
+\item All'utente viene data la possibilità di tentare nuovamente la registrazione al sistema.
+\end{enumerate}
+\end{itemize}
+
+\subsection{UCE3 - Visualizza errore in caso non venga inserito un indirizzo e-mail valido durante la registrazione}
+\begin{itemize}
+\item \textbf{Descrizione}: L'utente non autenticato inserisce un indirizzo e-mail non valido in fase di registrazione alla piattaforma Sweeat.
+\item \textbf{Attore primario}: Utente non autenticato.
+\item \textbf{Precondizione}: L'utente inserisce un indirizzo e-mail non valido in fase di registrazione (UCW1 §3.4.1).
+\item \textbf{Postcondizione}: Viene mostrato un messaggio d'errore e l'utente non viene registrato nel sistema.
+
+\item \textbf{Scenario principale}:
+\begin{enumerate}
+\item L'operazione di inserimento dell'indirizzo e-mail fallisce;
+\item Viene mostrato il corrispondente messaggio d'errore;
+\item All'utente viene data la possibilità di tentare nuovamente la registrazione al sistema.
+\end{enumerate}
+\end{itemize}
+
+\subsection{UCE4 - Visualizza errore in caso non venga inserita una password valida durante la registrazione}
+\begin{itemize}
+\item \textbf{Descrizione}: L'utente non autenticato inserisce una password non valida in fase di registrazione alla piattaforma Sweeat.
+\item \textbf{Attore primario}: Utente non autenticato.
+\item \textbf{Precondizione}: L'utente inserisce una password non valida in fase di registrazione (UCW1 §3.4.1).
+\item \textbf{Postcondizione}: Viene mostrato un messaggio d'errore e l'utente non viene registrato nel sistema.
+
+\item \textbf{Scenario principale}:
+\begin{enumerate}
+\item L'operazione di inserimento password fallisce;
+\item Viene mostrato il corrispondente messaggio d'errore;
+\item All'utente viene data la possibilità di tentare nuovamente la registrazione al sistema.
+\end{enumerate}
+\end{itemize}

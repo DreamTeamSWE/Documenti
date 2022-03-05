@@ -1,112 +1,27 @@
-\BOOKMARK [1][-]{section.1}{Introduzione}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Scopo del Documento}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Scopo del Prodotto}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Glossario}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.4}{Riferimenti}{section.1}% 5
-\BOOKMARK [1][-]{section.2}{Analisi dei rischi}{}% 6
-\BOOKMARK [2][-]{subsection.2.1}{Rischi tecnologici}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.2}{Rischi personali}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.3}{Rischi organizzativi}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.4}{Rischi legati ai requisiti}{section.2}% 10
-\BOOKMARK [1][-]{section.3}{Modello di sviluppo}{}% 11
-\BOOKMARK [2][-]{subsection.3.1}{Modello incrementale}{section.3}% 12
-\BOOKMARK [1][-]{section.4}{Pianificazione}{}% 13
-\BOOKMARK [2][-]{subsection.4.1}{Analisi}{section.4}% 14
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Attivit\340}{subsection.4.1}% 15
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Periodi}{subsection.4.1}% 16
-\BOOKMARK [4][-]{subsubsubsection.4.1.2.1}{I Periodo}{subsubsection.4.1.2}% 17
-\BOOKMARK [4][-]{subsubsubsection.4.1.2.2}{II Periodo}{subsubsection.4.1.2}% 18
-\BOOKMARK [4][-]{subsubsubsection.4.1.2.3}{III Periodo}{subsubsection.4.1.2}% 19
-\BOOKMARK [2][-]{subsection.4.2}{Produzione del Proof of Concept}{section.4}% 20
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Periodi}{subsection.4.2}% 21
-\BOOKMARK [4][-]{subsubsubsection.4.2.1.1}{I Periodo}{subsubsection.4.2.1}% 22
-\BOOKMARK [4][-]{subsubsubsection.4.2.1.2}{II Periodo}{subsubsection.4.2.1}% 23
-\BOOKMARK [4][-]{subsubsubsection.4.2.1.3}{III Periodo}{subsubsection.4.2.1}% 24
-\BOOKMARK [2][-]{subsection.4.3}{Progettazione di dettaglio e codifica}{section.4}% 25
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Periodi}{subsection.4.3}% 26
-\BOOKMARK [4][-]{subsubsubsection.4.3.1.1}{I Periodo}{subsubsection.4.3.1}% 27
-\BOOKMARK [4][-]{subsubsubsection.4.3.1.2}{II Periodo}{subsubsection.4.3.1}% 28
-\BOOKMARK [4][-]{subsubsubsection.4.3.1.3}{III Periodo}{subsubsection.4.3.1}% 29
-\BOOKMARK [4][-]{subsubsubsection.4.3.1.4}{IV Periodo}{subsubsection.4.3.1}% 30
-\BOOKMARK [2][-]{subsection.4.4}{Validazione e collaudo}{section.4}% 31
-\BOOKMARK [3][-]{subsubsection.4.4.1}{Periodi}{subsection.4.4}% 32
-\BOOKMARK [4][-]{subsubsubsection.4.4.1.1}{I Periodo}{subsubsection.4.4.1}% 33
-\BOOKMARK [4][-]{subsubsubsection.4.4.1.2}{II Periodo}{subsubsection.4.4.1}% 34
-\BOOKMARK [4][-]{subsubsubsection.4.4.1.3}{III Periodo}{subsubsection.4.4.1}% 35
-\BOOKMARK [1][-]{section.5}{Preventivo dei costi}{}% 36
-\BOOKMARK [2][-]{subsection.5.1}{Fase di analisi}{section.5}% 37
-\BOOKMARK [3][-]{subsubsection.5.1.1}{I Periodo}{subsection.5.1}% 38
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.1}{Prospetto orario}{subsubsection.5.1.1}% 39
-\BOOKMARK [4][-]{subsubsubsection.5.1.1.2}{Prospetto economico}{subsubsection.5.1.1}% 40
-\BOOKMARK [3][-]{subsubsection.5.1.2}{II Periodo}{subsection.5.1}% 41
-\BOOKMARK [4][-]{subsubsubsection.5.1.2.1}{Prospetto orario}{subsubsection.5.1.2}% 42
-\BOOKMARK [4][-]{subsubsubsection.5.1.2.2}{Prospetto economico}{subsubsection.5.1.2}% 43
-\BOOKMARK [3][-]{subsubsection.5.1.3}{III Periodo}{subsection.5.1}% 44
-\BOOKMARK [4][-]{subsubsubsection.5.1.3.1}{Prospetto orario}{subsubsection.5.1.3}% 45
-\BOOKMARK [4][-]{subsubsubsection.5.1.3.2}{Prospetto economico}{subsubsection.5.1.3}% 46
-\BOOKMARK [3][-]{subsubsection.5.1.4}{Fase complessiva}{subsection.5.1}% 47
-\BOOKMARK [4][-]{subsubsubsection.5.1.4.1}{Prospetto orario}{subsubsection.5.1.4}% 48
-\BOOKMARK [4][-]{subsubsubsection.5.1.4.2}{Prospetto economico}{subsubsection.5.1.4}% 49
-\BOOKMARK [2][-]{subsection.5.2}{Produzione del Proof of Concept}{section.5}% 50
-\BOOKMARK [3][-]{subsubsection.5.2.1}{I Periodo}{subsection.5.2}% 51
-\BOOKMARK [4][-]{subsubsubsection.5.2.1.1}{Prospetto orario}{subsubsection.5.2.1}% 52
-\BOOKMARK [4][-]{subsubsubsection.5.2.1.2}{Prospetto economico}{subsubsection.5.2.1}% 53
-\BOOKMARK [3][-]{subsubsection.5.2.2}{II Periodo}{subsection.5.2}% 54
-\BOOKMARK [4][-]{subsubsubsection.5.2.2.1}{Prospetto orario}{subsubsection.5.2.2}% 55
-\BOOKMARK [4][-]{subsubsubsection.5.2.2.2}{Prospetto economico}{subsubsection.5.2.2}% 56
-\BOOKMARK [3][-]{subsubsection.5.2.3}{III Periodo}{subsection.5.2}% 57
-\BOOKMARK [4][-]{subsubsubsection.5.2.3.1}{Prospetto orario}{subsubsection.5.2.3}% 58
-\BOOKMARK [4][-]{subsubsubsection.5.2.3.2}{Prospetto economico}{subsubsection.5.2.3}% 59
-\BOOKMARK [3][-]{subsubsection.5.2.4}{Fase complessiva}{subsection.5.2}% 60
-\BOOKMARK [4][-]{subsubsubsection.5.2.4.1}{Prospetto orario}{subsubsection.5.2.4}% 61
-\BOOKMARK [4][-]{subsubsubsection.5.2.4.2}{Prospetto economico}{subsubsection.5.2.4}% 62
-\BOOKMARK [2][-]{subsection.5.3}{Progettazione e Codifica}{section.5}% 63
-\BOOKMARK [3][-]{subsubsection.5.3.1}{I Periodo}{subsection.5.3}% 64
-\BOOKMARK [4][-]{subsubsubsection.5.3.1.1}{Prospetto orario}{subsubsection.5.3.1}% 65
-\BOOKMARK [4][-]{subsubsubsection.5.3.1.2}{Prospetto economico}{subsubsection.5.3.1}% 66
-\BOOKMARK [3][-]{subsubsection.5.3.2}{II Periodo}{subsection.5.3}% 67
-\BOOKMARK [4][-]{subsubsubsection.5.3.2.1}{Prospetto orario}{subsubsection.5.3.2}% 68
-\BOOKMARK [4][-]{subsubsubsection.5.3.2.2}{Prospetto economico}{subsubsection.5.3.2}% 69
-\BOOKMARK [3][-]{subsubsection.5.3.3}{III Periodo}{subsection.5.3}% 70
-\BOOKMARK [4][-]{subsubsubsection.5.3.3.1}{Prospetto orario}{subsubsection.5.3.3}% 71
-\BOOKMARK [4][-]{subsubsubsection.5.3.3.2}{Prospetto economico}{subsubsection.5.3.3}% 72
-\BOOKMARK [3][-]{subsubsection.5.3.4}{IV Periodo}{subsection.5.3}% 73
-\BOOKMARK [4][-]{subsubsubsection.5.3.4.1}{Prospetto orario}{subsubsection.5.3.4}% 74
-\BOOKMARK [4][-]{subsubsubsection.5.3.4.2}{Prospetto economico}{subsubsection.5.3.4}% 75
-\BOOKMARK [3][-]{subsubsection.5.3.5}{Fase complessiva}{subsection.5.3}% 76
-\BOOKMARK [4][-]{subsubsubsection.5.3.5.1}{Prospetto orario}{subsubsection.5.3.5}% 77
-\BOOKMARK [4][-]{subsubsubsection.5.3.5.2}{Prospetto economico}{subsubsection.5.3.5}% 78
-\BOOKMARK [2][-]{subsection.5.4}{Validazione e collaudo}{section.5}% 79
-\BOOKMARK [3][-]{subsubsection.5.4.1}{I Periodo}{subsection.5.4}% 80
-\BOOKMARK [4][-]{subsubsubsection.5.4.1.1}{Prospetto orario}{subsubsection.5.4.1}% 81
-\BOOKMARK [4][-]{subsubsubsection.5.4.1.2}{Prospetto economico}{subsubsection.5.4.1}% 82
-\BOOKMARK [3][-]{subsubsection.5.4.2}{II Periodo}{subsection.5.4}% 83
-\BOOKMARK [4][-]{subsubsubsection.5.4.2.1}{Prospetto orario}{subsubsection.5.4.2}% 84
-\BOOKMARK [4][-]{subsubsubsection.5.4.2.2}{Prospetto economico}{subsubsection.5.4.2}% 85
-\BOOKMARK [3][-]{subsubsection.5.4.3}{III Periodo}{subsection.5.4}% 86
-\BOOKMARK [4][-]{subsubsubsection.5.4.3.1}{Prospetto orario}{subsubsection.5.4.3}% 87
-\BOOKMARK [4][-]{subsubsubsection.5.4.3.2}{Prospetto economico}{subsubsection.5.4.3}% 88
-\BOOKMARK [3][-]{subsubsection.5.4.4}{Fase complessiva}{subsection.5.4}% 89
-\BOOKMARK [4][-]{subsubsubsection.5.4.4.1}{Prospetto orario}{subsubsection.5.4.4}% 90
-\BOOKMARK [4][-]{subsubsubsection.5.4.4.2}{Prospetto economico}{subsubsection.5.4.4}% 91
-\BOOKMARK [2][-]{subsection.5.5}{Riepilogo}{section.5}% 92
-\BOOKMARK [3][-]{subsubsection.5.5.1}{Ore totali}{subsection.5.5}% 93
-\BOOKMARK [4][-]{subsubsubsection.5.5.1.1}{Suddivisione lavoro}{subsubsection.5.5.1}% 94
-\BOOKMARK [4][-]{subsubsubsection.5.5.1.2}{Prospetto economico}{subsubsection.5.5.1}% 95
-\BOOKMARK [3][-]{subsubsection.5.5.2}{Ore rendicontate}{subsection.5.5}% 96
-\BOOKMARK [4][-]{subsubsubsection.5.5.2.1}{Suddivisione lavoro}{subsubsection.5.5.2}% 97
-\BOOKMARK [4][-]{subsubsubsection.5.5.2.2}{Prospetto economico}{subsubsection.5.5.2}% 98
-\BOOKMARK [2][-]{subsection.5.6}{Conclusioni}{section.5}% 99
-\BOOKMARK [1][-]{section.6}{Consuntivi di periodo}{}% 100
-\BOOKMARK [2][-]{subsection.6.1}{Fase di analisi}{section.6}% 101
-\BOOKMARK [3][-]{subsubsection.6.1.1}{Consuntivo}{subsection.6.1}% 102
-\BOOKMARK [3][-]{subsubsection.6.1.2}{Conclusioni}{subsection.6.1}% 103
-\BOOKMARK [3][-]{subsubsection.6.1.3}{Preventivo a finire}{subsection.6.1}% 104
-\BOOKMARK [2][-]{subsection.6.2}{Fase di produzione del proof of concept}{section.6}% 105
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Consuntivo}{subsection.6.2}% 106
-\BOOKMARK [3][-]{subsubsection.6.2.2}{Conclusioni}{subsection.6.2}% 107
-\BOOKMARK [3][-]{subsubsection.6.2.3}{Preventivo a finire}{subsection.6.2}% 108
-\BOOKMARK [1][-]{section.7}{Organigramma}{}% 109
-\BOOKMARK [2][-]{subsection.7.1}{Redazione}{section.7}% 110
-\BOOKMARK [2][-]{subsection.7.2}{Approvazione}{section.7}% 111
-\BOOKMARK [2][-]{subsection.7.3}{Accettazione dei componenti}{section.7}% 112
+\BOOKMARK [1][-]{section.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000z\000i\000o\000n\000e}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{\376\377\000S\000c\000o\000p\000o\000\040\000d\000e\000l\000\040\000D\000o\000c\000u\000m\000e\000n\000t\000o}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{\376\377\000S\000c\000o\000p\000o\000\040\000d\000e\000l\000\040\000P\000r\000o\000d\000o\000t\000t\000o}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{\376\377\000G\000l\000o\000s\000s\000a\000r\000i\000o}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{\376\377\000R\000i\000f\000e\000r\000i\000m\000e\000n\000t\000i}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{\376\377\000A\000n\000a\000l\000i\000s\000i\000\040\000d\000e\000i\000\040\000r\000i\000s\000c\000h\000i}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{\376\377\000R\000i\000s\000c\000h\000i\000\040\000t\000e\000c\000n\000o\000l\000o\000g\000i\000c\000i}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{\376\377\000R\000i\000s\000c\000h\000i\000\040\000p\000e\000r\000s\000o\000n\000a\000l\000i}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{\376\377\000R\000i\000s\000c\000h\000i\000\040\000o\000r\000g\000a\000n\000i\000z\000z\000a\000t\000i\000v\000i}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.4}{\376\377\000R\000i\000s\000c\000h\000i\000\040\000l\000e\000g\000a\000t\000i\000\040\000a\000i\000\040\000r\000e\000q\000u\000i\000s\000i\000t\000i}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{\376\377\000M\000o\000d\000e\000l\000l\000o\000\040\000d\000i\000\040\000s\000v\000i\000l\000u\000p\000p\000o}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{\376\377\000M\000o\000d\000e\000l\000l\000o\000\040\000i\000n\000c\000r\000e\000m\000e\000n\000t\000a\000l\000e}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{\376\377\000P\000i\000a\000n\000i\000f\000i\000c\000a\000z\000i\000o\000n\000e}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{\376\377\000A\000n\000a\000l\000i\000s\000i\000\040\000e\000\040\000p\000r\000o\000g\000e\000t\000t\000a\000z\000i\000o\000n\000e\000\040\000a\000r\000c\000h\000i\000t\000e\000t\000t\000u\000r\000a\000l\000e}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.1.1}{\376\377\000S\000t\000u\000d\000i\000o\000\040\000d\000i\000\040\000f\000a\000t\000t\000i\000b\000i\000l\000i\000t\000\340}{subsection.4.1}% 15
+\BOOKMARK [3][-]{subsubsection.4.1.2}{\376\377\000P\000r\000e\000s\000e\000n\000t\000a\000z\000i\000o\000n\000e\000\040\000p\000e\000r\000\040\000a\000s\000s\000e\000g\000n\000a\000z\000i\000o\000n\000e\000\040\000a\000p\000p\000a\000l\000t\000i}{subsection.4.1}% 16
+\BOOKMARK [3][-]{subsubsection.4.1.3}{\376\377\000P\000i\000a\000n\000o\000\040\000d\000i\000\040\000p\000r\000o\000g\000e\000t\000t\000o}{subsection.4.1}% 17
+\BOOKMARK [3][-]{subsubsection.4.1.4}{\376\377\000A\000n\000a\000l\000i\000s\000i\000\040\000d\000e\000i\000\040\000r\000e\000q\000u\000i\000s\000i\000t\000i}{subsection.4.1}% 18
+\BOOKMARK [3][-]{subsubsection.4.1.5}{\376\377\000P\000i\000a\000n\000o\000\040\000d\000i\000\040\000q\000u\000a\000l\000i\000f\000i\000c\000a}{subsection.4.1}% 19
+\BOOKMARK [3][-]{subsubsection.4.1.6}{\376\377\000G\000l\000o\000s\000s\000a\000r\000i\000o}{subsection.4.1}% 20
+\BOOKMARK [3][-]{subsubsection.4.1.7}{\376\377\000N\000o\000r\000m\000e\000\040\000d\000i\000\040\000p\000r\000o\000g\000e\000t\000t\000o}{subsection.4.1}% 21
+\BOOKMARK [1][-]{section.5}{\376\377\000P\000r\000e\000v\000e\000n\000t\000i\000v\000o\000\040\000d\000e\000i\000\040\000c\000o\000s\000t\000i}{}% 22
+\BOOKMARK [1][-]{section.6}{\376\377\000C\000o\000n\000s\000u\000n\000t\000i\000v\000o}{}% 23
+\BOOKMARK [1][-]{section.7}{\376\377\000O\000r\000g\000a\000n\000i\000g\000r\000a\000m\000m\000a}{}% 24
+\BOOKMARK [2][-]{subsection.7.1}{\376\377\000R\000e\000d\000a\000z\000i\000o\000n\000e}{section.7}% 25
+\BOOKMARK [2][-]{subsection.7.2}{\376\377\000A\000p\000p\000r\000o\000v\000a\000z\000i\000o\000n\000e}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.3}{\376\377\000A\000c\000c\000e\000t\000t\000a\000z\000i\000o\000n\000e\000\040\000d\000e\000i\000\040\000c\000o\000m\000p\000o\000n\000e\000n\000t\000i}{section.7}% 27
