@@ -36,9 +36,43 @@ Il materiale che il gruppo fornirà al proponente e ai committenti sono:
 
 \end{itemize}
 
+Verrà allegata una \textbf{Lettera di Presentazione} alla documentazione. Lo scopo è quello di formalizzare l'impegno del gruppo nel portare a termine il prodotto software entro una scadenza specifica (definita nella lettera stessa) nel rispetto dei requisiti minimi del capitolato di riferimento. Nella stessa lettera saranno presenti le coordinate necessarie per l'accesso alla documentazione fornita.
+
+\subsubsection{Preparazione al collaudo del prodotto}
+Verranno instaurati rapporti più frequenti con l'azienda proponente in preparazione alla fase di collaudo.
+Per poter avere esito positivo in fase di collaudo, il prodotto finito deve essere stato preventivamente preparato attraverso una campagna di test. In particolare:
+\begin{itemize}
+\item test d’unità;
+\item test di regressione;
+\item test d’integrazione;
+\item test di sistema.
+\end{itemize}
+
+Dopo il superamento  dei test, il gruppo avrà la ragionevole garanzia di aver realizzato un prodotto corretto e completo.
+
+Durante il collaudo va dimostrato al committente che:
+\begin{itemize}
+\item i test presenti nel \PdQ sono stati eseguiti e hanno ottenuto un esito conforme alle metriche dichiarate;
+\item sono stati implementati al meglio i requisiti obbligatori definiti nell' \AdR ;
+\item i requisiti desiderabili e facoltativi, nel caso fossero stati implementati, vanno oltre
+alle aspettative minime del proponente.
+\end{itemize}
+
+\subsubsection{Collaudo e consegna}
+
+Il gruppo \textit{DreamTeam} consegnerà all’azienda proponente e ai committenti:
+\begin{itemize}
+\item Il codice sorgente;
+\item Documentazione di prodotto;
+\item Glossario v3.0.0;
+\item Manuale Utente v1.0.0;
+\item Documentazione delle API v1.0.0;
+\end{itemize}
 \subsection{Sviluppo}
+
 \subsubsection{Scopo}
 Lo scopo del processo di sviluppo, secondo lo standard  ISO/IEC/IEEE 12207:1995 è definire compiti e attività da eseguire per realizzare il prodotto finale richiesto dal proponente.
+
 \subsubsection{Descrizione}
 Sono elencate e dopo trattate le seguenti attività di questo processo:
 \begin{itemize}
@@ -119,10 +153,13 @@ Un requisito è un obiettivo, accordato con il proponente o preso mediante una d
 \begin{center}
 \textbf{R[Importanza][Tipologia][Codice]}
 \end{center}
+
 dove:
+
 \begin{itemize}
-\item \textbf{Importanza}: rappresenta l’importanza associata al requisito e può assumere uno dei seguenti valori:
+\item \textbf{Importanza}: rappresenta l'importanza associata al requisito e può assumere uno dei seguenti valori:
 \begin{itemize}
+	
 	\item \textbf{1}: Requisito \textit{Obbligatorio}, la sua soddisfazione dovrà necessariamente avvenire per garantire una buona funzionalità dell’intero sistema;
 	\item \textbf{2}: Requisito \textit{Desiderabile}, la sua soddisfazione non vincola il buon funzionamento del sistema, tuttavia ne fornisce una maggior completezza;
 	\item \textbf{3}: Requisito \textit{Facoltativo}, se soddisfatto rende il sistema più completo, ma ciò potrebbe comportare un dispendio di energie con un conseguente aumento dei costi preventivati.
@@ -194,17 +231,26 @@ Ciascun requisito deve essere:
 \paragraph{Metriche}
 Le metriche utilizzate per la valutazione dell'attività di analisi dei requisiti sono:
 \begin{itemize}
-\item \textbf{MQP05 Percentuale requisiti obbligatori soddisfatti} (per maggiori informazioni consultare §C.5).
+\item \textbf{MQP05 Percentuale requisiti obbligatori soddisfatti} \\
+Indica la quantità percentuale dei requisiti obbligatori soddisfatti in rapporto al totale dei requisiti obbligatori.
+La formula è:
+\begin{itemize}
+  \item[] \[RS = \frac{ROS}{TRO} * 100;\]
+  \item RS = Percentuale requisiti obbligatori soddisfatti;
+  \item ROS = Requisiti obbligatori soddisfatti;
+  \item TRO = Totale requisiti 	obbligatori.
+  \end{itemize}
 \end{itemize}
 
-\subsection{Progettazione}
-\subsubsection{Scopo}
+
+\subsubsection{Progettazione}
+\paragraph{Scopo}
 Lo scopo della Progettazione è di determinare le caratteristiche che il prodotto deve avere per soddisfare i requisiti individuati dagli stakeholder\textsuperscript{G}. Il procedimento seguito è l'opposto rispetto a quello usato per l'\AdR. Vengono individuate le diverse parti, coerenti con i requisiti, che verranno poi raggruppate in vari sottoinsiemi fino ad arrivare ad un'unica soluzione finale. Restano da rispettare i vincoli di sostenibilità nell'utilizzo delle risorse, nel contenimento dei costi e nel rispetto degli obiettivi di qualità.
 
-\subsubsection{Descrizione}
+\paragraph{Descrizione}
 L’obiettivo è la realizzazione dell’architettura del sistema.
 
-\subsubsection{Technology Baseline}
+\paragraph{Technology Baseline}
 Misura la comprensione delle tecnologie individuate per la realizzazione del prodotto, motivandone la scelta. 
 Dovranno essere mostrate:
 \begin{itemize}
@@ -213,79 +259,142 @@ Dovranno essere mostrate:
 	\item Il \textit{\textbf{Proof of Concept}}: un prototipo (incompleto) eseguibile che riunisce tutte le tecnologie adottate, dimostrando in maniera pratica la loro adeguatezza e compatibilità reciproca. 
 \end{itemize}
 
-\subsubsection{Product Baseline}
+\paragraph{Product Baseline}
 Rappresenta la baseline architetturale (design e coding) del prodotto, coerente con la Technology Baseline. Mostra il design definitivo del prodotto.
 Dovrà contenere:
 \begin{itemize}
 	\item Diagrammi UML delle classi e di sequenza;
 	\item Tracciamento per ogni classe dei requisiti che deve soddisfare;
-	\item Descrizione dei design pattern utilizzati.
+	\item Descrizione dei design pattern utilizzati;
+	\item Descrizione dell'architettura generale del prodotto software.
 \end{itemize}
 
-\subsubsection{Qualità}
+\paragraph{Qualità}
 È compito del \textit{Progettista} definire un'architettura di qualità. Le caratteristiche che essa dovrà avere sono:
+
 \begin{itemize}
   \item Soddisfare i requisiti indicati nel documento \AdR;
   \item Essere comprensibile, robusta e affidabile;
-  \item Presentare componenti semplici, in maniera tale da garantire modularità e riusabilità, semplificando il lavoro dello sviluppatore;
+  \item Presentare componenti semplici, in maniera tale da garantire modularità e riusabilità, semplificando il lavoro dello sviluppatore;  
   \item Utilizzare le risorse in maniera efficiente.
 \end{itemize}
 
-\textit{Questa sezione sarà soggetta a modifiche future con l'avanzare del progetto.}
 
-\subsection{Codifica}
-\subsubsection{Scopo}
-Lo scopo del processo di codifica è l’effettiva realizzazione del prodotto software, svolto dal \textit{\PR}. Si può vedere come la trasformazione in codice dell’architettura definita dai \textit{Progettisti}, per arrivare allo sviluppo del prodotto finale.
+\subsubsection{Codifica}
+\paragraph{Scopo}
+Lo scopo del processo di codifica è l'effettiva realizzazione del prodotto software, svolto dal \textit{\PR}. Si può vedere come la trasformazione in codice dell’architettura definita dai \textit{Progettisti}, per arrivare allo sviluppo del prodotto finale.
 
-\subsubsection{Descrizione}
+\paragraph{Descrizione}
 Il codice deve rispettare gli obiettivi di qualità definiti nel \PdQ. Nelle sezioni sottostanti saranno elencate regole e norme di carattere più generale, utilizzate da ogni linguaggio di programmazione impiegato nel progetto. 
 
-\subsubsection{Stile di codifica}
+\paragraph{Stile di codifica}
 
-\paragraph{Norme di buona programmazione}
+\subparagraph{Norme di buona programmazione}
+Di seguito le più importanti norme guida generali per lo sviluppo del codice che il gruppo si impegna a rispettare: 
 \begin{itemize}
 \item Produrre codice leggibile e verificabile;
 \item Strutturare la codifica in modo da rispettare il design progettato;
 \item Massimizzare l'information hiding.
 \end{itemize}
 
-\paragraph{Norme di struttura}
-\begin{itemize}
-\item \textbf{Indentazione}: i blocchi di codice innestati dovranno avere un’indentazione di quattro spazi, evitando l'utilizzo di tabulazioni;
-\item \textbf{Parentesi}: le parentesi aperte di delimitazione dei blocchi di codice dovranno trovarsi in linea con l'istruzione che definisce il blocco di codice. Eccezione ovvia la fanno i linguaggi che non usano questo sistema di delimitazione dei blocchi di codice;
-\item \textbf{Commenti}: i commenti al codice saranno presentati in lingua italiana. Se necessari dovranno trovarsi generalmente sopra al costrutto in questione;
-\item \textbf{Lunghezza riga}: una riga di codice dovrà essere lunga al massimo 140 caratteri, altrimenti dovrà essere spezzata in maniera uniforme;
-\item  \textbf{Univocità dei nomi}: tutti i costrutti dovranno avere nomi univoci ed autoesplicativi, da evitare nomi eccessivamente lunghi.
-\end{itemize}
-
-\paragraph{Convenzioni sulla nomenclatura}
-In generale per i nomi verrà utilizzata la nomenclatura a cammello (camel case) con alcune particolarità:
-\begin{itemize}
-\item Nomi di variabili e metodi dovranno cominciare con la lettera minuscola;
-\item Nomi di classi, file e cartelle dovranno cominciare con la lettera maiuscola;
-\item Nomi di costanti dovranno essere scritti tutti in maiuscolo, separando le parole con il carattere underscore "\_" .
-\end{itemize}
-
-\paragraph{Brevità dei metodi}
+\subparagraph{Brevità dei metodi}
 In generale ogni metodo o procedura dovrebbe essere breve e conciso, tra le 20 e 25 righe (contando un'istruzione per riga). Poiché il bisogno di scrivere un metodo più lungo può diventare necessario, si possono considerare tollerabili procedure fino ad un massimo di 35-40 righe. Nel caso in cui la soglia venga superata, ha senso considerare una suddivisione della procedura. E' fondamentale concentrarsi sullo scopo di ogni procedura, evitando singole procedure che svolgono troppi compiti.
 
-\subsubsection{Metriche}
+\subparagraph{Norme di struttura per il linguaggio Python}
+Molte di queste norme derivano dallo standard di codifica Python PEP 8 che il gruppo di sviluppo della parte di backend si impegna a rispettare.
+\begin{itemize}
+\item \textbf{Indentazione}: i blocchi di codice innestati dovranno avere un’indentazione di quattro spazi, evitando l'utilizzo di tabulazioni;
+\item \textbf{Lunghezza massima}: Ogni riga di codice dovrà avere una lunghezza massima di 79 caratteri; 
+\item \textbf{Import}: Ogni import vanno generalmente in linee separate (da evitare import multipli separati da virgola), e vanno raggruppati per categorie (librerie standard, librerie di terze parti, librerie specifiche dell'applicazione) separate da una linea vuota;
+\item \textbf{Commenti}: i commenti al codice saranno presentati in lingua inglese. Se necessari dovranno trovarsi generalmente sopra al costrutto in questione;
+\item  \textbf{Univocità dei nomi}: tutti i costrutti dovranno avere nomi univoci ed autoesplicativi, da evitare nomi eccessivamente lunghi.
+\item \textbf{Operazioni logiche/matematiche}: Preferibilmente vanno spezzate portanto il simbolo dell'operazione (es. "+") nella nuova linea.
+\end{itemize}
+
+\subparagraph{Convenzioni sulla nomenclatura per il linguaggio Python}
+Molte di queste norme derivano dallo standard di codifica Python PEP 8 che il gruppo di sviluppo della parte di backend si impegna a rispettare.
+
+In generale per i nomi verrà utilizzata la nomenclatura "snake case", dove ogni parola è in minuscolo, separata da un underscore, con alcune particolarità:
+\begin{itemize}
+\item Nomi di variabili e metodi dovranno cominciare con la lettera minuscola;
+\item Nomi di classi e file dovranno cominciare con la lettera maiuscola e rispettare la convenzione camel case, dove le parole sono unite tra di loro e l'iniziale di ogni parola è in maiuscolo;
+\item Nomi di costanti dovranno essere scritti tutti in maiuscolo, separando le parole con il carattere underscore "\_" ;
+\item I nomi delle varie cartelle e package dovranno essere il snake case, con le iniziali minuscole e vanno preferiti nomi brevi e composti da una singola parola.
+\end{itemize}
+
+\subparagraph{Norme di struttura per il linguaggio Javascript}
+
+\begin{itemize}
+\item robe
+\end{itemize}
+
+\subparagraph{Convenzioni sulla nomenclatura per il linguaggio Javascript}
+
+\begin{itemize}
+\item robe
+\end{itemize}
+
+
+\paragraph{Metriche}
 Per la valutazione del processo di codifica saranno adottate le seguenti metriche:
 \begin{itemize}
-\item \textbf{MQP02 Profondità di una gerarchia};
-\item \textbf{MQP03 Numero parametri per metodo};
-\item \textbf{MQP05 Percentuale requisiti obbligatori soddisfatti};
-\item \textbf{MQP06 Complessità ciclomatica};
-\item \textbf{MQP07 Numero di bug};
-\item \textbf{MQP08 Numero di code smell};
-\item \textbf{MQP09 Linee di Commento per Linee di Codice};
-\item \textbf{MQP12 Numero di vulnerabilità}.
+
+\item \textbf{MQP02 Profondità di una gerarchia} \\
+È un valore intero che definisce quanto può essere profonda la gerarchia di una classe. Nel caso una gerarchia abbia una sola classe, allora il suo valore sarà pari a 1;
+
+\item \textbf{MQP03 Numero parametri per metodo} \\
+Indica il numero intero di parametri che può avere un metodo. Un numero di parametri troppo elevato, indica che è necessario ridurre delle funzionalità associate al metodo a cui si fa riferimento. Inoltre, se si ha un numero elevato di parametri, la probabilità di avere più errori progettuali aumenta;
+
+\item \textbf{MQP05 Percentuale requisiti obbligatori soddisfatti} \\
+Indica la quantità percentuale dei requisiti obbligatori soddisfatti in rapporto al totale dei requisiti obbligatori.
+La formula è:
+\begin{itemize}
+  \item[] \[RS = \frac{ROS}{TRO} * 100;\]
+  \item RS = Percentuale requisiti obbligatori soddisfatti;
+  \item ROS = Requisiti obbligatori soddisfatti;
+  \item TRO = Totale requisiti 	obbligatori.
+  \end{itemize}
+
+\item \textbf{MQP06 Complessità ciclomatica}\\
+La complessità ciclomatica è una metrica sviluppata da Thomas J. McCabeornisce che fornisce una misura quantitativa della complessità di un programma, essa è identificata dal numero di cammini linearmente indipendenti presenti nel grafo del flusso di controllo del programma. Un valore elevato di tale misurazione indica che il software possiede un comportamento poco predicibile, fattore che causa grandi rischi.
+La formula è:
+\begin{itemize}
+  \item[] \[CC 	= E - N + P;\]
+  \item CC = Complessità ciclomatica;
+  \item E = Numero di congiunzioni tra statement (gli archi di un grafo);
+  \item N = Numero di statement (nodi presenti nel grafo);
+  \item P = Numero delle componenti connesse da ogni nodo (per esecuzione sequenziale P = 2 essendovi 1 predecessore e 1 successore per ogni arco).
+  \end{itemize}
+
+
+\item \textbf{MQP07 Numero di bug}\\
+Numero di righe di codice del programma che potrebbero comportare un risultato diverso da quello previsto.
+
+\item \textbf{MQP08 Numero di code smell}\\
+Indica una serie di caratteristiche che il codice sorgente può avere e che sono generalmente riconosciute come probabili indicazioni di un difetto di programmazione.
+
+\item \textbf{MQP09 Linee di Commento per Linee di Codice} \\
+La formula è:
+\begin{itemize}
+  \item[] \[LCC = \frac{LDC}{LCD} * 100 ;\]
+  \item LCC = Percentuale rapporto tra linee di commento e linee di codice di istruzioni;
+  \item LDC = Linee di commento;
+  \item LCD = Linee di codice.
+  \end{itemize}
+
+
+\item \textbf{MQP12 Numero di vulnerabilità}\\
+Indica il numero di vulnerabilità presenti nel codice sorgente del prodotto.
 \end{itemize}
 Per maggiori informazioni consultare \S{}C.
 
-\subsubsection{Strumenti}
+\paragraph{Strumenti}
 Gli strumenti che verranno adottati durante il processo di sviluppo sono:
 \begin{itemize}
-\item \textbf{Visual Studio Code}: IDE utilizzato dal gruppo per la stesura del codice;
+\item \textbf{PyCharm Community Edition}: IDE preferito per lo sviluppo in Python, per il fatto che offre uno strumento nativo di refactor automatico che impone il rispetto dello standard PEP 8.
+\item \textbf{Atom}: IDE preferito per lo sviluppo in Javascript/HTML/CSS;
+\item \textbf{Visual Studio Code}: IDE alternativo utilizzato dal gruppo per la stesura del codice;
 \item \textbf{AWS CLI}\textsuperscript{G}: uno strumento unificato per la gestione dei servizi AWS\textsuperscript{G} via interfaccia a riga di comando.
+\item \textbf{StarUML}: strumento utilizzato per la produzione dei diagrammi UML.
+
 \end{itemize}
