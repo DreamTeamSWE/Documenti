@@ -28,7 +28,8 @@ L'attività di coordinamento è responsabile della gestione delle comunicazioni 
 Le comunicazioni avvengono su due piani diversi: tra i membri del gruppo (interno), tra i membri del gruppo e uno o più soggetti esterni (esterno). I soggetti esterni si identificano in:
 \begin{itemize}
 \item \textbf{Proponente}: l'azienda \textit{\zd};
-\item \textbf{Committenti}:  Prof. \textit{Tullio Vardanega} e Prof. \textit{Riccardo Cardin}.
+\item \textbf{Committenti}:  Prof. \textit{Tullio Vardanega} e Prof. \textit{Riccardo Cardin};
+\item \textbf{Esperti esterni}: soggetti individuati dall'azienda per richieste specifiche.
 \end{itemize}
 
 \subparagraph{Comunicazione interna}
@@ -152,7 +153,7 @@ La gestione dei ticket\textsuperscript{G} è un'attività fondamentale in quanto
 
 Il servizio di ticketing scelto è quello offerto da GitHub\textsuperscript{G}, tramite le issue\textsuperscript{G}. Il motivo principale di questa decisione è la comodità della piattaforma, già conosciuta dalla maggioranza dei membri del gruppo, evitando l'introduzione di strumenti aggiuntivi.
 
-\begin{figure}[!h]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{Contenuto/Immagini/ticket.png}
 \caption{Attività di gestione dei ticket}
@@ -165,19 +166,88 @@ Note:
 \item In generale i membri sono tenuti a dare titoli e descrizioni concise e coerenti dei ticket che creano, non saranno accettati ticket con corpo vuoto o ticket senza scadenza.
 \end{itemize}
 
+\paragraph{Gestione dei rischi}
+La catalogazione dei rischi si è resa necessaria per assicurare un avanzamento lineare del progetto. Permette al gruppo di individuare in anticipo eventuali situazioni problematiche e sviluppare già da subito un piano di risposta. Tutti i rischi rilevati sono documentati nel \PdP. Il compito di rilevazione dei rischi spetta al \RE.
+Vengono individuate le seguenti fasi per la gestione del rischio:
+\begin{itemize}
+\item Monitoraggio dei rischi già previsti e individuazione di nuove situazioni problematiche;
+\item Registrazione di ogni riscontro previsto dai rischi nel \PdP ;
+\item Aggiunta di nuovi rischi individuati nel \PdP ;
+\item Aggiornamento, se necessario, delle strategie di gestione dei rischi.
+
+\end{itemize}
+
+\subparagraph{Nominazione dei rischi}
+Per ogni rischio viene deinito il seguente codice identificativo:
+\\
+\centerline{\textbf{R[Tipologia][Numero]}}\\
+dove:
+\begin{itemize}
+\item \textbf{Tipologia} intende il tipo di rischio, essi possono essere:
+	\begin{itemize}
+	\item \textbf{T}: legati alle tecnologie;
+	\item \textbf{P}: legati ali membri del gruppo;
+	\item \textbf{O}: legati all'organizzazione del lavoro;
+	\item \textbf{R}: legati ai requisiti.
+	\end{itemize}
+\item \textbf{Numero}: rappresenta il numero incrementale identificativo per ogni rischio, parte da 1 e ricomincia da 1 ad ogni cambio di tipologia.
+\end{itemize}
+
+\subparagraph{Struttura di un rischio}
+Nel \PdP ogni rischio dovrà rispettare la seguente struttura tabellare:
+\begin{itemize}
+\item \textbf{Codice}: compone la prima riga della tabella; viene fatto seguire da un trattino ("-") e da un breve titolo esplicativo del contenuto della stessa (e.g: RT2 - Problemi software);
+\item \textbf{Descrizione}: concisa e sintetica presenta in poche righe il rischio riscontrato;
+\item \textbf{Conseguenze}: espone gli effetti a cui il rischio potrebbe portare al lavoro del gruppo e/o al progetto stesso, nel caso non venisse trattato adeguatamente;
+\item \textbf{Probabilità di manifestazione}: distinta fra Alta, Medio, Bassa rappresenta la
+probabilità che la situazione di rischio si manifesti;
+\item \textbf{Pericolosità}: come sopra viene distinta fra Alta, Medio, Bassa; la sua attribuzione
+permette di classificare il rischio in base alla pericolosità;
+\item \textbf{Precauzioni}: espone le strategie da attuare per cercare di evitare il verificarsi della situazione di rischio;
+\item \textbf{Piano di contingenza}: presenta il comportamento da adottare nel caso il rischio si verifichi effettivamente per cercare di limitarne il più possibile le conseguenze negative.
+\end{itemize}
+
+\subparagraph{Attualizzazione dei rischi}
+Documentare l'attualizzazione dei rischi è egualmente importante, poiché permette di riscontrare i rischi che effettivamente si sono verificati, permettendo di valutare l'efficacia effettiva dei piani di contingenza, e quindi innescare un aggiornamento delle procedure, ma anche della probabilità di manifestazione o pericolosità. \\
+L'attuazione viene documentata anch'essa nel \PdQ, e per ogni rischio che si è effettivamente verificato vanno indicati:
+\begin{itemize}
+\item \textbf{Codice}: compone la prima riga della tabella; viene fatto seguire da un trattino ("-") e da un breve titolo esplicativo del contenuto della stessa (e.g: RT2 - Problemi software);
+\item \textbf{Periodo}: i periodi i cui la situazione di rischio si è verificata;
+\item \textbf{Descrizione}: concisa e sintetica presenta in poche righe come la situazione di rischio si sia effettivamente verificata;
+\item \textbf{Risoluzione}: come sono stati attuati nel concreto i piani di contingenza.
+\end{itemize} 
+
 \paragraph{Metriche}
 Le metriche adottate per la valutazione del processo di pianificazione sono le seguenti:
 \begin{itemize}
-\item \textbf{MPC02 Budgeted cost of work scheduled};
-\item \textbf{MPC03 Actual cost of work performed};
-\item \textbf{MPC05 Schedule variance};
-\item \textbf{MPC06 Budget variance}.
+\item \textbf{MPC02 Budgeted cost of work scheduled}\\
+Indica una previsione della somma di budget spesa dal gruppo per il lavoro svolto dall'inizio del progetto fino alla data corrente. Questo valore è reperibile all'interno del preventivo nel \PdP;
+\item \textbf{MPC03 Actual cost of work performed}\\
+Valore che indica la somma di tutte le spese che sono state effettivamente sostenute dal gruppo, questo valore deve essere minore o uguale a quanto preventivato all'interno del consuntivo nel \PdP;
+\item \textbf{MPC05 Schedule variance}\\Indica il discostamento percentuale tra la programmazione preventivata e quella effettiva.
+La formula è:
+\begin{itemize}
+  \item[] \[SV =  \frac{100 * (BCWP - BCWS)}{BCWS};\]
+  \item SV = Schedule variance;
+  \item BCWP = Budgeted cost of work performed;
+  \item BCWS = Budgeted cost of work scheduled;
+\end{itemize}
+\item \textbf{MPC06 Budget variance}\\
+Indice percentuale che mostra se le spese sostenute a partire dall’inizio del progetto fino al momento in cui viene calcolato rientrano nel budget di spesa previsto per la data corrente.
+La formula è:
+\begin{itemize}
+\item[] \[BV = \frac{100 * (BCWS - ACWP)}{BCWS};\]
+\item BV = Budget variance;
+\item BCWS = Budgeted cost of work scheduled;
+\item ACWP = Actual cost of work performed.
+\end{itemize}
 \end{itemize} 
-Per maggiori informazioni consultare §B.
+
 
 \paragraph{Strumenti}
 Per il supporto all’attività di pianificazione di progetto è stato scelto come strumento
 \textbf{GanttProject}, software open-source e multi-piattaforma usato per la realizzazione di diagrammi di Gantt. Servirà per tenere traccia dell'assegnazione delle risorse, del rispetto delle scadenze e dell'analisi dei carichi di lavoro.
+
 
 
 \subsection{Formazione dei membri del team}

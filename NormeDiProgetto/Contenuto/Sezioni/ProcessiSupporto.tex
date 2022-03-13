@@ -248,7 +248,15 @@ Le regole per quanto riguarda l’uso di elementi grafici sono:
 \subsubsection{Metriche}
 Per la valutazione dei documenti prodotti del processo di documentazione, verrà applicata la seguente metrica di prodotto:
 \begin{itemize}
-\item \textbf{MQP01 Indice di Gulpease}, trattato in §C.1. 
+\item \textbf{MQP01 Indice di Gulpease} \\
+È un indice di leggibilità di un determinato testo. Calcola la lunghezza delle parole e delle frasi rispetto al numero totale delle lettere, per fare ciò considera: la lunghezza della parola e la lunghezza della frase rispetto al numero delle lettere. Il valore è un numero intero compreso tra 0 e 100.
+La formula è:
+\begin{itemize}
+  \item[] \[IDG =  89 + \frac{300 * NDF - 10 * NDL}{NDP};\]
+  \item NDF = Numero dei frasi;
+  \item NDL = Numero di lettere;
+  \item NDP = Numero di parole.
+  \end{itemize}
 \end{itemize}
 
 \subsubsection{Strumenti}
@@ -281,18 +289,45 @@ dove :
 \paragraph{Strumenti}
 Per il versionamento si è scelto di utilizzare un repository GitHub, che, a sua volta, implementa il software di controllo versione distribuito Git.
 
-\subsubsection{Struttura del repository}
-Il repository utilizzato dal gruppo per la creazione dei documenti contiene una directory per ogni documento denominata NomeDocumento, la cui struttura è approfondita in §3.1.6.
+\subsubsection{Repository per la documentazione}
+\paragraph{Struttura}
+Il repository utilizzato dal gruppo per il versionamento dei documenti, denominato \textbf{Documenti}, contiene una directory per ogni documento denominata NomeDocumento, la cui struttura è approfondita in §3.1.6.
 Il repository è suddiviso in più branch così definiti:
 \begin{itemize}
 \item \textbf{main}: il branch principale, che contiene l'ultima versione verificata di ogni documento;
 \item \textbf{NomeDocumento}: uno per ogni documento, è dove il documento vive e viene attivamente stilato dai membri del gruppo.
 \end{itemize}
 
-\subsubsection{Modifiche al repository}
-Non è consentito fare commit\textsuperscript{G} direttamente sul branch\textsuperscript{G} \textbf{main}, poiché porterebbe ad un elevato rischio di incongruenze e merge conflicts\textsuperscript{G}. Potrà essere modificato solo tramite il meccanismo di pull request\textsuperscript{G} con verifica obbligatoria, in modo da garantire che sia sempre presente una versione verificata e corretta del documento, anche se incompleta.
-Nel branch \textbf{NomeDocumento} invece ogni membro può fare commit a patto che siano relative solo al documento specificato. Ogni commit deve referenziare la issue\textsuperscript{G} da cui è derivata e quindi, in generale, potranno effettuare modifiche sul branch solo gli assegnatari di issue che trattano quel documento specifico. Per quanto riguarda cambiamenti minimali (punteggiatura, errori ortografici, ecc.) è permessa la modifica autonoma da parte di qualsiasi membro del gruppo e non è necessario referenziare nessuna issue.
+\paragraph{Modifiche}
+Viene fortemente sconsigliato fare commit\textsuperscript{G} direttamente sul branch\textsuperscript{G} \textbf{main}, poiché porterebbe ad un elevato rischio di incongruenze e merge conflicts\textsuperscript{G}. Potrà essere modificato solo tramite il meccanismo di pull request\textsuperscript{G} con verifica obbligatoria, in modo da garantire che sia sempre presente una versione verificata e corretta del documento, anche se incompleta.
+Nel branch \textbf{NomeDocumento} invece ogni membro può fare commit a patto che siano relative solo al documento specificato. Ogni commit, dove possibile, deve referenziare la issue\textsuperscript{G} da cui è derivata e quindi, in generale, potranno effettuare modifiche sul branch solo gli assegnatari di issue che trattano quel documento specifico. Per quanto riguarda cambiamenti minimali (punteggiatura, errori ortografici, ecc.) è permessa la modifica autonoma da parte di qualsiasi membro del gruppo e non è necessario referenziare nessuna issue.
 La gestione delle issue (ticket) viene trattata in §4.1.4.2.
+
+
+\subsubsection{Repository per il codice}
+\paragraph{Struttura}
+Vengono utilizzati 3 repository per il versionamento del codice relativo al prodotto software. In particolare:
+\begin{itemize}
+	\item \textbf{CrawlingService}: contiene il codice Python per il microservizio che si occupa dell'attività di estrazione dei dati tramite crawling;
+	\item \textbf{CrawlingService}: contiene il codice Python per il microservizio che si occupa dell'analisi dei dati estratti e fornisce la maggior parte delle API al frontend;
+	\item \textbf{FrontendSWEET}: contiene il codice Javascript/HTML/CSS che compone il frontend del prodotto software.
+\end{itemize}
+Viene utilizzato il \textit{Feature Branch Workflow}, dove ogni aggiunta di codice significativa viene eseguita in un branch secondario, le modifiche verrano poi trasferite al branch principale tramite il meccanismo di pull request.
+
+I repository quindi sono suddiviso in più branch, in generale:
+\begin{itemize}
+\item \textbf{main}: il branch principale, che contiene l'ultima versione funzionante del codice;
+\item \textbf{Feature branch}: uno per ogni feature, dove uno o più, membri lavorano al codice, al termine verrà fatto il merge nel main branch.
+\end{itemize}
+
+Non vengono definite regole specifiche circa la nomenclatura dei feature branch, che quindi sono a discrezione dei singoli programmatori. 
+L'unico principio guida è che devono essere concisi e esplicativi.
+
+\paragraph{Modifiche}
+Vengono impedite le commit sul branch main, perchè, soprattutto per il codice, potrebbero portare a conflitti potenzialmente disastrosi. Secondo il Feature Branch Workflow, per ogni feature verrà creato un branch, dove uno o più programmatori lavoreranno al codice, una volta terminato, verrà fatta pull request di merge la main, e dopo verifica, verrà accettata.
+Ogni commit deve, quando possibile, contenere un riferimento alla issue che l'ha resa necessaria.\\
+I singoli gruppi di sviluppo si impegnano a mantenere una versione il più possibile corretta  completa del software nel branch main.
+
 
 \subsection{Gestione della qualità}
 \subsubsection{Scopo}
@@ -315,8 +350,17 @@ Per essere sicuri di arrivare alla qualità desiderata, ogni membro deve essere 
 \item Comprendere gli obiettivi da raggiungere;
 \item Individuare eventuali errori;
 \item Stimare in termini di valore, dimensione e complessità le task;
-\item Produrre risultati concreti e quantificabili.
+\item Produrre risultati concreti e quantificabili;
+\item Miglioramento costante della propria formazione;
+\item Utilizzo del sistema di ticket offerto da Github;
+\item Svolgimento di \textit{Code refactoring};
+\item Rispetto degli standard adottati e delle norme definite in questo documento.
 \end{itemize}
+
+\subsubsection{Code refactoring}
+L'attività di \textit{code refactoring} migliora la struttura, leggibilità, manutenibilità e performance del codice senza alterarne il funzionamento e introdurre delle recessioni. Aiuta inoltre nell'individuazione di errori.
+In generale è uno dei compiti del programmatore, e va effettuato solo dopo che il codice ha passato tutti i test e le metriche definite nel \PdQ. 
+Importante è sfruttare alcune funzionalità aggiuntive degli IDE utilizzati, che permettono un'automatizzazione di alcuni aspetti del \textit{code refactoring}.
 
 \subsubsection{Denominazione metriche e obiettivi}
 Per la denominazione delle metriche è stato adottato il formato: \\ \\
@@ -360,10 +404,25 @@ Attività svolta dal \VE{}, sfrutta una lettura mirata per trovare gli errori tr
 
 
 \subsubsection{Verifica del codice}
-Si utilizza sia l'analisi statica che quella dinamica. In particolare con:
+Il codice verrà verificato attraverso test automatici, e tramite le metriche e misurazioni varie definite all'interno del \PdQ. 
+In particolare il codice dovrà rispettare le seguenti regole:
 \begin{itemize}
-\item L'analisi statica si controlla la bontà del codice, sia dal punto di vista della correttezza che del rispetto delle norme di buona programmazione definite dal gruppo (vedi §2.4.3.1);
-\item L'analisi dinamica si controlla la presenza o meno di bug durante l'esecuzione del software prodotto.
+\item Dovrà essere direttamente derivato dalla progettazione o dai requisiti;
+\item Dovrà essere testabile, corretto e leggibile.
+\end{itemize}
+
+\paragraph{Analisi statica}
+L'analisi statica si controlla la bontà del codice, senza eseguirlo, sia dal punto di vista della correttezza che del rispetto delle norme di buona programmazione definite dal gruppo (vedi §2.4.3.1). Il gruppo ha deciso di sfruttare alcuni plugin specifici degli IDE utilizzati, che effettuano un analisi statica del codice in automatico, permettendo di risolvere molti errori il prima possibile.
+
+\paragraph{Analisi dinamica}
+L'analisi dinamica si controlla la presenza o meno di bug durante l'esecuzione del software prodotto. Vengono sfruttati i test specifici prodotti per il codice, questo permette di verificare il corretto funzionamento o individuare criticità o scostamenti dai risultati attesi.
+
+In generale i test dovranno essere:
+\begin{itemize}
+	\item ripetibili;
+	\item isolati;
+	\item veloci;
+	\item fornire informazioni sui risultati dell’esecuzione.
 \end{itemize}
 
 \paragraph{Test}
@@ -385,7 +444,8 @@ In particolare:
 	\item \textbf{U}: Unità;
 	\item \textbf{I}: Integrazione;
 	\item \textbf{S}: Sistema;
-	\item \textbf{R}: Regressione.
+	\item \textbf{R}: Regressione;
+	\item \textbf{V}: Validazione (trattati in §3.5.4.1).
 	\end{itemize}
 
 \item \textbf{Id}: codice numerico per identificare i test dello stesso tipo, parte da 1.
@@ -396,15 +456,40 @@ In particolare:
 \subsubsection{Verifica dei requisiti}
 Vengono applicate Walkthrough e Inspection per controllare validità e coerenza con quanto dichiarato e descritto all'interno dell'\textit{Analisi dei Requisiti}, oltre a quanto dichiarato al proponente.
 
+
+\subsubsection{Strumenti}
+Gli strumenti utilizzati dal gruppo per la verifica automatica del codice sono:
+\begin{itemize}
+\item \textbf{Jest}: Framework di test JavaScript e TypeScript gestito da Facebook;
+\item \textbf{unittest}: Framework di test Python, integrato nelle librerie standard;
+\item \textbf{Code Climate}: Plugin per Atom che integra molti strumenti di analisi statica nell'IDE stesso;
+\item \textbf{Code Inspections}: Funzionalità integrata di PyCharm che permette di eseguire analisi statica del codice, con un buon livello di personalizzazione. 
+\end{itemize}
+
 \subsubsection{Metriche}
 Per la valutazione del processo di verifica si useranno le seguenti metriche:
 \begin{itemize}
-\item \textbf{MQP04 Code coverage};
-\item \textbf{MQP10 Branch coverage};
-\item \textbf{MQP11 Successo dei test}.
+\item \textbf{MQP04 Code coverage} \\ È la misura in percentuale di linee di codice eseguite in un test rispetto al totale delle linee di codice del sorgente di un programma. Un programma che ha un’elevata copertura del codice sorgente eseguito durante i test ha una minore possibilità di contenere bug;
+\item \textbf{MQP10 Branch coverage} \\
+Percentuale di copertura di rami condizionali durante i test
+La formula è:
+\begin{itemize}
+  \item[] \[BC = \frac{RCC}{RCT} * 100 ;\]
+  \item BC = Percentuale rapporto tra linee di commento e linee di codice di istruzioni;
+  \item RCC = Rami condizionali coperti da test;
+  \item RCT = Rami condizionali totali.
+  \end{itemize}
+\item \textbf{MQP11 Successo dei test}\\
+Percentuali di test superati rispetto ai test implementati.
+La formula è:
+\begin{itemize}
+  \item[] \[SDT = \frac{NTS}{NTT} * 100 ;\]
+  \item SDT = Percentuale di successo dei test;
+  \item NTS = Numero di test superati;
+  \item NTT = Numero di test totali.
+  \end{itemize}
 \end{itemize}
 
-Per maggiori informazioni consultare §C.
 
 \subsection{Validazione}
 \subsubsection{Scopo}
@@ -416,4 +501,37 @@ Questo processo avviene dopo il processo di verifica, validando i risultati dei 
 \item Accettare e approvare il prodotto;
 \item Rifiutare e chiedere un'ulteriore verifica con delle nuove indicazioni.
 \end{itemize}
+
+\pagebreak
+
+\subsubsection{Procedura di validazione dei documenti}
+Di seguito viene rappresentato il diagramma che mostra il processo di validazione dei documenti
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{Contenuto/Immagini/valid-documenti.png}
+\caption{Attività di validazione dei documenti}
+\end{figure}
+
+\subsubsection{Validazione del codice}
+La validazione del codice si compone di due attività principali:
+\begin{itemize}
+\item \textbf{Test di sistema e test di validazione};
+\item \textbf{Collaudo}: attività di controllo che si svolge con la presenza di un committente, durante la Revisione di Accettazione. Dimostra la conformità del prodotto software secondo quanto promesso da contratto nei casi d’uso e nei requisiti espressi nell’\AdR ;
+\end{itemize}
+
+Il processo di validazione del codice prevede le seguenti attività:
+\begin{itemize}
+\item pianificazione e tracciamento dei test da eseguire sul codice prodotto;
+\item esecuzione dei test;
+\item controllo dei risultati, dove viene verificato se il sistema soddisfi i requisiti.
+\end{itemize}
+
+\paragraph{Test di validazione}
+I test di validazione sono fondamentali per stabilire con certezza se si sta rispettando
+quanto dichiarato nel contratto con il proponente. Essi coinvolgono l'intero prodotto e vengono eseguiti con la presenza dei committenti. Verifica il prodotto e, in particolare,
+il soddisfacimento del cliente. Il superamento del test di validazione garantisce che il software è pronto per essere rilasciato.
+
+\paragraph{Tracciamento}
+Il tracciamento è una parte fondamentale nel processo di esecuzione dei test. Con un buon tracciamento si riesce a confermare il pieno rispetto e soddisfacimento di tutti i requisiti e della corretta implementazione di tutte le funzionalità.
+
 
