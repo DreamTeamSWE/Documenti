@@ -1,0 +1,86 @@
+\BOOKMARK [1][-]{section.1}{Introduzione}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Scopo del Documento}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Scopo del Prodotto}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Glossario}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Riferimenti}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Riferimenti normativi}{subsection.1.4}% 6
+\BOOKMARK [3][-]{subsubsection.1.4.2}{Riferimenti informativi}{subsection.1.4}% 7
+\BOOKMARK [1][-]{section.2}{Descrizione Generale}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Caratteristiche del Prodotto}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Crawling dei dati da Instagram e TikTok}{subsection.2.1}% 10
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Traduzione dei dati ottenuti}{subsection.2.1}% 11
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Realizzazione di un ranking}{subsection.2.1}% 12
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Interfaccia utente}{subsection.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.2}{Caratteristiche degli Utenti}{section.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Utente Non Autenticato}{subsection.2.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Utente Autenticato}{subsection.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.3}{Obblighi di Progettazione}{section.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Tecnologie utilizzate}{subsection.2.3}% 18
+\BOOKMARK [1][-]{section.3}{Casi D'Uso}{}% 19
+\BOOKMARK [2][-]{subsection.3.1}{Introduzione}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.2}{Attori primari}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.3}{Attori secondari}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.4}{Utente Non Autenticato}{section.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.4.1}{UCW1 - Registrazione}{subsection.3.4}% 24
+\BOOKMARK [3][-]{subsubsection.3.4.2}{UCW2 - Login}{subsection.3.4}% 25
+\BOOKMARK [3][-]{subsubsection.3.4.3}{UCW3 - Recupero Password}{subsection.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.5}{UCW4 - Gestione Dati Personali}{section.3}% 27
+\BOOKMARK [3][-]{subsubsection.3.5.1}{UCW4.1 - Collegare l'Account Instagram}{subsection.3.5}% 28
+\BOOKMARK [3][-]{subsubsection.3.5.2}{UCW4.2 - Collegare l'Account TikTok}{subsection.3.5}% 29
+\BOOKMARK [3][-]{subsubsection.3.5.3}{UCW4.3 - Modifica della password}{subsection.3.5}% 30
+\BOOKMARK [2][-]{subsection.3.6}{UCW5 - Proposta profilo Instagram}{section.3}% 31
+\BOOKMARK [2][-]{subsection.3.7}{UCW6 - Proposta profilo TikTok}{section.3}% 32
+\BOOKMARK [2][-]{subsection.3.8}{UCW7 - Visualizza Classifica}{section.3}% 33
+\BOOKMARK [2][-]{subsection.3.9}{UCW8 - Filtra classifica}{section.3}% 34
+\BOOKMARK [3][-]{subsubsection.3.9.1}{UCW8.1 - Filtra per zona}{subsection.3.9}% 35
+\BOOKMARK [3][-]{subsubsection.3.9.2}{UCW8.2 - Filtra per giorno e orario di apertura}{subsection.3.9}% 36
+\BOOKMARK [3][-]{subsubsection.3.9.3}{UCW8.3 - Filtra per tipo di cucina}{subsection.3.9}% 37
+\BOOKMARK [3][-]{subsubsection.3.9.4}{UCW8.4 - Filtra per fascia di prezzo}{subsection.3.9}% 38
+\BOOKMARK [3][-]{subsubsection.3.9.5}{UCW8.5 - Filtra per punteggio}{subsection.3.9}% 39
+\BOOKMARK [2][-]{subsection.3.10}{UCW9 - Modifica parametri di ordinamento classifica}{section.3}% 40
+\BOOKMARK [3][-]{subsubsection.3.10.1}{UCW9.1 - Modifica peso dei social }{subsection.3.10}% 41
+\BOOKMARK [3][-]{subsubsection.3.10.2}{UCW9.2 - Modifica peso dei tipi di contenuto}{subsection.3.10}% 42
+\BOOKMARK [2][-]{subsection.3.11}{UCW10 - Ricerca di un locale tramite nome}{section.3}% 43
+\BOOKMARK [2][-]{subsection.3.12}{UCW11 - Visualizza informazioni locale}{section.3}% 44
+\BOOKMARK [3][-]{subsubsection.3.12.1}{UCW11.1 - Visualizza informazioni generali}{subsection.3.12}% 45
+\BOOKMARK [3][-]{subsubsection.3.12.2}{UCW11.2 - Visualizza punteggio locale}{subsection.3.12}% 46
+\BOOKMARK [3][-]{subsubsection.3.12.3}{UCW11.3 - Visualizza dati estratti}{subsection.3.12}% 47
+\BOOKMARK [3][-]{subsubsection.3.12.4}{UCW11.4 - Visualizza icona preferiti}{subsection.3.12}% 48
+\BOOKMARK [3][-]{subsubsection.3.12.5}{UCW11.1.1 - Visualizza nome locale}{subsection.3.12}% 49
+\BOOKMARK [3][-]{subsubsection.3.12.6}{UCW11.1.2 - Visualizza posizione locale}{subsection.3.12}% 50
+\BOOKMARK [3][-]{subsubsection.3.12.7}{UCW11.1.3 - Visualizza categoria locale}{subsection.3.12}% 51
+\BOOKMARK [3][-]{subsubsection.3.12.8}{UCW11.1.4 - Visualizza orari di apertura locale}{subsection.3.12}% 52
+\BOOKMARK [3][-]{subsubsection.3.12.9}{UCW11.1.5 - Visualizza numero di telefono locale}{subsection.3.12}% 53
+\BOOKMARK [3][-]{subsubsection.3.12.10}{UCW11.1.6 - Visualizza sito web locale}{subsection.3.12}% 54
+\BOOKMARK [3][-]{subsubsection.3.12.11}{UCW11.2.1 - Visualizza punteggio totale}{subsection.3.12}% 55
+\BOOKMARK [2][-]{subsection.3.13}{UCW12 - Inserimento locale nella lista dei preferiti}{section.3}% 56
+\BOOKMARK [2][-]{subsection.3.14}{UCW13 - Rimozione locale dalla lista dei preferiti}{section.3}% 57
+\BOOKMARK [2][-]{subsection.3.15}{UCE1 - Visualizza errore in caso venga inserita una stringa vuota nel nome durante la registrazione}{section.3}% 58
+\BOOKMARK [2][-]{subsection.3.16}{UCE2 - Visualizza errore in caso venga inserita una stringa vuota nel cognome durante la registrazione}{section.3}% 59
+\BOOKMARK [2][-]{subsection.3.17}{UCE3 - Visualizza errore in caso non venga inserito un indirizzo e-mail valido durante la registrazione}{section.3}% 60
+\BOOKMARK [2][-]{subsection.3.18}{UCE4 - Visualizza errore in caso non venga inserita una password valida durante la registrazione}{section.3}% 61
+\BOOKMARK [2][-]{subsection.3.19}{UCE5 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il login}{section.3}% 62
+\BOOKMARK [2][-]{subsection.3.20}{UCE6 - Visualizza errore in caso non venga inserita una password corretta durante il login}{section.3}% 63
+\BOOKMARK [2][-]{subsection.3.21}{UCE7 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il recupero password}{section.3}% 64
+\BOOKMARK [2][-]{subsection.3.22}{UCE8 - Visualizza errore al collegamento dell'account Instagram}{section.3}% 65
+\BOOKMARK [2][-]{subsection.3.23}{UCE9 - Visualizza errore al collegamento dell'account TikTok}{section.3}% 66
+\BOOKMARK [2][-]{subsection.3.24}{UCE10 - Visualizza errore se il profilo non \350 esistente}{section.3}% 67
+\BOOKMARK [2][-]{subsection.3.25}{UCE11 - Visualizza errore se il profilo \350 privato}{section.3}% 68
+\BOOKMARK [2][-]{subsection.3.26}{UCE12 - Visualizza errore se il profilo \350 gi\340 presente nel sistema}{section.3}% 69
+\BOOKMARK [2][-]{subsection.3.27}{UCE13 - Visualizza errore nei filtri}{section.3}% 70
+\BOOKMARK [2][-]{subsection.3.28}{UCE14 - Visualizza errore nella ricerca}{section.3}% 71
+\BOOKMARK [2][-]{subsection.3.29}{UCE15 - Visualizza errore in caso non venga modificata correttamente la password}{section.3}% 72
+\BOOKMARK [1][-]{section.4}{Requisiti}{}% 73
+\BOOKMARK [2][-]{subsection.4.1}{Introduzione}{section.4}% 74
+\BOOKMARK [2][-]{subsection.4.2}{Requisiti Funzionali}{section.4}% 75
+\BOOKMARK [2][-]{subsection.4.3}{Requisiti di Qualit\340}{section.4}% 76
+\BOOKMARK [2][-]{subsection.4.4}{Requisiti di Vincolo}{section.4}% 77
+\BOOKMARK [2][-]{subsection.4.5}{Requisiti Prestazionali}{section.4}% 78
+\BOOKMARK [2][-]{subsection.4.6}{Tracciamento}{section.4}% 79
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Fonte - Requisiti}{subsection.4.6}% 80
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Fonte - Requisiti}{subsection.4.6}% 81
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Requisito - Fonti}{subsection.4.6}% 82
+\BOOKMARK [3][-]{subsubsection.4.6.4}{Riepilogo Requisiti}{subsection.4.6}% 83
+\BOOKMARK [1][-]{section.5}{Limiti dei social utilizzati}{}% 84
+\BOOKMARK [2][-]{subsection.5.1}{Instagram}{section.5}% 85
+\BOOKMARK [2][-]{subsection.5.2}{TikTok}{section.5}% 86

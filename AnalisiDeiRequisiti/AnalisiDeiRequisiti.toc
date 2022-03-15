@@ -1,0 +1,88 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Introduzione}{5}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Scopo del Documento}{5}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Scopo del Prodotto}{5}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Glossario}{5}{subsection.1.3}% 
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{5}{subsection.1.4}% 
+\contentsline {subsubsection}{\numberline {1.4.1}Riferimenti normativi}{5}{subsubsection.1.4.1}% 
+\contentsline {subsubsection}{\numberline {1.4.2}Riferimenti informativi}{5}{subsubsection.1.4.2}% 
+\contentsline {section}{\numberline {2}Descrizione Generale}{6}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Caratteristiche del Prodotto}{6}{subsection.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Crawling dei dati da Instagram e TikTok}{6}{subsubsection.2.1.1}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Traduzione dei dati ottenuti}{6}{subsubsection.2.1.2}% 
+\contentsline {subsubsection}{\numberline {2.1.3}Realizzazione di un ranking}{6}{subsubsection.2.1.3}% 
+\contentsline {subsubsection}{\numberline {2.1.4}Interfaccia utente}{6}{subsubsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.2}Caratteristiche degli Utenti}{6}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Utente Non Autenticato}{6}{subsubsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Utente Autenticato}{7}{subsubsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Obblighi di Progettazione}{7}{subsection.2.3}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Tecnologie utilizzate}{7}{subsubsection.2.3.1}% 
+\contentsline {section}{\numberline {3}Casi D'Uso}{8}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Introduzione}{8}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Attori primari}{8}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Attori secondari}{8}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Utente Non Autenticato}{9}{subsection.3.4}% 
+\contentsline {subsubsection}{\numberline {3.4.1}UCW1 - Registrazione}{9}{subsubsection.3.4.1}% 
+\contentsline {subsubsection}{\numberline {3.4.2}UCW2 - Login}{10}{subsubsection.3.4.2}% 
+\contentsline {subsubsection}{\numberline {3.4.3}UCW3 - Recupero Password}{11}{subsubsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.5}UCW4 - Gestione Dati Personali}{12}{subsection.3.5}% 
+\contentsline {subsubsection}{\numberline {3.5.1}UCW4.1 - Collegare l'Account Instagram}{13}{subsubsection.3.5.1}% 
+\contentsline {subsubsection}{\numberline {3.5.2}UCW4.2 - Collegare l'Account TikTok}{13}{subsubsection.3.5.2}% 
+\contentsline {subsubsection}{\numberline {3.5.3}UCW4.3 - Modifica della password}{13}{subsubsection.3.5.3}% 
+\contentsline {subsection}{\numberline {3.6}UCW5 - Proposta profilo Instagram}{14}{subsection.3.6}% 
+\contentsline {subsection}{\numberline {3.7}UCW6 - Proposta profilo TikTok}{15}{subsection.3.7}% 
+\contentsline {subsection}{\numberline {3.8}UCW7 - Visualizza Classifica}{16}{subsection.3.8}% 
+\contentsline {subsection}{\numberline {3.9}UCW8 - Filtra classifica}{16}{subsection.3.9}% 
+\contentsline {subsubsection}{\numberline {3.9.1}UCW8.1 - Filtra per zona}{17}{subsubsection.3.9.1}% 
+\contentsline {subsubsection}{\numberline {3.9.2}UCW8.2 - Filtra per giorno e orario di apertura}{18}{subsubsection.3.9.2}% 
+\contentsline {subsubsection}{\numberline {3.9.3}UCW8.3 - Filtra per tipo di cucina}{18}{subsubsection.3.9.3}% 
+\contentsline {subsubsection}{\numberline {3.9.4}UCW8.4 - Filtra per fascia di prezzo}{18}{subsubsection.3.9.4}% 
+\contentsline {subsubsection}{\numberline {3.9.5}UCW8.5 - Filtra per punteggio}{19}{subsubsection.3.9.5}% 
+\contentsline {subsection}{\numberline {3.10}UCW9 - Modifica parametri di ordinamento classifica}{19}{subsection.3.10}% 
+\contentsline {subsubsection}{\numberline {3.10.1}UCW9.1 - Modifica peso dei social }{20}{subsubsection.3.10.1}% 
+\contentsline {subsubsection}{\numberline {3.10.2}UCW9.2 - Modifica peso dei tipi di contenuto}{20}{subsubsection.3.10.2}% 
+\contentsline {subsection}{\numberline {3.11}UCW10 - Ricerca di un locale tramite nome}{21}{subsection.3.11}% 
+\contentsline {subsection}{\numberline {3.12}UCW11 - Visualizza informazioni locale}{21}{subsection.3.12}% 
+\contentsline {subsubsection}{\numberline {3.12.1}UCW11.1 - Visualizza informazioni generali}{22}{subsubsection.3.12.1}% 
+\contentsline {subsubsection}{\numberline {3.12.2}UCW11.2 - Visualizza punteggio locale}{23}{subsubsection.3.12.2}% 
+\contentsline {subsubsection}{\numberline {3.12.3}UCW11.3 - Visualizza dati estratti}{24}{subsubsection.3.12.3}% 
+\contentsline {subsubsection}{\numberline {3.12.4}UCW11.4 - Visualizza icona preferiti}{24}{subsubsection.3.12.4}% 
+\contentsline {subsubsection}{\numberline {3.12.5}UCW11.1.1 - Visualizza nome locale}{24}{subsubsection.3.12.5}% 
+\contentsline {subsubsection}{\numberline {3.12.6}UCW11.1.2 - Visualizza posizione locale}{25}{subsubsection.3.12.6}% 
+\contentsline {subsubsection}{\numberline {3.12.7}UCW11.1.3 - Visualizza categoria locale}{25}{subsubsection.3.12.7}% 
+\contentsline {subsubsection}{\numberline {3.12.8}UCW11.1.4 - Visualizza orari di apertura locale}{25}{subsubsection.3.12.8}% 
+\contentsline {subsubsection}{\numberline {3.12.9}UCW11.1.5 - Visualizza numero di telefono locale}{25}{subsubsection.3.12.9}% 
+\contentsline {subsubsection}{\numberline {3.12.10}UCW11.1.6 - Visualizza sito web locale}{26}{subsubsection.3.12.10}% 
+\contentsline {subsubsection}{\numberline {3.12.11}UCW11.2.1 - Visualizza punteggio totale}{26}{subsubsection.3.12.11}% 
+\contentsline {subsection}{\numberline {3.13}UCW12 - Inserimento locale nella lista dei preferiti}{26}{subsection.3.13}% 
+\contentsline {subsection}{\numberline {3.14}UCW13 - Rimozione locale dalla lista dei preferiti}{26}{subsection.3.14}% 
+\contentsline {subsection}{\numberline {3.15}UCE1 - Visualizza errore in caso venga inserita una stringa vuota nel nome durante la registrazione}{28}{subsection.3.15}% 
+\contentsline {subsection}{\numberline {3.16}UCE2 - Visualizza errore in caso venga inserita una stringa vuota nel cognome durante la registrazione}{28}{subsection.3.16}% 
+\contentsline {subsection}{\numberline {3.17}UCE3 - Visualizza errore in caso non venga inserito un indirizzo e-mail valido durante la registrazione}{28}{subsection.3.17}% 
+\contentsline {subsection}{\numberline {3.18}UCE4 - Visualizza errore in caso non venga inserita una password valida durante la registrazione}{29}{subsection.3.18}% 
+\contentsline {subsection}{\numberline {3.19}UCE5 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il login}{29}{subsection.3.19}% 
+\contentsline {subsection}{\numberline {3.20}UCE6 - Visualizza errore in caso non venga inserita una password corretta durante il login}{29}{subsection.3.20}% 
+\contentsline {subsection}{\numberline {3.21}UCE7 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il recupero password}{30}{subsection.3.21}% 
+\contentsline {subsection}{\numberline {3.22}UCE8 - Visualizza errore al collegamento dell'account Instagram}{30}{subsection.3.22}% 
+\contentsline {subsection}{\numberline {3.23}UCE9 - Visualizza errore al collegamento dell'account TikTok}{30}{subsection.3.23}% 
+\contentsline {subsection}{\numberline {3.24}UCE10 - Visualizza errore se il profilo non \IeC {\`e} esistente}{31}{subsection.3.24}% 
+\contentsline {subsection}{\numberline {3.25}UCE11 - Visualizza errore se il profilo \IeC {\`e} privato}{31}{subsection.3.25}% 
+\contentsline {subsection}{\numberline {3.26}UCE12 - Visualizza errore se il profilo \IeC {\`e} gi\IeC {\`a} presente nel sistema}{31}{subsection.3.26}% 
+\contentsline {subsection}{\numberline {3.27}UCE13 - Visualizza errore nei filtri}{32}{subsection.3.27}% 
+\contentsline {subsection}{\numberline {3.28}UCE14 - Visualizza errore nella ricerca}{32}{subsection.3.28}% 
+\contentsline {subsection}{\numberline {3.29}UCE15 - Visualizza errore in caso non venga modificata correttamente la password}{32}{subsection.3.29}% 
+\contentsline {section}{\numberline {4}Requisiti}{33}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Introduzione}{33}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Requisiti Funzionali}{33}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Requisiti di Qualit\IeC {\`a}}{36}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Requisiti di Vincolo}{37}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Requisiti Prestazionali}{38}{subsection.4.5}% 
+\contentsline {subsection}{\numberline {4.6}Tracciamento}{38}{subsection.4.6}% 
+\contentsline {subsubsection}{\numberline {4.6.1}Fonte - Requisiti}{38}{subsubsection.4.6.1}% 
+\contentsline {subsubsection}{\numberline {4.6.2}Fonte - Requisiti}{39}{subsubsection.4.6.2}% 
+\contentsline {subsubsection}{\numberline {4.6.3}Requisito - Fonti}{40}{subsubsection.4.6.3}% 
+\contentsline {subsubsection}{\numberline {4.6.4}Riepilogo Requisiti}{40}{subsubsection.4.6.4}% 
+\contentsline {section}{\numberline {5}Limiti dei social utilizzati}{41}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Instagram}{41}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}TikTok}{41}{subsection.5.2}% 
