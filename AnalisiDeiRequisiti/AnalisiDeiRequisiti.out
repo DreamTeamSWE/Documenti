@@ -52,35 +52,40 @@
 \BOOKMARK [3][-]{subsubsection.3.12.8}{UCW11.1.4 - Visualizza orari di apertura locale}{subsection.3.12}% 52
 \BOOKMARK [3][-]{subsubsection.3.12.9}{UCW11.1.5 - Visualizza numero di telefono locale}{subsection.3.12}% 53
 \BOOKMARK [3][-]{subsubsection.3.12.10}{UCW11.1.6 - Visualizza sito web locale}{subsection.3.12}% 54
-\BOOKMARK [3][-]{subsubsection.3.12.11}{UCW11.2.1 - Visualizza punteggio totale}{subsection.3.12}% 55
-\BOOKMARK [2][-]{subsection.3.13}{UCW12 - Inserimento locale nella lista dei preferiti}{section.3}% 56
-\BOOKMARK [2][-]{subsection.3.14}{UCW13 - Rimozione locale dalla lista dei preferiti}{section.3}% 57
-\BOOKMARK [2][-]{subsection.3.15}{UCE1 - Visualizza errore in caso venga inserita una stringa vuota nel nome durante la registrazione}{section.3}% 58
-\BOOKMARK [2][-]{subsection.3.16}{UCE2 - Visualizza errore in caso venga inserita una stringa vuota nel cognome durante la registrazione}{section.3}% 59
-\BOOKMARK [2][-]{subsection.3.17}{UCE3 - Visualizza errore in caso non venga inserito un indirizzo e-mail valido durante la registrazione}{section.3}% 60
-\BOOKMARK [2][-]{subsection.3.18}{UCE4 - Visualizza errore in caso non venga inserita una password valida durante la registrazione}{section.3}% 61
-\BOOKMARK [2][-]{subsection.3.19}{UCE5 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il login}{section.3}% 62
-\BOOKMARK [2][-]{subsection.3.20}{UCE6 - Visualizza errore in caso non venga inserita una password corretta durante il login}{section.3}% 63
-\BOOKMARK [2][-]{subsection.3.21}{UCE7 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il recupero password}{section.3}% 64
-\BOOKMARK [2][-]{subsection.3.22}{UCE8 - Visualizza errore al collegamento dell'account Instagram}{section.3}% 65
-\BOOKMARK [2][-]{subsection.3.23}{UCE9 - Visualizza errore al collegamento dell'account TikTok}{section.3}% 66
-\BOOKMARK [2][-]{subsection.3.24}{UCE10 - Visualizza errore se il profilo non \350 esistente}{section.3}% 67
-\BOOKMARK [2][-]{subsection.3.25}{UCE11 - Visualizza errore se il profilo \350 privato}{section.3}% 68
-\BOOKMARK [2][-]{subsection.3.26}{UCE12 - Visualizza errore se il profilo \350 gi\340 presente nel sistema}{section.3}% 69
-\BOOKMARK [2][-]{subsection.3.27}{UCE13 - Visualizza errore nei filtri}{section.3}% 70
-\BOOKMARK [2][-]{subsection.3.28}{UCE14 - Visualizza errore nella ricerca}{section.3}% 71
-\BOOKMARK [2][-]{subsection.3.29}{UCE15 - Visualizza errore in caso non venga modificata correttamente la password}{section.3}% 72
-\BOOKMARK [1][-]{section.4}{Requisiti}{}% 73
-\BOOKMARK [2][-]{subsection.4.1}{Introduzione}{section.4}% 74
-\BOOKMARK [2][-]{subsection.4.2}{Requisiti Funzionali}{section.4}% 75
-\BOOKMARK [2][-]{subsection.4.3}{Requisiti di Qualit\340}{section.4}% 76
-\BOOKMARK [2][-]{subsection.4.4}{Requisiti di Vincolo}{section.4}% 77
-\BOOKMARK [2][-]{subsection.4.5}{Requisiti Prestazionali}{section.4}% 78
-\BOOKMARK [2][-]{subsection.4.6}{Tracciamento}{section.4}% 79
-\BOOKMARK [3][-]{subsubsection.4.6.1}{Fonte - Requisiti}{subsection.4.6}% 80
-\BOOKMARK [3][-]{subsubsection.4.6.2}{Fonte - Requisiti}{subsection.4.6}% 81
-\BOOKMARK [3][-]{subsubsection.4.6.3}{Requisito - Fonti}{subsection.4.6}% 82
-\BOOKMARK [3][-]{subsubsection.4.6.4}{Riepilogo Requisiti}{subsection.4.6}% 83
-\BOOKMARK [1][-]{section.5}{Limiti dei social utilizzati}{}% 84
-\BOOKMARK [2][-]{subsection.5.1}{Instagram}{section.5}% 85
-\BOOKMARK [2][-]{subsection.5.2}{TikTok}{section.5}% 86
+\BOOKMARK [3][-]{subsubsection.3.12.11}{UCW11.2.1 - Visualizza punteggio locale}{subsection.3.12}% 55
+\BOOKMARK [3][-]{subsubsection.3.12.12}{UCW11.2.2 - Visualizza punteggio contenuti multimediali}{subsection.3.12}% 56
+\BOOKMARK [3][-]{subsubsection.3.12.13}{UCW11.2.3 - Visualizza punteggio testi}{subsection.3.12}% 57
+\BOOKMARK [3][-]{subsubsection.3.12.14}{UCW11.3.1 - Visualizza foto}{subsection.3.12}% 58
+\BOOKMARK [3][-]{subsubsection.3.12.15}{UCW11.3.2 - Visualizza testi dei post}{subsection.3.12}% 59
+\BOOKMARK [3][-]{subsubsection.3.12.16}{UCW11.3.3 - Visualizza tag}{subsection.3.12}% 60
+\BOOKMARK [2][-]{subsection.3.13}{UCW12 - Inserimento locale nella lista dei preferiti}{section.3}% 61
+\BOOKMARK [2][-]{subsection.3.14}{UCW13 - Rimozione locale dalla lista dei preferiti}{section.3}% 62
+\BOOKMARK [2][-]{subsection.3.15}{UCE1 - Visualizza errore in caso venga inserita una stringa vuota nel nome durante la registrazione}{section.3}% 63
+\BOOKMARK [2][-]{subsection.3.16}{UCE2 - Visualizza errore in caso venga inserita una stringa vuota nel cognome durante la registrazione}{section.3}% 64
+\BOOKMARK [2][-]{subsection.3.17}{UCE3 - Visualizza errore in caso non venga inserito un indirizzo e-mail valido durante la registrazione}{section.3}% 65
+\BOOKMARK [2][-]{subsection.3.18}{UCE4 - Visualizza errore in caso non venga inserita una password valida durante la registrazione}{section.3}% 66
+\BOOKMARK [2][-]{subsection.3.19}{UCE5 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il login}{section.3}% 67
+\BOOKMARK [2][-]{subsection.3.20}{UCE6 - Visualizza errore in caso non venga inserita una password corretta durante il login}{section.3}% 68
+\BOOKMARK [2][-]{subsection.3.21}{UCE7 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il recupero password}{section.3}% 69
+\BOOKMARK [2][-]{subsection.3.22}{UCE8 - Visualizza errore al collegamento dell'account Instagram}{section.3}% 70
+\BOOKMARK [2][-]{subsection.3.23}{UCE9 - Visualizza errore al collegamento dell'account TikTok}{section.3}% 71
+\BOOKMARK [2][-]{subsection.3.24}{UCE10 - Visualizza errore se il profilo non \350 esistente}{section.3}% 72
+\BOOKMARK [2][-]{subsection.3.25}{UCE11 - Visualizza errore se il profilo \350 privato}{section.3}% 73
+\BOOKMARK [2][-]{subsection.3.26}{UCE12 - Visualizza errore se il profilo \350 gi\340 presente nel sistema}{section.3}% 74
+\BOOKMARK [2][-]{subsection.3.27}{UCE13 - Visualizza errore nei filtri}{section.3}% 75
+\BOOKMARK [2][-]{subsection.3.28}{UCE14 - Visualizza errore nella ricerca}{section.3}% 76
+\BOOKMARK [2][-]{subsection.3.29}{UCE15 - Visualizza errore in caso non venga modificata correttamente la password}{section.3}% 77
+\BOOKMARK [1][-]{section.4}{Requisiti}{}% 78
+\BOOKMARK [2][-]{subsection.4.1}{Introduzione}{section.4}% 79
+\BOOKMARK [2][-]{subsection.4.2}{Requisiti Funzionali}{section.4}% 80
+\BOOKMARK [2][-]{subsection.4.3}{Requisiti di Qualit\340}{section.4}% 81
+\BOOKMARK [2][-]{subsection.4.4}{Requisiti di Vincolo}{section.4}% 82
+\BOOKMARK [2][-]{subsection.4.5}{Requisiti Prestazionali}{section.4}% 83
+\BOOKMARK [2][-]{subsection.4.6}{Tracciamento}{section.4}% 84
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Fonte - Requisiti}{subsection.4.6}% 85
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Fonte - Requisiti}{subsection.4.6}% 86
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Requisito - Fonti}{subsection.4.6}% 87
+\BOOKMARK [3][-]{subsubsection.4.6.4}{Riepilogo Requisiti}{subsection.4.6}% 88
+\BOOKMARK [1][-]{section.5}{Limiti dei social utilizzati}{}% 89
+\BOOKMARK [2][-]{subsection.5.1}{Instagram}{section.5}% 90
+\BOOKMARK [2][-]{subsection.5.2}{TikTok}{section.5}% 91

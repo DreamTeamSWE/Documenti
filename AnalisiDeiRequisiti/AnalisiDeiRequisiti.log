@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.7)  15 MAR 2022 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.7)  15 MAR 2022 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -289,23 +289,31 @@ s
 
 
 Writing index file AnalisiDeiRequisiti.idx
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count110
+\float@exts=\toks22
+\float@box=\box29
+\@float@everytoks=\toks23
+\@floatcapt=\box30
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTleft=\skip56
 \LTright=\skip57
 \LTpre=\skip58
 \LTpost=\skip59
-\LTchunksize=\count110
+\LTchunksize=\count111
 \LTcapwidth=\dimen126
-\LT@head=\box29
-\LT@firsthead=\box30
-\LT@foot=\box31
-\LT@lastfoot=\box32
-\LT@cols=\count111
-\LT@rows=\count112
-\c@LT@tables=\count113
-\c@LT@chunks=\count114
-\LT@p@ftn=\toks22
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count112
+\LT@rows=\count113
+\c@LT@tables=\count114
+\c@LT@chunks=\count115
+\LT@p@ftn=\toks24
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2019/03/02 version 4.20 text color boxes
@@ -314,14 +322,14 @@ Package: tcolorbox 2019/03/02 version 4.20 text color boxes
 (/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks23
+\pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen127
 \pgfutil@tempdimb=\dimen128
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box33
+\pgfutil@abb=\box35
 (/usr/local/texlive/2019/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -336,12 +344,12 @@ Package: pgf 2019/04/04 v3.1.2 (3.1.2)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2019/04/04 v3.1.2 (3.1.2)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen129
 \pgf@y=\dimen130
@@ -353,14 +361,14 @@ ode.tex
 \pgf@yc=\dimen136
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count115
-\c@pgf@countb=\count116
-\c@pgf@countc=\count117
-\c@pgf@countd=\count118
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
-\pgf@sys@id@count=\count119
+\c@pgf@counta=\count116
+\c@pgf@countb=\count117
+\c@pgf@countc=\count118
+\c@pgf@countd=\count119
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count120
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/04/04 v3.1.2 (3.1.2)
@@ -378,8 +386,8 @@ File: pgfsys-common-pdf.def 2019/04/04 v3.1.2 (3.1.2)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfsyssoftpath@smallbuffer@items=\count120
-\pgfsyssoftpath@bigbuffer@items=\count121
+\pgfsyssoftpath@smallbuffer@items=\count121
+\pgfsyssoftpath@bigbuffer@items=\count122
 )
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -392,11 +400,11 @@ Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen137
-\pgfmath@count=\count122
-\pgfmath@box=\box34
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@count=\count123
+\pgfmath@box=\box36
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -417,7 +425,7 @@ code.tex)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count123
+\c@pgfmathroundto@lastzeros=\count124
 ))
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -452,10 +460,10 @@ File: pgfcorepathusage.code.tex 2019/04/04 v3.1.2 (3.1.2)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfpic=\box35
-\pgf@hbox=\box36
-\pgf@layerbox@main=\box37
-\pgf@picture@serial@count=\count124
+\pgfpic=\box37
+\pgf@hbox=\box38
+\pgf@layerbox@main=\box39
+\pgf@picture@serial@count=\count125
 )
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -490,8 +498,8 @@ File: pgfcorearrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
 e.tex
 File: pgfcoreshade.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgf@max=\dimen161
-\pgf@sys@shading@range@num=\count125
-\pgf@shadingcount=\count126
+\pgf@sys@shading@range@num=\count126
+\pgf@shadingcount=\count127
 )
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -500,7 +508,7 @@ File: pgfcoreimage.code.tex 2019/04/04 v3.1.2 (3.1.2)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfexternal@startupbox=\box38
+\pgfexternal@startupbox=\box40
 ))
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -521,7 +529,7 @@ File: pgfcorerdf.code.tex 2019/04/04 v3.1.2 (3.1.2)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfnodeparttextbox=\box39
+\pgfnodeparttextbox=\box41
 )
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -538,8 +546,8 @@ Package: pgfcomp-version-0-65 2019/04/04 v3.1.2 (3.1.2)
 Package: pgfcomp-version-1-18 2019/04/04 v3.1.2 (3.1.2)
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks33
-\verbatim@line=\toks34
+\every@verbatim=\toks35
+\verbatim@line=\toks36
 \verbatim@in@stream=\read2
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
@@ -548,23 +556,23 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks35
+\@envbody=\toks37
 )
-\tcb@titlebox=\box40
-\tcb@upperbox=\box41
-\tcb@lowerbox=\box42
-\tcb@phantombox=\box43
-\c@tcbbreakpart=\count127
-\c@tcblayer=\count128
-\tcolorbox@number=\count129
-\tcb@temp=\box44
-\tcb@temp=\box45
+\tcb@titlebox=\box42
+\tcb@upperbox=\box43
+\tcb@lowerbox=\box44
+\tcb@phantombox=\box45
+\c@tcbbreakpart=\count128
+\c@tcblayer=\count129
+\tcolorbox@number=\count130
 \tcb@temp=\box46
 \tcb@temp=\box47
+\tcb@temp=\box48
+\tcb@temp=\box49
 \tcb@out=\write5
 \tcb@record@out=\write6
 ))
-No file AnalisiDeiRequisiti.aux.
+(./AnalisiDeiRequisiti.aux)
 \openout1 = `AnalisiDeiRequisiti.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -583,19 +591,20 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Info: Redefining \it@ocap on input line 4.
 LaTeX Info: Redefining \it@ccap on input line 4.
+
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
+\scratchcounter=\count131
 \scratchdimen=\dimen164
-\scratchbox=\box48
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count133
+\scratchbox=\box50
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count134
 \MPscratchDim=\dimen165
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks37
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -647,7 +656,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box49
+\AtBeginShipoutBox=\box51
 Package hyperref Info: Link coloring OFF on input line 4.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -655,17 +664,19 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count137
 )
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
+
+(./AnalisiDeiRequisiti.out) (./AnalisiDeiRequisiti.out)
 \@outlinefile=\write7
 \openout7 = `AnalisiDeiRequisiti.out'.
 
 
 ABD: EveryShipout initializing macros (./Intro.tex
-<Sezioni/images/DreamTeam.png, id=7, 3113.6325pt x 2297.58376pt>
+<Sezioni/images/DreamTeam.png, id=372, 3113.6325pt x 2297.58376pt>
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 9.
@@ -689,13 +700,13 @@ Overfull \hbox (1.11884pt too wide) in alignment at lines 6--46
  []
 
 
-Overfull \hbox (1.11884pt too wide) in alignment at lines 46--49
+Overfull \hbox (1.11884pt too wide) in alignment at lines 46--51
  [] [] [] [] [] 
  []
 
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 49.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 51.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
 
 Package Fancyhdr Warning: \headheight is too small (35.0pt): 
@@ -708,13 +719,26 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 9.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [3]
+ [3] (./AnalisiDeiRequisiti.toc
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 59.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [4])
 \tf@toc=\write8
 \openout8 = `AnalisiDeiRequisiti.toc'.
 
+ (./AnalisiDeiRequisiti.lof
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 15.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [5])
 \tf@lof=\write9
 \openout9 = `AnalisiDeiRequisiti.lof'.
 
+
+(./AnalisiDeiRequisiti.lot)
 \tf@lot=\write10
 \openout10 = `AnalisiDeiRequisiti.lot'.
 
@@ -722,7 +746,7 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 16.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [4] (./Sezioni/Introduzione.tex
+ [6] (./Sezioni/Introduzione.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
@@ -739,25 +763,25 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 20.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [5]
+ [7]
 (./Sezioni/DescrizioneGenerale.tex
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 37.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [6])
+ [8])
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 22.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [7] (./UC/intro+attori.tex
+ [9] (./UC/intro+attori.tex
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 15.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [8])
+ [10])
 (./UC/UCW1.tex
-<UC_images/UCW1.png, id=87, 945.5325pt x 539.01375pt>
+<UC_images/UCW1.png, id=591, 945.5325pt x 539.01375pt>
 File: UC_images/UCW1.png Graphic file (type png)
 <use UC_images/UCW1.png>
 Package pdftex.def Info: UC_images/UCW1.png  used on input line 5.
@@ -769,18 +793,24 @@ Overfull \hbox (19.7972pt too wide) in paragraph at lines 5--6
 
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 38.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 37.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
-[9
+[11
 
- <./UC_images/UCW1.png>]) (./UC/UCW2.tex
-<UC_images/UCW2.png, id=105, 753.81625pt x 372.39125pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.37 \begin{enumerate}
+                       <./UC_images/UCW1.png>]) (./UC/UCW2.tex
+<UC_images/UCW2.png, id=606, 753.81625pt x 372.39125pt>
 File: UC_images/UCW2.png Graphic file (type png)
 <use UC_images/UCW2.png>
 Package pdftex.def Info: UC_images/UCW2.png  used on input line 4.
 (pdftex.def)             Requested size: 376.90721pt x 186.19516pt.
 ) (./UC/UCW3.tex
-<UC_images/UCW3.png, id=106, 743.77875pt x 221.82875pt>
+<UC_images/UCW3.png, id=607, 743.77875pt x 221.82875pt>
 File: UC_images/UCW3.png Graphic file (type png)
 <use UC_images/UCW3.png>
 Package pdftex.def Info: UC_images/UCW3.png  used on input line 4.
@@ -789,18 +819,31 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 6.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [10 <./UC_images/UCW2.png>])
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.6 \end{figure}
+                 <./UC_images/UCW2.png>])
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 27.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [11 <./UC_images/UCW3.png>] (./UC/UCW4.tex
-<UC_images/UCW4.png, id=143, 377.41pt x 150.5625pt>
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 	\input
+            {UC/UCW4.tex} <./UC_images/UCW3.png>] (./UC/UCW4.tex
+<UC_images/UCW4.png, id=641, 377.41pt x 150.5625pt>
 File: UC_images/UCW4.png Graphic file (type png)
 <use UC_images/UCW4.png>
 Package pdftex.def Info: UC_images/UCW4.png  used on input line 4.
 (pdftex.def)             Requested size: 188.70453pt x 75.28105pt.
-<UC_images/UCW4-1.png, id=144, 810.02625pt x 563.10374pt>
+<UC_images/UCW4-1.png, id=642, 810.02625pt x 563.10374pt>
 File: UC_images/UCW4-1.png Graphic file (type png)
 <use UC_images/UCW4-1.png>
 Package pdftex.def Info: UC_images/UCW4-1.png  used on input line 28.
@@ -809,19 +852,33 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 34.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [12 <./UC_images/UCW4.png> <./UC_images/UCW4-1.png>])
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.34 \item \textbf
+                  {Attore primario}: Utente autenticato.pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.5}) has been already used, du
+plicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.34 \item \textbf
+                  {Attore primario}: Utente autenticato. <./UC_images/UCW4.png>
+ <./UC_images/UCW4-1.png>])
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 28.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [13] (./UC/UCW5.tex
-<UC_images/UCW5.png, id=178, 788.9475pt x 553.06625pt>
+ [15] (./UC/UCW5.tex
+<UC_images/UCW5.png, id=669, 788.9475pt x 553.06625pt>
 File: UC_images/UCW5.png Graphic file (type png)
 <use UC_images/UCW5.png>
 Package pdftex.def Info: UC_images/UCW5.png  used on input line 4.
 (pdftex.def)             Requested size: 394.47278pt x 276.53244pt.
 ) (./UC/UCW6.tex
-<UC_images/UCW6.png, id=179, 859.21pt x 553.06625pt>
+<UC_images/UCW6.png, id=670, 859.21pt x 553.06625pt>
 File: UC_images/UCW6.png Graphic file (type png)
 <use UC_images/UCW6.png>
 Package pdftex.def Info: UC_images/UCW6.png  used on input line 4.
@@ -830,19 +887,32 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 6.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [14 <./UC_images/UCW5.png>])
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.6 \end{figure}
+                 <./UC_images/UCW5.png>])
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 30.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [15 <./UC_images/UCW6.png>] (./UC/UCW7.tex
-<UC_images/UCW7.png, id=214, 468.75125pt x 358.33875pt>
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.30 	\input
+            {UC/UCW7.tex} <./UC_images/UCW6.png>] (./UC/UCW7.tex
+<UC_images/UCW7.png, id=701, 468.75125pt x 358.33875pt>
 File: UC_images/UCW7.png Graphic file (type png)
 <use UC_images/UCW7.png>
 Package pdftex.def Info: UC_images/UCW7.png  used on input line 4.
 (pdftex.def)             Requested size: 234.37505pt x 179.16893pt.
-) (./UC/UCW8.tex
-<UC_images/UCW8.png, id=215, 669.50125pt x 373.395pt>
+)
+(./UC/UCW8.tex
+<UC_images/UCW8.png, id=702, 669.50125pt x 373.395pt>
 File: UC_images/UCW8.png Graphic file (type png)
 <use UC_images/UCW8.png>
 Package pdftex.def Info: UC_images/UCW8.png  used on input line 4.
@@ -851,9 +921,22 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 11.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
+) has been already used, duplicate ignored
 
-[16 <./UC_images/UCW7.png> <./UC_images/UCW8.png>]
-<UC_images/UCW8-.png, id=228, 458.71375pt x 452.69125pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.11     \item \textbf
+                      {Postcondizione}: L’utente visualizza a schermo la c...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.11     \item \textbf
+                      {Postcondizione}: L’utente visualizza a schermo la c...
+ <./UC_images/UCW7.png> <./UC_images/UCW8.png>]
+<UC_images/UCW8-.png, id=711, 458.71375pt x 452.69125pt>
 File: UC_images/UCW8-.png Graphic file (type png)
 <use UC_images/UCW8-.png>
 Package pdftex.def Info: UC_images/UCW8-.png  used on input line 40.
@@ -862,18 +945,24 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 53.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [17 <./UC_images/UCW8-.png>]
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.53         \item L
+                    ’utente preme il pulsante invio. <./UC_images/UCW8-.png>]
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 107.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
-[18]) (./UC/UCW9.tex
-<UC_images/UCW9.png, id=264, 448.67625pt x 358.33875pt>
+[20]) (./UC/UCW9.tex
+<UC_images/UCW9.png, id=743, 448.67625pt x 358.33875pt>
 File: UC_images/UCW9.png Graphic file (type png)
 <use UC_images/UCW9.png>
 Package pdftex.def Info: UC_images/UCW9.png  used on input line 4.
 (pdftex.def)             Requested size: 224.33757pt x 179.16893pt.
-<UC_images/UCW9-.png, id=265, 528.97626pt x 343.2825pt>
+<UC_images/UCW9-.png, id=744, 528.97626pt x 343.2825pt>
 File: UC_images/UCW9-.png Graphic file (type png)
 <use UC_images/UCW9-.png>
 Package pdftex.def Info: UC_images/UCW9-.png  used on input line 29.
@@ -886,18 +975,31 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 38.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
-[19 <./UC_images/UCW9.png>])
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.38     \item \textbf
+                      {Postcondizione}: Il parametro in questione viene appl...
+ <./UC_images/UCW9.png>])
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 33.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [20 <./UC_images/UCW9-.png>] (./UC/UCW10-11.tex
-<UC_images/UCW10.png, id=295, 561.09625pt x 322.20375pt>
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.33 	\input
+            {UC/UCW10-11.tex} <./UC_images/UCW9-.png>] (./UC/UCW10-11.tex
+<UC_images/UCW10.png, id=767, 561.09625pt x 322.20375pt>
 File: UC_images/UCW10.png Graphic file (type png)
 <use UC_images/UCW10.png>
 Package pdftex.def Info: UC_images/UCW10.png  used on input line 4.
 (pdftex.def)             Requested size: 280.54744pt x 161.10147pt.
-<UC_images/UCW11.png, id=296, 429.605pt x 137.51375pt>
+<UC_images/UCW11.png, id=768, 429.605pt x 137.51375pt>
 File: UC_images/UCW11.png Graphic file (type png)
 <use UC_images/UCW11.png>
 Package pdftex.def Info: UC_images/UCW11.png  used on input line 34.
@@ -907,90 +1009,160 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 44.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
 
-[21 <./UC_images/UCW10.png> <./UC_images/UCW11.png>]
-<UC_images/UCW11-.png, id=314, 477.785pt x 522.95375pt>
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.44         \item V
+                    isualizza punteggio locale;pdfTeX warning (ext4): destinati
+on with the same identifier (name{figure.14}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.44         \item V
+                    isualizza punteggio locale; <./UC_images/UCW10.png> <./UC_i
+mages/UCW11.png>]
+<UC_images/UCW11-.png, id=782, 477.785pt x 522.95375pt>
 File: UC_images/UCW11-.png Graphic file (type png)
 <use UC_images/UCW11-.png>
 Package pdftex.def Info: UC_images/UCW11-.png  used on input line 50.
 (pdftex.def)             Requested size: 238.8919pt x 261.47623pt.
-<UC_images/UCW11-1.png, id=315, 477.785pt x 673.51625pt>
+<UC_images/UCW11-1.png, id=783, 477.785pt x 673.51625pt>
 File: UC_images/UCW11-1.png Graphic file (type png)
 <use UC_images/UCW11-1.png>
 Package pdftex.def Info: UC_images/UCW11-1.png  used on input line 77.
 (pdftex.def)             Requested size: 238.8919pt x 336.7573pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 80.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.80     \item \textbf
+                      {Scenario principale}: <./UC_images/UCW11-.png>]
+<UC_images/UCW11-2.png, id=800, 467.7475pt x 482.80376pt>
+File: UC_images/UCW11-2.png Graphic file (type png)
+<use UC_images/UCW11-2.png>
+Package pdftex.def Info: UC_images/UCW11-2.png  used on input line 103.
+(pdftex.def)             Requested size: 233.87317pt x 241.40129pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 106.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+}) has been already used, duplicate ignored
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.106     \item \textbf
+                       {Scenario principale}: <./UC_images/UCW11-1.png>]
+<UC_images/UCW11-3.png, id=815, 437.635pt x 393.47pt>
+File: UC_images/UCW11-3.png Graphic file (type png)
+<use UC_images/UCW11-3.png>
+Package pdftex.def Info: UC_images/UCW11-3.png  used on input line 128.
+(pdftex.def)             Requested size: 218.81696pt x 196.73451pt.
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 131.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
 
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.131     \item \textbf
+                       {Scenario principale}: <./UC_images/UCW11-2.png>]
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 83.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 170.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
-[22 <./UC_images/UCW11-.png>]
+
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.170     \item \textbf
+                       {Attore primario}: Utente generico. <./UC_images/UCW11-3
+.png>]
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 105.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 226.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [23 <./UC_images/UCW11-1.png>]
+ [28]
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 160.
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 280.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [24]
-File: Sezioni/images/DreamTeam.png Graphic file (type png)
-<use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 216.
-(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [25])
-(./UC/UCW12-13.tex
-<UC_images/UCW12.png, id=393, 466.74374pt x 151.56625pt>
+ [29]) (./UC/UCW12-13.tex
+<UC_images/UCW12.png, id=874, 466.74374pt x 151.56625pt>
 File: UC_images/UCW12.png Graphic file (type png)
 <use UC_images/UCW12.png>
 Package pdftex.def Info: UC_images/UCW12.png  used on input line 4.
 (pdftex.def)             Requested size: 233.37129pt x 75.78293pt.
-<UC_images/UCW13.png, id=394, 426.59375pt x 152.57pt>
+File: Sezioni/images/DreamTeam.png Graphic file (type png)
+<use Sezioni/images/DreamTeam.png>
+Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 11.
+(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.11     \item \textbf
+                      {Postcondizione}: Viene inserito il locale scelto dall...
+ <./UC_images/UCW12.png>]
+<UC_images/UCW13.png, id=889, 426.59375pt x 152.57pt>
 File: UC_images/UCW13.png Graphic file (type png)
 <use UC_images/UCW13.png>
 Package pdftex.def Info: UC_images/UCW13.png  used on input line 18.
 (pdftex.def)             Requested size: 213.29634pt x 76.2848pt.
-File: Sezioni/images/DreamTeam.png Graphic file (type png)
-<use Sezioni/images/DreamTeam.png>
-Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 29.
-(pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [26 <./UC_images/UCW12.png> <./UC_images/UCW13.png>])
+)
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 35.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.20
+}) has been already used, duplicate ignored
 
-[27] (./UC/UCE1-2-3-4.tex
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.35 
+      <./UC_images/UCW13.png>] (./UC/UCE1-2-3-4.tex
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 53.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [28]) (./UC/UCE5-6-7.tex
+ [32]) (./UC/UCE5-6-7.tex
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 36.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [29]) (./UC/UCE8-9.tex)
-(./UC/UCE10-11-12.tex
+
+[33]) (./UC/UCE8-9.tex) (./UC/UCE10-11-12.tex
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 6.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [30]) (./UC/UCE13.tex
+ [34]) (./UC/UCE13.tex
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 10.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [31]) (./UC/UCE14.tex)
-(./UC/UCE15.tex)
+ [35])
+(./UC/UCE14.tex) (./UC/UCE15.tex)
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 45.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [32] (./Requisiti/Requisiti.tex) (./Requisiti/Funzionali.tex
+ [36] (./Requisiti/Requisiti.tex)
+(./Requisiti/Funzionali.tex
 Overfull \hbox (2.70042pt too wide) in alignment at lines 7--48
  [] [] [] [] 
  []
@@ -1004,17 +1176,17 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 88.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
-[33]
+[37]
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 88.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [34]
+ [38]
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 90.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [35]) (./Requisiti/Qualita.tex
+ [39]) (./Requisiti/Qualita.tex
 Overfull \hbox (2.70042pt too wide) in alignment at lines 7--24
  [] [] [] [] 
  []
@@ -1023,7 +1195,7 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 26.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
-[36
+[40
 
 ]) (./Requisiti/Vincolo.tex
 Overfull \hbox (2.70042pt too wide) in alignment at lines 7--42
@@ -1035,29 +1207,41 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 49.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [37
+ [41
 
 ] (./Requisiti/Prestazionali.tex) (./Requisiti/Tracciamento.tex
 Overfull \hbox (1.3502pt too wide) in paragraph at lines 10--25
-[][] 
+[][]
  []
 
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 29.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
-[38]
+[42pdfTeX warning (ext4): destination with the same identifier (name{table.5}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.29 \subsubsection
+                   {Fonte - Requisiti}]
 Overfull \hbox (4.92209pt too wide) in paragraph at lines 34--123
-[][] [] 
+[][] []
  []
 
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 127.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
-[39]
+[43pdfTeX warning (ext4): destination with the same identifier (name{table.6}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.127 
+      ]
 Overfull \hbox (3.38586pt too wide) in paragraph at lines 274--282
-[][] 
+[][]
  []
 
 )
@@ -1065,35 +1249,41 @@ File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 53.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [40] (./Sezioni/limitiSocial.tex)
+ [44pdfTeX warning (ext4): destination with the same identifier (name{table.7})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.53 	\input
+            {Sezioni/limitiSocial.tex}pdfTeX warning (ext4): destination with t
+he same identifier (name{table.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.53 	\input
+            {Sezioni/limitiSocial.tex}] (./Sezioni/limitiSocial.tex)
 File: Sezioni/images/DreamTeam.png Graphic file (type png)
 <use Sezioni/images/DreamTeam.png>
 Package pdftex.def Info: Sezioni/images/DreamTeam.png  used on input line 55.
 (pdftex.def)             Requested size: 46.70247pt x 34.46227pt.
- [41]
+ [45]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
- (./AnalisiDeiRequisiti.aux)
+
+(./AnalisiDeiRequisiti.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
-
-
-Package rerunfilecheck Warning: File `AnalisiDeiRequisiti.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `AnalisiDeiRequisiti.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  26BE2201BE468AE644413A7A3258C6EC;7709.
+Package rerunfilecheck Info: File `AnalisiDeiRequisiti.out' has not changed.
+(rerunfilecheck)             Checksum: 4D3661B85D02706746CF385B2AD12FCB;8207.
  ) 
 Here is how much of TeX's memory you used:
- 17027 strings out of 492616
- 311085 string characters out of 6129482
- 421651 words of memory out of 5000000
- 20201 multiletter control sequences out of 15000+600000
+ 17227 strings out of 492616
+ 314345 string characters out of 6129482
+ 423373 words of memory out of 5000000
+ 20354 multiletter control sequences out of 15000+600000
  14720 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,73p,905b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,17n,73p,905b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></u
@@ -1107,10 +1297,10 @@ live/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on AnalisiDeiRequisiti.pdf (41 pages, 1200816 bytes).
+Output written on AnalisiDeiRequisiti.pdf (45 pages, 1272153 bytes).
 PDF statistics:
- 672 PDF objects out of 1000 (max. 8388607)
- 573 compressed objects within 6 object streams
- 359 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1127 PDF objects out of 1200 (max. 8388607)
+ 1015 compressed objects within 11 object streams
+ 388 named destinations out of 1000 (max. 500000)
+ 846 words of extra memory for PDF output out of 10000 (max. 10000000)
 

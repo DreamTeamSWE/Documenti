@@ -45,7 +45,7 @@
         \item Visualizza dati estratti;
         \item Visualizza icona preferiti.
         \end{enumerate}
-    \begin{figure}[!h]
+    \begin{figure}[H]
 	\centering
 		\includegraphics[scale=0.5]{UC_images/UCW11-.png} 
 		\caption{Sottocasi UCW11}
@@ -72,10 +72,10 @@
 		\item Visualizza numero di telefono (UCW11.1.5 \S{});
 		\item Visualizza sito web (UCW11.1.6 \S{}).
 	\end{enumerate}
-	\begin{figure}[!h]
+	\begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{UC_images/UCW11-1.png} 
-	\caption{sottocasi UCW11.1}
+	\caption{Sottocasi UCW11.1}
 	\end{figure}
     \item \textbf{Scenario principale}: 
     \begin{enumerate}
@@ -98,6 +98,11 @@
 		\item Visualizza punteggio testi (UCW11.2.3 \S{});
 		\item Visualizza punteggio emoticon (UCW11.2.4 \S{}).
 	\end{enumerate}
+	\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{UC_images/UCW11-2.png} 
+	\caption{Sottocasi UCW11.2}
+	\end{figure}
     \item \textbf{Scenario principale}: 
     \begin{enumerate}
 	\item L'utente visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;    
@@ -118,6 +123,11 @@
 		\item Visualizza testi dei post (UCW11.3.2 \S{});
 		\item Visualizza tag (UCW11.3.3 \S{}).
 	\end{enumerate}
+	\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{UC_images/UCW11-3.png} 
+	\caption{Sottocasi UCW11.3}
+	\end{figure}
     \item \textbf{Scenario principale}: 
     \begin{enumerate}
 	\item L'utente autenticato visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
@@ -224,21 +234,82 @@
     \end{enumerate}
 \end{itemize}
 
-\subsubsection{UCW11.2.1 - Visualizza punteggio totale}
-%\begin{itemize}
-%    \item \textbf{Descrizione}: L'utente generico . 
-%    \item \textbf{Attore primario}: Utente generico.
-%    \item \textbf{Precondizione}: L'utente .
-%    \item \textbf{Postcondizione}: 
-%    \begin{enumerate}
-%        \item 
-%        \item 
-%        \item 
-%        \item 
-%    \end{enumerate}   
-%    \item \textbf{Scenario principale}: 
-%    \begin{enumerate}
-%	\item 
-%    \item 
-%    \end{enumerate}
-%\end{itemize}
+\subsubsection{UCW11.2.1 - Visualizza punteggio locale}
+\begin{itemize}
+    \item \textbf{Descrizione}: L'utente generico visualizza il punteggio totale di un locale.
+    \item \textbf{Attore primario}: Utente generico.
+    \item \textbf{Precondizione}: L'utente ha svolto la funzione di ricerca di un locale o sta visualizzando la classifica dei locali.
+    \item \textbf{Postcondizione}: Viene visualizzato il punteggio totale del locale in questione.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'utente visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
+        \item L'utente identifica un locale tra quelli presenti nella lista;
+        \item Il sistema mostrerà all'utente il punteggio totale del locale identificato.
+        \end{enumerate}
+\end{itemize}
+\subsubsection{UCW11.2.2 - Visualizza punteggio contenuti multimediali}
+\begin{itemize}
+    \item \textbf{Descrizione}: L'utente generico visualizza il punteggio dei contenuti multimediali di un locale.
+    \item \textbf{Attore primario}: Utente generico.
+    \item \textbf{Precondizione}: L'utente ha svolto la funzione di ricerca di un locale o sta visualizzando la classifica dei locali.
+    \item \textbf{Postcondizione}: Viene visualizzato il punteggio dei contenuti multimediali del locale in questione.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'utente visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
+        \item L'utente identifica un locale tra quelli presenti nella lista;
+        \item Il sistema mostrerà all'utente il punteggio dei contenuti multimediali del locale identificato.
+        \end{enumerate}
+\end{itemize}
+\subsubsection{UCW11.2.3 - Visualizza punteggio testi}
+\begin{itemize}
+    \item \textbf{Descrizione}: L'utente generico visualizza il punteggio dei testi di un locale.
+    \item \textbf{Attore primario}: Utente generico.
+    \item \textbf{Precondizione}: L'utente ha svolto la funzione di ricerca di un locale o sta visualizzando la classifica dei locali.
+    \item \textbf{Postcondizione}: Viene visualizzato il punteggio dei testi del locale in questione.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'utente visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
+        \item L'utente identifica un locale tra quelli presenti nella lista;
+        \item Il sistema mostrerà all'utente il punteggio dei testi del locale identificato.
+        \end{enumerate}
+\end{itemize}
+
+\subsubsection{UCW11.3.1 - Visualizza foto}
+\begin{itemize}
+    \item \textbf{Descrizione}: L'utente generico visualizza le foto di un locale.
+    \item \textbf{Attore primario}: Utente generico.
+    \item \textbf{Precondizione}: L'utente ha svolto la funzione di ricerca di un locale o sta visualizzando la classifica dei locali.
+    \item \textbf{Postcondizione}: Viene visualizzato le foto del locale in questione.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'utente visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
+        \item L'utente identifica un locale tra quelli presenti nella lista;
+        \item Il sistema mostrerà all'utente le foto del locale identificato.
+        \end{enumerate}
+\end{itemize}
+\subsubsection{UCW11.3.2 - Visualizza testi dei post}
+\begin{itemize}
+    \item \textbf{Descrizione}: L'utente generico visualizza i testi dei post di un locale.
+    \item \textbf{Attore primario}: Utente generico.
+    \item \textbf{Precondizione}: L'utente ha svolto la funzione di ricerca di un locale o sta visualizzando la classifica dei locali.
+    \item \textbf{Postcondizione}: Viene visualizzato i testi dei post del locale in questione.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'utente visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
+        \item L'utente identifica un locale tra quelli presenti nella lista;
+        \item Il sistema mostrerà all'utente i testi dei post del locale identificato.
+        \end{enumerate}
+\end{itemize}
+\subsubsection{UCW11.3.3 - Visualizza tag}
+\begin{itemize}
+    \item \textbf{Descrizione}: L'utente generico visualizza le tag di un locale.
+    \item \textbf{Attore primario}: Utente generico.
+    \item \textbf{Precondizione}: L'utente ha svolto la funzione di ricerca di un locale o sta visualizzando la classifica dei locali.
+    \item \textbf{Postcondizione}: Viene visualizzato le tag del locale in questione.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'utente visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
+        \item L'utente identifica un locale tra quelli presenti nella lista;
+        \item Il sistema mostrerà all'utente le tag del locale identificato.
+        \end{enumerate}
+\end{itemize}
