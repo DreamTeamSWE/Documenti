@@ -44,18 +44,26 @@
         \item Visualizza punteggio locale;
         \item Visualizza dati estratti;
         \item Visualizza icona preferiti.
-        \end{enumerate}
-    \begin{figure}[H]
-	\centering
-		\includegraphics[scale=0.5]{UC_images/UCW11-.png} 
-		\caption{Sottocasi UCW11}
-	\end{figure}    
+    \end{enumerate}   
+	\item \textbf{Sottocasi}:    
+	\begin{enumerate}  
+		\item Visualizza informazioni generali (UCW11.1 \S{}3.12.1);
+		\item Visualizza punteggio locale (UCW11.2 \S{}3.12.2);
+		\item Visualizza contenuti estratti (UCW11.3 \S{}3.12.3);
+		\item Visualizza icona preferiti (UCW11.4 \S{}3.12.4).
+	\end{enumerate}
     \item \textbf{Scenario principale}: 
     \begin{enumerate}
 	\item L'utente visualizza la classifica dei locali presenti nel sistema;
     \item Per ciascun locale, la lista mostrerà alcune informazioni di base.
     \end{enumerate}
 \end{itemize}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[scale=0.5]{UC_images/UCW11-.png} 
+		\caption{Sottocasi UCW11}
+	\end{figure}  
 
 \subsubsection{UCW11.1 - Visualizza informazioni generali}
 \begin{itemize}
@@ -65,18 +73,13 @@
     \item \textbf{Postcondizione}: Vengono visualizzate le principali informazioni di base di ciascun locale.
 	\item \textbf{Sottocasi}:
 	\begin{enumerate}
-		\item Visualizza nome (UCW11.1.1 \S{});
-		\item Visualizza posizione (UCW11.1.2 \S{});
-		\item Visualizza categoria (UCW11.1.3 \S{});
-		\item Visualizza orari (UCW11.1.4 \S{});
-		\item Visualizza numero di telefono (UCW11.1.5 \S{});
-		\item Visualizza sito web (UCW11.1.6 \S{}).
+		\item Visualizza nome locale (UCW11.1.1 \S{}3.12.5);
+		\item Visualizza posizione locale (UCW11.1.2 \S{}3.12.6);
+		\item Visualizza categoria locale (UCW11.1.3 \S{}3.12.7);
+		\item Visualizza orari di apertura locale (UCW11.1.4 \S{}3.12.8);
+		\item Visualizza numero di telefono locale (UCW11.1.5 \S{}3.12.9);
+		\item Visualizza sito web locale (UCW11.1.6 \S{}3.12.10).
 	\end{enumerate}
-	\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.5]{UC_images/UCW11-1.png} 
-	\caption{Sottocasi UCW11.1}
-	\end{figure}
     \item \textbf{Scenario principale}: 
     \begin{enumerate}
 	\item L'utente visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
@@ -84,6 +87,12 @@
     \item Il sistema mostrerà all'utente le principali informazioni relative al locale scelto.
     \end{enumerate}
 \end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{UC_images/UCW11-1.png} 
+	\caption{Sottocasi UCW11.1}
+\end{figure}	
 
 \subsubsection{UCW11.2 - Visualizza punteggio locale}
 \begin{itemize}
@@ -93,16 +102,11 @@
     \item \textbf{Postcondizione}: Viene visualizzato il punteggio del locale selezionato, calcolato analizzando i contenuti pubblicati sui social.
     \item \textbf{Sottocasi}:
 	\begin{enumerate}
-		\item Visualizza punteggio totale (UCW11.2.1 \S{});
-		\item Visualizza punteggio contenuti multimediali (UCW11.2.2 \S{});
-		\item Visualizza punteggio testi (UCW11.2.3 \S{});
-		\item Visualizza punteggio emoticon (UCW11.2.4 \S{}).
+		\item Visualizza punteggio locale (UCW11.2.1 \S{}3.12.8);
+		\item Visualizza punteggio contenuti multimediali (UCW11.2.2 \S{}3.12.12);
+		\item Visualizza punteggio testi (UCW11.2.3 \S{}3.12.13);
+		\item Visualizza punteggio emoticon (UCW11.2.4 \S{}3.12.14).
 	\end{enumerate}
-	\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.5]{UC_images/UCW11-2.png} 
-	\caption{Sottocasi UCW11.2}
-	\end{figure}
     \item \textbf{Scenario principale}: 
     \begin{enumerate}
 	\item L'utente visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;    
@@ -110,6 +114,12 @@
     \item Il sistema mostrerà all'utente la valutazione complessiva del locale scelto.
     \end{enumerate}
 \end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{UC_images/UCW11-2.png} 
+	\caption{Sottocasi UCW11.2}
+\end{figure}
 
 \subsubsection{UCW11.3 - Visualizza dati estratti}
 \begin{itemize}
@@ -119,15 +129,10 @@
     \item \textbf{Postcondizione}: Vengono visualizzati i dati del locale selezionato estratti dai social.
     \item \textbf{Sottocasi}:
 	\begin{enumerate}
-		\item Visualizza foto (UCW11.3.1 \S{});
-		\item Visualizza testi dei post (UCW11.3.2 \S{});
-		\item Visualizza tag (UCW11.3.3 \S{}).
+		\item Visualizza foto (UCW11.3.1 \S{}3.12.15);
+		\item Visualizza testi dei post (UCW11.3.2 \S{}3.12.16);
+		\item Visualizza tag (UCW11.3.3 \S{}3.12.17).
 	\end{enumerate}
-	\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.5]{UC_images/UCW11-3.png} 
-	\caption{Sottocasi UCW11.3}
-	\end{figure}
     \item \textbf{Scenario principale}: 
     \begin{enumerate}
 	\item L'utente autenticato visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
@@ -135,6 +140,12 @@
     \item Il sistema mostrerà all'utente i dati relativi al locale scelto, che sono stati estratti dai social.
     \end{enumerate}
 \end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{UC_images/UCW11-3.png} 
+	\caption{Sottocasi UCW11.3}
+\end{figure}
 
 \subsubsection{UCW11.4 - Visualizza icona preferiti}
 \begin{itemize}
@@ -146,7 +157,7 @@
     \begin{enumerate}
     \item L'utente autenticato visualizza la classifica dei locali, inseriti sotto forma di lista, presenti nel sistema;
     \item L'utente autenticato identifica il locale di interesse tra quelli presenti nella lista;
-    \item Il sistema mostrerà all'utente autenticato se quel locale è presente o meno nella sua lista dei preferiti e, nel caso non lo sia, lo può aggiungere (UCW12 \S{}) o rimuovere (UCW13 \S{}).
+    \item Il sistema mostrerà all'utente autenticato se quel locale è presente o meno nella sua lista dei preferiti e, nel caso non lo sia, lo può aggiungere (UCW12 \S{}3.13) o rimuovere (UCW13 \S{}3.14).
     \end{enumerate}
 \end{itemize}
 
@@ -273,6 +284,7 @@
         \item Il sistema mostrerà all'utente il punteggio dei testi del locale identificato.
         \end{enumerate}
 \end{itemize}
+
 \subsubsection{UCW11.2.4 - Visualizza punteggio emoticon}
 \begin{itemize}
     \item \textbf{Descrizione}: L'utente generico visualizza il punteggio delle emoticon di un locale.
