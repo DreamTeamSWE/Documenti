@@ -47,17 +47,38 @@ A tal proposito, abbiamo mostrato loro l'eseguibile che abbiamo prodotto, ossia 
 
 Oltre all'eseguibile, abbiamo parlato con l'azienda delle difficoltà che abbiamo riscontrato fino ad ora e delle migliorie che potremmo adottare, per evitare di avere ulteriori problemi in futuro. 
 
+\subsection{Approfondimento casi d'uso}
+
+La seconda parte della riunione si è concentrata sull'approfondimento di alcuni casi d'uso. Nello specifico è stato stabilito quali informazioni dovranno mostrare la classifica e la pagina di dettaglio di un locale. Il team sarà libero di mostrare ulteriori informazioni se lo riterrà necessario. \\
+La classifica dovrà mostrare:
+\begin{itemize}
+	\item Nome dei locali;
+	\item Punteggi dei locali;
+	\item Categorie dei locali;
+	\item Foto dei locali.
+\end{itemize}
+La pagina di dettaglio di un locale dovrà mostrare:
+\begin{itemize}
+	\item Nome;
+	\item Posizione;
+	\item Categoria;
+	\item Numero di telefono;
+	\item Sito web;
+	\item Punteggio.
+\end{itemize}
+
+
+
+
 \subsection{Dettagli implementativi}
 
-La seconda parte della riunione si è concentrata sui dettagli implementativi che dovranno essere, appunto, implementati nella fase attuale (ossia, di sviluppo e codifica). \\
-L'attenzione si è subito concentrata su come realizzare nel dettaglio la classifica, che informazioni mostrare di ciascun locale e se realizzare una pagina dedicata a ciascun locale.
-\\ 
+
 
 Successivamente, è stato chiesto al proponente se avessero particolari esigenze, ma ci hanno lasciato “carta bianca”. L'unico consiglio che ci è stato dato è stato quello di usare lo strumento Cognito di Amazon, che facilita la realizzazione della registrazione e degli accessi alla piattaforma. \\
 
-In seconda battuta è stato chiesto come gestire le credenziali di AWS sul repository pubblico: \\
+In seconda battuta è stato chiesto come gestire le credenziali di AWS sul repository pubblico. \\
 
-Un'altra discussione che è sorta in questa riunione è quella relativa a come salvare in maniera efficiente i file (ad esempio le immagini dei post prese da Instagram) sullo spazio di archiviazione offerto da AWS (ossia “S3”); l'azienda... \\
+Un'altra discussione che è sorta in questa riunione è quella relativa a come salvare in maniera efficiente i file (ad esempio le immagini dei post prese da Instagram) sullo spazio di archiviazione offerto da AWS (ossia “S3”); l'azienda ha consigliato di utilizzare la chiave presente nel database come nome univoco da dare su s3. \\
 
 Infine, dal momento che stiamo usando il database Aurora Serverless con l'editor predefinito dalla console di AWS, abbiamo chiesto a \textit{Zero 12} se fosse disponibile un IDE che permettesse di svolgere le stesse operazioni, ma dal nostro computer.
 
