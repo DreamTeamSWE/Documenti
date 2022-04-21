@@ -22,35 +22,31 @@
 
 \section{Motivo della riunione}
 \begin{itemize}
-	\item{Punto della situazione;}
+	\item {Punto della situazione;}
 	\item {Presentazione parte back-end e discussione;}
 	\item {Presentazione parte front-end e discussione;}
-	\item {Discussione su dettagli e fine del progetto.}
+	\item {Discussione su dettagli e scopo del progetto.}
 \end{itemize}
 
 \section{Resoconto}
 \subsection{Back-end}
-Sono stati mostrati i database, sia quelli con dati prelevati direttamente da Instagram tramite il crawler che quelli elaborati tramite AWS. Sono stati mostrati anche alcuni degli algoritmi utilizzati per ottenere tali dati.
-Si è discusso del problema più grosso del back-end, ovvero il costante ban degli account Instagram. Gli ultimi sono stati bannati anche per ip e perciò si è parlato delle probabili soluzioni a questo problema, come il delay tra una richiesta e l'altra,
-oppure l'utilizzo di ancora più account per allegerire il peso del singolo e evitare di attirare l'attenzione per colpa di troppe richieste al server. 
+È stato mostrato il database su cui si appoggia il progetto, il quale contiene sia i dati “grezzi” ottenuti dal crawler (p.es. nome del profilo che ha pubblicato i contenuti analizzati) sia i dati elaborati tramite le tecnologie offerte da AWS e sfruttate per il nostro progetto (Rekognition, Comprehend etc.).  \\
 
+Abbiamo mostrato al proponente anche il funzionamento degli algoritmi realizzati in Python per la parte Back-end della WebApp, ossia le nostre “Lambda”, come quelli inserire i contenuti estrapolati da Instagram ed analizzati con le tecnologie di AWS nel db. \\ 
+
+Si è discusso del problema più grosso del back-end, ovvero il costante \textbf{ban} degli account Instagram. Gli ultimi account Instagram creati sono stati bannati anche tramite indirizzo IP e, perciò, si è discusso delle possibili soluzioni a questo problema, come il delay tra una richiesta e l'altra, oppure la creazione e l'utilizzo di altri account IG per allegerire il peso del singolo ed evitare di attirare l'attenzione per colpa di troppe richieste al server. 
 
 \subsection{Front-end}
-E' stato mostrato lo scheletro del sito : 
+È stato mostrato lo scheletro della WebApp: 
 \begin{itemize}
-	\item Home : esempio della pagina iniziale dove è presente la barra ricerca e appariranno i vari locali con le informazioni più generali;
-	\item Area Personale : esempio della pagina dove si possono vedere i propri dati personali e proporre un nuovo account da seguire;
-	\item Classifica : esempio della pagina dopo una ricerca effettuata, con i vari filtri per variare i risultati.
-	Abbiamo inoltre parlato di come intendiamo applicare i filtri e di come questi siano pensati per influire sul ranking dei locali andando a cambiare il peso dato a testo, immagini e emoji.
+	\item {\textbf{Home}: esempio della pagina iniziale dove è presente la barra di ricerca, la barra di navigazione e la sezione dove compariranno locali d'esempio con le informazioni più generali;}
+	\item {\textbf{Area Personale}: esempio della pagina dove è possibile consultare i propri dati personali inseriti in fase di registrazione e proporre un nuovo profilo Instagram, da cui la piattaforma potrà effettuare il crawling dei dati;}
+	\item {\textbf{Classifica}: una pagina d'esempio con i risultati ottenuti una volta effettuata una ricerca, nella quale sono presenti anche i vari filtri per modificare i contenuti e l'ordine dei risultati.}
 \end{itemize}
-
+Inoltre, abbiamo discusso di come intendiamo applicare i filtri sui risultati della classifica e di come alcuni di essi modificheranno l'ordinamento della classifica stessa, poiché tramite questi ultimi sarà possibile dare più peso ad un tipo (testo, immagini o emoji) di contenuto piuttosto che un altro.
 
 \subsection{Ulteriori dettagli e scopo del progetto}
-Si è discusso molto della possibilità di raggiungimento di certi requisiti, viste le difficoltà avute nelle attività di crawling per via del ban continuo. Nonostante ciò,
-Michele ha voluto far presente che la nostra ricerca in materia, i nostri tentativi e i documenti su cui tutto questo verrà riportato sono un punto molto importante del progetto, essendo lo scopo 
-dell'azienda Zero12 vedere cosa fosse possibile fare con tali tecnologie.
-
-
-
+Viste le difficoltà riscontrate sino ad ora, primo fra tutti l'attività di crawling dopo i numerosi ban, si è discusso molto sulla soddisfacibilità dei requisiti definiti. \\
+Nonostante ciò, \textit{Michele Massaro di Zero 12} ha voluto far presente che la nostra ricerca, i nostri tentativi ed i documenti prodotti in merito al progetto, hanno molto valore, in quanto, l'azienda stessa, voleva capire cosa eravamo in grado di produrre con le tecnologie proposte ed i \textbf{limiti} del progetto stesso.
 
 \pagebreak
