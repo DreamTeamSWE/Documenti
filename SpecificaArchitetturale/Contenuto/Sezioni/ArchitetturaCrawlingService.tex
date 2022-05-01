@@ -3,7 +3,39 @@
 \subsubsection{Descrizione}
 
 \subsubsection{Diagrammi delle classi}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.35]{Contenuto/Immagini/classi-CS.JPG}
+    \caption{Crawling Service - Diagramma delle classi}
+\end{figure}
 
 \subsubsection{Diagrammi di sequenza}
+In questa sezione vengono presentati i diagrammi di sequenza che modellano le operazioni principali del Crawling Service:
+\begin{itemize}
+    \item il suggerimento di un profilo instagram da aggiungere alla lista dei profili su cui viene effettuato il crawling dei dati, nel caso in cui il profilo non sia già presente e sia pubblico;
+    \item il processo di crawling dei dati;
+    \item la formattazione di un singolo media ottenuto tramite crawling
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.65]{Contenuto/Immagini/seq1-CS.JPG}
+    \caption{Crawling Service - Diagramma di sequenza - 1}
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.55]{Contenuto/Immagini/seq2-CS.JPG}
+    \caption{Crawling Service - Diagramma di sequenza - 2}
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.45]{Contenuto/Immagini/seq3-CS.JPG}
+    \caption{Crawling Service - Diagramma di sequenza - 3}
+\end{figure}
 
-\subsection{Design pattern notevoli utilizzati}
+\subsubsection{Design pattern notevoli utilizzati}
+Per La realizzazione del Crawling Service sono stati utilizzati i seguenti design pattern:
+\begin{itemize}
+    \item \textbf{Facade:} Utilizzato per la realizzazione delle classi FacadeCrawling e FacadeAddProfile, in modo da fornire ai client un'interfaccia semplice ad un sottosistema molto complesso e disaccoppiando la logica di implementazione del sistema dal client.
+    \item \textbf{Adapter:} Utilizzato dalla classe Crawler pre disaccoppiare il resto del sistema dai metodi di instagrapi, rendendo disponibili solo quelli necessari tramite un'interfaccia nota al sistema.
+    \item \textbf{Static Factory:} Utilizzato per fornire dei metodi statici in grado di creare oggetti di tipo CrawledData, Location, ProfileForCrawling a partire da altri tipi di oggetti.
+\end{itemize}
