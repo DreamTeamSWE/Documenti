@@ -8,12 +8,11 @@ Il microservizio denominato \textit{Crawling Service} si occupa principalmente d
 \end{itemize}
 
 \subsubsection{Diagrammi delle classi}
-\begin{figure}[!htb]
+\begin{figure}[h]
     \centering
     \includegraphics[scale=0.35]{Contenuto/Immagini/classi-CS.JPG}
     \caption{Crawling Service - Diagramma delle classi}
 \end{figure}
-
 \subsubsection{Diagrammi di sequenza}
 In questa sezione vengono presentati i diagrammi di sequenza che modellano le operazioni principali del Crawling Service:
 \begin{itemize}
@@ -21,17 +20,17 @@ In questa sezione vengono presentati i diagrammi di sequenza che modellano le op
     \item il processo di crawling dei dati;
     \item la formattazione di un singolo media ottenuto tramite crawling
 \end{itemize}
-\begin{figure}[!htb]
+\begin{figure}[h]
     \centering
     \includegraphics[scale=0.65]{Contenuto/Immagini/seq1-CS.JPG}
     \caption{Crawling Service - Diagramma di sequenza - 1}
 \end{figure}
-\begin{figure}[!htb]
+\begin{figure}[h]
     \centering
     \includegraphics[scale=0.55]{Contenuto/Immagini/seq2-CS.JPG}
     \caption{Crawling Service - Diagramma di sequenza - 2}
 \end{figure}
-\begin{figure}[!htb]
+\begin{figure}[h]
     \centering
     \includegraphics[scale=0.45]{Contenuto/Immagini/seq3-CS.JPG}
     \caption{Crawling Service - Diagramma di sequenza - 3}
@@ -44,3 +43,10 @@ Per La realizzazione del Crawling Service sono stati utilizzati i seguenti desig
     \item \textbf{Adapter:} Utilizzato dalla classe Crawler pre disaccoppiare il resto del sistema dai metodi di instagrapi, rendendo disponibili solo quelli necessari tramite un'interfaccia nota al sistema.
     \item \textbf{Static Factory:} Utilizzato per fornire dei metodi statici in grado di creare oggetti di tipo CrawledData, Location, ProfileForCrawling a partire da altri tipi di oggetti.
 \end{itemize}
+
+\subsubsection{Schema del database}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.35]{Contenuto/Immagini/ER-CS.png}
+    \caption{Crawling Service - Schema ER del database}
+\end{figure}
