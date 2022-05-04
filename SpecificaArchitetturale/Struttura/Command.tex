@@ -35,3 +35,11 @@
     \makeatother
 
 \newcommand{\mylink}[1]{\color{blue}\underline{\url{#1}}\color{black}}
+
+\makeatletter
+\newcommand*{\centerfloat}{%
+  \parindent \z@
+  \leftskip \z@ \@plus 1fil \@minus \textwidth
+  \rightskip\leftskip
+  \parfillskip \z@skip}
+\makeatother
