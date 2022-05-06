@@ -1,0 +1,15 @@
+%\subsection{UCE5 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il login}
+\begin{itemize}
+\item \textbf{Descrizione}: L'utente non autenticato inserisce un indirizzo e-mail non registrato all'interno del sistema per accedere alla piattaforma.
+\item \textbf{Attore primario}: Utente non autenticato.
+\item \textbf{Precondizione}: L'utente ha inserito un indirizzo email non registrato nel sistema in fase di login (UCW2 §3.4.2).
+\item \textbf{Postcondizione}: Viene mostrato un messaggio d'errore e l'utente non viene autenticato nel sistema.
+
+\item \textbf{Scenario principale}:
+\begin{enumerate}
+\item L'operazione di inserimento dello username fallisce;
+\item Viene mostrato il corrispondente messaggio d'errore;
+\item All'utente viene data la possibilità di tentare nuovamente l'accesso al sistema.
+\end{enumerate}
+\end{itemize}
+

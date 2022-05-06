@@ -1,0 +1,14 @@
+%\subsection{UCE7 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il recupero password}
+\begin{itemize}
+\item \textbf{Descrizione}: L'utente non autenticato inserisce un indirizzo e-mail non registrato all'interno del sistema per recuperare la password con cui accedere al sistema.
+\item \textbf{Attore primario}: Utente non autenticato.
+\item \textbf{Precondizione}: L'utente inserisce un indirizzo e-mail non presente nel sistema durante il recupero password (UCW3 §3.4.3).
+\item \textbf{Postcondizione}: Viene mostrato un messaggio d'errore e l'utente non è in grado di recuperare la password.
+
+\item \textbf{Scenario principale}:
+\begin{enumerate}
+\item L'operazione di inserimento dell'indirizzo e-mail con cui l'utente è registrato alla piattaforma fallisce;
+\item Viene mostrato il corrispondente messaggio d'errore;
+\item All'utente viene data la possibilità di tentare nuovamente di recuperare la password con cui accedere alla piattaforma Sweeat.
+\end{enumerate}
+\end{itemize}
