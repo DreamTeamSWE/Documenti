@@ -1,0 +1,38 @@
+\section{API Ranking Service}
+
+\subsection{Classifica}
+
+\subsubsection{GET - /getRanking}
+Restituisce una lista di oggetti che rappresentano i ristoranti, ordinati in maniera decrescente relativamente alla somma dei punteggi. Per ogni ristorante vengono fornite le seguenti informazioni:
+\begin{itemize}
+	\item L'id univoco;
+    \item Il nome;
+    \item L'indirizzo (può non essere presente);
+    \item Il numero di telefono (può non essere presente);
+    \item Il sito web (può non essere presente);
+    \item La latitudine
+    \item La longitudine
+    \item La categoria 
+    \item Il punteggio delle emoji (può non essere presente);
+    \item Il punteggio delle foto (può non essere presente);
+    \item Il punteggio del testo (può non essere presente);
+	\item La lista delle immagini (fornite come link temporanei alle risorse con scadenza di un'ora).
+\end{itemize}
+
+\subsubsection{Endpoint}
+\texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getRanking}
+
+\subsubsection{Parametri}
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.3\textwidth}<{\centering} m{0.15\textwidth}<{\centering}}
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Fonte}} &\textcolor{white}{\textbf{Requisiti}} &\textcolor{white}{\textbf{Requisiti}}\\ 
+
+\end{tabular}
+
+
+\caption{Tabella soddisfacimento requisiti}
+\end{table}
