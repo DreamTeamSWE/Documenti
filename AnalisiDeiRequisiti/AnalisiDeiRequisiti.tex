@@ -14,42 +14,123 @@
 	\listoftables
 	\pagebreak
 	
-	% contenuto del documento, ogni sezione in un file
+	\section{Introduzione}
 	\input{Sezioni/Introduzione.tex} 	
-	\pagebreak %si possono eventualmente togliere per accorciare lo spazio
-	\input{Sezioni/DescrizioneGenerale.tex} 	
-	\pagebreak
+	\newpage
 	
+	\section{Descrizione Generale}
+	\input{Sezioni/DescrizioneGenerale.tex} 	
+	\newpage
+	
+	\section{Casi D'Uso}
+	
+	\subsection{Introduzione}
 	\input{UC/intro+attori.tex}
+	
+	\subsection{Utente Non Autenticato}
 	\input{UC/UCW1.tex}
+	
+	\subsubsection{UCW2 - Login}
 	\input{UC/UCW2.tex}
+	
+	\subsubsection{UCW3 - Recupero Password}
 	\input{UC/UCW3.tex}
+	
+	\subsection{UCW4 - Area Personale}
 	\input{UC/UCW4.tex}
+	
+	\subsection{UCW5 - Proposta profilo Instagram}
 	\input{UC/UCW5.tex}
+	
+	\subsection{UCW6 - Proposta profilo TikTok}
 	\input{UC/UCW6.tex}
+	
+	\subsection{UCW7 - Visualizza Classifica}
 	\input{UC/UCW7.tex}
+	
+	\subsection{UCW8 - Filtra classifica}
 	\input{UC/UCW8.tex}
+	
+	\subsection{UCW9 - Modifica parametri di ordinamento classifica}
 	\input{UC/UCW9.tex}
-	\input{UC/UCW10-11.tex}
-	\input{UC/UCW12-13.tex}
+	
+	\subsection{UCW10 - Ricerca di un locale tramite nome}
+	\input{UC/UCW10.tex}
+	
+	\subsection{UCW11 - Visualizza informazioni locale}
+	\input{UC/UCW11.tex}
+	
+	\subsection{UCW12 - Inserimento locale nella lista dei preferiti}
+	\input{UC/UCW12.tex}
+	
+	\subsection{UCW13 - Rimozione locale dalla lista dei preferiti}
+	\input{UC/UCW13.tex}
 
-	\input{UC/UCE1-2-3-4.tex}
-	\input{UC/UCE5-6-7.tex}
-	\input{UC/UCE8-9.tex}	
-	\input{UC/UCE10-11-12.tex}
+	\subsection{UCE1 - Visualizza errore in caso venga inserita una stringa vuota nel nome durante la registrazione}
+	\input{UC/UCE1.tex}
+
+	\subsection{UCE2 - Visualizza errore in caso venga inserita una stringa vuota nel cognome durante la registrazione}
+	\input{UC/UCE2.tex}	
+	
+	\subsection{UCE3 - Visualizza errore in caso non venga inserito un indirizzo e-mail valido durante la registrazione}
+	\input{UC/UCE3.tex}	
+	
+	\subsection{UCE4 - Visualizza errore in caso non venga inserita una password valida durante la registrazione}
+	\input{UC/UCE4.tex}
+	
+	\subsection{UCE5 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il login}
+	\input{UC/UCE5.tex}
+
+	\subsection{UCE6 - Visualizza errore in caso non venga inserita una password corretta durante il login}
+	\input{UC/UCE6.tex}	
+
+	\subsection{UCE7 - Visualizza errore in caso non venga inserito un indirizzo e-mail esistente durante il recupero password}
+	\input{UC/UCE7.tex}
+	
+	\subsection{UCE8 - Visualizza errore al collegamento dell'account Instagram}
+	\input{UC/UCE8.tex}	
+
+	\subsection{UCE9 - Visualizza errore al collegamento dell'account TikTok}
+	\input{UC/UCE9.tex}			
+	
+	\subsection{UCE10 - Visualizza errore se il profilo non è esistente}
+	\input{UC/UCE10.tex}
+	
+	\subsection{UCE11 - Visualizza errore se il profilo è privato}
+	\input{UC/UCE11.tex}
+	
+	\subsection{UCE12 - Visualizza errore se il profilo è già presente nel sistema}
+	\input{UC/UCE12.tex}
+	
+	\subsection{UCE13 - Visualizza errore nei filtri}
 	\input{UC/UCE13.tex}
+	
+	\subsection{UCE14 - Visualizza errore nella ricerca}
 	\input{UC/UCE14.tex}
+	
+	\subsection{UCE15 - Visualizza errore in caso non venga modificata correttamente la password}
 	\input{UC/UCE15.tex}
 	
-	\pagebreak	
+	\section{Requisiti}
 	\input{Requisiti/Requisiti.tex}
+	
+	\subsection{Requisiti Funzionali}
 	\input{Requisiti/Funzionali.tex}
+	
+	\subsection{Requisiti di Qualità}
 	\input{Requisiti/Qualita.tex}
+	
+	\subsection{Requisiti di Vincolo}
 	\input{Requisiti/Vincolo.tex}
+	
+	\subsection{Requisiti Prestazionali}
 	\input{Requisiti/Prestazionali.tex}	
+	
+	\subsection{Tracciamento}
 	\input{Requisiti/Tracciamento.tex}	
+	\newpage
 
-	\pagebreak
+	\section{Limiti dei social utilizzati}
 	\input{Sezioni/limitiSocial.tex}
 	
 \end{document}
