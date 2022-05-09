@@ -2,7 +2,6 @@
 \section{API Ranking Service}
 
 
-
 \subsection{GET - /getRanking}
 Restituisce una lista di oggetti che rappresentano i ristoranti, ordinati in maniera decrescente relativamente alla somma dei punteggi. Per ogni ristorante vengono fornite le seguenti informazioni:
 \begin{itemize}
@@ -17,7 +16,7 @@ Restituisce una lista di oggetti che rappresentano i ristoranti, ordinati in man
     \item Il punteggio delle emoji (opzionale);
     \item Il punteggio delle foto (opzionale);
     \item Il punteggio del testo (opzionale);
-	\item La  (fornite con link presigned con scadenza di un'ora).
+	\item La prima immagine senza label "Person" (fornita con link presigned con scadenza di un'ora).
 \end{itemize}
 
 \subsubsection{Endpoint}
@@ -40,7 +39,14 @@ Restituisce una lista di oggetti che rappresentano i ristoranti, ordinati in man
 
 \caption{Parametri accettati da \texttt{/getRanking}}
 \end{table}
-\pagebreak
+
+\subsection{Esempio di richiesta}
+\begin{lstlisting}[language=json]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getRanking?from=5&size=2
+
+\end{lstlisting}
+
 \subsubsection{Esempio di risposta}
 \begin{lstlisting}[language=json]
 [
@@ -78,12 +84,6 @@ Restituisce una lista di oggetti che rappresentano i ristoranti, ordinati in man
 \pagebreak
 
 
-
-
-
-
-
-
 \subsection{POST - /getLabelAndPost} 
 Restituisce una lista contenente tutti i media relativi ad un ristorante insieme a tutte le label riguardanti il cibo disponibili per ogni media restituito. Per ogni media vengono restituite le seguenti informazioni:
 \begin{itemize}
@@ -114,7 +114,18 @@ Restituisce una lista contenente tutti i media relativi ad un ristorante insieme
 \end{tabular}
 \caption{Parametri accettati da \texttt{/getLabelAndPost}}
 \end{table}
+
+\subsection{Esempio di richiesta}
+\begin{lstlisting}[language=json]
+curl -X POST 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getLabelAndPost
+-H 'Content-Type: application/json'
+-d '{"id_rist":"6"}'
+
+\end{lstlisting}
+
 \pagebreak
+
 \subsubsection{Esempio di risposta}
 \begin{lstlisting}[language=json]
 [
@@ -213,6 +224,15 @@ Restituisce tutte le informazioni (come già definite in §2.1) per il ristorant
 \caption{Parametri accettati da \texttt{/searchByName}}
 \end{table}
 
+\subsection{Esempio di richiesta}
+\begin{lstlisting}[language=json]
+curl -X POST 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/searchByName
+-H 'Content-Type: application/json'
+-d '{"name":"Piazza"}'
+
+\end{lstlisting}
+
 \subsubsection{Esempio di risposta}
 \begin{lstlisting}[language=json]
 
@@ -276,3 +296,135 @@ Restituisce tutte le informazioni (come già definite in §2.1) per il ristorant
 ]
 \end{lstlisting}
 
+\pagebreak
+
+\subsection{GET - /favorites} 
+Rappresenta il gestore della lista dei preferiti per ogni utente. Permette di fare 3 operazioni:
+
+\begin{itemize}
+	\item L'aggiunta di un nuovo ristorante alla lista dei preferiti di uno specifico utente;
+    \item La rimozione un ristorante dalla lista dei preferiti di uno specifico utente;
+    \item La restituzione della lista dei preferiti per un utente specifico.
+\end{itemize}
+
+
+La risposta contiene rispettivamente:
+\begin{itemize}
+	\item Il risultato dell'operazione (\texttt{true} o \texttt{false});
+    \item Il risultato dell'operazione (\texttt{true} o \texttt{false});
+    \item Una lista contenente tutti gli id e i nomi dei ristoranti preferiti di uno specifico utente.
+\end{itemize}
+
+\subsubsection{Endpoint}
+\texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites}
+
+\subsubsection{Parametri}
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{action} & No & L'azione da compiere, il valore da inserire è "add"  & add &  \\
+\texttt{user} & No & L'identificativo dell'utente  & 4887b0d7-f041-4a92-a458-eab8aa5f31b0 &  \\
+\texttt{restaurant} & No & L'identificativo del ristorante da inserire  & 8 &  \\
+\end{tabular}
+\caption{Parametri accettati da \texttt{/favorites} per l'aggiunta di un preferito}
+\end{table}
+
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{action} & No & L'azione da compiere, il valore da inserire è "remove"  & remove &  \\
+\texttt{user} & No & L'identificativo dell'utente  & 4887b0d7-f041-4a92-a458-eab8aa5f31b0 &  \\
+\texttt{restaurant} & No & L'identificativo del ristorante da rimuovere  & 8 &  \\
+\end{tabular}
+\caption{Parametri accettati da \texttt{/favorites} per la rimozione di un preferito}
+\end{table}
+
+\pagebreak
+
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{action} & No & L'azione da compiere, il valore da inserire è "get"  & get &  \\
+\texttt{user} & No & L'identificativo dell'utente  & 4887b0d7-f041-4a92-a458-eab8aa5f31b0 &  \\
+
+\end{tabular}
+\caption{Parametri accettati da \texttt{/favorites} per la restituzione della lista dei preferiti}
+\end{table}
+
+\subsection{Esempio di richiesta}
+\subsubsection{Aggiunta preferito}
+\begin{lstlisting}[language=json]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=add&user=515d659b-baec-413b-9b37-703498372093&restaurant=100
+\end{lstlisting}
+
+\subsubsection{Rimozione preferito}
+\begin{lstlisting}[language=json]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=remove&user=515d659b-baec-413b-9b37-703498372093&restaurant=100
+\end{lstlisting}
+
+
+
+\subsubsection{Restituzione preferito}
+\begin{lstlisting}[language=json]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=get&user=515d659b-baec-413b-9b37-703498372093
+\end{lstlisting}
+
+\pagebreak
+
+\subsubsection{Esempio di risposta}
+\subsubsection{Aggiunta preferito}
+\begin{lstlisting}[language=json]
+true
+\end{lstlisting}
+
+\subsubsection{Rimozione preferito}
+\begin{lstlisting}[language=json]
+true
+\end{lstlisting}
+
+
+
+\subsubsection{Restituzione preferito}
+\begin{lstlisting}[language=json]
+[{
+    "id_ristorante": 8,
+    "nome_ristorante": "La Piola Alba"
+}, {
+    "id_ristorante": 43,
+    "nome_ristorante": "Osteria Alla Concorrenza"
+}, {
+    "id_ristorante": 59,
+    "nome_ristorante": "Taverna Trilussa"
+}, {
+    "id_ristorante": 63,
+    "nome_ristorante": "Hotel das Cataratas, A Belmond Hotel"
+}, {
+    "id_ristorante": 64,
+    "nome_ristorante": "Kazuo Restaurante"
+}, {
+    "id_ristorante": 66,
+    "nome_ristorante": "Trattoria Fasano"
+}, {
+    "id_ristorante": 67,
+    "nome_ristorante": "Yokohama Sushi Restaurant"
+}, {
+    "id_ristorante": 72,
+    "nome_ristorante": "ORSO - Laboratorio Caff\u00e8"
+}, {
+    "id_ristorante": 74,
+    "nome_ristorante": "Osteria dei Sognatori"
+}]
+\end{lstlisting}
