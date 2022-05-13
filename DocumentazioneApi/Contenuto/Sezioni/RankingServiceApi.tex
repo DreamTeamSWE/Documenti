@@ -319,6 +319,8 @@ La risposta contiene rispettivamente:
 \texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites}
 
 \subsubsection{Parametri}
+
+\paragraph{Aggiunta preferito}
 \begin{table}[!htbp]
 \rowcolors{2}{gray!25}{white}
 \renewcommand{\arraystretch}{1.5}
@@ -333,6 +335,8 @@ La risposta contiene rispettivamente:
 \caption{Parametri accettati da \texttt{/favorites} per l'aggiunta di un preferito}
 \end{table}
 
+
+\paragraph{Rimozione preferito}
 \begin{table}[!htbp]
 \rowcolors{2}{gray!25}{white}
 \renewcommand{\arraystretch}{1.5}
@@ -348,6 +352,8 @@ La risposta contiene rispettivamente:
 
 \pagebreak
 
+
+\paragraph{Restituzione lista preferiti}
 \begin{table}[!htbp]
 \rowcolors{2}{gray!25}{white}
 \renewcommand{\arraystretch}{1.5}
@@ -361,14 +367,14 @@ La risposta contiene rispettivamente:
 \caption{Parametri accettati da \texttt{/favorites} per la restituzione della lista dei preferiti}
 \end{table}
 
-\subsection{Esempio di richiesta}
-\subsubsection{Aggiunta preferito}
+\subsubsection{Esempio di richiesta}
+\paragraph{Aggiunta preferito}
 \begin{lstlisting}[language=json]
 curl -X GET 
 https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=add&user=515d659b-baec-413b-9b37-703498372093&restaurant=100
 \end{lstlisting}
 
-\subsubsection{Rimozione preferito}
+\paragraph{Rimozione preferito}
 \begin{lstlisting}[language=json]
 curl -X GET 
 https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=remove&user=515d659b-baec-413b-9b37-703498372093&restaurant=100
@@ -376,7 +382,7 @@ https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=r
 
 
 
-\subsubsection{Restituzione preferito}
+\paragraph{Restituzione lista preferiti}
 \begin{lstlisting}[language=json]
 curl -X GET 
 https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=get&user=515d659b-baec-413b-9b37-703498372093
@@ -385,19 +391,18 @@ https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=g
 \pagebreak
 
 \subsubsection{Esempio di risposta}
-\subsubsection{Aggiunta preferito}
+\paragraph{Aggiunta preferito}
 \begin{lstlisting}[language=json]
 true
 \end{lstlisting}
 
-\subsubsection{Rimozione preferito}
+\paragraph{Rimozione preferito}
 \begin{lstlisting}[language=json]
 true
 \end{lstlisting}
 
 
-
-\subsubsection{Restituzione preferito}
+\paragraph{Restituzione lista preferiti}
 \begin{lstlisting}[language=json]
 [{
     "id_ristorante": 8,
