@@ -1,8 +1,0 @@
-\babel@toc {italian}{}
-\babel@toc {italian}{}
-\contentsline {section}{\numberline {1}Informazioni Generali}{4}{section.1}% 
-\contentsline {section}{\numberline {2}Ordine del Giorno}{4}{section.2}% 
-\contentsline {section}{\numberline {3}Resoconto}{4}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}Stato di avanzamento del progetto}{4}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Filtri e Likes per la WebApp}{5}{subsection.3.2}% 
-\contentsline {section}{\numberline {4}Riepilogo delle Decisioni}{6}{section.4}% 
