@@ -27,3 +27,7 @@ Possiamo riassumere le motivazioni per cui abbiamo scelto il pattern architettur
 \item Manutenibilità più semplice, per via del disaccoppiamento del codice.
 \end{itemize}
 Inoltre, per la parte di autenticazione si è utilizzato Cognito\glo, un servizio di AWS consigliatoci dall'azienda Zero12, che permette di creare e gestire bacini d'utenza e il framework AWS Amplify\glo per la parte di autenticazione sul lato Frontend.
+
+\subsubsection{Impostazioni coda SQS}
+Per implementare la comunicazione tra microservizi è stata impostata una coda SQS, un servizio di accodamento messaggi 
+
