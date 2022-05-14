@@ -3,7 +3,7 @@
 \subsubsection{Schema}
 \begin{figure}[H]
     \centerfloat
-    \includegraphics[scale=0.35]{Contenuto/Immagini/backend-architettura.jpg}
+    \includegraphics[scale=0.35]{Contenuto/Immagini/backend-architettura.png}
     \caption{Architettura generale}
 \end{figure}
 
@@ -43,13 +43,13 @@ Di seguito alcuni parametri impostati:
 \item \textbf{Visibility Timeout}: il tempo che un messaggio rimane nascosto dopo essere ricevuto da un consumatore. Impostato a 20 minuti poiché deve essere maggiore del tempo di esecuzione della Lambda che effettua l'analisi, che è di 15 minuti;
 \item \textbf{Message retention period}: il tempo massimo di permanenza dei messaggi nella coda. Impostato a 2 giorni;
 \item \textbf{Maximum message size}: La dimensione massima del messaggio. Impostata a 256 KB, che è la massima dimensione e quella consigliata da AWS.
-\item \textbf{Receive message wait time}: Il tempo massimo che il consumatore aspetta per i messaggi che diventino disponibili. Impostata a 20 secondi, che è il tempo massimo. Questo riduce il consumo di risorse, perché ora aspetta 20 secondi prima di ritornare una risposta vuota e permette al consumatore di lavorare sempre a pieno regime, in quanto aspettando 20 secondi la coda fa in tempo a riempirsi di almeno un batch completo;
+\item \textbf{Receive message wait time}: Il tempo massimo che il consumatore aspetta per i messaggi che diventino disponibili. Impostata a 20 secondi, che è il tempo massimo. Questo riduce il consumo di risorse, perché aspetta 20 secondi prima di ritornare una risposta vuota e permette al consumatore di lavorare sempre a pieno regime, in quanto aspettando 20 secondi la coda generalmente fa in tempo a riempirsi di almeno un batch completo;
 \item \textbf{Dimensione batch}: Il massimo numero di messaggi che un consumatore riceve per volta. Impostato a 10 che è il massimo per le code FIFO. In questo modo vengono ridotte le chiamate al servizio di analisi.
 \end{itemize}
 
 \paragraph{Dead letter queue}
 Una dead letter queue (DLQ) è una coda agguntiva utilizzata per gestire i messaggi che non vengono elaborati con successo.
-Il suo utilizzo si è ritenuto necessario per spostare della codapricipale  i messaggi che generavano errori, permettendo a quelli corretti di essere elaborati, e quindi sbloccando la coda. Quindi i messaggi non corretti vengono spostati nella DLQ e possono essere analizzati in sede separata. I motivi principali per cui è stato scelto di usare una DLQ sono la semplificazione del testing e debug, permettendo di mantenere il servizio in funzione e la possibilità di reindirizzare nella coda principale i messaggi che generavano errore (dopo che il problema è stato individuato e risolto) evitando di perderli.
+Il suo utilizzo si è ritenuto necessario per spostare della coda pricipale  i messaggi che generavano errori, permettendo a quelli corretti di essere elaborati, e quindi sbloccando la coda. Quindi i messaggi non corretti vengono spostati nella DLQ e possono essere analizzati in sede separata. I motivi principali per cui è stato scelto di usare una DLQ sono la semplificazione del testing e debug, permettendo di mantenere il servizio in funzione e la possibilità di reindirizzare nella coda principale i messaggi che generavano errore (dopo che il problema è stato individuato e risolto) evitando di perderli.
 Di seguito alcuni dei parametri impostati:
 \begin{itemize}
 \item \textbf{Message retention period}: Impostato al suo valore massimo, 14 giorni, così da far pemanere più tempo possibile i messaggi che generano errore;
