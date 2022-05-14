@@ -2,7 +2,7 @@
 \subsubsection{Descrizione}
 Il microservizio denominato \textit{Ranking Service} svolge le seguenti funzionalità:
 \begin{itemize}
-	\item Gestione della classifica: ogni volta che un nuovo messaggio () viene aggiunto alla coda SQS, viene chiamati il metodo \texttt{refresh\_ranking} che si occupa di recuperare e fare la parsificazione\glo e deserializzazione\glo dei messaggi nella coda (lavorando a batch di massimo 10 messaggi). Dopo di che i messaggi vengono analizzati tramite i servizi Comprehend\glo e Rekognition\glo di AWS e vengono generati i punteggi per le foto, per il testo e per le emoji. Viene quindi aggiornato il database, aggiungendo il ristorante e il media (se non presenti) e aggiornati i punteggi.
+	\item Gestione della classifica: ogni volta che un nuovo messaggio () viene aggiunto alla coda SQS, viene chiamati il metodo \texttt{refresh\_ranking} che si occupa di recuperare e fare la parsificazione e deserializzazione dei messaggi nella coda (lavorando a batch di massimo 10 messaggi). Dopo di che i messaggi vengono analizzati tramite i servizi Comprehend\glo e Rekognition\glo di AWS e vengono generati i punteggi per le foto, per il testo e per le emoji. Viene quindi aggiornato il database, aggiungendo il ristorante e il media (se non presenti) e aggiornati i punteggi.
 	Vengono inoltre esposti due API endpoint:
 		\begin{itemize}
 			\item \texttt{getRanking}: restituisce una parte della classifica generale;
