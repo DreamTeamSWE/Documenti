@@ -1,0 +1,28 @@
+\documentclass[a4paper]{article}
+\input{Struttura/Packages.tex}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\begin{document}
+
+	\input{Contenuto/Intro.tex}	
+	\input{Struttura/Impaginazione.tex}
+	\input{Contenuto/RegistroModifiche.tex}	
+		
+	% indice
+	\renewcommand{\contentsname}{Indice}
+	\tableofcontents	
+	\listoffigures
+	%\listoftables
+	\pagebreak
+	
+	% contenuto del documento, ogni sezione in un file
+	\input{Contenuto/Sezioni/Introduzione.tex} 
+	\pagebreak
+	\input{Contenuto/Sezioni/ArchitetturaDelProdotto.tex}
+	\pagebreak
+	\input{Contenuto/Sezioni/DiagrammiFrontend.tex}
+	\input{Contenuto/Sezioni/RequisitiSoddisfatti.tex}
+
+	
+\end{document}
