@@ -1,4 +1,4 @@
-\subsection{Requisiti Funzionali}
+%\subsection{Requisiti Funzionali}
 
 \definecolor{darkblue}{cmyk}{99, 99, 0, 71}
 
@@ -51,6 +51,38 @@
 	R2FE12 & All’utente autenticato viene mostrato un messaggio d’errore nel caso suggerisca un profilo già presente a sistema & \De & UCE12\\			
 	 
 	R1FW7 & L’utente può visualizzare la classifica con i locali presenti nel database della piattaforma & \Ob & UCW7\\	
+	
+	R1FW7.1 & L'utente generico è in grado di visualizzare un singolo locale & \Ob & UCW7.1 \\
+
+	R1FW7.1.1 & L'utente generico visualizza le informazioni di un singolo locale & \Ob & UCW7.1.1 \\
+
+	R1FW7.1.1.1 & L'utente generico visualizza il nome del singolo locale & \Ob & UCW7.1.1.1 \\	
+	
+	R1FW7.1.1.2 & L'utente generico visualizza la categoria del locale & \Ob & UCW7.1.1.2 \\	 
+
+	R1FW7.1.1.3 & L'utente generico visualizza l'immagine di copertina del locale & \Ob & UCW7.1.1.3\\	
+
+	R1FW7.1.1.4 &	L'utente generico visualizza il numero di telefono del locale & \Ob & UCW7.1.1.4 \\
+
+	R1FW7.1.1.5 &	L'utente generico visualizza l'orario di apertura del locale & \De & UCW7.1.1.5 \\
+	
+	R1FW7.1.1.6 &	L'utente generico visualizza il giorno di apertura del locale & \De & UCW7.1.1.6 \\				
+
+	R1FW7.1.2 & L'utente generico visualizza i punteggi di un singolo locale & \Ob & UCW7.1.2 \\
+
+	R1FW7.1.2.1 &	L'utente generico visualizza la valutazione totale del locale & \Ob & UCW7.1.2.1 \\		
+
+	R1FW7.1.2.2 & L'utente generico visualizza il punteggio delle foto relative al locale pubblicate sui social & \Ob & UCW7.1.2.2 \\
+
+	R1FW7.1.2.3 &	L'utente generico visualizza il punteggio dei testi dei post relativi al locale pubblicati sui social del locale & \Ob & UCW7.1.2.3 \\
+	
+	R1FW7.1.2.4 &	L'utente generico visualizza il punteggio delle emoji dei testi dei post relativi al locale sui social & \Ob & UCW7.1.2.4 \\		
+
+	R2FW7.1.3 & L'utente generico visualizza i link di un singolo locale & \Ob & UCW7.1.3 \\
+
+	R1FW7.1.3.1 & L'utente generico visualizza il link al sito web del locale & \Ob & UCW7.1.3.1 \\
+	
+	R1FW7.1.3.2 &	L'utente generico visualizza il link alla posizione su Google Maps del locale & \Ob & UCW7.1.3.2 \\		
 	 
 	R1FW8 & L’utente può filtrare la classifica & \Ob & UCW8\\		
 	
@@ -76,9 +108,30 @@
 	 
 	R2FE14 & All’utente viene mostrato un errore in caso il locale cercato non sia presente nel sistema & \De & UCE14\\	 
 	 	 
-	R1FW11 & L’utente può visualizzare le informazioni di un locale presente nel sistema & \Ob & UCW11\\	 	 	 	
+	R1FW11 & L’utente può visualizzare le informazioni di un locale presente nel sistema & \Ob & UCW11\\	
 
-	R2FW12 & L’utente può aggiungere un locale alla lista dei preferiti & \De &  UCW12\\
+	R2FW11.1 & L’utente può visualizzare le informazioni generali di un locale & \De & UCW11.1 \\
+	R2FW11.2 & L’utente può visualizzare il punteggio totale di un locale & \De & UCW11.2 \\
+	R2FW11.3 & L’utente può visualizzare i contenuti relativi ad un locale estratti dai social & \De & UCW11.3 \\
+	R2FW11.4 & L’utente può visualizzare l’icona dei preferiti per aggiungere o rimuovere quel locale dalla/nella lista dei preferiti & \De & UCW11.4 \\
+
+	R1FW11.1.1 & L’utente visualizza il nome di un locale & \Ob & UCW11.1.1 \\
+	R2FW11.1.2 & L’utente visualizza la posizione di un locale su GoogleMaps & \De & UCW11.1.2 \\
+	R2FW11.1.3 & L’utente visualizza la categoria a cui appartiene un locale & \De & UCW11.1.3 \\
+	R3FW11.1.4 & L’utente visualizza gli orari di apertura di un locale & \Fa & UCW11.1.4 \\
+	R2FW11.1.5 & L’utente visualizza il numero di telefono di un locale & \De & UCW11.1.5 \\
+	R2FW11.1.6 & L’utente visualizza un bottone che rimanda al sito web del locale & \De & UCW11.1.6 \\
+
+	R1FW11.2.1 & L’utente visualizza il punteggio totale di un locale & \Ob & UCW11.2.1 \\
+	R1FW11.2.2 & L’utente visualizza il punteggio totale dei contenuti multimediali pubblicati sui social, relativi ad un locale & \Ob & UCW11.2.2 \\
+	R1FW11.2.3 & L’utente visualizza il punteggio totale dei testi dei post pubblicati sui social relativi ad un locale & \Ob & UCW11.2.3 \\
+	R1FW11.2.4 & L’utente visualizza il punteggio totale delle emoticon relative al gradimento di un locale sui social & \Ob & UCW11.2.4 \\
+
+	R2FW11.3.1 & L’utente visualizza le foto pubblicate sui social relative ad un locale & \De & UCW11.3.1 \\
+	R2FW11.3.2 & L’utente visualizza i contenuti testuali dei post pubblicati sui social e relativi ad un locale & \De & UCW11.3.2 \\
+	R2FW11.3.3 & L’utente visualizza i tag relativi ai post pubblicati sui social e relativi ad un locale & \De & UCW11.3.3 \\ 	 	 	
+
+	R2FW12 & L’utente può aggiungere un locale alla lista dei preferiti & \De &  UCW12\\ 	 	 	
 
 	R2FW13 & L’utente può rimuovere un locale dalla lista dei preferiti & \De & UCW13\\
 

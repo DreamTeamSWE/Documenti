@@ -1,0 +1,13 @@
+%\subsection{UCE11 - Visualizza errore se il profilo è privato}
+\begin{itemize}
+	\item \textbf{Descrizione}: L'utente autenticato ha suggerito un profilo da aggiungere a sistema con profilo privato.
+    \item \textbf{Attore primario}: Utente autenticato.
+    \item \textbf{Precondizione}: L’utente ha richiesto l’aggiunta di un profilo social (UCW5 §3.6, UCW6 §3.7) fornendo lo username di un profilo privato.
+    \item \textbf{Postcondizione}: Viene visualizzato un messaggio di errore e lo username non viene aggiunto al sistema.
+    \item \textbf{Scenario principale}: 
+    \begin{enumerate}
+        \item L'inserimento dello username nella lista fallisce;
+        \item Viene visualizzato a schermo un messaggio di errore il quale informa l'utente del fatto che non è possiibile inserire profili privati.
+    \end{enumerate}
+\end{itemize}
+
