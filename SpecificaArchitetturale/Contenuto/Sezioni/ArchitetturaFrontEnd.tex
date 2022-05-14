@@ -11,7 +11,7 @@ Una volta che il Model avrà terminato l'operazione, ritornerà direttamente la 
 
 In questo modo si ha una netta separazione tra chi salva ed elabora i dati (il Model) e chi li mostra (la View), mentre il View-Model funge da tramite tra le due parti. 
 In accordo con il proponente, per realizzare la parte Frontend della WebApp, abbiamo scelto di utilizzare la libreria JavaScript React. Per l'aggiornamento dei dati nel Model e la notifica dei cambiamenti al View-Model è stata utilizzata la libreria \textit{MobX}. Questa ci ha permesso di implementare il meccanismo degli Observer su React. 
-Invece per la notifica alla View da parte del View-Model è stata utilizzata la libreria \textit{MobX-React}: questa permette di notificare la View e gli chiede di re-renderizzarsi, mostrando così i dati aggiornati (disponibili per il data-binding con il View-Model.
+Invece per la notifica alla View da parte del View-Model è stata utilizzata la libreria \textit{MobX-React}: questa permette di notificare la View e gli chiede di re-renderizzarsi, mostrando così i dati aggiornati.
 
 
 
