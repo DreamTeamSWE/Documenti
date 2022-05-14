@@ -1,0 +1,434 @@
+\section{API Ranking Service}
+
+
+\subsection{GET - /getRanking}
+Restituisce una lista di oggetti che rappresentano i ristoranti, ordinati in maniera decrescente relativamente alla somma dei punteggi. Per ogni ristorante vengono fornite le seguenti informazioni:
+\begin{itemize}
+	\item L'id univoco;
+    \item Il nome;
+    \item L'indirizzo (opzionale);
+    \item Il numero di telefono (opzionale);
+    \item Il sito web (opzionale);
+    \item La latitudine
+    \item La longitudine
+    \item La categoria 
+    \item Il punteggio delle emoji (opzionale);
+    \item Il punteggio delle foto (opzionale);
+    \item Il punteggio del testo (opzionale);
+	\item La prima immagine senza label "Person" (fornita con link presigned con scadenza di un'ora).
+\end{itemize}
+
+\subsubsection{Endpoint}
+\texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getRanking}
+
+\subsubsection{Parametri}
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{size} & Sì & Rappresenta la quantità di risultati da restituire & 20 & 10 \\
+\texttt{from} & Sì & La posizione dalla quale partire per restituire i risultati & 5 & 0 \\
+
+
+\end{tabular}
+
+
+\caption{Parametri accettati da \texttt{/getRanking}}
+\end{table}
+
+\subsubsection{Esempio di richiesta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/getRanking}}, captionpos=b]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getRanking?from=5&size=2
+
+\end{lstlisting}
+
+\subsubsection{Esempio di risposta}
+\begin{lstlisting}[language=json, caption={Esempio di risposta \texttt{/getRanking}}, captionpos=b]
+[
+    {
+        "id_ristorante": 984,
+        "nome_ristorante": "Lasarte",
+        "indirizzo": "",
+        "telefono": "+34934453242",
+        "sito_web": "http://www.restaurantlasarte.com",
+        "latitudine": "41.3937",
+        "longitudine": "2.1621",
+        "categoria": "Restaurant",
+        "punteggio_emoji": 58.0,
+        "punteggio_foto": 39.9,
+        "punteggio_testo": 64.9,
+        "url_image": "<presigned-url>"
+    },
+    {
+        "id_ristorante": 1146,
+        "nome_ristorante": "Sublime Hotels",
+        "indirizzo": "",
+        "telefono": "+351 269449376",
+        "sito_web": "http://www.sublimecomporta.pt",
+        "latitudine": "38.2809",
+        "longitudine": "-8.6990",
+        "categoria": "Hotel resort",
+        "punteggio_emoji": 48.6077,
+        "punteggio_foto": 22.4,
+        "punteggio_testo": 91.0,
+        "url_image": "<presigned-url>"
+    }
+]
+\end{lstlisting}
+
+\pagebreak
+
+
+\subsection{POST - /getLabelAndPost} 
+Restituisce una lista contenente tutti i media relativi ad un ristorante insieme a tutte le label riguardanti il cibo disponibili per ogni media restituito. Per ogni media vengono restituite le seguenti informazioni:
+\begin{itemize}
+	\item L'id univoco;
+    \item Il nome utente dell'autore;
+    \item La data in cui è stato pubblicato;
+    \item L'id univoco del ristorante al quale è collegato;
+    \item Il testo;
+    \item Il punteggio delle emoji;
+    \item Il punteggio delle immagini;
+    \item Il punteggio del testo;
+	\item La lista delle immagini contenute (fornite con link presigned con scadenza di un'ora).
+\end{itemize}
+
+\subsubsection{Endpoint}
+\texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getLabelAndPost}
+
+\subsubsection{Parametri}
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{id\_rist} & No & L'id univoco del ristorante  & 6 &  \\
+
+\end{tabular}
+\caption{Parametri accettati da \texttt{/getLabelAndPost}}
+\end{table}
+
+\subsubsection{Esempio di richiesta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/getLabelAndPost}}, captionpos=b]
+curl -X POST 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getLabelAndPost
+-H 'Content-Type: application/json'
+-d '{"id_rist":"6"}'
+
+\end{lstlisting}
+
+\pagebreak
+
+\subsubsection{Esempio di risposta}
+\begin{lstlisting}[language=json, caption={Esempio di risposta \texttt{/getLabelAndPost}}, captionpos=b]
+[
+    {
+        "id_post": "2756724839010375739_261493927",
+        "nome_utente": "cavallitos",
+        "data_post": "2022-01-22",
+        "id_ristorante": 6,
+        "testo": "Asador in salsa verde. Tra le altre cose, hamburger nippo-piemontese di wagyu e vicciola.",
+        "punteggio_emoji": null,
+        "punteggio_testo": 28.5,
+        "punteggio_foto": null,
+        "url_immagine": [
+            "<presigned-url>",
+            "<presigned-url>",
+            "<presigned-url>",
+            "<presigned-url>"
+        ],
+        "nome_label": [
+            [
+                {
+                    "nome_label": "Pork"
+                }
+            ],
+            [
+                {
+                    "nome_label": "Sweets"
+                }
+            ],
+            [
+                {
+                    "nome_label": "Bread"
+                }
+            ],
+            [
+                {
+                    "nome_label": "Pork"
+                }
+            ]
+        ]
+    },
+    {
+        "id_post": "2801767514265164419_5450171258",
+        "nome_utente": "paolo_vizzari",
+        "data_post": "2022-03-25",
+        "id_ristorante": 6,
+        "testo": "Dovremmo cercare di mangiar carne una volta di meno e mangiarla dieci volte meglio. \n \n Roberto e' il mio personale sacerdote della bistecca, l'unico capace di emozionarmi tre volte per ogni ciccia: quando la racconta, mentre la cuoce e colpo finale al morso. Un sardone trapiantato a Torino col cuore grande come le sue costate e prezioso come le sue  frollature perfette.\n\nCi vuol poco a bruciare una poesia, molto piu' amore per scriverne i versi con la brace.",
+        "punteggio_emoji": null,
+        "punteggio_testo": 98.0,
+        "punteggio_foto": 0.8,
+        "url_immagine": [
+            "<presigned-url>",
+            "<presigned-url>",
+            "<presigned-url>"
+        ],
+        "nome_label": [
+            [],
+            [
+                {
+                    "nome_label": "Steak"
+                }
+            ],
+            []
+        ]
+    }
+]
+
+\end{lstlisting}
+
+\pagebreak
+
+
+
+
+
+
+
+\subsection{POST - /searchByName} 
+Restituisce tutte le informazioni (come già definite in §2.1) per il ristorante il cui nome che ha un match esatto con il parametro passato oppure, se il match esatto non viene trovato, ritorna una lista contenente le informazioni di tutti ristoranti i cui nomi contengono, come sotto-stringhe, almeno una delle singole parole passate come parametro. 
+
+
+\subsubsection{Endpoint}
+\texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/searchByName}
+
+\subsubsection{Parametri}
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{name} & No & Il nome del ristorante da cercare & La Piola Alba &  \\
+
+\end{tabular}
+\caption{Parametri accettati da \texttt{/searchByName}}
+\end{table}
+
+\subsubsection{Esempio di richiesta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/searchByName}}, captionpos=b]
+curl -X POST 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/searchByName
+-H 'Content-Type: application/json'
+-d '{"name":"Piazza"}'
+
+\end{lstlisting}
+
+\subsubsection{Esempio di risposta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/searchByName}}, captionpos=b]
+
+[
+    {
+        "id_ristorante": 9,
+        "nome_ristorante": "Piazza Duomo",
+        "indirizzo": "",
+        "telefono": "+39 0173 366167",
+        "sito_web": "http://www.piazzaduomoalba.it/",
+        "latitudine": "44.7005",
+        "longitudine": "8.0360",
+        "categoria": "Italian Restaurant",
+        "punteggio_emoji": 16.5644,
+        "punteggio_foto": 6.74074,
+        "punteggio_testo": 51.2037,
+        "url_immagine": "<presigned-url>"
+    },
+    {
+        "id_ristorante": 209,
+        "nome_ristorante": "Piazza degli Artisti Ciampino",
+        "indirizzo": "",
+        "telefono": "+393483623939",
+        "sito_web": "",
+        "latitudine": "41.8019",
+        "longitudine": "12.5994",
+        "categoria": "Italian Restaurant",
+        "punteggio_emoji": 39.45,
+        "punteggio_foto": null,
+        "punteggio_testo": 29.7,
+        "url_immagine": "<presigned-url>
+    },
+    {
+        "id_ristorante": 900,
+        "nome_ristorante": "Podere La Piazza",
+        "indirizzo": "",
+        "telefono": "0141966267",
+        "sito_web": "http://www.poderelapiazza.it",
+        "latitudine": "44.7934",
+        "longitudine": "8.1636",
+        "categoria": "Restaurant",
+        "punteggio_emoji": null,
+        "punteggio_foto": 56.7,
+        "punteggio_testo": 37.4,
+        "url_immagine": "<presigned-url>"
+    },
+    {
+        "id_ristorante": 1578,
+        "nome_ristorante": "In Piazza Osteria con Pizza",
+        "indirizzo": "",
+        "telefono": "0173-787346",
+        "sito_web": null,
+        "latitudine": "44.5829",
+        "longitudine": "7.9677",
+        "categoria": "Pizza place",
+        "punteggio_emoji": 74.6,
+        "punteggio_foto": null,
+        "punteggio_testo": 50.0,
+        "url_immagine": "<presigned-url>"
+    }
+]
+\end{lstlisting}
+
+\pagebreak
+
+\subsection{GET - /favorites} 
+Rappresenta il gestore della lista dei preferiti per ogni utente. Permette di fare 3 operazioni:
+
+\begin{itemize}
+	\item L'aggiunta di un nuovo ristorante alla lista dei preferiti di uno specifico utente;
+    \item La rimozione un ristorante dalla lista dei preferiti di uno specifico utente;
+    \item La restituzione della lista dei preferiti per un utente specifico.
+\end{itemize}
+
+
+La risposta contiene rispettivamente:
+\begin{itemize}
+	\item Il risultato dell'operazione (\texttt{true} o \texttt{false});
+    \item Il risultato dell'operazione (\texttt{true} o \texttt{false});
+    \item Una lista contenente tutti gli id e i nomi dei ristoranti preferiti di uno specifico utente.
+\end{itemize}
+
+\subsubsection{Endpoint}
+\texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites}
+
+\subsubsection{Parametri}
+
+\paragraph{Aggiunta preferito}
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{action} & No & L'azione da compiere, il valore da inserire è "add"  & add &  \\
+\texttt{user} & No & L'identificativo dell'utente  & 4887b0d7-f041-4a92-a458-eab8aa5f31b0 &  \\
+\texttt{restaurant} & No & L'identificativo del ristorante da inserire  & 8 &  \\
+\end{tabular}
+\caption{Parametri accettati da \texttt{/favorites} per l'aggiunta di un preferito}
+\end{table}
+
+
+\paragraph{Rimozione preferito}
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{action} & No & L'azione da compiere, il valore da inserire è "remove"  & remove &  \\
+\texttt{user} & No & L'identificativo dell'utente  & 4887b0d7-f041-4a92-a458-eab8aa5f31b0 &  \\
+\texttt{restaurant} & No & L'identificativo del ristorante da rimuovere  & 8 &  \\
+\end{tabular}
+\caption{Parametri accettati da \texttt{/favorites} per la rimozione di un preferito}
+\end{table}
+
+\pagebreak
+
+
+\paragraph{Restituzione lista preferiti}
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{action} & No & L'azione da compiere, il valore da inserire è "get"  & get &  \\
+\texttt{user} & No & L'identificativo dell'utente  & 4887b0d7-f041-4a92-a458-eab8aa5f31b0 &  \\
+
+\end{tabular}
+\caption{Parametri accettati da \texttt{/favorites} per la restituzione della lista dei preferiti}
+\end{table}
+
+\subsubsection{Esempio di richiesta}
+\paragraph{Aggiunta preferito}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/favorites} per l'aggiunta di un preferito}, captionpos=b]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=add&user=515d659b-baec-413b-9b37-703498372093&restaurant=100
+\end{lstlisting}
+
+\paragraph{Rimozione preferito}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/favorites} per la rimozione di un preferito}, captionpos=b]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=remove&user=515d659b-baec-413b-9b37-703498372093&restaurant=100
+\end{lstlisting}
+
+
+
+\paragraph{Restituzione lista preferiti}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/favorites} per la restituzione della lista dei preferiti}, captionpos=b]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/favorites?action=get&user=515d659b-baec-413b-9b37-703498372093
+\end{lstlisting}
+
+\pagebreak
+
+\subsubsection{Esempio di risposta}
+\paragraph{Aggiunta preferito}
+\begin{lstlisting}[language=json, caption={Esempio di risposta \texttt{/favorites} per l’aggiunta di un preferito}, captionpos=b]
+true
+\end{lstlisting}
+
+\paragraph{Rimozione preferito}
+\begin{lstlisting}[language=json, caption={Esempio di risposta \texttt{/favorites} per la rimozione di un preferito}, captionpos=b]
+true
+\end{lstlisting}
+
+
+\paragraph{Restituzione lista preferiti}
+\begin{lstlisting}[language=json, caption={Esempio di risposta \texttt{/favorites} per la restituzione della lista dei preferiti}, captionpos=b]
+[{
+    "id_ristorante": 8,
+    "nome_ristorante": "La Piola Alba"
+}, {
+    "id_ristorante": 43,
+    "nome_ristorante": "Osteria Alla Concorrenza"
+}, {
+    "id_ristorante": 59,
+    "nome_ristorante": "Taverna Trilussa"
+}, {
+    "id_ristorante": 63,
+    "nome_ristorante": "Hotel das Cataratas, A Belmond Hotel"
+}, {
+    "id_ristorante": 64,
+    "nome_ristorante": "Kazuo Restaurante"
+}, {
+    "id_ristorante": 66,
+    "nome_ristorante": "Trattoria Fasano"
+}, {
+    "id_ristorante": 67,
+    "nome_ristorante": "Yokohama Sushi Restaurant"
+}, {
+    "id_ristorante": 72,
+    "nome_ristorante": "ORSO - Laboratorio Caff\u00e8"
+}, {
+    "id_ristorante": 74,
+    "nome_ristorante": "Osteria dei Sognatori"
+}]
+\end{lstlisting}

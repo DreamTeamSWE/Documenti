@@ -1,0 +1,48 @@
+\section{API Crawling Service}
+
+
+\subsection{POST - /test\_post}
+Permette di suggerire un profilo che verrà poi utilizzato dal crawler per estrarre i dati. Verranno solo analizzati i profili pubblici. L'operazione può ritornare quattro risultati, identificati da un numero intero:
+\begin{itemize}
+\item 0 (SUCCESS): profilo è stato aggiunto con successo;
+\item 1 (ALREADY\_IN\_DB): Il profilo è già nel database;
+\item 2 (DOES\_NOT\_EXIST): Il profilo non esiste;
+\item 3 (PRIVATE\_PROFILE): Il profilo è privato.
+\end{itemize}
+
+\subsubsection{Endpoint}
+\texttt{https://eultdbw3g5.execute-api.eu-central-1.amazonaws.com/dev/test\_post}
+
+\subsubsection{Parametri}
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{name} & No & Il nome utente del profilo da aggiungere & francesco & \\
+
+
+\end{tabular}
+
+
+\caption{Parametri accettati da \texttt{/test\_post}}
+\end{table}
+
+\subsubsection{Esempio di richiesta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/test\_post}}, captionpos=b]
+curl -X POST 
+https://eultdbw3g5.execute-api.eu-central-1.amazonaws.com/dev/test_post
+-H 'Content-Type: application/json'
+-d '{"name":"sfpugnfosgnfp"}'
+\end{lstlisting}
+
+\subsubsection{Esempio di risposta}
+\begin{lstlisting}[language=json, caption={Esempio di risposta \texttt{/test\_post}}, captionpos=b]
+{
+    "message": "Profile does not exist",
+    "status": 2
+}
+\end{lstlisting}
+
