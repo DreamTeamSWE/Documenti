@@ -1,0 +1,14 @@
+.vscode/tasks.json
+*.toc
+*.gz
+*.out
+*.log
+*.lot
+*.lof
+*.idx
+*.aux
+*.fdb_latexmk
+*.fls
+*.ilg
+*.ind
+*.xdv

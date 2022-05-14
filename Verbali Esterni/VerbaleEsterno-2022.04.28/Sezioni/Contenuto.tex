@@ -57,6 +57,14 @@ Inoltre, abbiamo analizzato nel dettaglio tutte le pagine che sviluppate in ques
 Infine, abbiamo chiarito alcuni dubbi in merito alla struttura con cui avevamo implementato la parte del MVVM; l'azienda ci ha dato delle conferme e dei pareri, che ci hanno permesso di migliorare ulteriormente quanto svolto.
 
 \subsection{Back-end}
+Per la parte di back-end sono stati risolti alcuni dubbi riguardanti il framework Serverless, in particolare:
+\begin{itemize}
+	\item \textbf{Sicurezza:} siamo riusciti a nascondere le chiavi di accesso al database, le quali venivano scritte in chiaro nel codice.
+ 	\item \textbf{Ottimizzazione:} abbiamo risolto il problema di caricamento di file inutili quando venivano create le Lambda per la gestione della classifica. 
+	Ora infatti vengono caricati solo i file necessari diminuendo notevolmente il tempo di caricamento.
+\end{itemize}
+
+Qunato riportato sopra ci è stato fornito aiuto da parte dal membro di \textit{Zero 12}, \textit{Francesco Battistella} tramite anche il canale \textit{Slack}.
 
 
 \pagebreak
