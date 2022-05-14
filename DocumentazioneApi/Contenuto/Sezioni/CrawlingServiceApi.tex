@@ -30,8 +30,8 @@ Permette di suggerire un profilo che verrà poi utilizzato dal crawler per estra
 \caption{Parametri accettati da \texttt{/test\_post}}
 \end{table}
 
-\subsection{Esempio di richiesta}
-\begin{lstlisting}[language=json]
+\subsubsection{Esempio di richiesta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/test\_post}}, captionpos=b]
 curl -X POST 
 https://eultdbw3g5.execute-api.eu-central-1.amazonaws.com/dev/test_post
 -H 'Content-Type: application/json'
@@ -39,7 +39,7 @@ https://eultdbw3g5.execute-api.eu-central-1.amazonaws.com/dev/test_post
 \end{lstlisting}
 
 \subsubsection{Esempio di risposta}
-\begin{lstlisting}[language=json]
+\begin{lstlisting}[language=json, caption={Esempio di risposta \texttt{/test\_post}}, captionpos=b]
 {
     "message": "Profile does not exist",
     "status": 2
