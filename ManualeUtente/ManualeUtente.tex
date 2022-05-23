@@ -1,0 +1,49 @@
+% Manuale utente
+\documentclass[a4paper]{article}
+\input{Struttura/packages.tex}
+\input{Struttura/command.tex}
+
+\begin{document}
+
+		\input{Struttura/Intro.tex}	
+		% indice
+		\renewcommand{\contentsname}{Indice}
+		\tableofcontents	
+		\listoffigures
+		%\listoftables
+		\pagebreak
+
+		\input{Struttura/RegistroModifiche.tex}		
+
+		\section{Introduzione}
+		\input{Contenuti/Introduzione.tex}
+		\newpage
+		
+		\section{Requisiti di Sistema}
+		\input{Contenuti/RequisitiSistema.tex}
+		
+		\section{Accesso alla WebApp}
+		\input{Contenuti/AccessoWebApp.tex}
+
+		\section{Registrazione}
+		\input{Contenuti/Registrazione.tex}
+		
+		\section{Login}
+		\input{Contenuti/Login.tex}
+		
+		\section{Recupero Password}
+		\input{Contenuti/RecuperoPassword.tex}
+		
+		\section{Area Personale}
+		\input{Contenuti/AreaPersonale.tex}
+
+		\section{Homepage}
+		\input{Contenuti/Homepage.tex}
+		
+		\section{Visualizza i Risultati}
+		\input{Contenuti/Risultati.tex}		
+		
+		\section{Pagina di dettaglio locale}
+		\input{Contenuti/DettagliLocale.tex}
+		
+\end{document}
