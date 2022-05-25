@@ -1,0 +1,24 @@
+\documentclass[a4paper]{article}
+\input{Sezioni/Packages.tex}
+\input{Sezioni/Command.tex}
+
+\begin{document}
+
+\input{Intro.tex}
+
+\input{Sezioni/Impaginazione.tex}
+
+\input{Sezioni/RegistroModifiche.tex}
+
+% indice
+\renewcommand{\contentsname}{Indice}
+\tableofcontents
+%\listoffigures
+\pagebreak
+
+\input{Sezioni/Contenuto.tex}
+
+\pagebreak
+\input{Sezioni/Riepilogo.tex}
+
+\end{document}
