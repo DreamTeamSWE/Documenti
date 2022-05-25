@@ -6,112 +6,17 @@
     \item \textbf{Test di sistema:} vengono effettuati per assicurare che i requisiti identificati nel documento \textit{AnalisiDeiRequisiti-v1.0.0} siano rispettati;
     \item \textbf{Test di accettazione:} vengono effettuati insieme al proponente durante la fase di collaudo.
 \end{itemize}
+
 \section{Test di unità}
-I test di unità verranno stabiliti nel periodo di Progettazione di dettaglio e codifica.
+\input{Sezioni/Test/TestUnitaCS.tex}
+\input{Sezioni/Test/TestUnitaRS.tex}
+\input{Sezioni/Test/TestUnitaFrontend.tex}
 
 \section{Test di integrazione}
-I test di integrazione verranno stabiliti nel periodo di Progettazione di dettaglio e codifica.
+\input{Sezioni/Test/TestIntegrazione.tex}
 
 \section{Test di sistema}
-\renewcommand{\arraystretch}{1.5}
-\rowcolors{2}{gray!25}{white}
-\begin{longtable}{ m{0.15\textwidth}<{\centering}  m{0.5\textwidth}<{\centering}  m{0.25\textwidth}<{\centering} }
-	\rowcolor{darkblue}
-	\textcolor{white}{\textbf{Test}} &\textcolor{white}{\textbf{Descrizione}} & \textcolor{white}{\textbf{Implementazione}} \\ 
-
-	TSR1FW1 & Si verifica che l'utente riesca ad inserire correttamente i propri dati personali per effettuare la registrazione & \Ni \\
-	TSR1FW2 & Si verifica che l'utente riesca ad inserire correttamente i propri dati personali per effettuare il login & \Ni \\
-	TSR1FW3 & Si verifica che l'utente riesca a recuperare la password di accesso, nel caso l'avesse dimenticata & \Ni \\
-	TSR1FE1 & Si verifica che all'utente venga mostrato un errore nel caso non venga inserito correttamente il nome in fase di registrazione & \Ni \\
-	TSR1FE2 & Si verifica che all'utente venga mostrato un errore nel caso non venga inserito correttamente il cognome in fase di registrazione & \Ni \\
-	TSR1FE3 & Si verifica che all'utente venga mostrato un errore nel caso non venga inserito correttamente l'indirizzo e-mail in fase di registrazione & \Ni \\
-	TSR1FE4 & Si verifica che all'utente venga mostrato un errore nel caso non venga inserita correttamente la password in fase di registrazione & \Ni \\
-	TSR1FE5 & Si verifica che all'utente venga mostrato un errore nel caso non venga inserito correttamente l'indirizzo e-mail in fase di login & \Ni \\
-	TSR1FE6 & Si verifica che all'utente venga mostrato un errore nel caso non venga inserita correttamente la password in fase di login & \Ni \\
-	TSR1FE7 & Si verifica che all'utente venga mostrato un errore nel caso non venga inserita correttamente la password in fase di recupero password & \Ni \\
-	TSR1FW4 & Si verifica che un utente autenticato possa accedere alla sua area personale & \Ni \\
-	TSR2FW4.1 & Si verifica che l'utente autenticato riesca a collegare correttamente il proprio profilo Instagram & \Ni \\
-	TSR2FE8 & Si verifica che all'utente autenticato venga mostrato un messaggio d'errore nel caso il collegamento con il profilo Instagram non vada a buon fine & \Ni \\
-	TSR2FW4.2 & Si verifica che l'utente autenticato riesca a collegare correttamente il proprio profilo TikTok & \Ni \\
-	TSR2FE9 & Si verifica che all'utente autenticato venga mostrato un messaggio d'errore nel caso il collegamento con il profilo TikTok non vada a buon fine & \Ni \\
-	TSR3FW4.3 & Si verifica che l'utente autenticato riesca a modificare la password con cui accede al sistema & \Ni \\
-	TSR3FE15 & Si verifica che all'utente autenticato venga mostrato un errore nel caso non venga inserita una password valida in fase di modifica & \Ni \\
-	TSR1FW5 & Si verifica che l'utente autenticato possa suggerire dei profili social da cui fare il crawling dei dati & \Ni \\
-	TSR2FE10 & Si verifica che all'utente autenticato venga mostrato un errore nel caso suggerisca un profilo social inesistente & \Ni \\
-	TSR2FE11 & Si verifica che all'utente autenticato venga mostrato un errore nel caso suggerisca un profilo social privato & \Ni \\
-	TSR2FE12 & Si verifica che all'utente autenticato venga mostrato un errore nel caso suggerisca un profilo social già  presente a sistema & \Ni \\
-	TSR1FW7 & Si verifica che l'utente riesca a visualizzare la classifica con i locali presenti nel database & \Ni \\
-	TSR1FW8 & Si verifica che l'utente riesca a filtrare la classifica & \Ni \\
-	TSR2FE13 & Si verifica che all'utente venga mostrato un errore nel caso non ci sia alcun risultato compatibile con i filtri applicati & \Ni \\
-	TSR1FW8.1 & Si verifica che l'utente riesca a filtrare la classifica dei locali presenti nel database in base alla zona & \Ni \\
-	TSR2FW8.2 & Si verifica che l'utente riesca a filtrare la classifica dei locali presenti nel database per giorno ed orario di apertura & \Ni \\
-	TSR2FW8.3 & Si verifica che l'utente riesca a filtrare la classifica dei locali presenti nel database in base al tipo di cucina & \Ni \\
-	TSR2FW8.4 & Si verifica che l'utente riesca a filtrare la classifica dei locali presenti nel database per fascia di prezzo & \Ni \\
-	TSR1FW8.5 & Si verifica che l'utente riesca a filtrare la classifica dei locali presenti nel database in base al punteggio & \Ni \\
-	TSR3FW9 & Si verifica che l'utente riesca a modificare l'ordinamento di visualizzazione della classifica & \Ni \\
-	TSR3FW9.1 & Si verifica che l'utente riesca a visualizzare i risultati della classifica impostando il peso dei social & \Ni \\
-	TSR3FW9.2 & Si verifica che l'utente riesca a modificare i risultati della classifica impostando il peso dei tipi di contenuto & \Ni \\
-	TSR1FW10 & Si verifica che l'utente riesca a cercare un locale presente nel database tramite il suo nome & \Ni \\
-	TSR2FE14 & Si verifica che all'utente venga mostrato un errore nel caso il locale cercato non sia presente nel sistema & \Ni \\
-	TSR1FW11 & Si verifica che l'utente riesca a visualizzare le informazioni di un locale presente nel sistema & \Ni \\
-	TSR2FW12 & Si verifica che l'utente riesca ad aggiungere un locale nella lista dei preferiti & \Ni \\
-	TSR2FW13 & Si verifica che l'utente riesca ad rimuovere un locale dalla lista dei preferiti & \Ni \\
-	TSR3F1 & Si verifica che l'utente riesca a suggerire delle modifiche da apportare relative alle informazioni di un locale & \Ni \\
-	
-    \caption{Test di sistema}
-\end{longtable}	
-
-\subsubsection{Test di Sistema - Tracciamento dei requisiti}
-
-
-\rowcolors{2}{gray!25}{white}
-\renewcommand{\arraystretch}{1.5}
-\begin{longtable}{ m{0.15\textwidth}<{\centering}  m{0.3\textwidth}<{\centering} }
-	\rowcolor{darkblue}
-	\textcolor{white}{\textbf{ID Test}} &\textcolor{white}{\textbf{ID Requisito}}\\ 
-	 
-	TSR1FW1 & R1FW1 \\
-	TSR1FW2 &  R1FW2 \\
-	TSR1FW3 & R1FW3 \\
-	TSR1FE1 & R1FE1 \\
-	TSR1FE2 & R1FE2 \\
-	TSR1FE3 & R1FE3 \\
-	TSR1FE4 & R1FE4 \\
-	TSR1FE5 & R1FE5 \\
-	TSR1FE6 & R1FE6 \\
-	TSR1FE7 & R1FE7 \\
-	TSR1FW4 & R1FW4 \\
-	TSR2FW4.1 & R2FW4.1 \\
-	TSR2FE8 & R2FE8 \\
-	TSR2FW4.2 & R2FW4.2 \\
-	TSR2FE9 & R2FE9 \\
-	TSR3FW4.3 & R3FW4.3\\
-	TSR3FE15 & R3FE15 \\
-	TSR1FW5 & R1FW5 \\
-	TSR2FE10 & R2FE10 \\	 
-	TSR2FE11 & R2FE11 \\
-	TSR2FE12 & R2FE12 \\
-	TSR1FW7 & R1FW7 \\
-	TSR1FW8 & R1FW8 \\
-	TSR2FE13 & R2FE13 \\
-	TSR1FW8.1 & R1FW8.1 \\
-	TSR2FW8.2 & R2FW8.2 \\
-	TSR2FW8.3 & R2FW8.3 \\
-	TSR2FW8.4 & R2FW8.4 \\
-	TSR1FW8.5 & R1FW8.5 \\
-	TSR3FW9 & R3FW9 \\
-	TSR3FW9.1 & R3FW9.1 \\
-	TSR3FW9.2 & R3FW9.2 \\
-	TSR1FW10 & R1FW10 \\
-	TSR2FE14 & R2FE14  \\
-	TSR1FW11 & R1FW11 \\
-	TSR2FW12 & R2FW12 \\
-	TSR2FW13 & R2FW13 \\
-	TSR3F1 & R3F1 \\
-
-\caption{Tracciamento Test di Sistema - Requisiti}
-\end{longtable}
-
+\input{Sezioni/Test/TestSistema.tex}
 
 \section{Test di accettazione}
 I test di accettazione verranno stabiliti nel periodo di Progettazione di dettaglio e codifica.
