@@ -1,1 +1,79 @@
-\subsection{Frontend}
+\subsection{Ranking Service}
+\renewcommand{\arraystretch}{1.5}
+\rowcolors{2}{gray!25}{white}
+\begin{longtable}{ m{0.15\textwidth}<{\centering}  m{0.5\textwidth}<{\centering}  m{0.25\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{ID Test}} &\textcolor{white}{\textbf{Descrizione}} & \textcolor{white}{\textbf{Implementazione}} \\ 
+
+	TURS01 & Viene verificato che il metodo di parsificare di un messaggio SQS a un oggetto CrawledData funzioni correttamente & Superato \\
+   
+    TURS02 & Viene verificato che il metodo per il calcolo del punteggio di una singola immagine calcoli il punteggio corretto & Superato \\
+    
+	TURS03 & Viene verificato che il metodo per il calcolo del punteggio di una singola immagine non calcoli nessun punteggio se nell'immagine non sono presenti persone & Superato \\
+    
+    TURS04 & Viene verificato che il metodo di estrazione e conversione in un oggetto Restaurant di una location in un messaggio SQS funzioni correttamente & Superato \\
+   
+    TURS05 & Viene verificato che il metodo di calcolo del punteggio del testo di un singolo media calcoli il punteggio corretto & Superato \\
+
+    TURS06 & Viene testato che il metodo che calcola il punteggio delle emoji calcoli il punteggio corretto per emoji singole & Superato \\
+
+    TURS07 & Viene testato che il metodo che calcola il punteggio delle emoji non calcoli nessun punteggio se il testo non contiene emoji, o le emoji che contiene non sono supportate & Superato \\
+
+    TURS08 & Viene testato che il metodo che calcola il punteggio delle emoji calcoli il punteggio corretto per emoji multiple & Superato \\
+    
+    TURS09 & Viene verificato che il metodo che calcola il punteggio totale di tutte le immagini funzioni correttamente & Superato \\
+
+    TURS10 & Viene verificato che il metodo di analisi esegue correttamente la parsificazione delle label estratte dalle immagini & Superato \\
+
+    TURS11 & Viene verificato che il metodo di analisi esegue correttamente la parsificazione delle emozioni estratte dalle immagini & Superato \\
+
+    TURS12 & Viene verificato che il metodo di analisi esegue correttamente la parsificazione delle confidenze delle emozioni estratte dalle immagini & Superato \\
+
+    TURS13 & Viene verificato che il calcolo del punteggio del testo avvenga solo se il linguaggio principale rientra nei linguaggi supportati & Superato \\
+
+    TURS14 & Viene verificato che il metodo che restituisce la classifica funzioni correttamente & Non implementato \\
+    
+    TURS15 & Viene verificato che il metodo che ricerca i ristoranti per nome funzioni correttamente & Non implementato \\
+    
+    TURS16 & Viene verificato che il metodo che restituisce tutte le informazioni relative ai media di un signolo ristorante funzioni correttamente & Non implementato \\
+    
+    TURS17 & Viene verificato che il metodo che esegue la esegue le query di lettura funzioni correttamente & Non implementato \\
+    
+    TURS18 & Viene verificato che l'API di gestione dei preferiti risponda chiamando il metodo corretto, con i parametri corretti per ogni richiesta & Non implementato \\
+    
+     TURS19 & Viene verificato che l'API di ottenimento della classifica risponda chiamando il metodo corretto, con i parametri corretti per ogni richiesta & Non implementato \\
+     
+     TURS20 & Viene verificato che l'API di ricerca dei ristoranti risponda chiamando il metodo corretto, con i parametri corretti per ogni richiesta & Non implementato \\
+     
+     TURS21 & Viene verificato che l'API di ottenimento informazioni sui post relativi ad un ristorante risponda chiamando il metodo corretto, con i parametri corretti per ogni richiesta & Non implementato \\
+
+    \caption{Test di unità - Ranking Service}
+\end{longtable}	
+
+\begin{longtable}{ m{0.15\textwidth}<{\centering}  m{0.758\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{ID Test}} &\textcolor{white}{\textbf{Metodo}} \\ 
+
+	TURS01 &  entity/CrawledData/parse\_post\_from\_sqs(item\_body: dict) -> CrawledData \\
+    TURS02 &  entity/Image/calculate\_score(self) -> None\\
+    TURS03 &   analyzer/PostAnalyzer/calculate\_image\_score(self, post: CrawledData) -> float\\
+    TURS04 &  entity/Restaurant/parse\_restaurant\_from\_sqs(item: dict) -> Restaurant\\
+    TURS05 & entity/ScoreComprehend/calculate\_score(self) -> float\\
+    TURS06 & analyzer/EmojiAnalyzer/analyze(self, post: CrawledData) -> Optional[float]\\
+    TURS07 &  analyzer/EmojiAnalyzer/analyze(self, post: CrawledData) -> Optional[float]\\
+    TURS08 &  analyzer/EmojiAnalyzer/analyze(self, post: CrawledData) -> Optional[float]\\
+    TURS09 &  analyzer/PostAnalyzer/calculate\_image\_score(self, post: CrawledData) -> float\\
+    TURS10 &  analyzer/PostAnalyzer/detect\_labels(self, photo: Image, bucket: str) -> [dict, bool]\\
+    TURS11 &  analyzer/PostAnalyzer/detect\_sentiment\_person(self, name\_image: str, bucket: str) -> [dict, dict, dict]\\
+    TURS12 &  analyzer/PostAnalyzer/detect\_sentiment\_person(self, name\_image: str, bucket: str) -> [dict, dict, dict]\\
+    TURS13 & analyzer/PostAnalyzer/calculate\_text\_score(self, post: CrawledData) -> float\\
+    TURS14 &  db/RepositoryExternal/get\_ranking(self, position: int, size: int) -> dict\\
+    TURS15 &  db/RepositoryExternal/search\_restaurants\_by\_name(self, name: str) -> dict\\
+    TURS16 & db/RepositoryExternal/get\_post\_and\_tag\_by\_restaurant(self, id\_rist: int) -> dict \\
+    TURS17 &  db/DatabaseHandler/do\_read\_query(self, query: str, param\_set=None, transaction\_id=None) -> dict\\
+    TURS18 &  favoritesManager/favorites\_handler(event, context) -> dict\\
+    TURS19 &  getRanking/get\_ranking(event, context) -> dict\\
+    TURS20 &  searchByName/search\_by\_name(event, context) -> dict\\
+    TURS21 &  getLabelAndPost/get\_label\_and\_post(event, context) -> dict\\
+    \caption{Test di unità - metodi - Ranking Service} 
+\end{longtable}	
