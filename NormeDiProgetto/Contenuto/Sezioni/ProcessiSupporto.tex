@@ -313,12 +313,12 @@ Vengono utilizzati 3 repository per il versionamento del codice relativo al prod
 	\item \textbf{CrawlingService}: contiene il codice Python per il microservizio che si occupa dell'analisi dei dati estratti e fornisce la maggior parte delle API al frontend;
 	\item \textbf{FrontendSWEET}: contiene il codice Javascript/HTML/CSS che compone il frontend del prodotto software.
 \end{itemize}
-Viene utilizzato il \textit{Feature Branch Workflow}, dove ogni aggiunta di codice significativa viene eseguita in un branch secondario, le modifiche verrano poi trasferite al branch principale tramite il meccanismo di pull request.
+Viene utilizzato il \textit{Feature Branch Workflow}\textsuperscript{G}, dove ogni aggiunta di codice significativa viene eseguita in un branch secondario, le modifiche verrano poi trasferite al branch principale tramite il meccanismo di pull request.
 
-I repository quindi sono suddiviso in più branch, in generale:
+I repository quindi sono suddivisi in più branch, in generale:
 \begin{itemize}
 \item \textbf{main}: il branch principale, che contiene l'ultima versione funzionante del codice;
-\item \textbf{Feature branch}: uno per ogni feature, dove uno o più, membri lavorano al codice, al termine verrà fatto il merge nel main branch.
+\item \textbf{Feature branch}: uno per ogni feature\textsuperscript{G}, dove uno o più, membri lavorano al codice, al termine verrà fatto il merge\textsuperscript{G} nel main branch.
 \end{itemize}
 
 Non vengono definite regole specifiche circa la nomenclatura dei feature branch, che quindi sono a discrezione dei singoli programmatori. 
@@ -437,7 +437,7 @@ I test sono l'attività fondamentale dell'analisi dinamica. Servono per dimostra
 
 \paragraph{Nominazione dei test}
 Ogni test verrà identificato con un codice: \\ \\
-\centerline{\textbf{T[Tipologia][Id]}} \\ \\
+\centerline{\textbf{T[Tipologia][Componente][Id]}} \\ \\
 In particolare:
 \begin{itemize}
 \item \textbf{Tipologia}: Indica la tipologia del test:
@@ -448,7 +448,15 @@ In particolare:
 	\item \textbf{R}: Regressione;
 	\item \textbf{V}: Validazione (trattati in §3.5.4.1).
 	\end{itemize}
-
+	
+\item \textbf{Componente}: Rappresenta la singola componente a cui i test si riferiscono:
+	\begin{itemize}
+	\item \textbf{F}: Frontend;
+	\item \textbf{CS}: Crawling service;
+	\item \textbf{RS}: Ranking service.
+	\end{itemize}
+	Viene applicato solo per i test di unità. 	
+	
 \item \textbf{Id}: codice numerico per identificare i test dello stesso tipo, parte da 1.
 
 \end{itemize}
