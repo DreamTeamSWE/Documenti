@@ -36,3 +36,12 @@
 
 %link in blu
 \newcommand{\mylink}[1]{\color{blue}\url{#1}\color{black}}
+
+%centra le immagini
+\makeatletter
+\newcommand*{\centerfloat}{%
+  \parindent \z@
+  \leftskip \z@ \@plus 1fil \@minus \textwidth
+  \rightskip\leftskip
+  \parfillskip \z@skip}
+\makeatother
