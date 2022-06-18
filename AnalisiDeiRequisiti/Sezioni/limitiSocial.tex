@@ -2,10 +2,37 @@
 Come richiesto dal proponente, il team dovrà realizzare un'analisi sui limiti dei social utilizzati al fine di capire la realizzabilità di determinati requisiti.
 
 \subsection{Instagram}
-Durante la fase di sviluppo del \textit{Proof of Concept} non sono emersi limiti rilevanti riguardo l'utilizzo di Instagram nelle operazioni di crawling. Tuttavia quando sarà il momento di effettuare tali operazioni su larga scala, il team dovrà prestare attenzione a non ricevere ban da parte della piattaforma tramite i seguenti accorgimenti:
+\subsubsection{Limiti}
+Durante lo sviluppo, il team ha riscontrato alcuni problemi che evidenziano i limiti nell'utilizzo di un crawler su Instagram.
 \begin{itemize}
-    \item Utilizzare account Instagram diversi da cui effettuare il crawling;
-    \item Non effettuare troppe operazioni di crawling in un breve lasso di tempo.
+    \item Per effettuare crawling, è necessario utilizzare un account instagram;
+    \item Effettuare troppe richieste in poco tempo porta ad alcuni warning che impediscono l'esecuzione del programma;
+    \item A seguito dei warning, Instagram può chiedere di inserire un codice di conferma ricevuto via email per poter continuare ad utilizzare l'account con cui si sta facendo crawling. Questo comporta l'intervento di una persona per sbloccare l'account;
+    \item Il susseguirsi degli eventi escritti ai punti precedenti porta al ban definitivo dell'account Instagram;
+    \item Dato che gli indirizzi IP di aws sono in gran parte presenti nella black-list di Instagram, effettuare le operazioni di crawling da una aws lambda è quasi impossibile perché porta al ban dell'account in tempi brevissimi.
+\end{itemize}
+
+\subsubsection{Soluzioni}
+Il team ha individuato le seguenti soluzioni ai problemi descritti in precedenza.
+\begin{itemize}
+    \item Creare innumerevoli account in modo da averne sempre a disposizione a seguito di un ban, gli account per funzionare a dovere dovranno essere stati creati con qualche settimana di anticipo dato che Instagram tende a bloccare più facilemnte un account appena creato;
+    \item Introdurre delle sleep di un tempo random da 5 a 15 secondi tra una richiesta e l'altra, in modo da emulare il comportamento di un umano;
+    \item Fare girare il crawler esclusivamente in locale data l'impossibilità di farlo su una aws lambda (sarebbe possibile effettuare il crawling su una aws lambda, ma solo utilizzando dei proxy domestici che il team non ha avuto a disposizione);
+    \item Provare ad utilizzare una VPN per effettuare il crawling, soluzione che ha non ha avuto l'effetto desiderato, ma che ha portato al rapido ban di un account;
+    \item Salvare a database i dati relativi alle location dei post in modo tale da poter fare un controllo nel database prima di effettuare un richiesta ad Instagram.
+\end{itemize}
+
+\subsubsection{Conclusioni}
+Nonostante i limiti descritti ai punti precedenti, il team è riuscito a raccogliere i seguenti dati analizzando i post di 340 utenti:
+\begin{itemize}
+    \item più di 5000 location delle quali più della metà relative a ristoranti;
+    \item più di 5000 post relativi a ristoranti;
+    \item più di 13000 immagini relative a ristoranti.
+\end{itemize}
+I numeri ottenuti sono limitati dalle politiche anti-crawling di Instagram, ma il codice realizzato sarebbbe comunque in grado di funzionare su più ampia scala con l'aggiunta di alcune risorse come:
+\begin{itemize}
+    \item sostituzione delle chiamate alle API private di instagram per ottenere dettagli sul geotag di un post con le API di google maps;
+    \item esecuzione parallela di più istanze del crawler, oguna con un account Instagram e un proxy domestico differente.
 \end{itemize}
 
 \subsection{TikTok}
