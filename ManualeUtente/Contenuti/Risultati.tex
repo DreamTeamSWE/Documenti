@@ -24,7 +24,7 @@ I risultati mostreranno uno o più locali e, per ciascuno di essi, verranno most
 \end{itemize}
 \item Link al sito web,
 \item Link alla posizione del locale su Google Maps,
-\item Possibilità di aggiungere o rimuovere il locale alla lista dei preferiti (funzionalità non ancora implementata).
+\item Possibilità di aggiungere o rimuovere il locale alla lista dei preferiti.
 \end{itemize}
 
 \begin{figure}[H]
@@ -60,8 +60,6 @@ Se l’utente ha effettuato il login (\S{5}) (tramite indirizzo e-mail e passwor
 
 Un utente può inserire il locale nella propria lista dei preferiti semplicemente cliccando sopra al cuore vuoto con la cornice verde, mentre può rimuoverlo cliccando sul cuore rosso.
 
-Questa funzionalità è disponibile sia da dispositivo desktop che da mobile; tuttavia, non è ancora stata implementata.
-
 \subsection{Valutazioni}
 
 Per ciascun locale presente nella piattaforma vengono mostrate le valutazioni di:
@@ -91,78 +89,4 @@ Le valutazioni che esprimono la bontà del locale vengono espresse sotto forma d
 
 In sostanza, più il numero della valutazione si avvicina al “5”, migliore sarà la sua reputazione.
 
-\subsection{Filtrare i risultati}
 
-Al fine di ottenere una lista di risultati personalizzati in base all’interesse dell’utente, è possibile applicare dei filtri sulla classifica.
-
-Attualmente, Sweeat offre i seguenti filtri:
-
-\begin{itemize}
-\item Per zona geografica (funzionalità non ancora implementata),
-\item Per tipo di cucina (funzionalità non ancora implementata).
-\end{itemize}
-
-L’utente può impostare la zona geografica d’interesse spostandosi sulla mappa di Google Maps.
-
-Oppure digitando il nome del tipo di cucina d’interesse nella casella di testo.
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{./images/Ricerca/Filtri.png} 
-\caption{Filtrare i risultatati - versione desktop}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{./images/Ricerca/FiltriMobile.png} 
-\caption{Filtrare i risultatati - versione mobile}
-\end{figure}
-
-\subsection{Ordinare i risultati}
-
-L’utente può anche modificare l’ordinamento dei risultati impostando il peso su ciascuno dei seguenti contenuti:
-
-\begin{itemize}
-\item Foto (funzionalità non ancora implementata),
-\item Testo (funzionalità non ancora implementata),
-\item Emoticon (funzionalità non ancora implementata).
-\end{itemize}
-
-L’utente può impostare il peso di ciascuno di questi contenuti tramite:
-
-\begin{itemize}
-\item Lo slider, nella versione Desktop (funzionalità non ancora implementata), 
-\item Impostando un valore dal menù a tendina, nella versione mobile (funzionalità non ancora implementata).
-\end{itemize}
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{./images/Ricerca/Ordina.png} 
-\caption{Ordinare i risultatati - versione desktop}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{./images/Ricerca/OrdinaMobile.png} 
-\caption{Ordinare i risultatati - versione mobile}
-\end{figure}
-
-I valori del menù a tendina sono i seguenti:
-
-\begin{itemize}
-\item \textbf{1}: pessimo-scarso,
-\item \textbf{2}: scarso-sufficiente,
-\item \textbf{3}: discreto-punteggio medio,
-\item \textbf{4}: buono-ottimo,
-\item \textbf{5}: ottimo-eccellente.
-\end{itemize}
-
-\subsection{Applicare i filtri ed ordinare i risultati}
-
-Una volta impostati i filtri ed il peso di ogni contenuto, affinché l’utente possa ottenere una lista con dei risultati personalizzati in base alle sue scelte, dovrà cliccare sul bottone “\textbf{Applica Filtri}”.
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{./images/Ricerca/ApplicaFiltri.png} 
-\caption{Come applicare i filtri ed ordinare i risultati}
-\end{figure}
