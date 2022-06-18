@@ -48,7 +48,6 @@ Per La realizzazione del Crawling Service sono stati utilizzati i seguenti desig
 \begin{itemize}
     \item \textbf{Facade:} Utilizzato per la realizzazione delle classi FacadeCrawling e FacadeAddProfile, in modo da fornire ai client un'interfaccia semplice ad un sottosistema molto complesso e disaccoppiando la logica di implementazione del sistema dal client.
     \item \textbf{Adapter:} Utilizzato dalla classe Crawler per disaccoppiare il resto del sistema dai metodi di Instagrapi, rendendo disponibili solo quelli necessari tramite un'interfaccia nota al sistema.
-    \item \textbf{Static Factory:} Utilizzato per fornire dei metodi statici in grado di creare oggetti di tipo CrawledData, Location, ProfileForCrawling a partire da altri tipi di oggetti.
 \end{itemize}
 
 \subsubsection{Schema del database}

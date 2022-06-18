@@ -48,7 +48,6 @@ Per La realizzazione del Ranking Service sono stati utilizzati i seguenti design
 \begin{itemize}
     \item \textbf{Strategy:} Utlizzato per la realizzazione di PostAnalyzer ed EmojiAnalyzer, è stato scelto principalmente per la sua versatilità.\\
     Questo pattern infatti ci permette, nel caso in cui in futuro ci sia bisogno di un algoritmo più avanzato per l'analisi dei post, con il minimo sforzo e modifica del codice, di implementare la nuova classe che erediterà anch'essa dalla classe base Analyzer.
-    \item \textbf{Static Factory:} Utilizzato per la creazione di oggetti dalle varie fonti accessibili dal microservizio, come la coda SQS, e la creazione di liste contenti dati pronti per l'utilizzo nei metodi riguardanti il database.
 \end{itemize}
 
 \subsubsection{Schema del database}
