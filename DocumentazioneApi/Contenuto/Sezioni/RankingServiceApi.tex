@@ -432,3 +432,195 @@ true
     "nome_ristorante": "Osteria dei Sognatori"
 }]
 \end{lstlisting}
+
+
+\pagebreak
+
+
+\subsection{GET - /getCities} 
+Restituisce tutte le informazioni relative alle città presenti nel database. Utilizzata per la ricerca per zona. 
+
+
+\subsubsection{Endpoint}
+\texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getCities}
+
+\subsubsection{Parametri}
+Nessuno.
+
+\subsubsection{Esempio di richiesta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/getCities}}, captionpos=b]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getCities
+
+\end{lstlisting}
+
+\subsubsection{Esempio di risposta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/getCities}}, captionpos=b]
+
+[
+    {
+        "nome": "Abano Terme",
+        "latitudine": "45.3594",
+        "longitudine": "11.7887"
+    },
+    {
+        "nome": "Abbadia Cerreto",
+        "latitudine": "45.3124",
+        "longitudine": "9.5925"
+    },
+    {
+        "nome": "Abbadia Lariana",
+        "latitudine": "45.9005",
+        "longitudine": "9.3345"
+    },
+    {
+        "nome": "Abbadia San Salvatore",
+        "latitudine": "42.8810",
+        "longitudine": "11.6775"
+    },
+    ...
+]
+\end{lstlisting}
+
+\pagebreak
+
+
+
+
+\subsection{GET - /getLabelCategoria} 
+Restituisce tutte le label\glo presenti nel database relative alle categorie di cucina dei ristoranti.
+
+
+\subsubsection{Endpoint}
+\texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getLabelCategoria}
+
+\subsubsection{Parametri}
+Nessuno.
+
+\subsubsection{Esempio di richiesta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/getLabelCategoria}}, captionpos=b]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getLabelCategoria
+
+\end{lstlisting}
+
+\subsubsection{Esempio di risposta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/getLabelCategoria}}, captionpos=b]
+
+[
+	{
+        "categorie": "Italian Restaurant"
+    },
+    {
+        "categorie": "Restaurant"
+    },
+    {
+        "categorie": "Piedmont Restaurant"
+    },
+    {
+        "categorie": "Diner"
+    },
+    {
+        "categorie": "Wine/spirits"
+    },
+    {
+        "categorie": "Chinese Restaurant"
+    },
+    {
+        "categorie": "Cocktail Bar"
+    },
+    ...
+]
+\end{lstlisting}
+
+\pagebreak
+
+\subsection{GET - /generalFilter} 
+Filtra la classifica per località (tramite un raggio in km) e per categoria di cucina. Per ogni ristorante restituisce le informazioni definite in §2.1.
+
+\subsubsection{Endpoint}
+\texttt{https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/generalFilter}
+
+\subsubsection{Parametri}
+
+\begin{table}[!htbp]
+\rowcolors{2}{gray!25}{white}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{tabular}[t]{ m{0.15\textwidth}<{\centering}  m{0.1\textwidth}<{\centering} m{0.40\textwidth}<{\centering} m{0.10\textwidth}<{\centering}  m{0.10\textwidth}<{\centering} }
+	\rowcolor{darkblue}
+	\textcolor{white}{\textbf{Nome}} &\textcolor{white}{\textbf{Opzionale}} &\textcolor{white}{\textbf{Descrizione}} &\textcolor{white}{\textbf{Esempio}} &\textcolor{white}{\textbf{Default}} \\ 
+\texttt{radius} & Sì & Raggio in km dalla location & 8 & 10  \\
+\texttt{location} & Sì & Il nome del ristorante da cercare & Milano &  \\
+\texttt{categoria} & Sì & Il nome del ristorante da cercare & Hotel \\
+\texttt{position} & Sì & Il nome del ristorante da cercare & 0 & 0  \\
+\texttt{size} & Sì & Il nome del ristorante da cercare & 10 & 10  \\
+
+\end{tabular}
+\caption{Parametri accettati da \texttt{/generalFilter}}
+\end{table}
+Il parametro "radius" viene considerato solo se anche il parametro "location" è specificato.
+
+
+
+\subsubsection{Esempio di richiesta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/searchByName}}, captionpos=b]
+curl -X GET 
+https://cs0thtwbr7.execute-api.eu-central-1.amazonaws.com/dev/getLabelCategoria?radius=10&location=Milano&categoria=Hotel&position=0&size=10
+
+\end{lstlisting}
+
+\subsubsection{Esempio di risposta}
+\begin{lstlisting}[language=json, caption={Esempio di richiesta \texttt{/getLabelCategoria}}, captionpos=b]
+
+[
+    {
+        "id_ristorante": 2839,
+        "nome_ristorante": "The Westin Palace, Milan",
+        "indirizzo": "",
+        "telefono": "+390263361",
+        "sito_web": "https://www.marriott.com/hotels/travel/milwi-the-westin-palace-milan/?scid=5d6c9ba8-fdb3-45cd-90d4-fc3cbfe3681c&y_source=1_Mjc4MjEzMi01NTktbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "latitudine": "45.4786",
+        "longitudine": "9.1992",
+        "categoria": "Hotel",
+        "punteggio_emoji": 79.8875,
+        "punteggio_foto": 100.0,
+        "punteggio_testo": 70.9667,
+        "url_image": "<presigned-url>"
+    },
+    {
+        "id_ristorante": 2156,
+        "nome_ristorante": "Four Seasons Hotel Milan",
+        "indirizzo": "",
+        "telefono": "+390277088",
+        "sito_web": "http://www.fourseasons.com/",
+        "latitudine": "45.4693",
+        "longitudine": "9.1955",
+        "categoria": "Hotel",
+        "punteggio_emoji": 86.375,
+        "punteggio_foto": null,
+        "punteggio_testo": 72.4,
+        "url_image": "<presigned-url>"
+    },
+    {
+        "id_ristorante": 550,
+        "nome_ristorante": "Principe di Savoia",
+        "indirizzo": "",
+        "telefono": "+390262301",
+        "sito_web": "https://www.dorchestercollection.com/en/milan/hotel-principe-di-savoia",
+        "latitudine": "45.4799",
+        "longitudine": "9.1965",
+        "categoria": "Hotel",
+        "punteggio_emoji": 84.325,
+        "punteggio_foto": 82.5,
+        "punteggio_testo": 62.375,
+        "url_image": "<presigned-url>"
+    },
+    ...
+]
+
+
+\end{lstlisting}
+
+
+
