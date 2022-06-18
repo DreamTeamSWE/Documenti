@@ -17,8 +17,8 @@ Il team ha individuato le seguenti soluzioni ai problemi descritti in precedenza
 \begin{itemize}
     \item Creare innumerevoli account in modo da averne sempre a disposizione a seguito di un ban, gli account per funzionare a dovere dovranno essere stati creati con qualche settimana di anticipo dato che Instagram tende a bloccare più facilemnte un account appena creato;
     \item Introdurre delle sleep di un tempo random da 5 a 15 secondi tra una richiesta e l'altra, in modo da emulare il comportamento di un umano;
-    \item Fare girare il crawler esclusivamente in locale data l'impossibilità di farlo su una aws lambda (sarebbe possibile effettuare il crawling su una aws lambda, ma solo utilizzando dei proxy domestici che il team non ha avuto a disposizione);
-    \item Provare ad utilizzare una VPN per effettuare il crawling, soluzione che non ha avuto l'effetto desiderato, ma che ha portato al rapido ban di un account;
+    \item Fare girare il crawler esclusivamente in locale data l'impossibilità di farlo su una aws lambda (sarebbe possibile effettuare il crawling su una aws lambda, ma solo utilizzando dei proxy\textsuperscript{G} domestici che il team non ha avuto a disposizione);
+    \item Provare ad utilizzare una VPN\textsuperscript{G} per effettuare il crawling, soluzione che non ha avuto l'effetto desiderato, ma che ha portato al rapido ban di un account;
     \item Salvare a database i dati relativi alle location dei post in modo tale da poter fare un controllo nel database prima di effettuare un richiesta ad Instagram.
 \end{itemize}
 
@@ -29,7 +29,7 @@ Nonostante i limiti descritti ai punti precedenti, il team è riuscito a raccogl
     \item più di 5000 post relativi a ristoranti;
     \item più di 13000 immagini relative a ristoranti.
 \end{itemize}
-I numeri ottenuti sono limitati dalle politiche anti-crawling di Instagram, ma il codice realizzato sarebbbe comunque in grado di funzionare su più ampia scala con l'aggiunta di alcune risorse come:
+I numeri ottenuti sono limitati dalle politiche anti-crawling\textsuperscript{G} di Instagram, ma il codice realizzato sarebbbe comunque in grado di funzionare su più ampia scala con l'aggiunta di alcune risorse come:
 \begin{itemize}
     \item sostituzione delle chiamate alle API private di instagram per ottenere dettagli sul geotag di un post con le API di google maps;
     \item esecuzione parallela di più istanze del crawler, oguna con un account Instagram e un proxy domestico differente.
